@@ -1,0 +1,459 @@
+records:
+  - schema_version: 1.0.0
+    record_version: 1
+    id: prms-records-registered-2018-deck
+    system_id: prms
+    kpi_code: records-registered
+    measurement_scope: {scope_type: system, scope_id: prms, description: Regional PRMS record collection}
+    achievement_type: actual
+    actual: {operator: greater-than, value: 39800, unit: record}
+    baseline: {operator: not-specified, value: null, unit: record}
+    target: {operator: not-specified, value: null, unit: record}
+    achievement: {status: reported, value: null, unit: null, description: Reported cumulative result; no target is supplied.}
+    reporting_period:
+      type: unknown
+      start_date: null
+      end_date: null
+      reporting_date_text: Reported in the exhibition presentation dated Bitootessa 2018 Ethiopian calendar
+      calendar_type: ethiopian
+    dimensions: {geography_level: regional, geography_name: Oromia}
+    measurement_method:
+      method: source-document-claim
+      description: Value transcribed from the presentation; the underlying administrative report has not been reviewed.
+      data_owner: not-specified
+      update_frequency: unknown
+    display_value: null
+    source_refs:
+      - source_id: osta-exhibition-2018-final-last
+        label: OSTA Exhibition 2018 Final Last presentation
+        path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
+        locator: Slide 21
+        verification_status: needs-review
+        public_display_approved: false
+    data_quality:
+      completeness: partial
+      accuracy_status: needs-review
+      duplicate_risk: unknown
+      limitations: [The source does not define record uniqueness or the precise reporting date.]
+    exhibition: {headline: true, display_priority: 1, public_display_status: not-approved, chart_type: single-value, show_reporting_date: true, show_source_label: true}
+    workflow:
+      state: needs-review
+      prepared_by_role: content-author
+      reviewed_by_role: null
+      created_at: '2026-09-03'
+      updated_at: '2026-09-03'
+      notes: Candidate observation only; verify against the source owner before publication.
+    publication_status: draft
+    verification_status: needs-review
+    data_classification: internal
+    contains_personal_data: false
+    public_display_approved: false
+    supersedes_observation_id: null
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: uemis-registered-users-2018-deck
+    system_id: uemis
+    kpi_code: registered-users
+    measurement_scope: {scope_type: system, scope_id: uemis, description: Users registered in UEMIS}
+    achievement_type: actual
+    actual: {operator: equal, value: 3987, unit: person}
+    baseline: {operator: not-specified, value: null, unit: person}
+    target: {operator: not-specified, value: null, unit: person}
+    achievement: {status: reported, value: null, unit: null, description: Reported registration result; no target is supplied.}
+    reporting_period:
+      type: unknown
+      start_date: null
+      end_date: null
+      reporting_date_text: Reported in the exhibition presentation dated Bitootessa 2018 Ethiopian calendar
+      calendar_type: ethiopian
+    dimensions: {geography_level: regional, geography_name: Oromia}
+    measurement_method:
+      method: source-document-claim
+      description: Value transcribed from the presentation; account status and uniqueness rules are not defined.
+      data_owner: not-specified
+      update_frequency: unknown
+    display_value: null
+    source_refs:
+      - source_id: osta-exhibition-2018-final-last
+        label: OSTA Exhibition 2018 Final Last presentation
+        path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
+        locator: Slide 22
+        verification_status: needs-review
+        public_display_approved: false
+    data_quality:
+      completeness: partial
+      accuracy_status: needs-review
+      duplicate_risk: unknown
+      limitations: [The source does not define unique users or a precise as-of date.]
+    exhibition: {headline: true, display_priority: 1, public_display_status: not-approved, chart_type: single-value, show_reporting_date: true, show_source_label: true}
+    workflow:
+      state: needs-review
+      prepared_by_role: content-author
+      reviewed_by_role: null
+      created_at: '2026-09-03'
+      updated_at: '2026-09-03'
+      notes: Candidate observation only; verify against the source owner before publication.
+    publication_status: draft
+    verification_status: needs-review
+    data_classification: internal
+    contains_personal_data: false
+    public_display_approved: false
+    supersedes_observation_id: null
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: business-automation-records-registered-2018-deck
+    system_id: business-automation
+    kpi_code: records-registered
+    measurement_scope: {scope_type: system, scope_id: business-automation, description: Organized member records in Business Automation}
+    achievement_type: actual
+    actual: {operator: greater-than, value: 6700000, unit: record}
+    baseline: {operator: not-specified, value: null, unit: record}
+    target: {operator: not-specified, value: null, unit: record}
+    achievement: {status: reported, value: null, unit: null, description: Reported cumulative result; no target is supplied.}
+    reporting_period:
+      type: unknown
+      start_date: null
+      end_date: null
+      reporting_date_text: Reported in the exhibition presentation dated Bitootessa 2018 Ethiopian calendar
+      calendar_type: ethiopian
+    dimensions: {geography_level: regional, geography_name: Oromia}
+    measurement_method:
+      method: source-document-claim
+      description: Value transcribed from the presentation; the member-record definition has not been reviewed.
+      data_owner: not-specified
+      update_frequency: unknown
+    display_value: null
+    source_refs:
+      - source_id: osta-exhibition-2018-final-last
+        label: OSTA Exhibition 2018 Final Last presentation
+        path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
+        locator: Slide 25
+        verification_status: needs-review
+        public_display_approved: false
+    data_quality:
+      completeness: partial
+      accuracy_status: needs-review
+      duplicate_risk: unknown
+      limitations: [The source does not define record uniqueness or the precise reporting date.]
+    exhibition: {headline: true, display_priority: 1, public_display_status: not-approved, chart_type: single-value, show_reporting_date: true, show_source_label: true}
+    workflow:
+      state: needs-review
+      prepared_by_role: content-author
+      reviewed_by_role: null
+      created_at: '2026-09-03'
+      updated_at: '2026-09-03'
+      notes: Candidate observation only; verify against the source owner before publication.
+    publication_status: draft
+    verification_status: needs-review
+    data_classification: internal
+    contains_personal_data: false
+    public_display_approved: false
+    supersedes_observation_id: null
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: digital-kebele-implementation-progress-2018-deck
+    system_id: digital-kebele-government
+    kpi_code: implementation-progress-percent
+    measurement_scope: {scope_type: system, scope_id: digital-kebele-government, description: Reported implementation progress}
+    achievement_type: reported-progress
+    actual: {operator: equal, value: 70, unit: percent}
+    baseline: {operator: not-specified, value: null, unit: percent}
+    target: {operator: not-specified, value: null, unit: percent}
+    achievement: {status: reported, value: null, unit: null, description: Reported progress without a documented plan denominator.}
+    reporting_period:
+      type: unknown
+      start_date: null
+      end_date: null
+      reporting_date_text: Reported in supplied exhibition source notes associated with the 2018 presentation
+      calendar_type: ethiopian
+    dimensions: {geography_level: regional, geography_name: Oromia}
+    measurement_method:
+      method: source-document-claim
+      description: Candidate value supplied with the source notes; locate and verify the exact slide and progress denominator.
+      data_owner: not-specified
+      update_frequency: unknown
+    display_value: null
+    source_refs:
+      - source_id: osta-exhibition-2018-final-last
+        label: OSTA Exhibition 2018 Final Last presentation
+        path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
+        locator: Exact slide locator pending review for the supplied Digital Kebele candidate
+        verification_status: needs-review
+        public_display_approved: false
+    data_quality:
+      completeness: partial
+      accuracy_status: needs-review
+      duplicate_risk: unknown
+      limitations: [The exact source locator and implementation-plan denominator require verification.]
+    exhibition: {headline: true, display_priority: 1, public_display_status: not-approved, chart_type: progress, show_reporting_date: true, show_source_label: true}
+    workflow:
+      state: needs-review
+      prepared_by_role: content-author
+      reviewed_by_role: null
+      created_at: '2026-09-03'
+      updated_at: '2026-09-03'
+      notes: Candidate observation only; verify against the source owner before publication.
+    publication_status: draft
+    verification_status: needs-review
+    data_classification: internal
+    contains_personal_data: false
+    public_display_approved: false
+    supersedes_observation_id: null
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: court-prosecutor-implementation-progress-2018-deck
+    system_id: court-case-management-prosecutor-sims
+    kpi_code: implementation-progress-percent
+    measurement_scope: {scope_type: system, scope_id: court-case-management-prosecutor-sims, description: Combined implementation claim for the named justice systems}
+    achievement_type: reported-progress
+    actual: {operator: equal, value: 95, unit: percent}
+    baseline: {operator: not-specified, value: null, unit: percent}
+    target: {operator: not-specified, value: null, unit: percent}
+    achievement: {status: reported, value: null, unit: null, description: Reported progress without a documented plan denominator.}
+    reporting_period:
+      type: unknown
+      start_date: null
+      end_date: null
+      reporting_date_text: Reported in the exhibition presentation dated Bitootessa 2018 Ethiopian calendar
+      calendar_type: ethiopian
+    dimensions: {geography_level: regional, geography_name: Oromia}
+    measurement_method:
+      method: source-document-claim
+      description: Value transcribed from a slide naming both systems; separate attribution is not available.
+      data_owner: not-specified
+      update_frequency: unknown
+    display_value: null
+    source_refs:
+      - source_id: osta-exhibition-2018-final-last
+        label: OSTA Exhibition 2018 Final Last presentation
+        path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
+        locator: Slide 28
+        verification_status: needs-review
+        public_display_approved: false
+    data_quality:
+      completeness: partial
+      accuracy_status: needs-review
+      duplicate_risk: unknown
+      limitations: [The source does not separate progress between the two named systems or define the denominator.]
+    exhibition: {headline: true, display_priority: 1, public_display_status: not-approved, chart_type: progress, show_reporting_date: true, show_source_label: true}
+    workflow:
+      state: needs-review
+      prepared_by_role: content-author
+      reviewed_by_role: null
+      created_at: '2026-09-03'
+      updated_at: '2026-09-03'
+      notes: Candidate observation only; verify against the source owner before publication.
+    publication_status: draft
+    verification_status: needs-review
+    data_classification: internal
+    contains_personal_data: false
+    public_display_approved: false
+    supersedes_observation_id: null
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: civil-registration-files-scanned-2018-deck
+    system_id: civil-registration-dms
+    kpi_code: files-scanned
+    measurement_scope: {scope_type: system, scope_id: civil-registration-dms, description: Civil-registration DMS scanning output}
+    achievement_type: actual
+    actual: {operator: approximate, value: 2200000, unit: file}
+    baseline: {operator: not-specified, value: null, unit: file}
+    target: {operator: not-specified, value: null, unit: file}
+    achievement: {status: reported, value: null, unit: null, description: Reported scanning output; no target is supplied.}
+    reporting_period:
+      type: unknown
+      start_date: null
+      end_date: null
+      reporting_date_text: Reported in the exhibition presentation dated Bitootessa 2018 Ethiopian calendar
+      calendar_type: ethiopian
+    dimensions: {geography_level: regional, geography_name: Oromia}
+    measurement_method:
+      method: source-document-claim
+      description: Rounded value transcribed from the presentation; file uniqueness and counting rules are not stated.
+      data_owner: not-specified
+      update_frequency: unknown
+    display_value: null
+    source_refs:
+      - source_id: osta-exhibition-2018-final-last
+        label: OSTA Exhibition 2018 Final Last presentation
+        path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
+        locator: Slide 37
+        verification_status: needs-review
+        public_display_approved: false
+    data_quality:
+      completeness: partial
+      accuracy_status: needs-review
+      duplicate_risk: unknown
+      limitations: [The value is rounded and the source does not state whether rescans are excluded.]
+    exhibition: {headline: true, display_priority: 1, public_display_status: not-approved, chart_type: single-value, show_reporting_date: true, show_source_label: true}
+    workflow:
+      state: needs-review
+      prepared_by_role: content-author
+      reviewed_by_role: null
+      created_at: '2026-09-03'
+      updated_at: '2026-09-03'
+      notes: Candidate observation only; verify against the source owner before publication.
+    publication_status: draft
+    verification_status: needs-review
+    data_classification: internal
+    contains_personal_data: false
+    public_display_approved: false
+    supersedes_observation_id: null
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: civil-registration-files-uploaded-2018-deck
+    system_id: civil-registration-dms
+    kpi_code: files-uploaded
+    measurement_scope: {scope_type: system, scope_id: civil-registration-dms, description: Civil-registration DMS upload output}
+    achievement_type: actual
+    actual: {operator: approximate, value: 2500000, unit: file}
+    baseline: {operator: not-specified, value: null, unit: file}
+    target: {operator: not-specified, value: null, unit: file}
+    achievement: {status: reported, value: null, unit: null, description: Reported upload output; no target is supplied.}
+    reporting_period:
+      type: unknown
+      start_date: null
+      end_date: null
+      reporting_date_text: Reported in the exhibition presentation dated Bitootessa 2018 Ethiopian calendar
+      calendar_type: ethiopian
+    dimensions: {geography_level: regional, geography_name: Oromia}
+    measurement_method:
+      method: source-document-claim
+      description: Rounded value transcribed from the presentation; upload version and uniqueness rules are not stated.
+      data_owner: not-specified
+      update_frequency: unknown
+    display_value: null
+    source_refs:
+      - source_id: osta-exhibition-2018-final-last
+        label: OSTA Exhibition 2018 Final Last presentation
+        path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
+        locator: Slide 37
+        verification_status: needs-review
+        public_display_approved: false
+    data_quality:
+      completeness: partial
+      accuracy_status: needs-review
+      duplicate_risk: unknown
+      limitations: [The value is rounded and may include several digital files derived from one source file.]
+    exhibition: {headline: true, display_priority: 2, public_display_status: not-approved, chart_type: single-value, show_reporting_date: true, show_source_label: true}
+    workflow:
+      state: needs-review
+      prepared_by_role: content-author
+      reviewed_by_role: null
+      created_at: '2026-09-03'
+      updated_at: '2026-09-03'
+      notes: Candidate observation only; verify against the source owner before publication.
+    publication_status: draft
+    verification_status: needs-review
+    data_classification: internal
+    contains_personal_data: false
+    public_display_approved: false
+    supersedes_observation_id: null
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: civil-registration-metadata-completion-2018-deck
+    system_id: civil-registration-dms
+    kpi_code: metadata-completion-percent
+    measurement_scope: {scope_type: system, scope_id: civil-registration-dms, description: Metadata completion for in-scope civil-registration DMS files}
+    achievement_type: actual
+    actual: {operator: equal, value: 100, unit: percent}
+    baseline: {operator: not-specified, value: null, unit: percent}
+    target: {operator: not-specified, value: null, unit: percent}
+    achievement: {status: reported, value: null, unit: null, description: Reported completion; denominator and required fields are not supplied.}
+    reporting_period:
+      type: unknown
+      start_date: null
+      end_date: null
+      reporting_date_text: Reported in the exhibition presentation dated Bitootessa 2018 Ethiopian calendar
+      calendar_type: ethiopian
+    dimensions: {geography_level: regional, geography_name: Oromia}
+    measurement_method:
+      method: source-document-claim
+      description: Percentage interpreted from the presentation; the required metadata-field set and denominator are not stated.
+      data_owner: not-specified
+      update_frequency: unknown
+    display_value: null
+    source_refs:
+      - source_id: osta-exhibition-2018-final-last
+        label: OSTA Exhibition 2018 Final Last presentation
+        path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
+        locator: Slide 37
+        verification_status: needs-review
+        public_display_approved: false
+    data_quality:
+      completeness: partial
+      accuracy_status: needs-review
+      duplicate_risk: unknown
+      limitations: [The slide layout must be checked to confirm the percentage and its denominator.]
+    exhibition: {headline: true, display_priority: 3, public_display_status: not-approved, chart_type: progress, show_reporting_date: true, show_source_label: true}
+    workflow:
+      state: needs-review
+      prepared_by_role: content-author
+      reviewed_by_role: null
+      created_at: '2026-09-03'
+      updated_at: '2026-09-03'
+      notes: Candidate observation only; verify against the source owner before publication.
+    publication_status: draft
+    verification_status: needs-review
+    data_classification: internal
+    contains_personal_data: false
+    public_display_approved: false
+    supersedes_observation_id: null
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: civil-registration-service-coverage-2018-deck
+    system_id: civil-registration-dms
+    kpi_code: service-coverage-percent
+    measurement_scope: {scope_type: system, scope_id: civil-registration-dms, description: Reported civil-registration DMS service coverage}
+    achievement_type: actual
+    actual: {operator: equal, value: 100, unit: percent}
+    baseline: {operator: not-specified, value: null, unit: percent}
+    target: {operator: not-specified, value: null, unit: percent}
+    achievement: {status: reported, value: null, unit: null, description: Reported coverage; the eligible coverage denominator is not supplied.}
+    reporting_period:
+      type: unknown
+      start_date: null
+      end_date: null
+      reporting_date_text: Reported in the exhibition presentation dated Bitootessa 2018 Ethiopian calendar
+      calendar_type: ethiopian
+    dimensions: {geography_level: multi-level, geography_name: Oromia region, zones, and towns}
+    measurement_method:
+      method: source-document-claim
+      description: Percentage interpreted from the presentation; the eligible locations and denominator are not stated.
+      data_owner: not-specified
+      update_frequency: unknown
+    display_value: null
+    source_refs:
+      - source_id: osta-exhibition-2018-final-last
+        label: OSTA Exhibition 2018 Final Last presentation
+        path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
+        locator: Slide 37
+        verification_status: needs-review
+        public_display_approved: false
+    data_quality:
+      completeness: partial
+      accuracy_status: needs-review
+      duplicate_risk: unknown
+      limitations: [The slide layout must be checked to confirm the percentage and eligible coverage population.]
+    exhibition: {headline: true, display_priority: 4, public_display_status: not-approved, chart_type: progress, show_reporting_date: true, show_source_label: true}
+    workflow:
+      state: needs-review
+      prepared_by_role: content-author
+      reviewed_by_role: null
+      created_at: '2026-09-03'
+      updated_at: '2026-09-03'
+      notes: Candidate observation only; verify against the source owner before publication.
+    publication_status: draft
+    verification_status: needs-review
+    data_classification: internal
+    contains_personal_data: false
+    public_display_approved: false
+    supersedes_observation_id: null

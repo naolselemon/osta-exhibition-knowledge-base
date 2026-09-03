@@ -1,0 +1,510 @@
+records:
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: applications-developed
+    name: Applications developed
+    description: Distinct software applications completed or released within the declared scope.
+    kpi_category: digitization-output
+    applicable_system_types: [any]
+    measurement_type: cumulative
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [application]
+    direction_of_improvement: increase
+    aggregation: {method: count-unique, deduplication_key: dimensions.entity_ids, selection_rule: explicit-entity-union, notes: Aggregate only from stable non-personal application identifiers.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, date-range, lifetime, unknown]}
+    display: {label: Applications developed, short_label: Applications, format: integer, decimal_places: 0, unit_label: applications, allowed_chart_types: [single-value, bar, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: services-digitized
+    name: Services digitized
+    description: Distinct public or internal services converted into an operational digital delivery process.
+    kpi_category: digitization-output
+    applicable_system_types: [any]
+    measurement_type: cumulative
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [service]
+    direction_of_improvement: increase
+    aggregation: {method: count-unique, deduplication_key: dimensions.entity_ids, selection_rule: explicit-entity-union, notes: A service identifier is counted once across systems and reporting records.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, date-range, lifetime, unknown]}
+    display: {label: Digital services, short_label: Services, format: integer, decimal_places: 0, unit_label: services, allowed_chart_types: [single-value, bar, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: systems-integrated
+    name: Systems integrated
+    description: Distinct external or internal systems connected through an operational integration.
+    kpi_category: integration
+    applicable_system_types: [any]
+    measurement_type: cumulative
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [system]
+    direction_of_improvement: increase
+    aggregation: {method: count-unique, deduplication_key: dimensions.entity_ids, selection_rule: explicit-entity-union, notes: Use the integrated system identifier and count each integration endpoint once.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, date-range, lifetime, unknown]}
+    display: {label: Systems integrated, short_label: Integrations, format: integer, decimal_places: 0, unit_label: systems, allowed_chart_types: [single-value, bar, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: services-offered
+    name: Services offered
+    description: Distinct services currently available through a platform or digital system.
+    kpi_category: service-delivery
+    applicable_system_types: [platform, web-application, mobile-application, information-system]
+    measurement_type: point-in-time
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [service]
+    direction_of_improvement: increase
+    aggregation: {method: count-unique, deduplication_key: dimensions.entity_ids, selection_rule: explicit-entity-union, notes: Select the latest service list and union stable service identifiers.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, day, month, quarter, year, unknown]}
+    display: {label: Services offered, short_label: Services offered, format: integer, decimal_places: 0, unit_label: services, allowed_chart_types: [single-value, bar, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: institutions-served
+    name: Institutions served
+    description: Distinct institutions receiving a system, platform, or digital service.
+    kpi_category: coverage
+    applicable_system_types: [any]
+    measurement_type: cumulative
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [institution]
+    direction_of_improvement: increase
+    aggregation: {method: count-unique, deduplication_key: dimensions.entity_ids, selection_rule: explicit-entity-union, notes: Use stable institution identifiers so one institution is not counted across multiple systems.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, date-range, lifetime, unknown]}
+    display: {label: Institutions served, short_label: Institutions, format: integer, decimal_places: 0, unit_label: institutions, allowed_chart_types: [single-value, bar, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: registered-users
+    name: Registered users
+    description: User accounts registered in one system as of the reporting date.
+    kpi_category: adoption
+    applicable_system_types: [platform, web-application, mobile-application, information-system]
+    measurement_type: cumulative
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [user, person]
+    direction_of_improvement: increase
+    aggregation: {method: not-aggregatable, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Cross-system identities can overlap and must not be automatically added.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, day, month, quarter, year, unknown]}
+    display: {label: Registered users, short_label: Registered, format: integer, decimal_places: 0, unit_label: users, allowed_chart_types: [single-value, bar, line, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: active-users
+    name: Active users
+    description: Distinct users meeting the documented activity rule during a stated activity window.
+    kpi_category: usage
+    applicable_system_types: [platform, web-application, mobile-application, information-system]
+    measurement_type: periodic
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [user]
+    direction_of_improvement: increase
+    aggregation: {method: not-aggregatable, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Never add active-user values across systems because identities and activity windows may overlap.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: true, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [day, week, month, quarter, year, date-range, unknown]}
+    display: {label: Active users, short_label: Active users, format: integer, decimal_places: 0, unit_label: users, allowed_chart_types: [single-value, bar, line, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: mobile-downloads
+    name: Mobile downloads
+    description: Recorded downloads or installations for mobile applications in the stated period or lifetime scope.
+    kpi_category: adoption
+    applicable_system_types: [mobile-application, platform]
+    measurement_type: cumulative
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [download]
+    direction_of_improvement: increase
+    aggregation: {method: sum, deduplication_key: dimensions.aggregation_partition, selection_rule: aligned-period-per-partition, notes: Sum only non-overlapping application-store partitions with aligned periods and units.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, month, quarter, year, date-range, lifetime, unknown]}
+    display: {label: Mobile downloads, short_label: Downloads, format: integer, decimal_places: 0, unit_label: downloads, allowed_chart_types: [single-value, bar, line, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: mobile-active-users
+    name: Mobile active users
+    description: Distinct active users of the mobile channel during a stated activity window.
+    kpi_category: usage
+    applicable_system_types: [mobile-application, platform]
+    measurement_type: periodic
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [user]
+    direction_of_improvement: increase
+    aggregation: {method: not-aggregatable, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Never add active-user values across applications or systems.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: true, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [day, week, month, quarter, year, date-range, unknown]}
+    display: {label: Mobile active users, short_label: Mobile active, format: integer, decimal_places: 0, unit_label: users, allowed_chart_types: [single-value, bar, line, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: web-active-users
+    name: Web active users
+    description: Distinct active users of the web channel during a stated activity window.
+    kpi_category: usage
+    applicable_system_types: [web-application, platform]
+    measurement_type: periodic
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [user]
+    direction_of_improvement: increase
+    aggregation: {method: not-aggregatable, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Never add active-user values across web properties or systems.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: true, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [day, week, month, quarter, year, date-range, unknown]}
+    display: {label: Web active users, short_label: Web active, format: integer, decimal_places: 0, unit_label: users, allowed_chart_types: [single-value, bar, line, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: beneficiaries-served
+    name: Beneficiaries served
+    description: People or organizations that received the defined service within the reporting scope.
+    kpi_category: impact
+    applicable_system_types: [any]
+    measurement_type: cumulative
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [beneficiary, person, organization]
+    direction_of_improvement: increase
+    aggregation: {method: not-aggregatable, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Beneficiary populations may overlap and no personal identifiers belong in public observations.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [month, quarter, year, date-range, lifetime, unknown]}
+    display: {label: Beneficiaries served, short_label: Beneficiaries, format: integer, decimal_places: 0, unit_label: beneficiaries, allowed_chart_types: [single-value, bar, line, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: workflows-automated
+    name: Workflows automated
+    description: Distinct end-to-end or partial business workflows moved from manual handling to automation.
+    kpi_category: efficiency
+    applicable_system_types: [automation-system, information-system, platform, any]
+    measurement_type: cumulative
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [workflow, process]
+    direction_of_improvement: increase
+    aggregation: {method: count-unique, deduplication_key: dimensions.entity_ids, selection_rule: explicit-entity-union, notes: Count stable workflow identifiers once even when several systems participate.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, date-range, lifetime, unknown]}
+    display: {label: Automated workflows, short_label: Workflows, format: integer, decimal_places: 0, unit_label: workflows, allowed_chart_types: [single-value, bar, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: digital-transactions
+    name: Digital transactions
+    description: Completed digital service transactions recorded during the reporting period.
+    kpi_category: usage
+    applicable_system_types: [any]
+    measurement_type: periodic
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [transaction]
+    direction_of_improvement: increase
+    aggregation: {method: sum, deduplication_key: dimensions.aggregation_partition, selection_rule: aligned-period-per-partition, notes: Sum only mutually exclusive transaction partitions for the same reporting period.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [day, week, month, quarter, year, date-range, unknown]}
+    display: {label: Digital transactions, short_label: Transactions, format: integer, decimal_places: 0, unit_label: transactions, allowed_chart_types: [single-value, bar, line, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: reports-generated
+    name: Reports generated
+    description: Reports generated by the system during the reporting period.
+    kpi_category: digitization-output
+    applicable_system_types: [information-system, platform, document-management-system, any]
+    measurement_type: periodic
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [report]
+    direction_of_improvement: contextual
+    aggregation: {method: sum, deduplication_key: dimensions.aggregation_partition, selection_rule: aligned-period-per-partition, notes: Sum only non-overlapping system partitions over an aligned reporting period.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [day, week, month, quarter, year, date-range, unknown]}
+    display: {label: Reports generated, short_label: Reports, format: integer, decimal_places: 0, unit_label: reports, allowed_chart_types: [single-value, bar, line, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: dashboards-available
+    name: Dashboards available
+    description: Distinct operational dashboards available to authorized users.
+    kpi_category: digitization-output
+    applicable_system_types: [information-system, platform, any]
+    measurement_type: point-in-time
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [dashboard]
+    direction_of_improvement: increase
+    aggregation: {method: count-unique, deduplication_key: dimensions.entity_ids, selection_rule: explicit-entity-union, notes: Union stable dashboard identifiers from the latest observation for each system.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, month, quarter, year, unknown]}
+    display: {label: Dashboards available, short_label: Dashboards, format: integer, decimal_places: 0, unit_label: dashboards, allowed_chart_types: [single-value, bar, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: ai-solutions
+    name: AI solutions
+    description: Distinct artificial-intelligence or machine-learning solutions implemented for an operational use case.
+    kpi_category: ai-and-automation
+    applicable_system_types: [ai-solution, platform, information-system, any]
+    measurement_type: cumulative
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [solution]
+    direction_of_improvement: increase
+    aggregation: {method: count-unique, deduplication_key: dimensions.entity_ids, selection_rule: explicit-entity-union, notes: Count each solution identifier once across participating systems.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, date-range, lifetime, unknown]}
+    display: {label: AI solutions, short_label: AI solutions, format: integer, decimal_places: 0, unit_label: solutions, allowed_chart_types: [single-value, bar, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: records-registered
+    name: Records registered
+    description: Records entered and registered in the system according to the documented registration rule.
+    kpi_category: digitization-output
+    applicable_system_types: [information-system, document-management-system, platform, any]
+    measurement_type: cumulative
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [record]
+    direction_of_improvement: increase
+    aggregation: {method: not-aggregatable, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Record populations can overlap; retain system-level values unless safe record identifiers exist.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, date-range, lifetime, unknown]}
+    display: {label: Records registered, short_label: Registered records, format: integer, decimal_places: 0, unit_label: records, allowed_chart_types: [single-value, bar, line, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: records-digitized
+    name: Records digitized
+    description: Distinct source records converted into managed digital records under the documented digitization rule.
+    kpi_category: digitization-output
+    applicable_system_types: [document-management-system, information-system, any]
+    measurement_type: cumulative
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [record]
+    direction_of_improvement: increase
+    aggregation: {method: not-aggregatable, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Scans, uploads, and registered records may represent the same source item and are not automatically added.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, date-range, lifetime, unknown]}
+    display: {label: Records digitized, short_label: Digitized records, format: integer, decimal_places: 0, unit_label: records, allowed_chart_types: [single-value, bar, line, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: files-scanned
+    name: Files scanned
+    description: Source files for which scanning was completed under the documented scanning rule.
+    kpi_category: digitization-output
+    applicable_system_types: [document-management-system]
+    measurement_type: cumulative
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [file]
+    direction_of_improvement: increase
+    aggregation: {method: not-aggregatable, deduplication_key: null, selection_rule: latest-per-system-scope, notes: A physical file may be rescanned or uploaded separately; do not add system totals automatically.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, date-range, lifetime, unknown]}
+    display: {label: Files scanned, short_label: Scanned files, format: integer, decimal_places: 0, unit_label: files, allowed_chart_types: [single-value, bar, line, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: files-uploaded
+    name: Files uploaded
+    description: Digital files successfully uploaded into the target repository under the documented upload rule.
+    kpi_category: digitization-output
+    applicable_system_types: [document-management-system, information-system]
+    measurement_type: cumulative
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [file]
+    direction_of_improvement: increase
+    aggregation: {method: not-aggregatable, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Upload counts can include versions or rescans and must remain system scoped.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, date-range, lifetime, unknown]}
+    display: {label: Files uploaded, short_label: Uploaded files, format: integer, decimal_places: 0, unit_label: files, allowed_chart_types: [single-value, bar, line, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: metadata-completion-percent
+    name: Metadata completion
+    description: Percentage of in-scope digital records containing all required metadata fields.
+    kpi_category: quality
+    applicable_system_types: [document-management-system, information-system]
+    measurement_type: percentage
+    value_type: number
+    allowed_operators: [equal, greater-than, greater-than-or-equal, less-than, less-than-or-equal, approximate, range, not-specified]
+    allowed_units: [percent]
+    direction_of_improvement: increase
+    aggregation: {method: weighted-average, deduplication_key: dimensions.aggregation_partition, selection_rule: aligned-period-per-partition, notes: Weight by the non-overlapping in-scope record count; never sum percentages.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, month, quarter, year, date-range, unknown]}
+    display: {label: Metadata completion, short_label: Metadata, format: percent, decimal_places: 1, unit_label: percent, allowed_chart_types: [single-value, progress, gauge, bar, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: service-coverage-percent
+    name: Service coverage
+    description: Percentage of the defined eligible service population, locations, or institutions covered.
+    kpi_category: coverage
+    applicable_system_types: [any]
+    measurement_type: percentage
+    value_type: number
+    allowed_operators: [equal, greater-than, greater-than-or-equal, less-than, less-than-or-equal, approximate, range, not-specified]
+    allowed_units: [percent]
+    direction_of_improvement: increase
+    aggregation: {method: weighted-average, deduplication_key: dimensions.aggregation_partition, selection_rule: aligned-period-per-partition, notes: Weight by eligible denominator for non-overlapping partitions; never sum percentages.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, month, quarter, year, date-range, unknown]}
+    display: {label: Service coverage, short_label: Coverage, format: percent, decimal_places: 1, unit_label: percent, allowed_chart_types: [single-value, progress, gauge, bar, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: locations-covered
+    name: Locations covered
+    description: Distinct geographic or administrative locations where the system or service is available.
+    kpi_category: coverage
+    applicable_system_types: [any]
+    measurement_type: cumulative
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [location, zone, city, district, kebele]
+    direction_of_improvement: increase
+    aggregation: {method: count-unique, deduplication_key: dimensions.entity_ids, selection_rule: explicit-entity-union, notes: Union canonical geographic identifiers; a location is counted once across systems.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, date-range, lifetime, unknown]}
+    display: {label: Locations covered, short_label: Locations, format: integer, decimal_places: 0, unit_label: locations, allowed_chart_types: [single-value, bar, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: implementation-progress-percent
+    name: Implementation progress
+    description: Reported completion percentage against the documented implementation plan and scope.
+    kpi_category: implementation
+    applicable_system_types: [any]
+    measurement_type: percentage
+    value_type: number
+    allowed_operators: [equal, greater-than, greater-than-or-equal, less-than, less-than-or-equal, approximate, range, not-specified]
+    allowed_units: [percent]
+    direction_of_improvement: increase
+    aggregation: {method: not-aggregatable, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Project scopes and plans differ; show progress per system and never sum percentages.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, month, quarter, year, date-range, unknown]}
+    display: {label: Implementation progress, short_label: Progress, format: percent, decimal_places: 1, unit_label: percent, allowed_chart_types: [single-value, progress, gauge, bar, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: availability-percent
+    name: System availability
+    description: Percentage of the defined monitoring period during which the system met the availability rule.
+    kpi_category: performance
+    applicable_system_types: [any]
+    measurement_type: percentage
+    value_type: number
+    allowed_operators: [equal, greater-than, greater-than-or-equal, less-than, less-than-or-equal, approximate, range, not-specified]
+    allowed_units: [percent]
+    direction_of_improvement: increase
+    aggregation: {method: weighted-average, deduplication_key: dimensions.aggregation_partition, selection_rule: aligned-period-per-partition, notes: Weight by monitored duration for aligned periods; never sum system percentages.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: true, statistic_required: false, source_verification_required: true, allowed_period_types: [day, week, month, quarter, year, date-range, unknown]}
+    display: {label: System availability, short_label: Availability, format: percent, decimal_places: 2, unit_label: percent, allowed_chart_types: [single-value, line, gauge, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: response-time
+    name: System response time
+    description: Measured elapsed time for the defined system request at a stated response-time statistic.
+    kpi_category: performance
+    applicable_system_types: [any]
+    measurement_type: duration
+    value_type: number
+    allowed_operators: [equal, greater-than, greater-than-or-equal, less-than, less-than-or-equal, approximate, range, not-specified]
+    allowed_units: [millisecond, second, minute]
+    direction_of_improvement: decrease
+    aggregation: {method: weighted-average, deduplication_key: dimensions.aggregation_partition, selection_rule: aligned-period-per-partition, notes: Combine only the same statistic and request definition with request-count weights.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: true, source_verification_required: true, allowed_period_types: [day, week, month, quarter, year, date-range, unknown]}
+    display: {label: System response time, short_label: Response time, format: duration, decimal_places: 2, unit_label: duration, allowed_chart_types: [single-value, line, bar, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: processing-time-reduction
+    name: Processing time reduction
+    description: Percentage reduction in elapsed service-processing time compared with the documented baseline.
+    kpi_category: efficiency
+    applicable_system_types: [any]
+    measurement_type: percentage
+    value_type: number
+    allowed_operators: [equal, greater-than, greater-than-or-equal, less-than, less-than-or-equal, approximate, range, not-specified]
+    allowed_units: [percent]
+    direction_of_improvement: increase
+    aggregation: {method: not-aggregatable, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Baselines and processes differ; retain system-level comparisons and never sum percentages.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: true, source_verification_required: true, allowed_period_types: [as-of-date, month, quarter, year, date-range, unknown]}
+    display: {label: Processing time reduction, short_label: Time reduction, format: percent, decimal_places: 1, unit_label: percent, allowed_chart_types: [single-value, progress, bar, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: office-visits-reduced
+    name: Office visits reduced
+    description: Avoided physical office visits compared with a documented service baseline.
+    kpi_category: efficiency
+    applicable_system_types: [web-application, mobile-application, platform, information-system, any]
+    measurement_type: periodic
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [visit]
+    direction_of_improvement: increase
+    aggregation: {method: not-aggregatable, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Methods and user populations vary; retain the source-defined service scope.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [month, quarter, year, date-range, unknown]}
+    display: {label: Office visits reduced, short_label: Visits reduced, format: integer, decimal_places: 0, unit_label: visits, allowed_chart_types: [single-value, bar, line, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: paper-records-reduced
+    name: Paper records reduced
+    description: Paper records avoided or retired under a documented comparison with the former process.
+    kpi_category: efficiency
+    applicable_system_types: [document-management-system, information-system, any]
+    measurement_type: cumulative
+    value_type: integer
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [paper-record, record]
+    direction_of_improvement: increase
+    aggregation: {method: not-aggregatable, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Records may also appear in scan and upload counts; do not add them automatically.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, date-range, lifetime, unknown]}
+    display: {label: Paper records reduced, short_label: Paper reduced, format: integer, decimal_places: 0, unit_label: records, allowed_chart_types: [single-value, bar, line, table]}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    kpi_code: cost-savings
+    name: Cost savings
+    description: Financial savings attributable to the system under a documented costing method and period.
+    kpi_category: financial-impact
+    applicable_system_types: [any]
+    measurement_type: currency
+    value_type: number
+    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
+    allowed_units: [ETB, USD]
+    direction_of_improvement: increase
+    aggregation: {method: sum, deduplication_key: dimensions.aggregation_partition, selection_rule: aligned-period-per-partition, notes: Sum only the same currency, aligned periods, and mutually exclusive cost categories.}
+    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [month, quarter, year, date-range, lifetime, unknown]}
+    display: {label: Cost savings, short_label: Savings, format: currency, decimal_places: 2, unit_label: currency, allowed_chart_types: [single-value, bar, line, table]}
+    status: active

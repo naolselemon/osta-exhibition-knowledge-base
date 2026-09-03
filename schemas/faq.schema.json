@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://osta.example/schemas/faq.schema.json",
+  "title": "FAQ record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_version",
+    "id",
+    "system_id",
+    "question",
+    "answer",
+    "kpi_observation_refs",
+    "translations",
+    "publication_status",
+    "data_classification",
+    "contains_personal_data",
+    "public_display_approved",
+    "workflow"
+  ],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "record_version": {"type": "integer", "minimum": 1},
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "system_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "question": {"type": "string", "minLength": 1},
+    "answer": {"type": "string", "minLength": 1},
+    "kpi_observation_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "translations": {"type": "object", "additionalProperties": true},
+    "publication_status": {"enum": ["draft", "in-review", "published", "archived"]},
+    "data_classification": {"enum": ["public", "internal", "confidential", "restricted"]},
+    "contains_personal_data": {"type": "boolean"},
+    "public_display_approved": {"type": "boolean"},
+    "workflow": {"type": "object", "additionalProperties": true}
+  }
+}

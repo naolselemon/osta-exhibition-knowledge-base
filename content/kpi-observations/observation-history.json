@@ -1,0 +1,15 @@
+{
+  "algorithm": "sha256-canonical-json",
+  "observations": {
+    "business-automation-records-registered-2018-deck": "74080fc622a38089e468a9c5ecf06345e239bde2e2b85a4750ef81a5a05cb7c3",
+    "civil-registration-files-scanned-2018-deck": "05e7b17ea93406c5ab56fc9012160bb83d3a937f90166ae687df2146672ce221",
+    "civil-registration-files-uploaded-2018-deck": "3ff509f552f103a516954f0d7493aaa93fa569ebe66864bcd965a801b09c416f",
+    "civil-registration-metadata-completion-2018-deck": "fd7c5466ed36878057b7f50949e3d17950dd9de0780468ebe201fe96c1e6a635",
+    "civil-registration-service-coverage-2018-deck": "4533d6244ed833efa1ca946175aa1b9923bb267a06adf8db605dc5365bd0593c",
+    "court-prosecutor-implementation-progress-2018-deck": "e004a5e6b69c7875bde373f967be3bb7cd5f088083cd9e44456c917f51d9687b",
+    "digital-kebele-implementation-progress-2018-deck": "b5e0ef840e6de389a4d09fb461a8a3abd450ad7e248075ceae83f609d9b39610",
+    "prms-records-registered-2018-deck": "966ce91560f3995d5d34cc121c2a22a2c70cfa78b8a75f3aa17af20555ce7c54",
+    "uemis-registered-users-2018-deck": "3e5868eeecfb22aaceb1347fc2b2a0f694402dd2d2f87e8b2871d04f69784925"
+  },
+  "schema_version": "1.0.0"
+}

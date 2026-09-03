@@ -1,0 +1,62 @@
+schema_version: 1.0.0
+record_version: 1
+id: replace-with-immutable-observation-id
+system_id: replace-with-existing-system-id
+kpi_code: replace-with-existing-kpi-code
+measurement_scope:
+  scope_type: system
+  scope_id: replace-with-existing-system-id
+  description: Whole-system measurement
+achievement_type: actual
+actual:
+  operator: not-specified
+  value: null
+  unit: null
+baseline:
+  operator: not-specified
+  value: null
+  unit: null
+target:
+  operator: not-specified
+  value: null
+  unit: null
+achievement: null
+reporting_period:
+  type: unknown
+  start_date: null
+  end_date: null
+  reporting_date_text: null
+  calendar_type: unknown
+dimensions: {}
+measurement_method:
+  method: source-document-claim
+  description: Describe how the source produced the measurement.
+  data_owner: not-specified
+  update_frequency: unknown
+display_value: null
+source_refs: []
+data_quality:
+  completeness: unknown
+  accuracy_status: needs-review
+  duplicate_risk: unknown
+  limitations: []
+exhibition:
+  headline: false
+  display_priority: 0
+  public_display_status: not-approved
+  chart_type: single-value
+  show_reporting_date: true
+  show_source_label: true
+workflow:
+  state: draft
+  prepared_by_role: content-author
+  reviewed_by_role: null
+  created_at: "YYYY-MM-DD"
+  updated_at: "YYYY-MM-DD"
+  notes: ""
+publication_status: draft
+verification_status: needs-review
+data_classification: internal
+contains_personal_data: false
+public_display_approved: false
+supersedes_observation_id: null

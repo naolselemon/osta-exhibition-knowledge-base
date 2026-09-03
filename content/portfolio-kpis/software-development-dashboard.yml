@@ -1,0 +1,132 @@
+records:
+  - schema_version: 1.0.0
+    record_version: 1
+    id: dashboard-applications-developed
+    name: Applications developed
+    kpi_code: applications-developed
+    filters: {system_categories: [], system_types: [], dimensions: {}}
+    aggregation_method: count-unique
+    deduplication: {entity_key: dimensions.entity_ids, partition_key: null, on_missing_key: show-series-only}
+    observation_selection: latest-per-system-scope
+    display: {label: Applications developed, order: 1, chart_type: single-value, show_when_empty: true}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: dashboard-digital-services
+    name: Digital services
+    kpi_code: services-digitized
+    filters: {system_categories: [], system_types: [], dimensions: {}}
+    aggregation_method: count-unique
+    deduplication: {entity_key: dimensions.entity_ids, partition_key: null, on_missing_key: show-series-only}
+    observation_selection: latest-per-system-scope
+    display: {label: Digital services, order: 2, chart_type: single-value, show_when_empty: true}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: dashboard-institutions-served
+    name: Institutions served
+    kpi_code: institutions-served
+    filters: {system_categories: [], system_types: [], dimensions: {}}
+    aggregation_method: count-unique
+    deduplication: {entity_key: dimensions.entity_ids, partition_key: null, on_missing_key: show-series-only}
+    observation_selection: latest-per-system-scope
+    display: {label: Institutions served, order: 3, chart_type: single-value, show_when_empty: true}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: dashboard-active-users
+    name: Active users
+    kpi_code: active-users
+    filters: {system_categories: [], system_types: [], dimensions: {}}
+    aggregation_method: not-aggregatable
+    deduplication: {entity_key: null, partition_key: null, on_missing_key: show-series-only}
+    observation_selection: series-only
+    display: {label: Active users by system, order: 4, chart_type: bar, show_when_empty: true}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: dashboard-mobile-applications
+    name: Mobile applications
+    kpi_code: applications-developed
+    filters: {system_categories: [], system_types: [], dimensions: {platform: mobile}}
+    aggregation_method: count-unique
+    deduplication: {entity_key: dimensions.entity_ids, partition_key: null, on_missing_key: show-series-only}
+    observation_selection: latest-per-system-scope
+    display: {label: Mobile applications, order: 5, chart_type: single-value, show_when_empty: true}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: dashboard-web-applications
+    name: Web applications
+    kpi_code: applications-developed
+    filters: {system_categories: [], system_types: [], dimensions: {platform: web}}
+    aggregation_method: count-unique
+    deduplication: {entity_key: dimensions.entity_ids, partition_key: null, on_missing_key: show-series-only}
+    observation_selection: latest-per-system-scope
+    display: {label: Web applications, order: 6, chart_type: single-value, show_when_empty: true}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: dashboard-systems-integrated
+    name: Systems integrated
+    kpi_code: systems-integrated
+    filters: {system_categories: [], system_types: [], dimensions: {}}
+    aggregation_method: count-unique
+    deduplication: {entity_key: dimensions.entity_ids, partition_key: null, on_missing_key: show-series-only}
+    observation_selection: latest-per-system-scope
+    display: {label: Systems integrated, order: 7, chart_type: single-value, show_when_empty: true}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: dashboard-automated-workflows
+    name: Automated workflows
+    kpi_code: workflows-automated
+    filters: {system_categories: [], system_types: [], dimensions: {}}
+    aggregation_method: count-unique
+    deduplication: {entity_key: dimensions.entity_ids, partition_key: null, on_missing_key: show-series-only}
+    observation_selection: latest-per-system-scope
+    display: {label: Automated workflows, order: 8, chart_type: single-value, show_when_empty: true}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: dashboard-digital-transactions
+    name: Digital transactions
+    kpi_code: digital-transactions
+    filters: {system_categories: [], system_types: [], dimensions: {}}
+    aggregation_method: sum
+    deduplication: {entity_key: null, partition_key: dimensions.aggregation_partition, on_missing_key: show-series-only}
+    observation_selection: aligned-period
+    display: {label: Digital transactions, order: 9, chart_type: single-value, show_when_empty: true}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: dashboard-ai-solutions
+    name: AI solutions
+    kpi_code: ai-solutions
+    filters: {system_categories: [], system_types: [], dimensions: {}}
+    aggregation_method: count-unique
+    deduplication: {entity_key: dimensions.entity_ids, partition_key: null, on_missing_key: show-series-only}
+    observation_selection: latest-per-system-scope
+    display: {label: AI solutions, order: 10, chart_type: single-value, show_when_empty: true}
+    status: active
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: dashboard-system-availability
+    name: System availability
+    kpi_code: availability-percent
+    filters: {system_categories: [], system_types: [], dimensions: {}}
+    aggregation_method: weighted-average
+    deduplication: {entity_key: null, partition_key: dimensions.aggregation_partition, on_missing_key: show-series-only}
+    observation_selection: aligned-period
+    display: {label: System availability, order: 11, chart_type: gauge, show_when_empty: true}
+    status: active

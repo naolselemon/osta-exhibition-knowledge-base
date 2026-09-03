@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://osta.example/schemas/transformation-story.schema.json",
+  "title": "Transformation story",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_version",
+    "id",
+    "system_id",
+    "title",
+    "summary",
+    "transformation_dimensions",
+    "before",
+    "after",
+    "user_impact",
+    "kpi_observation_refs",
+    "source_refs",
+    "translations",
+    "publication_status",
+    "verification_status",
+    "public_display_approved",
+    "workflow"
+  ],
+  "properties": {
+    "schema_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "record_version": {"type": "integer", "minimum": 1},
+    "id": {"$ref": "#/$defs/id"},
+    "system_id": {"$ref": "#/$defs/id"},
+    "title": {"type": "string", "minLength": 1},
+    "summary": {"type": "string", "minLength": 1},
+    "transformation_dimensions": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/transformationDimension"}
+    },
+    "before": {"$ref": "#/$defs/state"},
+    "after": {"$ref": "#/$defs/state"},
+    "user_impact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["beneficiaries", "description"],
+      "properties": {
+        "beneficiaries": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "description": {"type": "string", "minLength": 1}
+      }
+    },
+    "kpi_observation_refs": {"type": "array", "items": {"$ref": "#/$defs/id"}, "uniqueItems": true},
+    "source_refs": {"type": "array", "items": {"$ref": "#/$defs/sourceRef"}},
+    "translations": {"type": "object", "additionalProperties": true},
+    "publication_status": {"enum": ["draft", "in-review", "published", "archived"]},
+    "verification_status": {"enum": ["needs-review", "verified", "conflicting"]},
+    "public_display_approved": {"type": "boolean"},
+    "workflow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["state", "prepared_by_role", "reviewed_by_role", "created_at", "updated_at", "notes"],
+      "properties": {
+        "state": {"enum": ["draft", "needs-review", "verified", "approved", "rejected", "superseded"]},
+        "prepared_by_role": {"type": "string", "minLength": 1},
+        "reviewed_by_role": {"type": ["string", "null"]},
+        "created_at": {"type": "string", "format": "date"},
+        "updated_at": {"type": "string", "format": "date"},
+        "notes": {"type": "string"}
+      }
+    }
+  },
+  "$defs": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "transformationDimension": {
+      "enum": [
+        "paper-application-to-online-application",
+        "physical-queue-to-digital-queue",
+        "manual-verification-to-automated-validation",
+        "paper-file-to-digital-record",
+        "multiple-office-visits-to-remote-access",
+        "manual-reporting-to-real-time-dashboard",
+        "long-processing-time-to-faster-processing",
+        "difficult-tracking-to-end-to-end-tracking"
+      ]
+    },
+    "state": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "description", "service_steps", "evidence_notes"],
+      "properties": {
+        "label": {"type": "string", "minLength": 1},
+        "description": {"type": "string", "minLength": 1},
+        "service_steps": {"type": "array", "items": {"type": "string"}},
+        "evidence_notes": {"type": "string"}
+      }
+    },
+    "sourceRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_id", "label", "path", "locator", "verification_status", "public_display_approved"],
+      "properties": {
+        "source_id": {"$ref": "#/$defs/id"},
+        "label": {"type": "string", "minLength": 1},
+        "path": {"type": "string", "minLength": 1},
+        "locator": {"type": "string", "minLength": 1},
+        "verification_status": {"enum": ["needs-review", "verified", "conflicting"]},
+        "public_display_approved": {"type": "boolean"}
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+schema_version: 1.0.0
+record_version: 1
+id: civil-registration-paper-file-to-digital-record
+system_id: civil-registration-dms
+title: Civil-registration files move into digital records
+summary: The presentation contrasts paper-oriented file handling with a document-management workflow for scanned and uploaded records.
+transformation_dimensions:
+  - paper-file-to-digital-record
+before:
+  label: Paper file
+  description: Civil-registration information depended on physical files and manual file handling.
+  service_steps: [locate physical file, handle paper record]
+  evidence_notes: The presentation frames the document-management work as a before-and-after change; detailed baseline steps require source-owner review.
+after:
+  label: Digital record
+  description: Civil-registration files are scanned, uploaded, and managed with metadata in a document-management system.
+  service_steps: [scan source file, upload digital file, capture metadata, retrieve managed record]
+  evidence_notes: The cited slide names scanning, upload, metadata, and multi-level service coverage.
+user_impact:
+  beneficiaries: [civil-registration staff, public-service administrators, residents]
+  description: Digital record retrieval is intended to reduce dependence on physical-file handling; measured user impact has not yet been verified.
+kpi_observation_refs:
+  - civil-registration-files-scanned-2018-deck
+  - civil-registration-files-uploaded-2018-deck
+  - civil-registration-metadata-completion-2018-deck
+  - civil-registration-service-coverage-2018-deck
+source_refs:
+  - source_id: osta-exhibition-2018-final-last
+    label: OSTA Exhibition 2018 Final Last presentation
+    path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
+    locator: Slides 35 and 37
+    verification_status: needs-review
+    public_display_approved: false
+translations: {}
+publication_status: draft
+verification_status: needs-review
+public_display_approved: false
+workflow:
+  state: needs-review
+  prepared_by_role: content-author
+  reviewed_by_role: null
+  created_at: '2026-09-03'
+  updated_at: '2026-09-03'
+  notes: Draft story; confirm the before-state evidence and claimed impacts before publication.

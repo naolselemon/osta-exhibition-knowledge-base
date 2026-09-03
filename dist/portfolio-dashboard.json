@@ -1,0 +1,139 @@
+{
+  "metrics": [],
+  "schema_version": "1.0.0",
+  "source_observation_ids": [],
+  "supported_metrics": [
+    {
+      "aggregation_method": "count-unique",
+      "display": {
+        "chart_type": "single-value",
+        "label": "Applications developed",
+        "order": 1,
+        "show_when_empty": true
+      },
+      "id": "dashboard-applications-developed",
+      "kpi_code": "applications-developed",
+      "name": "Applications developed"
+    },
+    {
+      "aggregation_method": "count-unique",
+      "display": {
+        "chart_type": "single-value",
+        "label": "Digital services",
+        "order": 2,
+        "show_when_empty": true
+      },
+      "id": "dashboard-digital-services",
+      "kpi_code": "services-digitized",
+      "name": "Digital services"
+    },
+    {
+      "aggregation_method": "count-unique",
+      "display": {
+        "chart_type": "single-value",
+        "label": "Institutions served",
+        "order": 3,
+        "show_when_empty": true
+      },
+      "id": "dashboard-institutions-served",
+      "kpi_code": "institutions-served",
+      "name": "Institutions served"
+    },
+    {
+      "aggregation_method": "not-aggregatable",
+      "display": {
+        "chart_type": "bar",
+        "label": "Active users by system",
+        "order": 4,
+        "show_when_empty": true
+      },
+      "id": "dashboard-active-users",
+      "kpi_code": "active-users",
+      "name": "Active users"
+    },
+    {
+      "aggregation_method": "count-unique",
+      "display": {
+        "chart_type": "single-value",
+        "label": "Mobile applications",
+        "order": 5,
+        "show_when_empty": true
+      },
+      "id": "dashboard-mobile-applications",
+      "kpi_code": "applications-developed",
+      "name": "Mobile applications"
+    },
+    {
+      "aggregation_method": "count-unique",
+      "display": {
+        "chart_type": "single-value",
+        "label": "Web applications",
+        "order": 6,
+        "show_when_empty": true
+      },
+      "id": "dashboard-web-applications",
+      "kpi_code": "applications-developed",
+      "name": "Web applications"
+    },
+    {
+      "aggregation_method": "count-unique",
+      "display": {
+        "chart_type": "single-value",
+        "label": "Systems integrated",
+        "order": 7,
+        "show_when_empty": true
+      },
+      "id": "dashboard-systems-integrated",
+      "kpi_code": "systems-integrated",
+      "name": "Systems integrated"
+    },
+    {
+      "aggregation_method": "count-unique",
+      "display": {
+        "chart_type": "single-value",
+        "label": "Automated workflows",
+        "order": 8,
+        "show_when_empty": true
+      },
+      "id": "dashboard-automated-workflows",
+      "kpi_code": "workflows-automated",
+      "name": "Automated workflows"
+    },
+    {
+      "aggregation_method": "sum",
+      "display": {
+        "chart_type": "single-value",
+        "label": "Digital transactions",
+        "order": 9,
+        "show_when_empty": true
+      },
+      "id": "dashboard-digital-transactions",
+      "kpi_code": "digital-transactions",
+      "name": "Digital transactions"
+    },
+    {
+      "aggregation_method": "count-unique",
+      "display": {
+        "chart_type": "single-value",
+        "label": "AI solutions",
+        "order": 10,
+        "show_when_empty": true
+      },
+      "id": "dashboard-ai-solutions",
+      "kpi_code": "ai-solutions",
+      "name": "AI solutions"
+    },
+    {
+      "aggregation_method": "weighted-average",
+      "display": {
+        "chart_type": "gauge",
+        "label": "System availability",
+        "order": 11,
+        "show_when_empty": true
+      },
+      "id": "dashboard-system-availability",
+      "kpi_code": "availability-percent",
+      "name": "System availability"
+    }
+  ]
+}

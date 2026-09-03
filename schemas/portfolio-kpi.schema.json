@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://osta.example/schemas/portfolio-kpi.schema.json",
+  "title": "Portfolio KPI configuration",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_version",
+    "id",
+    "name",
+    "kpi_code",
+    "filters",
+    "aggregation_method",
+    "deduplication",
+    "observation_selection",
+    "display",
+    "status"
+  ],
+  "properties": {
+    "schema_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "record_version": {"type": "integer", "minimum": 1},
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "name": {"type": "string", "minLength": 1},
+    "kpi_code": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "filters": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["system_categories", "system_types", "dimensions"],
+      "properties": {
+        "system_categories": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "system_types": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "dimensions": {"type": "object", "additionalProperties": {"type": ["string", "number", "boolean"]}}
+      }
+    },
+    "aggregation_method": {
+      "enum": ["sum", "count-unique", "latest", "average", "weighted-average", "minimum", "maximum", "not-aggregatable"]
+    },
+    "deduplication": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["entity_key", "partition_key", "on_missing_key"],
+      "properties": {
+        "entity_key": {"type": ["string", "null"]},
+        "partition_key": {"type": ["string", "null"]},
+        "on_missing_key": {"enum": ["exclude-from-aggregate", "show-series-only", "reject"]}
+      }
+    },
+    "observation_selection": {"enum": ["latest-per-system-scope", "aligned-period", "all-current", "series-only"]},
+    "display": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "order", "chart_type", "show_when_empty"],
+      "properties": {
+        "label": {"type": "string", "minLength": 1},
+        "order": {"type": "integer", "minimum": 0},
+        "chart_type": {"enum": ["single-value", "bar", "line", "progress", "gauge", "table", "none"]},
+        "show_when_empty": {"type": "boolean"}
+      }
+    },
+    "status": {"enum": ["draft", "active", "retired"]}
+  }
+}

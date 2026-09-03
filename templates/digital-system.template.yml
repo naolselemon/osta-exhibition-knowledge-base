@@ -1,0 +1,38 @@
+schema_version: 1.0.0
+id: replace-with-stable-system-id
+slug: replace-with-public-slug
+official_name: Replace with the official system name
+acronym: null
+category: replace-with-category
+subcategories: []
+lifecycle_status: unknown
+publication_status: draft
+organization:
+  name: Replace with the owning organization
+  type: government-organization
+  ownership: owner
+system_classification:
+  primary_type: information-system
+  delivery_channels: []
+  deployment_scope: unknown
+purpose: Replace with a source-supported purpose statement without copied KPI values.
+beneficiaries: []
+services_digitized: []
+integrations: []
+geographic_coverage:
+  levels: [unknown]
+  areas: []
+  coverage_notes: ""
+headline_kpi_refs: []
+transformation_story_refs: []
+faq_refs: []
+media: []
+translations: {}
+source_refs: []
+kpi_data_unavailable_exception: null
+workflow:
+  record_version: 1
+  review_status: draft
+  created_at: "YYYY-MM-DD"
+  updated_at: "YYYY-MM-DD"
+  approved_by_role: null

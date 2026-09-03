@@ -1,0 +1,286 @@
+records:
+  - schema_version: 1.0.0
+    id: prms
+    slug: prms
+    official_name: Prison Management System
+    acronym: PRMS
+    category: corrections-administration
+    subcategories: [record-management]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization:
+      name: Oromia regional corrections administration
+      type: government-organization
+      ownership: owner
+    system_classification:
+      primary_type: information-system
+      delivery_channels: [web]
+      deployment_scope: regional
+    purpose: Consolidate correctional-facility records in a shared regional system.
+    beneficiaries: [corrections administrators, correctional facilities]
+    services_digitized:
+      - id: correctional-record-registration
+        name: Correctional record registration
+        description: Registration and centralized management of correctional-facility records.
+    integrations: []
+    geographic_coverage:
+      levels: [regional]
+      areas: [Oromia]
+      coverage_notes: The source describes region-wide consolidation; detailed coverage requires verification.
+    headline_kpi_refs: [prms-records-registered-2018-deck]
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: osta-exhibition-2018-final-last
+        label: OSTA Exhibition 2018 Final Last presentation
+        path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
+        locator: Slide 21
+        verification_status: needs-review
+        public_display_approved: false
+    kpi_data_unavailable_exception: null
+    workflow:
+      record_version: 1
+      review_status: needs-review
+      created_at: '2026-09-03'
+      updated_at: '2026-09-03'
+      approved_by_role: null
+
+  - schema_version: 1.0.0
+    id: uemis
+    slug: uemis
+    official_name: Urban Employment Management Information System
+    acronym: UEMIS
+    category: youth-employment
+    subcategories: [registration, employment-services]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization:
+      name: Oromia regional government
+      type: government-organization
+      ownership: unknown
+    system_classification:
+      primary_type: information-system
+      delivery_channels: [web]
+      deployment_scope: regional
+    purpose: Register young people participating in urban employment services.
+    beneficiaries: [young people, employment-service administrators]
+    services_digitized:
+      - id: youth-registration
+        name: Youth registration
+        description: Registration of young people in the employment management system.
+    integrations: []
+    geographic_coverage:
+      levels: [regional, online]
+      areas: [Oromia]
+      coverage_notes: Detailed administrative coverage is not stated in the cited slide.
+    headline_kpi_refs: [uemis-registered-users-2018-deck]
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: osta-exhibition-2018-final-last
+        label: OSTA Exhibition 2018 Final Last presentation
+        path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
+        locator: Slide 22
+        verification_status: needs-review
+        public_display_approved: false
+    kpi_data_unavailable_exception: null
+    workflow:
+      record_version: 1
+      review_status: needs-review
+      created_at: '2026-09-03'
+      updated_at: '2026-09-03'
+      approved_by_role: null
+
+  - schema_version: 1.0.0
+    id: business-automation
+    slug: business-automation
+    official_name: Business Automation
+    acronym: null
+    category: organization-administration
+    subcategories: [member-record-management, process-automation]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization:
+      name: Oromia regional government
+      type: government-organization
+      ownership: unknown
+    system_classification:
+      primary_type: automation-system
+      delivery_channels: [web]
+      deployment_scope: regional
+    purpose: Organize member records and automate supporting administrative work.
+    beneficiaries: [member-based organizations, administrators]
+    services_digitized:
+      - id: member-record-organization
+        name: Member record organization
+        description: Structured management of organizational member records.
+    integrations: []
+    geographic_coverage:
+      levels: [regional]
+      areas: [Oromia]
+      coverage_notes: Detailed service coverage requires source verification.
+    headline_kpi_refs: [business-automation-records-registered-2018-deck]
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: osta-exhibition-2018-final-last
+        label: OSTA Exhibition 2018 Final Last presentation
+        path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
+        locator: Slide 25
+        verification_status: needs-review
+        public_display_approved: false
+    kpi_data_unavailable_exception: null
+    workflow:
+      record_version: 1
+      review_status: needs-review
+      created_at: '2026-09-03'
+      updated_at: '2026-09-03'
+      approved_by_role: null
+
+  - schema_version: 1.0.0
+    id: digital-kebele-government
+    slug: digital-kebele-government
+    official_name: Digital Kebele Government
+    acronym: DKG
+    category: local-government-services
+    subcategories: [service-digitalization, implementation]
+    lifecycle_status: in-development
+    publication_status: draft
+    organization:
+      name: Oromia regional government
+      type: government-organization
+      ownership: unknown
+    system_classification:
+      primary_type: platform
+      delivery_channels: [web, assisted]
+      deployment_scope: multi-level
+    purpose: Digitalize kebele-level government service delivery and administration.
+    beneficiaries: [residents, kebele staff, public-service administrators]
+    services_digitized: []
+    integrations: []
+    geographic_coverage:
+      levels: [regional, kebele]
+      areas: [Oromia]
+      coverage_notes: The candidate progress claim requires verification against a precise source location.
+    headline_kpi_refs: [digital-kebele-implementation-progress-2018-deck]
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: osta-exhibition-2018-final-last
+        label: OSTA Exhibition 2018 Final Last presentation
+        path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
+        locator: Source locator pending review for the supplied Digital Kebele candidate
+        verification_status: needs-review
+        public_display_approved: false
+    kpi_data_unavailable_exception: null
+    workflow:
+      record_version: 1
+      review_status: needs-review
+      created_at: '2026-09-03'
+      updated_at: '2026-09-03'
+      approved_by_role: null
+
+  - schema_version: 1.0.0
+    id: court-case-management-prosecutor-sims
+    slug: court-case-management-prosecutor-sims
+    official_name: Court Case Management and Prosecutor SIMS
+    acronym: CCM-PSIMS
+    category: justice
+    subcategories: [case-management, prosecution-information-management, implementation]
+    lifecycle_status: in-development
+    publication_status: draft
+    organization:
+      name: Oromia regional justice institutions
+      type: government-organization
+      ownership: shared
+    system_classification:
+      primary_type: integrated-system
+      delivery_channels: [web]
+      deployment_scope: regional
+    purpose: Support digital court-case and prosecution information management.
+    beneficiaries: [court staff, prosecutors, justice administrators]
+    services_digitized: []
+    integrations: []
+    geographic_coverage:
+      levels: [regional]
+      areas: [Oromia]
+      coverage_notes: The cited slide presents the two systems together; separate system attribution requires review.
+    headline_kpi_refs: [court-prosecutor-implementation-progress-2018-deck]
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: osta-exhibition-2018-final-last
+        label: OSTA Exhibition 2018 Final Last presentation
+        path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
+        locator: Slide 28
+        verification_status: needs-review
+        public_display_approved: false
+    kpi_data_unavailable_exception: null
+    workflow:
+      record_version: 1
+      review_status: needs-review
+      created_at: '2026-09-03'
+      updated_at: '2026-09-03'
+      approved_by_role: null
+
+  - schema_version: 1.0.0
+    id: civil-registration-dms
+    slug: civil-registration-dms
+    official_name: Civil Registration Document Management System
+    acronym: Civil Registration DMS
+    category: civil-registration
+    subcategories: [document-management, scanning, metadata, service-coverage]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization:
+      name: Oromia Civil Registration Agency
+      type: government-organization
+      ownership: owner
+    system_classification:
+      primary_type: document-management-system
+      delivery_channels: [web]
+      deployment_scope: multi-level
+    purpose: Convert civil-registration files into managed digital records with searchable metadata.
+    beneficiaries: [civil-registration staff, public-service administrators, residents]
+    services_digitized:
+      - id: civil-registration-file-management
+        name: Civil registration file management
+        description: Scanning, upload, metadata capture, and management of civil-registration files.
+    integrations: []
+    geographic_coverage:
+      levels: [regional, zone, city]
+      areas: [Oromia]
+      coverage_notes: The source claims coverage at regional, zonal, and town levels; the location list requires review.
+    headline_kpi_refs:
+      - civil-registration-files-scanned-2018-deck
+      - civil-registration-files-uploaded-2018-deck
+      - civil-registration-metadata-completion-2018-deck
+      - civil-registration-service-coverage-2018-deck
+    transformation_story_refs: [civil-registration-paper-file-to-digital-record]
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: osta-exhibition-2018-final-last
+        label: OSTA Exhibition 2018 Final Last presentation
+        path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
+        locator: Slide 37
+        verification_status: needs-review
+        public_display_approved: false
+    kpi_data_unavailable_exception: null
+    workflow:
+      record_version: 1
+      review_status: needs-review
+      created_at: '2026-09-03'
+      updated_at: '2026-09-03'
+      approved_by_role: null

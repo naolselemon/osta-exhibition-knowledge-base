@@ -1,0 +1,9 @@
+[project]
+name = "osta-exhibition-knowledge-base"
+version = "1.0.0"
+description = "Versioned, source-supported KPI records and public exhibition build pipeline"
+requires-python = ">=3.11"
+dependencies = ["PyYAML>=6.0,<7"]
+
+[tool.unittest]
+start-directory = "tests"

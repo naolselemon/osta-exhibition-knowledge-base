@@ -1,0 +1,21 @@
+schema_version: 1.0.0
+record_version: 1
+id: replace-with-dashboard-metric-id
+name: Replace with portfolio metric name
+kpi_code: replace-with-existing-kpi-code
+filters:
+  system_categories: []
+  system_types: []
+  dimensions: {}
+aggregation_method: not-aggregatable
+deduplication:
+  entity_key: null
+  partition_key: null
+  on_missing_key: show-series-only
+observation_selection: series-only
+display:
+  label: Replace with dashboard label
+  order: 0
+  chart_type: single-value
+  show_when_empty: true
+status: draft

@@ -1,0 +1,19 @@
+schema_version: 1.0.0
+record_version: 1
+id: replace-with-stable-faq-id
+system_id: replace-with-existing-system-id
+question: Replace with the public question
+answer: Use {{kpi:observation-id}} wherever an authoritative KPI value belongs.
+kpi_observation_refs:
+  - observation-id
+translations: {}
+publication_status: draft
+data_classification: internal
+contains_personal_data: false
+public_display_approved: false
+workflow:
+  state: draft
+  prepared_by_role: content-author
+  reviewed_by_role: null
+  created_at: "YYYY-MM-DD"
+  updated_at: "YYYY-MM-DD"

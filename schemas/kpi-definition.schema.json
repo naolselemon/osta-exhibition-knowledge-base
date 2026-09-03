@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://osta.example/schemas/kpi-definition.schema.json",
+  "title": "KPI definition",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_version",
+    "kpi_code",
+    "name",
+    "description",
+    "kpi_category",
+    "applicable_system_types",
+    "measurement_type",
+    "value_type",
+    "allowed_operators",
+    "allowed_units",
+    "direction_of_improvement",
+    "aggregation",
+    "reporting_requirements",
+    "display",
+    "status"
+  ],
+  "properties": {
+    "schema_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "record_version": {"type": "integer", "minimum": 1},
+    "kpi_code": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "name": {"type": "string", "minLength": 1},
+    "description": {"type": "string", "minLength": 1},
+    "kpi_category": {
+      "enum": [
+        "digitization-output",
+        "service-delivery",
+        "adoption",
+        "usage",
+        "coverage",
+        "integration",
+        "performance",
+        "efficiency",
+        "quality",
+        "implementation",
+        "impact",
+        "financial-impact",
+        "ai-and-automation"
+      ]
+    },
+    "applicable_system_types": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "measurement_type": {
+      "enum": ["cumulative", "periodic", "point-in-time", "percentage", "duration", "currency", "ratio", "boolean", "qualitative"]
+    },
+    "value_type": {"enum": ["integer", "number", "string", "boolean", "range"]},
+    "allowed_operators": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": ["equal", "greater-than", "greater-than-or-equal", "less-than", "less-than-or-equal", "approximate", "range", "not-specified"]
+      }
+    },
+    "allowed_units": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "direction_of_improvement": {"enum": ["increase", "decrease", "maintain", "contextual"]},
+    "aggregation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["method", "deduplication_key", "selection_rule", "notes"],
+      "properties": {
+        "method": {"$ref": "#/$defs/aggregationMethod"},
+        "deduplication_key": {"type": ["string", "null"]},
+        "selection_rule": {"enum": ["latest-per-system-scope", "aligned-period-per-partition", "explicit-entity-union", "none"]},
+        "notes": {"type": "string"}
+      }
+    },
+    "reporting_requirements": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reporting_period_required",
+        "activity_window_required",
+        "monitoring_period_required",
+        "statistic_required",
+        "source_verification_required",
+        "allowed_period_types"
+      ],
+      "properties": {
+        "reporting_period_required": {"type": "boolean"},
+        "activity_window_required": {"type": "boolean"},
+        "monitoring_period_required": {"type": "boolean"},
+        "statistic_required": {"type": "boolean"},
+        "source_verification_required": {"type": "boolean"},
+        "allowed_period_types": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/reportingPeriodType"}
+        }
+      }
+    },
+    "display": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "short_label", "format", "decimal_places", "unit_label", "allowed_chart_types"],
+      "properties": {
+        "label": {"type": "string", "minLength": 1},
+        "short_label": {"type": "string", "minLength": 1},
+        "format": {"enum": ["integer", "decimal", "percent", "duration", "currency", "boolean", "text"]},
+        "decimal_places": {"type": "integer", "minimum": 0, "maximum": 6},
+        "unit_label": {"type": "string"},
+        "allowed_chart_types": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"enum": ["single-value", "bar", "line", "progress", "gauge", "table", "none"]}
+        }
+      }
+    },
+    "status": {"enum": ["draft", "active", "deprecated", "retired"]}
+  },
+  "$defs": {
+    "aggregationMethod": {
+      "enum": ["sum", "count-unique", "latest", "average", "weighted-average", "minimum", "maximum", "not-aggregatable"]
+    },
+    "reportingPeriodType": {
+      "enum": ["as-of-date", "day", "week", "month", "quarter", "year", "date-range", "lifetime", "unknown"]
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"measurement_type": {"const": "percentage"}}},
+      "then": {
+        "properties": {
+          "aggregation": {
+            "properties": {"method": {"not": {"const": "sum"}}}
+          }
+        }
+      }
+    },
+    {
+      "if": {"properties": {"kpi_code": {"enum": ["active-users", "mobile-active-users", "web-active-users"]}}},
+      "then": {
+        "properties": {
+          "aggregation": {"properties": {"method": {"const": "not-aggregatable"}}},
+          "reporting_requirements": {"properties": {"activity_window_required": {"const": true}}}
+        }
+      }
+    }
+  ]
+}

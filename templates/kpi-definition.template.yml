@@ -1,0 +1,40 @@
+schema_version: 1.0.0
+record_version: 1
+kpi_code: replace-with-stable-kpi-code
+name: Replace with KPI name
+description: Define exactly what is counted or measured.
+kpi_category: digitization-output
+applicable_system_types: [any]
+measurement_type: cumulative
+value_type: integer
+allowed_operators:
+  - equal
+  - greater-than
+  - greater-than-or-equal
+  - less-than
+  - less-than-or-equal
+  - approximate
+  - range
+  - not-specified
+allowed_units: [replace-with-canonical-unit]
+direction_of_improvement: contextual
+aggregation:
+  method: not-aggregatable
+  deduplication_key: null
+  selection_rule: none
+  notes: Explain why this method is safe and how overlap is prevented.
+reporting_requirements:
+  reporting_period_required: true
+  activity_window_required: false
+  monitoring_period_required: false
+  statistic_required: false
+  source_verification_required: true
+  allowed_period_types: [as-of-date, date-range, lifetime, unknown]
+display:
+  label: Replace with display label
+  short_label: Replace with short label
+  format: integer
+  decimal_places: 0
+  unit_label: Replace with unit label
+  allowed_chart_types: [single-value, bar, table]
+status: draft
