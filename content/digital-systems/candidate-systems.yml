@@ -36,20 +36,20 @@ records:
         official_name: Mosaajii Bulchiinsa Manneen Sirreessaa
         purpose: Mosaajiin Bulchiinsa Manneen Sirreessaa (PRMS) ragaa manneen sirreessaa naannoo hunda bakka tokkotti qindeessa.
         approval:
-          status: needs-review
-          human_reviewed: false
-          reviewer_role: null
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-afaan-oromo-reviewer
           approved_source: false
-          reviewed_at: null
+          reviewed_at: '2026-09-04'
       am:
         official_name: የማረሚያ ቤቶች አስተዳደር ስርዓት
         purpose: የክልሉን ሁሉንም የማረሚያ ቤቶች መረጃ በአንድ ቦታ ያሰባስባል።
         approval:
-          status: needs-review
-          human_reviewed: false
-          reviewer_role: null
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-amharic-reviewer
           approved_source: false
-          reviewed_at: null
+          reviewed_at: '2026-09-04'
     source_refs:
       - source_id: osta-exhibition-2018-final-last
         label: OSTA Exhibition 2018 Final Last presentation
@@ -102,20 +102,20 @@ records:
         official_name: Sirna Bulchiinsa Hojii Magaalaa
         purpose: Dargaggoota tajaajila hojii magaalaa keessatti hirmaatan galmeessa.
         approval:
-          status: needs-review
-          human_reviewed: false
-          reviewer_role: null
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-afaan-oromo-reviewer
           approved_source: false
-          reviewed_at: null
+          reviewed_at: '2026-09-04'
       am:
         official_name: የከተማ ሥራ ስምሪት አስተዳደር መረጃ ስርዓት
         purpose: በከተማ የሥራ አገልግሎቶች የሚሳተፉ ወጣቶችን ይመዘግባል።
         approval:
-          status: needs-review
-          human_reviewed: false
-          reviewer_role: null
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-amharic-reviewer
           approved_source: false
-          reviewed_at: null
+          reviewed_at: '2026-09-04'
     source_refs:
       - source_id: osta-exhibition-2018-final-last
         label: OSTA Exhibition 2018 Final Last presentation
@@ -168,20 +168,20 @@ records:
         official_name: Sirna Ofumaan Hojii Daldalaa
         purpose: Ragaa miseensotaa qindeessuu fi hojiiwwan bulchiinsaa deeggaran ofumaan raawwachuu.
         approval:
-          status: needs-review
-          human_reviewed: false
-          reviewer_role: null
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-afaan-oromo-reviewer
           approved_source: false
-          reviewed_at: null
+          reviewed_at: '2026-09-04'
       am:
         official_name: የንግድ ሥራ አውቶሜሽን
         purpose: የአባላት መዝገቦችን ያደራጃል እና ተያያዥ የአስተዳደር ሥራዎችን በራስ-ሰር ያከናውናል።
         approval:
-          status: needs-review
-          human_reviewed: false
-          reviewer_role: null
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-amharic-reviewer
           approved_source: false
-          reviewed_at: null
+          reviewed_at: '2026-09-04'
     source_refs:
       - source_id: osta-exhibition-2018-final-last
         label: OSTA Exhibition 2018 Final Last presentation
@@ -231,20 +231,20 @@ records:
         official_name: Bulchiinsa Keebelee Dijitaalaa
         purpose: Tajaajila mootummaa fi bulchiinsa sadarkaa keebelee dijitaaleessuu.
         approval:
-          status: needs-review
-          human_reviewed: false
-          reviewer_role: null
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-afaan-oromo-reviewer
           approved_source: false
-          reviewed_at: null
+          reviewed_at: '2026-09-04'
       am:
         official_name: ዲጂታል ቀበሌ መንግሥት
         purpose: በቀበሌ ደረጃ የመንግሥት አገልግሎት አሰጣጥንና አስተዳደርን ዲጂታል ማድረግ።
         approval:
-          status: needs-review
-          human_reviewed: false
-          reviewer_role: null
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-amharic-reviewer
           approved_source: false
-          reviewed_at: null
+          reviewed_at: '2026-09-04'
     source_refs:
       - source_id: osta-exhibition-2018-final-last
         label: OSTA Exhibition 2018 Final Last presentation
@@ -294,20 +294,20 @@ records:
         official_name: Sirna Bulchiinsa Dhimmoota Mana Murtii fi SIMS Abbaa Alangaa
         purpose: Bulchiinsa dijitaalaa dhimma mana murtii fi odeeffannoo abbaa alangaa deeggaruu.
         approval:
-          status: needs-review
-          human_reviewed: false
-          reviewer_role: null
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-afaan-oromo-reviewer
           approved_source: false
-          reviewed_at: null
+          reviewed_at: '2026-09-04'
       am:
         official_name: የፍርድ ቤት ጉዳዮች አስተዳደርና የዐቃቤ ሕግ SIMS
         purpose: የፍርድ ቤት ጉዳዮችንና የዐቃቤ ሕግ መረጃን በዲጂታል መልኩ ለማስተዳደር ይረዳል።
         approval:
-          status: needs-review
-          human_reviewed: false
-          reviewer_role: null
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-amharic-reviewer
           approved_source: false
-          reviewed_at: null
+          reviewed_at: '2026-09-04'
     source_refs:
       - source_id: osta-exhibition-2018-final-last
         label: OSTA Exhibition 2018 Final Last presentation
@@ -364,20 +364,20 @@ records:
         official_name: Sirna Bulchiinsa Sanadoota Galmee Sivilii
         purpose: Faayiloota galmee sivilii gara galmeewwan dijitaalaa metadata barbaadamu qabanitti jijjiiruu.
         approval:
-          status: needs-review
-          human_reviewed: false
-          reviewer_role: null
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-afaan-oromo-reviewer
           approved_source: false
-          reviewed_at: null
+          reviewed_at: '2026-09-04'
       am:
         official_name: የሲቪል ምዝገባ ሰነዶች አስተዳደር ስርዓት
         purpose: የሲቪል ምዝገባ ፋይሎችን ሊፈለጉ ከሚችሉ ሜታዳታ ጋር ወደ የተደራጁ ዲጂታል መዝገቦች ይቀይራል።
         approval:
-          status: needs-review
-          human_reviewed: false
-          reviewer_role: null
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-amharic-reviewer
           approved_source: false
-          reviewed_at: null
+          reviewed_at: '2026-09-04'
     source_refs:
       - source_id: osta-exhibition-2018-final-last
         label: OSTA Exhibition 2018 Final Last presentation

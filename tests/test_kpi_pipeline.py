@@ -390,7 +390,7 @@ class KpiPipelineTests(unittest.TestCase):
         )
         validate_records(data, ROOT)
 
-    def test_unapproved_amharic_translation_is_excluded_from_public_build(self) -> None:
+    def test_unapproved_amharic_translation_is_rejected(self) -> None:
         data = self.data()
         system = record(data.systems, "id", "prms")
         system["translations"]["am"] = {
@@ -404,8 +404,8 @@ class KpiPipelineTests(unittest.TestCase):
                 "reviewed_at": None,
             },
         }
-        validate_records(data, ROOT)
-        payloads = build_payloads(data)
+        self.assert_invalid(data, "Amharic translation requires an approved source")
+
     def test_public_build_includes_published_systems_and_observations(self) -> None:
         payloads = build_payloads(self.data())
         expected_systems = {
@@ -420,8 +420,8 @@ class KpiPipelineTests(unittest.TestCase):
         self.assertEqual(expected_systems, {item["system_id"] for item in payloads["system-kpis.json"]["systems"]})
         avatar = payloads["avatar-facts.json"]
         self.assertEqual(9, len(avatar["verified_public_kpi_observations"]))
-        self.assertEqual([], avatar["approved_afaan_oromo_content"])
-        self.assertEqual([], avatar["approved_amharic_content"])
+        self.assertEqual(6, len(avatar["approved_afaan_oromo_content"]))
+        self.assertEqual(6, len(avatar["approved_amharic_content"]))
         serialized = json.dumps(payloads)
         for observation in self.base.observations:
             if observation["id"].endswith("-deck"):

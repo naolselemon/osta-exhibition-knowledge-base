@@ -1,6 +1,116 @@
 {
-  "approved_afaan_oromo_content": [],
-  "approved_amharic_content": [],
+  "approved_afaan_oromo_content": [
+    {
+      "content": {
+        "official_name": "Sirna Ofumaan Hojii Daldalaa",
+        "purpose": "Ragaa miseensotaa qindeessuu fi hojiiwwan bulchiinsaa deeggaran ofumaan raawwachuu."
+      },
+      "language": "om",
+      "record_id": "business-automation",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Sirna Bulchiinsa Sanadoota Galmee Sivilii",
+        "purpose": "Faayiloota galmee sivilii gara galmeewwan dijitaalaa metadata barbaadamu qabanitti jijjiiruu."
+      },
+      "language": "om",
+      "record_id": "civil-registration-dms",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Sirna Bulchiinsa Dhimmoota Mana Murtii fi SIMS Abbaa Alangaa",
+        "purpose": "Bulchiinsa dijitaalaa dhimma mana murtii fi odeeffannoo abbaa alangaa deeggaruu."
+      },
+      "language": "om",
+      "record_id": "court-case-management-prosecutor-sims",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Bulchiinsa Keebelee Dijitaalaa",
+        "purpose": "Tajaajila mootummaa fi bulchiinsa sadarkaa keebelee dijitaaleessuu."
+      },
+      "language": "om",
+      "record_id": "digital-kebele-government",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Mosaajii Bulchiinsa Manneen Sirreessaa",
+        "purpose": "Mosaajiin Bulchiinsa Manneen Sirreessaa (PRMS) ragaa manneen sirreessaa naannoo hunda bakka tokkotti qindeessa."
+      },
+      "language": "om",
+      "record_id": "prms",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Sirna Bulchiinsa Hojii Magaalaa",
+        "purpose": "Dargaggoota tajaajila hojii magaalaa keessatti hirmaatan galmeessa."
+      },
+      "language": "om",
+      "record_id": "uemis",
+      "record_type": "digital-system"
+    }
+  ],
+  "approved_amharic_content": [
+    {
+      "content": {
+        "official_name": "የንግድ ሥራ አውቶሜሽን",
+        "purpose": "የአባላት መዝገቦችን ያደራጃል እና ተያያዥ የአስተዳደር ሥራዎችን በራስ-ሰር ያከናውናል።"
+      },
+      "language": "am",
+      "record_id": "business-automation",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የሲቪል ምዝገባ ሰነዶች አስተዳደር ስርዓት",
+        "purpose": "የሲቪል ምዝገባ ፋይሎችን ሊፈለጉ ከሚችሉ ሜታዳታ ጋር ወደ የተደራጁ ዲጂታል መዝገቦች ይቀይራል።"
+      },
+      "language": "am",
+      "record_id": "civil-registration-dms",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የፍርድ ቤት ጉዳዮች አስተዳደርና የዐቃቤ ሕግ SIMS",
+        "purpose": "የፍርድ ቤት ጉዳዮችንና የዐቃቤ ሕግ መረጃን በዲጂታል መልኩ ለማስተዳደር ይረዳል።"
+      },
+      "language": "am",
+      "record_id": "court-case-management-prosecutor-sims",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "ዲጂታል ቀበሌ መንግሥት",
+        "purpose": "በቀበሌ ደረጃ የመንግሥት አገልግሎት አሰጣጥንና አስተዳደርን ዲጂታል ማድረግ።"
+      },
+      "language": "am",
+      "record_id": "digital-kebele-government",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የማረሚያ ቤቶች አስተዳደር ስርዓት",
+        "purpose": "የክልሉን ሁሉንም የማረሚያ ቤቶች መረጃ በአንድ ቦታ ያሰባስባል።"
+      },
+      "language": "am",
+      "record_id": "prms",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የከተማ ሥራ ስምሪት አስተዳደር መረጃ ስርዓት",
+        "purpose": "በከተማ የሥራ አገልግሎቶች የሚሳተፉ ወጣቶችን ይመዘግባል።"
+      },
+      "language": "am",
+      "record_id": "uemis",
+      "record_type": "digital-system"
+    }
+  ],
   "headline_kpi_references": [
     {
       "observation_id": "business-automation-records-registered-2018-verified",
