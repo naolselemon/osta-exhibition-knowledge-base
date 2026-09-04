@@ -13,6 +13,7 @@ from scripts.kpi_pipeline import (
     ValidationFailure,
     build_payloads,
     check_observation_history,
+    is_verified_public_observation,
     load_repository,
     validate_records,
 )
@@ -407,21 +408,57 @@ class KpiPipelineTests(unittest.TestCase):
         self.assert_invalid(data, "Amharic translation requires an approved source")
 
     def test_public_build_includes_published_systems_and_observations(self) -> None:
-        payloads = build_payloads(self.data())
+        data = self.data()
+        payloads = build_payloads(data)
         expected_systems = {
-            "prms",
-            "uemis",
-            "business-automation",
-            "digital-kebele-government",
-            "court-case-management-prosecutor-sims",
-            "civil-registration-dms",
+            item["id"] for item in data.systems if item.get("publication_status") == "published"
         }
         self.assertEqual(expected_systems, {item["id"] for item in payloads["digital-systems.json"]["digital_systems"]})
         self.assertEqual(expected_systems, {item["system_id"] for item in payloads["system-kpis.json"]["systems"]})
-        avatar = payloads["avatar-facts.json"]
-        self.assertEqual(9, len(avatar["verified_public_kpi_observations"]))
-        self.assertEqual(6, len(avatar["approved_afaan_oromo_content"]))
-        self.assertEqual(6, len(avatar["approved_amharic_content"]))
+
+        expected_observations = {
+            item["id"]
+            for item in data.observations
+            if is_verified_public_observation(item) and item.get("system_id") in expected_systems
+        }
+        self.assertEqual(
+            expected_observations,
+            {item["id"] for item in payloads["avatar-facts.json"]["verified_public_kpi_observations"]},
+        )
+
+        expected_translation_records = {
+            ("digital-system", item["id"])
+            for item in data.systems
+            if item.get("publication_status") == "published"
+        }
+        expected_faqs = {
+            item["id"]
+            for item in data.faqs
+            if (
+                item.get("publication_status") == "published"
+                and item.get("public_display_approved") is True
+                and item.get("data_classification") == "public"
+                and item.get("contains_personal_data") is False
+                and item.get("system_id") in expected_systems
+                and all(ref in expected_observations for ref in item.get("kpi_observation_refs", []))
+            )
+        }
+        expected_translation_records.update(("faq", faq_id) for faq_id in expected_faqs)
+        self.assertEqual(
+            expected_translation_records,
+            {
+                (item["record_type"], item["record_id"])
+                for item in payloads["avatar-facts.json"]["approved_afaan_oromo_content"]
+            },
+        )
+        self.assertEqual(
+            expected_translation_records,
+            {
+                (item["record_type"], item["record_id"])
+                for item in payloads["avatar-facts.json"]["approved_amharic_content"]
+            },
+        )
+
         serialized = json.dumps(payloads)
         for observation in self.base.observations:
             if observation["id"].endswith("-deck"):

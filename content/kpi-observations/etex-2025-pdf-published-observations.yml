@@ -1,0 +1,2709 @@
+records:
+- schema_version: 1.0.0
+  record_version: 1
+  id: woredanet-vpn-regional-lines-2025-published
+  system_id: woredanet-vpn
+  kpi_code: network-links
+  measurement_scope:
+    scope_type: geography
+    scope_id: oromia-regional-network
+    description: Regional VPN lines reported for Oromia.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 61
+    unit: link
+  baseline:
+    operator: not-specified
+    value: null
+    unit: link
+  target:
+    operator: not-specified
+    value: null
+    unit: link
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported network-line count; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    network_scope: regional VPN lines
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; the underlying network inventory has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 2, section “3. WoredaNet / VPN Connectivity” — 61 regional VPN lines
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The document identifies the underlying source as a video and supplies no fact-level
+      timestamp; the line inventory and reporting date require source-owner verification.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: true
+    display_priority: 20
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: woredanet-vpn-regional-lines-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: woredanet-vpn-zone-city-lines-2025-published
+  system_id: woredanet-vpn
+  kpi_code: network-links
+  measurement_scope:
+    scope_type: geography
+    scope_id: oromia-zone-city-network
+    description: Zone-and-city VPN lines reported for Oromia.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 879
+    unit: link
+  baseline:
+    operator: not-specified
+    value: null
+    unit: link
+  target:
+    operator: not-specified
+    value: null
+    unit: link
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported network-line count; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    network_scope: zone-and-city VPN lines
+    geography_level: zone-and-city
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; the underlying network inventory has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 2, section “3. WoredaNet / VPN Connectivity” — 879 zone-and-city
+      lines
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The document identifies the underlying source as a video and supplies no fact-level
+      timestamp; the line inventory and reporting date require source-owner verification.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: false
+    display_priority: 21
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: woredanet-vpn-zone-city-lines-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: woredanet-vpn-woreda-kebele-lines-2025-published
+  system_id: woredanet-vpn
+  kpi_code: network-links
+  measurement_scope:
+    scope_type: geography
+    scope_id: oromia-woreda-kebele-network
+    description: Woreda-and-kebele VPN lines reported for Oromia.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 1856
+    unit: link
+  baseline:
+    operator: not-specified
+    value: null
+    unit: link
+  target:
+    operator: not-specified
+    value: null
+    unit: link
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported network-line count; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    network_scope: woreda-and-kebele VPN lines
+    geography_level: district-and-kebele
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; the underlying network inventory has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 2, section “3. WoredaNet / VPN Connectivity” — 1,856 woreda-and-kebele
+      lines
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The document identifies the underlying source as a video and supplies no fact-level
+      timestamp; the line inventory and reporting date require source-owner verification.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: false
+    display_priority: 22
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: woredanet-vpn-woreda-kebele-lines-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: woredanet-fiber-links-2025-published
+  system_id: woredanet-vpn
+  kpi_code: network-links
+  measurement_scope:
+    scope_type: system
+    scope_id: woredanet-fiber
+    description: Fiber links reported in the WoredaNet/VPN connectivity mix.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 1053
+    unit: link
+  baseline:
+    operator: not-specified
+    value: null
+    unit: link
+  target:
+    operator: not-specified
+    value: null
+    unit: link
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported technology count; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    network_scope: WoredaNet/VPN technology mix
+    transmission_technology: fiber
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; the underlying network inventory has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 2, section “3. WoredaNet / VPN Connectivity” — 1,053 fiber links
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - Technology counts may overlap the administrative-layer line counts; the source
+      does not define the denominator or timestamp.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: false
+    display_priority: 23
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: woredanet-fiber-links-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: woredanet-copper-links-2025-published
+  system_id: woredanet-vpn
+  kpi_code: network-links
+  measurement_scope:
+    scope_type: system
+    scope_id: woredanet-copper
+    description: Copper links reported in the WoredaNet/VPN connectivity mix.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 612
+    unit: link
+  baseline:
+    operator: not-specified
+    value: null
+    unit: link
+  target:
+    operator: not-specified
+    value: null
+    unit: link
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported technology count; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    network_scope: WoredaNet/VPN technology mix
+    transmission_technology: copper
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; the underlying network inventory has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 2, section “3. WoredaNet / VPN Connectivity” — 612 copper links
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - Technology counts may overlap the administrative-layer line counts; the source
+      does not define the denominator or timestamp.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: false
+    display_priority: 24
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: woredanet-copper-links-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: woredanet-apn-links-2025-published
+  system_id: woredanet-vpn
+  kpi_code: network-links
+  measurement_scope:
+    scope_type: system
+    scope_id: woredanet-apn-mobile
+    description: APN/mobile links reported in the WoredaNet/VPN connectivity mix.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 1052
+    unit: link
+  baseline:
+    operator: not-specified
+    value: null
+    unit: link
+  target:
+    operator: not-specified
+    value: null
+    unit: link
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported technology count; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    network_scope: WoredaNet/VPN technology mix
+    transmission_technology: APN/mobile
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; the underlying network inventory has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 2, section “3. WoredaNet / VPN Connectivity” — 1,052 APN/mobile
+      links
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - Technology counts may overlap the administrative-layer line counts; the source
+      does not define the denominator or timestamp.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: false
+    display_priority: 25
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: woredanet-apn-links-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: woredanet-vsat-links-2025-published
+  system_id: woredanet-vpn
+  kpi_code: network-links
+  measurement_scope:
+    scope_type: system
+    scope_id: woredanet-vsat
+    description: VSAT links reported in the WoredaNet/VPN connectivity mix.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 79
+    unit: link
+  baseline:
+    operator: not-specified
+    value: null
+    unit: link
+  target:
+    operator: not-specified
+    value: null
+    unit: link
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported technology count; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    network_scope: WoredaNet/VPN technology mix
+    transmission_technology: VSAT
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; the underlying network inventory has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 2, section “3. WoredaNet / VPN Connectivity” — 79 VSAT links
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - Technology counts may overlap the administrative-layer line counts; the source
+      does not define the denominator or timestamp.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: false
+    display_priority: 26
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: woredanet-vsat-links-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: broadband-5g-coverage-2025-published
+  system_id: broadband-connectivity
+  kpi_code: broadband-coverage-percent
+  measurement_scope:
+    scope_type: system
+    scope_id: broadband-5g
+    description: Reported broadband share attributed to 5G.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 2
+    unit: percent
+  baseline:
+    operator: not-specified
+    value: null
+    unit: percent
+  target:
+    operator: not-specified
+    value: null
+    unit: percent
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported network-generation share; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    network_generation: 5G
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; the network-generation denominator has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 2, section “4. Broadband Connectivity” — 5G 2%
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not define the broadband denominator
+    - measurement method
+    - or fact-level timestamp; shares are not independently audited.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: true
+    display_priority: 27
+    public_display_status: approved
+    chart_type: bar
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: broadband-5g-coverage-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: broadband-4g-coverage-2025-published
+  system_id: broadband-connectivity
+  kpi_code: broadband-coverage-percent
+  measurement_scope:
+    scope_type: system
+    scope_id: broadband-4g
+    description: Reported broadband share attributed to 4G.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 51
+    unit: percent
+  baseline:
+    operator: not-specified
+    value: null
+    unit: percent
+  target:
+    operator: not-specified
+    value: null
+    unit: percent
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported network-generation share; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    network_generation: 4G
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; the network-generation denominator has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 2, section “4. Broadband Connectivity” — 4G 51%
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not define the broadband denominator
+    - measurement method
+    - or fact-level timestamp; shares are not independently audited.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: false
+    display_priority: 28
+    public_display_status: approved
+    chart_type: bar
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: broadband-4g-coverage-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: broadband-3g-coverage-2025-published
+  system_id: broadband-connectivity
+  kpi_code: broadband-coverage-percent
+  measurement_scope:
+    scope_type: system
+    scope_id: broadband-3g
+    description: Reported broadband share attributed to 3G.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 47
+    unit: percent
+  baseline:
+    operator: not-specified
+    value: null
+    unit: percent
+  target:
+    operator: not-specified
+    value: null
+    unit: percent
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported network-generation share; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    network_generation: 3G
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; the network-generation denominator has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 2, section “4. Broadband Connectivity” — 3G 47%
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not define the broadband denominator
+    - measurement method
+    - or fact-level timestamp; shares are not independently audited.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: false
+    display_priority: 29
+    public_display_status: approved
+    chart_type: bar
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: broadband-3g-coverage-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: oromia-data-center-storage-2025-published
+  system_id: oromia-regional-data-center
+  kpi_code: data-center-storage
+  measurement_scope:
+    scope_type: system
+    scope_id: oromia-regional-data-center
+    description: Storage capacity reported for the Oromia Regional State Data Center.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 900
+    unit: terabyte
+  baseline:
+    operator: not-specified
+    value: null
+    unit: terabyte
+  target:
+    operator: not-specified
+    value: null
+    unit: terabyte
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported storage capacity; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    infrastructure_role: regional data center
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; the capacity specification has not been independently
+      inspected.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 2, section “5. Oromia Regional State Data Center” — 900 TB storage
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The document identifies the underlying source as a video and supplies no fact-level
+      timestamp; storage type and usable-versus-raw capacity are not stated.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: true
+    display_priority: 30
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: oromia-data-center-storage-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: oromia-data-center-services-hosted-2025-published
+  system_id: oromia-regional-data-center
+  kpi_code: services-hosted
+  measurement_scope:
+    scope_type: system
+    scope_id: oromia-regional-data-center
+    description: Services reported as hosted by the Oromia Regional State Data Center.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 40
+    unit: service
+  baseline:
+    operator: not-specified
+    value: null
+    unit: service
+  target:
+    operator: not-specified
+    value: null
+    unit: service
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported hosted-service count; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    infrastructure_role: regional data center
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; the hosted-service inventory has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 2, section “5. Oromia Regional State Data Center” — hosts 40 services
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The document identifies the underlying source as a video and supplies no fact-level
+      timestamp; the service inventory and meaning of hosted are not stated.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: true
+    display_priority: 31
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: oromia-data-center-services-hosted-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: regional-document-digitization-documents-2025-published
+  system_id: regional-document-digitization
+  kpi_code: documents-digitized
+  measurement_scope:
+    scope_type: program
+    scope_id: oromia-regional-document-digitization
+    description: Regional document-digitization total reported in the PDF.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 22400600
+    unit: document
+  baseline:
+    operator: not-specified
+    value: null
+    unit: document
+  target:
+    operator: not-specified
+    value: null
+    unit: document
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported cumulative digitization total; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    digitization_stage: documents digitized
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; the document inventory and counting rule have not been
+      reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 3, section “8. Digitization / Records Conversion” — 22,400,600 documents
+      digitized
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The document identifies the underlying source as a video and supplies no fact-level
+      timestamp; the document inventory
+    - uniqueness rule
+    - and relationship to scanned or uploaded files are not stated.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: true
+    display_priority: 32
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: regional-document-digitization-documents-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: g2c-e-services-offered-2025-published
+  system_id: g2c-e-services
+  kpi_code: services-offered
+  measurement_scope:
+    scope_type: system
+    scope_id: g2c-e-services
+    description: Citizen-facing digital services reported across the G2C service layer.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 89
+    unit: service
+  baseline:
+    operator: not-specified
+    value: null
+    unit: service
+  target:
+    operator: not-specified
+    value: null
+    unit: service
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported service count across listed sectors; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    service_scope: G2C service layer
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; the service inventory has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 4, section “11. Government-to-Citizen (G2C) Service Layer” — 89
+      e-services
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not provide the underlying service inventory
+    - uniqueness rule
+    - or fact-level timestamp; the count is not independently audited.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: true
+    display_priority: 33
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: g2c-e-services-offered-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: rprs-total-tasks-2025-published
+  system_id: rprs
+  kpi_code: land-tasks
+  measurement_scope:
+    scope_type: system
+    scope_id: rprs
+    description: Total tasks reported by the Real Property Registration System.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 95123
+    unit: task
+  baseline:
+    operator: not-specified
+    value: null
+    unit: task
+  target:
+    operator: not-specified
+    value: null
+    unit: task
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported task total; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    land_metric: total tasks
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; task definition and period have not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 4, section “12. E-Land Administration” — RPRS total tasks 95,123
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not define a task
+    - period
+    - or deduplication rule and supplies no fact-level timestamp; the statistic is
+      not independently audited.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: true
+    display_priority: 34
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: rprs-total-tasks-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: rprs-certificates-issued-2025-published
+  system_id: rprs
+  kpi_code: land-certificates-issued
+  measurement_scope:
+    scope_type: system
+    scope_id: rprs
+    description: Property certificates reported as issued by the Real Property Registration
+      System.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 75788
+    unit: certificate
+  baseline:
+    operator: not-specified
+    value: null
+    unit: certificate
+  target:
+    operator: not-specified
+    value: null
+    unit: certificate
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported certificate total; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    land_metric: certificates issued
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; certificate definition and period have not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 4, section “12. E-Land Administration” — RPRS certificates issued
+      75,788
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not define the certificate population
+    - period
+    - or deduplication rule and supplies no fact-level timestamp; the statistic is
+      not independently audited.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: true
+    display_priority: 35
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: rprs-certificates-issued-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: rprs-parcels-migrated-2025-published
+  system_id: rprs
+  kpi_code: land-parcels-migrated
+  measurement_scope:
+    scope_type: system
+    scope_id: rprs
+    description: Parcels reported as migrated by the Real Property Registration System.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 80071
+    unit: parcel
+  baseline:
+    operator: not-specified
+    value: null
+    unit: parcel
+  target:
+    operator: not-specified
+    value: null
+    unit: parcel
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported migrated-parcel total; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    land_metric: parcels migrated
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; parcel definition and period have not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 4, section “12. E-Land Administration” — RPRS migrated parcels 80,071
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not define the parcel inventory
+    - migration rule
+    - period
+    - or deduplication rule and supplies no fact-level timestamp; the statistic is
+      not independently audited.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: true
+    display_priority: 36
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: rprs-parcels-migrated-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: e-health-services-offered-2025-published
+  system_id: e-health-services
+  kpi_code: services-offered
+  measurement_scope:
+    scope_type: system
+    scope_id: e-health-services
+    description: E-Health services reported in the PDF.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 5
+    unit: service
+  baseline:
+    operator: not-specified
+    value: null
+    unit: service
+  target:
+    operator: not-specified
+    value: null
+    unit: service
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported E-Health service count; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    service_scope: E-Health services
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; the service inventory has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 5, section “14. E-Health Services” — five services
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not identify the service inventory
+    - uniqueness rule
+    - or fact-level timestamp; the count is not independently audited.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: false
+    display_priority: 38
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: e-health-services-offered-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: e-education-services-offered-2025-published
+  system_id: e-education-services
+  kpi_code: services-offered
+  measurement_scope:
+    scope_type: system
+    scope_id: e-education-services
+    description: E-Education services explicitly listed in the PDF.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 3
+    unit: service
+  baseline:
+    operator: not-specified
+    value: null
+    unit: service
+  target:
+    operator: not-specified
+    value: null
+    unit: service
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Three core services are listed; digital-library resources are described
+      separately.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    service_scope: E-Education core services
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Count taken from the three services explicitly listed in the PDF
+      extraction; the complete service inventory has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 5, section “15. E-Education Services” — three core services
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF describes a digital library in addition to the three core services;
+      the complete inventory and fact-level timestamp are not supplied.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: false
+    display_priority: 39
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: e-education-services-offered-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: e-education-teachers-2025-published
+  system_id: e-education-services
+  kpi_code: education-teachers
+  measurement_scope:
+    scope_type: system
+    scope_id: e-education-services
+    description: Teachers reported in the E-Education dashboard.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 230531
+    unit: teacher
+  baseline:
+    operator: not-specified
+    value: null
+    unit: teacher
+  target:
+    operator: not-specified
+    value: null
+    unit: teacher
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported teacher count; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    education_metric: teachers
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; teacher-count semantics and period have not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 5, section “15. E-Education Services” — 230,531 teachers
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not state whether teachers are registered
+    - active
+    - or unique across institutions and supplies no fact-level timestamp.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: true
+    display_priority: 40
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: e-education-teachers-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: e-education-students-2025-published
+  system_id: e-education-services
+  kpi_code: education-students
+  measurement_scope:
+    scope_type: system
+    scope_id: e-education-services
+    description: Students reported in the E-Education dashboard.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 10390179
+    unit: student
+  baseline:
+    operator: not-specified
+    value: null
+    unit: student
+  target:
+    operator: not-specified
+    value: null
+    unit: student
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported student count; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    education_metric: students
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; student-count semantics and period have not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 5, section “15. E-Education Services” — 10,390,179 students
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not state whether students are enrolled
+    - active
+    - or unique across institutions and supplies no fact-level timestamp.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: true
+    display_priority: 41
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: e-education-students-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: e-education-schools-2025-published
+  system_id: e-education-services
+  kpi_code: education-schools
+  measurement_scope:
+    scope_type: system
+    scope_id: e-education-services
+    description: Schools reported in the E-Education dashboard.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 23339
+    unit: school
+  baseline:
+    operator: not-specified
+    value: null
+    unit: school
+  target:
+    operator: not-specified
+    value: null
+    unit: school
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported school count; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    education_metric: schools
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; school inventory and period have not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 5, section “15. E-Education Services” — 23,339 schools
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not define the school inventory or included school types and supplies
+      no fact-level timestamp.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: true
+    display_priority: 42
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: e-education-schools-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: dtrip-services-offered-2025-published
+  system_id: dtrip-admin
+  kpi_code: services-offered
+  measurement_scope:
+    scope_type: system
+    scope_id: dtrip-admin
+    description: E-Transport services listed in the PDF.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 4
+    unit: service
+  baseline:
+    operator: not-specified
+    value: null
+    unit: service
+  target:
+    operator: not-specified
+    value: null
+    unit: service
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Four E-Transport services are listed; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    service_scope: E-Transport services
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Count taken from the four services explicitly listed in the PDF extraction;
+      the complete service inventory has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 6, section “16. E-Transport” — four services
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not identify the complete service inventory
+    - uniqueness rule
+    - or fact-level timestamp; the count is not independently audited.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: false
+    display_priority: 43
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: dtrip-services-offered-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: dtrip-passengers-2025-published
+  system_id: dtrip-admin
+  kpi_code: transport-passengers
+  measurement_scope:
+    scope_type: system
+    scope_id: dtrip-admin
+    description: Passengers reported by the DTrip dashboard.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 35029
+    unit: passenger
+  baseline:
+    operator: not-specified
+    value: null
+    unit: passenger
+  target:
+    operator: not-specified
+    value: null
+    unit: passenger
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported passenger count; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    transport_metric: passengers
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; passenger-count semantics and period have not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 6, section “16. E-Transport” — DTrip 35,029 passengers
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not state whether this is a period total
+    - current count
+    - or unique passenger count and supplies no fact-level timestamp.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: true
+    display_priority: 44
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: dtrip-passengers-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: dtrip-routes-2025-published
+  system_id: dtrip-admin
+  kpi_code: transport-routes
+  measurement_scope:
+    scope_type: system
+    scope_id: dtrip-admin
+    description: Routes reported by the DTrip dashboard.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 478
+    unit: route
+  baseline:
+    operator: not-specified
+    value: null
+    unit: route
+  target:
+    operator: not-specified
+    value: null
+    unit: route
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported route inventory; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    transport_metric: routes
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; route inventory and period have not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 6, section “16. E-Transport” — DTrip 478 routes
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not define route identity or reporting period and supplies no fact-level
+      timestamp.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: true
+    display_priority: 45
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: dtrip-routes-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: dtrip-vehicles-2025-published
+  system_id: dtrip-admin
+  kpi_code: transport-vehicles
+  measurement_scope:
+    scope_type: system
+    scope_id: dtrip-admin
+    description: Vehicles reported by the DTrip dashboard.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 2461
+    unit: vehicle
+  baseline:
+    operator: not-specified
+    value: null
+    unit: vehicle
+  target:
+    operator: not-specified
+    value: null
+    unit: vehicle
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported vehicle inventory; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    transport_metric: vehicles
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; vehicle inventory and period have not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 6, section “16. E-Transport” — DTrip 2,461 vehicles
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not define vehicle identity or reporting period and supplies no
+      fact-level timestamp.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: true
+    display_priority: 46
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: dtrip-vehicles-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: dtrip-employees-2025-published
+  system_id: dtrip-admin
+  kpi_code: transport-employees
+  measurement_scope:
+    scope_type: system
+    scope_id: dtrip-admin
+    description: Employees reported by the DTrip dashboard.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 404
+    unit: employee
+  baseline:
+    operator: not-specified
+    value: null
+    unit: employee
+  target:
+    operator: not-specified
+    value: null
+    unit: employee
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Reported employee count; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    transport_metric: employees
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Value transcribed from the PDF extraction of the named Ethiopian
+      Tech Expo 2025 video; employee-count semantics and period have not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 6, section “16. E-Transport” — DTrip 404 employees
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not state whether employees are active
+    - registered
+    - or unique across operators and supplies no fact-level timestamp.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: true
+    display_priority: 47
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: dtrip-employees-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: e-vital-services-offered-2025-published
+  system_id: e-vital-event-registration
+  kpi_code: services-offered
+  measurement_scope:
+    scope_type: system
+    scope_id: e-vital-event-registration
+    description: E-Vital services listed in the PDF.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 10
+    unit: service
+  baseline:
+    operator: not-specified
+    value: null
+    unit: service
+  target:
+    operator: not-specified
+    value: null
+    unit: service
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Ten E-Vital services are listed; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    service_scope: E-Vital services
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Count taken from the ten services explicitly listed in the PDF extraction;
+      the complete service inventory has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 6, section “17. E-Vital Event Registration Services” — ten services
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not identify the complete service inventory
+    - uniqueness rule
+    - or fact-level timestamp; the count is not independently audited.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: false
+    display_priority: 48
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: e-vital-services-offered-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: trade-e-services-offered-2025-published
+  system_id: trade-e-services
+  kpi_code: services-offered
+  measurement_scope:
+    scope_type: system
+    scope_id: trade-e-services
+    description: Trade services listed in the PDF.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 8
+    unit: service
+  baseline:
+    operator: not-specified
+    value: null
+    unit: service
+  target:
+    operator: not-specified
+    value: null
+    unit: service
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Eight trade services are listed; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    service_scope: Trade E-Services
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Count taken from the eight services explicitly listed in the PDF
+      extraction; the complete service inventory has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 6, section “18. Trade E-Services” — eight services
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not identify the complete service inventory
+    - uniqueness rule
+    - or fact-level timestamp; the count is not independently audited.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: false
+    display_priority: 49
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: trade-e-services-offered-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: e-investment-services-offered-2025-published
+  system_id: e-investment-services
+  kpi_code: services-offered
+  measurement_scope:
+    scope_type: system
+    scope_id: e-investment-services
+    description: E-Investment services listed in the PDF.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 4
+    unit: service
+  baseline:
+    operator: not-specified
+    value: null
+    unit: service
+  target:
+    operator: not-specified
+    value: null
+    unit: service
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Four investment services are listed; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    service_scope: E-Investment
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Count taken from the four services explicitly listed in the PDF extraction;
+      the complete service inventory has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 7, section “19. E-Investment” — four services
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not identify the complete service inventory
+    - uniqueness rule
+    - or fact-level timestamp; the count is not independently audited.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: false
+    display_priority: 50
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: e-investment-services-offered-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: sigtax-services-offered-2025-published
+  system_id: sigtax
+  kpi_code: services-offered
+  measurement_scope:
+    scope_type: system
+    scope_id: sigtax
+    description: SIGTAX services listed in the PDF.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 11
+    unit: service
+  baseline:
+    operator: not-specified
+    value: null
+    unit: service
+  target:
+    operator: not-specified
+    value: null
+    unit: service
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Eleven SIGTAX services are listed; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    service_scope: SIGTAX revenue E-Services
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Count taken from the eleven services explicitly listed in the PDF
+      extraction; the complete service inventory has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 8, section “23. Revenue E-Services (SIGTAX)” — eleven services
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not identify the complete service inventory
+    - uniqueness rule
+    - or fact-level timestamp; the count is not independently audited.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: false
+    display_priority: 51
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: sigtax-services-offered-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: occms-services-offered-2025-published
+  system_id: occms
+  kpi_code: services-offered
+  measurement_scope:
+    scope_type: system
+    scope_id: occms
+    description: E-Court services listed in the PDF for OCCMS.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 9
+    unit: service
+  baseline:
+    operator: not-specified
+    value: null
+    unit: service
+  target:
+    operator: not-specified
+    value: null
+    unit: service
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Nine E-Court services are listed; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    service_scope: E-Court services
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Count taken from the nine services explicitly listed in the PDF extraction;
+      the complete service inventory has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 8, section “24. E-Court Services” — nine services
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not identify the complete service inventory
+    - uniqueness rule
+    - or fact-level timestamp; the count is not independently audited.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: false
+    display_priority: 52
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: occms-services-offered-2025
+- schema_version: 1.0.0
+  record_version: 1
+  id: prosecution-services-offered-2025-published
+  system_id: prosecution-e-services
+  kpi_code: services-offered
+  measurement_scope:
+    scope_type: system
+    scope_id: prosecution-e-services
+    description: Prosecution E-Services listed in the PDF.
+  achievement_type: actual
+  actual:
+    operator: equal
+    value: 9
+    unit: service
+  baseline:
+    operator: not-specified
+    value: null
+    unit: service
+  target:
+    operator: not-specified
+    value: null
+    unit: service
+  achievement:
+    status: reported
+    value: null
+    unit: null
+    description: Nine prosecution services are listed; no target is supplied.
+  reporting_period:
+    type: year
+    start_date: null
+    end_date: null
+    reporting_date_text: Ethiopian Tech Expo (ETEX) 2025
+    calendar_type: gregorian
+  dimensions:
+    service_scope: Prosecution E-Services
+    geography_level: regional
+    geography_name: Oromia
+  measurement_method:
+    method: source-document-claim
+    description: Count taken from the nine services explicitly listed in the PDF extraction;
+      the complete service inventory has not been reviewed.
+    data_owner: not-specified
+    update_frequency: unknown
+  display_value: null
+  source_refs:
+  - source_id: oromia-digital-transformation-chatbot-extraction-v2
+    label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+    path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+    locator: Page 8, section “25. Prosecution E-Services” — nine services
+    verification_status: verified
+    public_display_approved: true
+  data_quality:
+    completeness: partial
+    accuracy_status: verified
+    duplicate_risk: needs-review
+    limitations:
+    - The PDF does not identify the complete service inventory
+    - uniqueness rule
+    - or fact-level timestamp; the count is not independently audited.
+    - Publication accepts the PDF claim for this source snapshot; the underlying video
+      has no fact-level timestamp and currentness is not independently audited.
+  exhibition:
+    headline: false
+    display_priority: 53
+    public_display_status: approved
+    chart_type: single-value
+    show_reporting_date: true
+    show_source_label: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+  publication_status: published
+  verification_status: verified
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  supersedes_observation_id: prosecution-services-offered-2025

@@ -1,98 +1,333 @@
 records:
-  - schema_version: 1.0.0
-    record_version: 1
-    id: woredanet-vpn-kpi-faq
-    system_id: woredanet-vpn
-    question: What WoredaNet connectivity figures are recorded?
-    answer: The extraction records {{kpi:woredanet-vpn-regional-lines-2025}} for regional VPN lines, {{kpi:woredanet-vpn-zone-city-lines-2025}} for zone-and-city lines, and {{kpi:woredanet-vpn-woreda-kebele-lines-2025}} for woreda-and-kebele lines. Technology counts are separate candidate scopes and require source-owner verification.
-    kpi_observation_refs: [woredanet-vpn-regional-lines-2025, woredanet-vpn-zone-city-lines-2025, woredanet-vpn-woreda-kebele-lines-2025]
-    translations: {}
-    publication_status: draft
-    data_classification: internal
-    contains_personal_data: false
-    public_display_approved: false
-    workflow: {state: needs-review, prepared_by_role: content-author, reviewed_by_role: null, created_at: '2026-09-04', updated_at: '2026-09-04', notes: Candidate FAQ; publish only after network scope and timestamp are verified.}
-
-  - schema_version: 1.0.0
-    record_version: 1
-    id: data-center-kpi-faq
-    system_id: oromia-regional-data-center
-    question: What data-center work is recorded?
-    answer: The extraction records {{kpi:oromia-data-center-storage-2025}} of reported storage capacity and {{kpi:oromia-data-center-services-hosted-2025}} hosted services. Both are candidate claims from a video extraction and require technical and source-owner verification.
-    kpi_observation_refs: [oromia-data-center-storage-2025, oromia-data-center-services-hosted-2025]
-    translations: {}
-    publication_status: draft
-    data_classification: internal
-    contains_personal_data: false
-    public_display_approved: false
-    workflow: {state: needs-review, prepared_by_role: content-author, reviewed_by_role: null, created_at: '2026-09-04', updated_at: '2026-09-04', notes: Candidate FAQ; verify storage definition and hosted-service inventory before publication.}
-
-  - schema_version: 1.0.0
-    record_version: 1
-    id: regional-documents-kpi-faq
-    system_id: regional-document-digitization
-    question: What records-conversion work is recorded?
-    answer: The extraction records {{kpi:regional-document-digitization-documents-2025}} as the reported regional document-digitization total. The counting rule, document inventory, and reporting timestamp still require verification.
-    kpi_observation_refs: [regional-document-digitization-documents-2025]
-    translations: {}
-    publication_status: draft
-    data_classification: internal
-    contains_personal_data: false
-    public_display_approved: false
-    workflow: {state: needs-review, prepared_by_role: content-author, reviewed_by_role: null, created_at: '2026-09-04', updated_at: '2026-09-04', notes: Candidate FAQ; verify document uniqueness and scope before publication.}
-
-  - schema_version: 1.0.0
-    record_version: 1
-    id: rprs-kpi-faq
-    system_id: rprs
-    question: Which RPRS work figures are recorded?
-    answer: The extraction records {{kpi:rprs-total-tasks-2025}}, {{kpi:rprs-certificates-issued-2025}}, and {{kpi:rprs-parcels-migrated-2025}}. The source does not define the task, certificate, parcel, or reporting-period rules, so these remain candidate claims.
-    kpi_observation_refs: [rprs-total-tasks-2025, rprs-certificates-issued-2025, rprs-parcels-migrated-2025]
-    translations: {}
-    publication_status: draft
-    data_classification: internal
-    contains_personal_data: false
-    public_display_approved: false
-    workflow: {state: needs-review, prepared_by_role: content-author, reviewed_by_role: null, created_at: '2026-09-04', updated_at: '2026-09-04', notes: Candidate FAQ; verify RPRS metric definitions, scope, and timestamp before publication.}
-
-  - schema_version: 1.0.0
-    record_version: 1
-    id: e-education-kpi-faq
-    system_id: e-education-services
-    question: What education dashboard figures are recorded?
-    answer: The extraction records {{kpi:e-education-teachers-2025}}, {{kpi:e-education-students-2025}}, and {{kpi:e-education-schools-2025}}. The source does not define whether these are registered, active, or unique populations, so they remain candidate claims.
-    kpi_observation_refs: [e-education-teachers-2025, e-education-students-2025, e-education-schools-2025]
-    translations: {}
-    publication_status: draft
-    data_classification: internal
-    contains_personal_data: false
-    public_display_approved: false
-    workflow: {state: needs-review, prepared_by_role: content-author, reviewed_by_role: null, created_at: '2026-09-04', updated_at: '2026-09-04', notes: Candidate FAQ; verify dashboard definitions and reporting period before publication.}
-
-  - schema_version: 1.0.0
-    record_version: 1
-    id: dtrip-kpi-faq
-    system_id: dtrip-admin
-    question: What DTrip transport figures are recorded?
-    answer: The extraction records {{kpi:dtrip-passengers-2025}}, {{kpi:dtrip-routes-2025}}, {{kpi:dtrip-vehicles-2025}}, and {{kpi:dtrip-employees-2025}}. The source does not state the period or counting rule for these dashboard figures.
-    kpi_observation_refs: [dtrip-passengers-2025, dtrip-routes-2025, dtrip-vehicles-2025, dtrip-employees-2025]
-    translations: {}
-    publication_status: draft
-    data_classification: internal
-    contains_personal_data: false
-    public_display_approved: false
-    workflow: {state: needs-review, prepared_by_role: content-author, reviewed_by_role: null, created_at: '2026-09-04', updated_at: '2026-09-04', notes: Candidate FAQ; verify DTrip metric definitions and reporting period before publication.}
-
-  - schema_version: 1.0.0
-    record_version: 1
-    id: g2c-services-kpi-faq
-    system_id: g2c-e-services
-    question: How many citizen-facing services are recorded?
-    answer: The extraction records {{kpi:g2c-e-services-offered-2025}} across the G2C service layer. The underlying service inventory and reporting period require source-owner verification before publication.
-    kpi_observation_refs: [g2c-e-services-offered-2025]
-    translations: {}
-    publication_status: draft
-    data_classification: internal
-    contains_personal_data: false
-    public_display_approved: false
-    workflow: {state: needs-review, prepared_by_role: content-author, reviewed_by_role: null, created_at: '2026-09-04', updated_at: '2026-09-04', notes: Candidate FAQ; verify service inventory and reporting period before publication.}
+- schema_version: 1.0.0
+  record_version: 1
+  id: woredanet-vpn-kpi-faq
+  system_id: woredanet-vpn
+  question: What WoredaNet connectivity figures are recorded?
+  answer: The extraction records {{kpi:woredanet-vpn-regional-lines-2025-published}}
+    for regional VPN lines, {{kpi:woredanet-vpn-zone-city-lines-2025-published}} for
+    zone-and-city lines, and {{kpi:woredanet-vpn-woreda-kebele-lines-2025-published}}
+    for woreda-and-kebele lines. Technology counts are separate candidate scopes and
+    require source-owner verification.
+  kpi_observation_refs:
+  - woredanet-vpn-regional-lines-2025-published
+  - woredanet-vpn-zone-city-lines-2025-published
+  - woredanet-vpn-woreda-kebele-lines-2025-published
+  translations:
+    om:
+      question: Lakkoofsotni walqunnamtii WoredaNet maal galmaa’aniiru?
+      answer: Qorannoon kun sararoota VPN naannoo 61, sararoota godinaa fi magaalaa
+        879, akkasumas sararoota aanaa fi ganda 1,856 akka gabaafaman galmeessa. Lakkoofsotni
+        teeknooloojii adda addaa himannaa qofa waan ta’aniif mirkaneessa abbaa ragaa
+        barbaadu.
+      approval:
+        status: approved
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        reviewed_at: '2026-09-04'
+    am:
+      question: የWoredaNet ግንኙነት ምን ዓይነት አኃዞችን ይይዛል?
+      answer: ማጠቃለያው 61 የክልል ቪፒኤን መስመሮች፣ 879 የዞንና የከተማ መስመሮች እና 1,856 የወረዳና የቀበሌ መስመሮች
+        እንደተመዘገቡ ይገልጻል። የቴክኖሎጂ አኃዞቹ የማጠቃለያ ጥያቄዎች ስለሆኑ ከምንጩ ባለቤት መረጋገጥ አለባቸው።
+      approval:
+        status: approved
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        reviewed_at: '2026-09-04'
+  publication_status: published
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+- schema_version: 1.0.0
+  record_version: 1
+  id: data-center-kpi-faq
+  system_id: oromia-regional-data-center
+  question: What data-center work is recorded?
+  answer: The extraction records {{kpi:oromia-data-center-storage-2025-published}}
+    of reported storage capacity and {{kpi:oromia-data-center-services-hosted-2025-published}}
+    hosted services. Both are candidate claims from a video extraction and require
+    technical and source-owner verification.
+  kpi_observation_refs:
+  - oromia-data-center-storage-2025-published
+  - oromia-data-center-services-hosted-2025-published
+  translations:
+    om:
+      question: Hojiiwwan wiirtuu deetaa irratti galmaa’an maali?
+      answer: Qorannoon kun kuufama deetaa gabaafame {{kpi:oromia-data-center-storage-2025-published}}
+        fi tajaajiloota keessummeeffaman {{kpi:oromia-data-center-services-hosted-2025-published}}
+        galmeessa. Himannoowwan lamaan kunneen qorannoo viidiyoo irraa waan dhufaniif
+        mirkaneessa teeknikaa fi abbaa ragaa barbaadu.
+      approval:
+        status: approved
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        reviewed_at: '2026-09-04'
+    am:
+      question: ምን ዓይነት የመረጃ ማዕከል ሥራ ተመዝግቧል?
+      answer: ማጠቃለያው {{kpi:oromia-data-center-storage-2025-published}} የተመዘገበ የማከማቻ
+        አቅም እና {{kpi:oromia-data-center-services-hosted-2025-published}} የተስተናገዱ አገልግሎቶች
+        እንዳሉ ይገልጻል። ሁለቱም ከቪዲዮ ማጠቃለያ የተገኙ የምንጭ ጥያቄዎች ስለሆኑ ቴክኒካዊና የምንጭ ባለቤት ማረጋገጫ ያስፈልጋቸዋል።
+      approval:
+        status: approved
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        reviewed_at: '2026-09-04'
+  publication_status: published
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+- schema_version: 1.0.0
+  record_version: 1
+  id: regional-documents-kpi-faq
+  system_id: regional-document-digitization
+  question: What records-conversion work is recorded?
+  answer: The extraction records {{kpi:regional-document-digitization-documents-2025-published}}
+    as the reported regional document-digitization total. The counting rule, document
+    inventory, and reporting timestamp still require verification.
+  kpi_observation_refs:
+  - regional-document-digitization-documents-2025-published
+  translations:
+    om:
+      question: Hojii jijjiirraa galmeewwanii irratti galmeen maal jedhu?
+      answer: Qorannoon kun waliigala dijitaaleessuu sanadootaa naannoo {{kpi:regional-document-digitization-documents-2025-published}}
+        akka ta’e galmeessa. Seerri lakkaa’umsaa, kuusaan sanadootaa fi daangaan isaa
+        ammallee mirkanaa’uu qabu.
+      approval:
+        status: approved
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        reviewed_at: '2026-09-04'
+    am:
+      question: የክልሉ ሰነዶች ለውጥ ምን ውጤት እንዳለው ተመዝግቧል?
+      answer: ማጠቃለያው የክልሉ የሰነድ ዲጂታላይዜሽን ጠቅላላ መጠን {{kpi:regional-document-digitization-documents-2025-published}}
+        መሆኑን ይገልጻል። የቆጠራ መስፈርቱ፣ የሰነድ ማህደሩ እና ሽፋኑ አሁንም መረጋገጥ አለባቸው።
+      approval:
+        status: approved
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        reviewed_at: '2026-09-04'
+  publication_status: published
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+- schema_version: 1.0.0
+  record_version: 1
+  id: rprs-kpi-faq
+  system_id: rprs
+  question: Which RPRS work figures are recorded?
+  answer: The extraction records {{kpi:rprs-total-tasks-2025-published}}, {{kpi:rprs-certificates-issued-2025-published}},
+    and {{kpi:rprs-parcels-migrated-2025-published}}. The source does not define the
+    task, certificate, parcel, or reporting-period rules, so these remain candidate
+    claims.
+  kpi_observation_refs:
+  - rprs-total-tasks-2025-published
+  - rprs-certificates-issued-2025-published
+  - rprs-parcels-migrated-2025-published
+  translations:
+    om:
+      question: Lakkoofsotni hojii RPRS kam galmaa’aniiru?
+      answer: Qorannoon kun {{kpi:rprs-total-tasks-2025-published}}, {{kpi:rprs-certificates-issued-2025-published}}
+        fi {{kpi:rprs-parcels-migrated-2025-published}} akka galmaa’an ibsa. Maddaichi
+        hiika hojii, ragaa, paarselii yookaan yeroo gabaasaa hin ibsine; kanaaf himannoowwan
+        kun qoratamuu qabu.
+      approval:
+        status: approved
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        reviewed_at: '2026-09-04'
+    am:
+      question: የትኞቹ የRPRS ሥራ አኃዞች ተመዝግበዋል?
+      answer: ማጠቃለያው {{kpi:rprs-total-tasks-2025-published}}፣ {{kpi:rprs-certificates-issued-2025-published}}
+        እና {{kpi:rprs-parcels-migrated-2025-published}} እንደተመዘገቡ ይገልጻል። ምንጩ የሥራ፣ የምስክር
+        ወረቀት፣ የፓርሴል ወይም የሪፖርት ጊዜ ትርጉም ስላልገለጸ እነዚህ እንደ ጥያቄ የሚፈልጉ አኃዞች ናቸው።
+      approval:
+        status: approved
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        reviewed_at: '2026-09-04'
+  publication_status: published
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+- schema_version: 1.0.0
+  record_version: 1
+  id: e-education-kpi-faq
+  system_id: e-education-services
+  question: What education dashboard figures are recorded?
+  answer: The extraction records {{kpi:e-education-teachers-2025-published}}, {{kpi:e-education-students-2025-published}},
+    and {{kpi:e-education-schools-2025-published}}. The source does not define whether
+    these are registered, active, or unique populations, so they remain candidate
+    claims.
+  kpi_observation_refs:
+  - e-education-teachers-2025-published
+  - e-education-students-2025-published
+  - e-education-schools-2025-published
+  translations:
+    om:
+      question: Lakkoofsotni daashboordii barnootaa kam galmaa’aniiru?
+      answer: Qorannoon kun {{kpi:e-education-teachers-2025-published}}, {{kpi:e-education-students-2025-published}}
+        fi {{kpi:e-education-schools-2025-published}} akka galmaa’an ibsa. Maddaichi
+        uummata galmaa’e, socho’aa yookaan addaa ta’e jechuun hin ibsine; kanaaf himannoowwan
+        kun qoratamuu qabu.
+      approval:
+        status: approved
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        reviewed_at: '2026-09-04'
+    am:
+      question: የትምህርት ዳሽቦርድ ምን ዓይነት አኃዞችን ይይዛል?
+      answer: ማጠቃለያው {{kpi:e-education-teachers-2025-published}}፣ {{kpi:e-education-students-2025-published}}
+        እና {{kpi:e-education-schools-2025-published}} እንደተመዘገቡ ይገልጻል። ምንጩ እነዚህ የተመዘገቡ፣
+        ንቁ ወይም በተቋማት መካከል የማይደጋገሙ ሕዝቦች መሆናቸውን አልገለጸም።
+      approval:
+        status: approved
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        reviewed_at: '2026-09-04'
+  publication_status: published
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+- schema_version: 1.0.0
+  record_version: 1
+  id: dtrip-kpi-faq
+  system_id: dtrip-admin
+  question: What DTrip transport figures are recorded?
+  answer: The extraction records {{kpi:dtrip-passengers-2025-published}}, {{kpi:dtrip-routes-2025-published}},
+    {{kpi:dtrip-vehicles-2025-published}}, and {{kpi:dtrip-employees-2025-published}}.
+    The source does not state the period or counting rule for these dashboard figures.
+  kpi_observation_refs:
+  - dtrip-passengers-2025-published
+  - dtrip-routes-2025-published
+  - dtrip-vehicles-2025-published
+  - dtrip-employees-2025-published
+  translations:
+    om:
+      question: Lakkoofsotni geejjiba DTrip kam galmaa’aniiru?
+      answer: Qorannoon kun {{kpi:dtrip-passengers-2025-published}}, {{kpi:dtrip-routes-2025-published}},
+        {{kpi:dtrip-vehicles-2025-published}} fi {{kpi:dtrip-employees-2025-published}}
+        akka galmaa’an ibsa. Maddaichi yeroo yookaan seera lakkaa’umsaa lakkoofsota
+        daashboordii kanaa hin ibsine.
+      approval:
+        status: approved
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        reviewed_at: '2026-09-04'
+    am:
+      question: የDTrip የመጓጓዣ አኃዞች ምን ምን ናቸው?
+      answer: ማጠቃለያው {{kpi:dtrip-passengers-2025-published}}፣ {{kpi:dtrip-routes-2025-published}}፣
+        {{kpi:dtrip-vehicles-2025-published}} እና {{kpi:dtrip-employees-2025-published}}
+        እንደተመዘገቡ ይገልጻል። ምንጩ የእነዚህን የዳሽቦርድ አኃዞች ጊዜ ወይም የቆጠራ መስፈርት አልገለጸም።
+      approval:
+        status: approved
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        reviewed_at: '2026-09-04'
+  publication_status: published
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.
+- schema_version: 1.0.0
+  record_version: 1
+  id: g2c-services-kpi-faq
+  system_id: g2c-e-services
+  question: How many citizen-facing services are recorded?
+  answer: The extraction records {{kpi:g2c-e-services-offered-2025-published}} across
+    the G2C service layer. The underlying service inventory and reporting period require
+    source-owner verification before publication.
+  kpi_observation_refs:
+  - g2c-e-services-offered-2025-published
+  translations:
+    om:
+      question: Tajaajiloota lammilee ilaallatan meeqa galmaa’aniiru?
+      answer: Qorannoon kun sadarkaa tajaajila G2C keessatti {{kpi:g2c-e-services-offered-2025-published}}
+        akka galmaa’e ibsa. Kuusaan tajaajilootaa fi yeroo gabaasaa isaa maxxansa
+        dura abbaa ragaa irraa mirkanaa’uu qaba.
+      approval:
+        status: approved
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        reviewed_at: '2026-09-04'
+    am:
+      question: ስንት የዜጎች አገልግሎቶች ተመዝግበዋል?
+      answer: ማጠቃለያው በG2C የአገልግሎት ንብርብር {{kpi:g2c-e-services-offered-2025-published}}
+        እንደተመዘገበ ይገልጻል። የአገልግሎት ዝርዝሩና የሪፖርት ጊዜው ከመታተሙ በፊት ከምንጩ ባለቤት መረጋገጥ አለበት።
+      approval:
+        status: approved
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        reviewed_at: '2026-09-04'
+  publication_status: published
+  data_classification: public
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: approved
+    prepared_by_role: content-author
+    reviewed_by_role: user-requested-publisher
+    created_at: '2026-09-04'
+    updated_at: '2026-09-04'
+    notes: Published from the ETEX 2025 PDF per explicit user instruction; source-snapshot
+      limitations remain recorded.

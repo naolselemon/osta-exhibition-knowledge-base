@@ -1,255 +1,730 @@
 records:
-  - schema_version: 1.0.0
-    record_version: 1
-    kpi_code: network-links
-    name: Network links
-    description: Connectivity links or VPN lines reported for a declared administrative layer or transmission technology.
-    kpi_category: coverage
-    applicable_system_types: [platform, integrated-system, other]
-    measurement_type: cumulative
-    value_type: integer
-    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
-    allowed_units: [link]
-    direction_of_improvement: increase
-    aggregation: {method: not-aggregatable, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Administrative-layer and technology counts are separate scopes and must not be added without an explicit non-overlap rule.}
-    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [year, unknown]}
-    display: {label: Network links, short_label: Network links, format: integer, decimal_places: 0, unit_label: links, allowed_chart_types: [single-value, bar, table]}
-    status: draft
-
-  - schema_version: 1.0.0
-    record_version: 1
-    kpi_code: broadband-coverage-percent
-    name: Broadband coverage by network generation
-    description: Reported share of broadband connectivity attributed to a named mobile-network generation.
-    kpi_category: coverage
-    applicable_system_types: [platform, other]
-    measurement_type: percentage
-    value_type: number
-    allowed_operators: [equal, approximate, range, not-specified]
-    allowed_units: [percent]
-    direction_of_improvement: contextual
-    aggregation: {method: not-aggregatable, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Network-generation shares are reported as a source-defined composition and require denominator verification.}
-    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [year, unknown]}
-    display: {label: Broadband coverage by network generation, short_label: Broadband share, format: percent, decimal_places: 2, unit_label: '%', allowed_chart_types: [bar, table]}
-    status: draft
-
-  - schema_version: 1.0.0
-    record_version: 1
-    kpi_code: data-center-storage
-    name: Data-center storage capacity
-    description: Storage capacity reported for a named data-center deployment.
-    kpi_category: coverage
-    applicable_system_types: [platform, other]
-    measurement_type: point-in-time
-    value_type: number
-    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
-    allowed_units: [terabyte]
-    direction_of_improvement: contextual
-    aggregation: {method: latest, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Capacity values are system-level snapshots and must not be added across overlapping infrastructure descriptions.}
-    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, unknown]}
-    display: {label: Data-center storage capacity, short_label: Storage, format: decimal, decimal_places: 2, unit_label: TB, allowed_chart_types: [single-value, bar, table]}
-    status: draft
-
-  - schema_version: 1.0.0
-    record_version: 1
-    kpi_code: services-hosted
-    name: Services hosted
-    description: Digital services reported as hosted by a named infrastructure platform.
-    kpi_category: service-delivery
-    applicable_system_types: [platform, integrated-system, other]
-    measurement_type: point-in-time
-    value_type: integer
-    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
-    allowed_units: [service]
-    direction_of_improvement: increase
-    aggregation: {method: latest, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Hosted-service counts describe infrastructure responsibility and are not the same as citizen-facing services offered.}
-    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, unknown]}
-    display: {label: Services hosted, short_label: Hosted services, format: integer, decimal_places: 0, unit_label: services, allowed_chart_types: [single-value, bar, table]}
-    status: draft
-
-  - schema_version: 1.0.0
-    record_version: 1
-    kpi_code: documents-digitized
-    name: Documents digitized
-    description: Documents converted from paper to digital form under a declared regional digitization scope.
-    kpi_category: digitization-output
-    applicable_system_types: [document-management-system, information-system, platform]
-    measurement_type: cumulative
-    value_type: integer
-    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
-    allowed_units: [document]
-    direction_of_improvement: increase
-    aggregation: {method: not-aggregatable, deduplication_key: null, selection_rule: latest-per-system-scope, notes: The source does not identify the document inventory or prevent overlap with scanned, captured, indexed, and uploaded counts.}
-    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [year, unknown]}
-    display: {label: Documents digitized, short_label: Digitized documents, format: integer, decimal_places: 0, unit_label: documents, allowed_chart_types: [single-value, bar, table]}
-    status: draft
-
-  - schema_version: 1.0.0
-    record_version: 1
-    kpi_code: land-tasks
-    name: Land-system tasks
-    description: Tasks reported by the real-property registration workflow within the declared scope.
-    kpi_category: usage
-    applicable_system_types: [information-system, platform]
-    measurement_type: cumulative
-    value_type: integer
-    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
-    allowed_units: [task]
-    direction_of_improvement: increase
-    aggregation: {method: latest, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Task counters are retained as system-level values until the workflow and period are verified.}
-    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, unknown]}
-    display: {label: Land-system tasks, short_label: Tasks, format: integer, decimal_places: 0, unit_label: tasks, allowed_chart_types: [single-value, bar, table]}
-    status: draft
-
-  - schema_version: 1.0.0
-    record_version: 1
-    kpi_code: land-certificates-issued
-    name: Land certificates issued
-    description: Property certificates reported as issued by the real-property registration workflow.
-    kpi_category: service-delivery
-    applicable_system_types: [information-system, platform]
-    measurement_type: cumulative
-    value_type: integer
-    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
-    allowed_units: [certificate]
-    direction_of_improvement: increase
-    aggregation: {method: latest, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Certificate counts are retained as a system-level value until the certificate population and period are verified.}
-    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: true, source_verification_required: true, allowed_period_types: [as-of-date, year, unknown]}
-    display: {label: Land certificates issued, short_label: Certificates, format: integer, decimal_places: 0, unit_label: certificates, allowed_chart_types: [single-value, bar, table]}
-    status: draft
-
-  - schema_version: 1.0.0
-    record_version: 1
-    kpi_code: land-parcels-migrated
-    name: Land parcels migrated
-    description: Parcels reported as migrated into the real-property registration system.
-    kpi_category: digitization-output
-    applicable_system_types: [information-system, platform]
-    measurement_type: cumulative
-    value_type: integer
-    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
-    allowed_units: [parcel]
-    direction_of_improvement: increase
-    aggregation: {method: latest, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Parcel migration counts are retained as a system-level value until source scope and deduplication are verified.}
-    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: true, source_verification_required: true, allowed_period_types: [as-of-date, year, unknown]}
-    display: {label: Land parcels migrated, short_label: Migrated parcels, format: integer, decimal_places: 0, unit_label: parcels, allowed_chart_types: [single-value, bar, table]}
-    status: draft
-
-  - schema_version: 1.0.0
-    record_version: 1
-    kpi_code: education-teachers
-    name: Teachers in education system
-    description: Teachers reported in the education-system dashboard scope.
-    kpi_category: coverage
-    applicable_system_types: [platform, information-system]
-    measurement_type: point-in-time
-    value_type: integer
-    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
-    allowed_units: [teacher]
-    direction_of_improvement: contextual
-    aggregation: {method: latest, deduplication_key: null, selection_rule: latest-per-system-scope, notes: The source does not define whether the teacher count is registered, active, or unique across institutions.}
-    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, unknown]}
-    display: {label: Teachers in education system, short_label: Teachers, format: integer, decimal_places: 0, unit_label: teachers, allowed_chart_types: [single-value, bar, table]}
-    status: draft
-
-  - schema_version: 1.0.0
-    record_version: 1
-    kpi_code: education-students
-    name: Students in education system
-    description: Students reported in the education-system dashboard scope.
-    kpi_category: coverage
-    applicable_system_types: [platform, information-system]
-    measurement_type: point-in-time
-    value_type: integer
-    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
-    allowed_units: [student]
-    direction_of_improvement: contextual
-    aggregation: {method: latest, deduplication_key: null, selection_rule: latest-per-system-scope, notes: The source does not define whether the student count is enrolled, active, or unique across institutions.}
-    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, unknown]}
-    display: {label: Students in education system, short_label: Students, format: integer, decimal_places: 0, unit_label: students, allowed_chart_types: [single-value, bar, table]}
-    status: draft
-
-  - schema_version: 1.0.0
-    record_version: 1
-    kpi_code: education-schools
-    name: Schools in education system
-    description: Schools reported in the education-system dashboard scope.
-    kpi_category: coverage
-    applicable_system_types: [platform, information-system]
-    measurement_type: point-in-time
-    value_type: integer
-    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
-    allowed_units: [school]
-    direction_of_improvement: contextual
-    aggregation: {method: latest, deduplication_key: null, selection_rule: latest-per-system-scope, notes: The source does not define the school inventory or whether all school types are included.}
-    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, unknown]}
-    display: {label: Schools in education system, short_label: Schools, format: integer, decimal_places: 0, unit_label: schools, allowed_chart_types: [single-value, bar, table]}
-    status: draft
-
-  - schema_version: 1.0.0
-    record_version: 1
-    kpi_code: transport-passengers
-    name: Transport passengers
-    description: Passengers reported by the DTrip transport dashboard scope.
-    kpi_category: usage
-    applicable_system_types: [information-system, platform]
-    measurement_type: cumulative
-    value_type: integer
-    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
-    allowed_units: [passenger]
-    direction_of_improvement: contextual
-    aggregation: {method: latest, deduplication_key: null, selection_rule: latest-per-system-scope, notes: The source does not state whether this is a period total, current count, or unique passenger count.}
-    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, unknown]}
-    display: {label: Transport passengers, short_label: Passengers, format: integer, decimal_places: 0, unit_label: passengers, allowed_chart_types: [single-value, bar, table]}
-    status: draft
-
-  - schema_version: 1.0.0
-    record_version: 1
-    kpi_code: transport-routes
-    name: Transport routes
-    description: Routes reported by the DTrip transport dashboard scope.
-    kpi_category: coverage
-    applicable_system_types: [information-system, platform]
-    measurement_type: point-in-time
-    value_type: integer
-    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
-    allowed_units: [route]
-    direction_of_improvement: contextual
-    aggregation: {method: latest, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Route inventory is retained as a system-level snapshot until route identity and reporting period are verified.}
-    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, unknown]}
-    display: {label: Transport routes, short_label: Routes, format: integer, decimal_places: 0, unit_label: routes, allowed_chart_types: [single-value, bar, table]}
-    status: draft
-
-  - schema_version: 1.0.0
-    record_version: 1
-    kpi_code: transport-vehicles
-    name: Transport vehicles
-    description: Vehicles reported by the DTrip transport dashboard scope.
-    kpi_category: coverage
-    applicable_system_types: [information-system, platform]
-    measurement_type: point-in-time
-    value_type: integer
-    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
-    allowed_units: [vehicle]
-    direction_of_improvement: contextual
-    aggregation: {method: latest, deduplication_key: null, selection_rule: latest-per-system-scope, notes: Vehicle inventory is retained as a system-level snapshot until vehicle identity and reporting period are verified.}
-    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, unknown]}
-    display: {label: Transport vehicles, short_label: Vehicles, format: integer, decimal_places: 0, unit_label: vehicles, allowed_chart_types: [single-value, bar, table]}
-    status: draft
-
-  - schema_version: 1.0.0
-    record_version: 1
-    kpi_code: transport-employees
-    name: Transport employees
-    description: Employees reported by the DTrip transport dashboard scope.
-    kpi_category: coverage
-    applicable_system_types: [information-system, platform]
-    measurement_type: point-in-time
-    value_type: integer
-    allowed_operators: [equal, greater-than, greater-than-or-equal, approximate, range, not-specified]
-    allowed_units: [employee]
-    direction_of_improvement: contextual
-    aggregation: {method: latest, deduplication_key: null, selection_rule: latest-per-system-scope, notes: The source does not define whether the employee count is active, registered, or unique across operators.}
-    reporting_requirements: {reporting_period_required: true, activity_window_required: false, monitoring_period_required: false, statistic_required: false, source_verification_required: true, allowed_period_types: [as-of-date, year, unknown]}
-    display: {label: Transport employees, short_label: Employees, format: integer, decimal_places: 0, unit_label: employees, allowed_chart_types: [single-value, bar, table]}
-    status: draft
+- schema_version: 1.0.0
+  record_version: 1
+  kpi_code: network-links
+  name: Network links
+  description: Connectivity links or VPN lines reported for a declared administrative
+    layer or transmission technology.
+  kpi_category: coverage
+  applicable_system_types:
+  - platform
+  - integrated-system
+  - other
+  measurement_type: cumulative
+  value_type: integer
+  allowed_operators:
+  - equal
+  - greater-than
+  - greater-than-or-equal
+  - approximate
+  - range
+  - not-specified
+  allowed_units:
+  - link
+  direction_of_improvement: increase
+  aggregation:
+    method: not-aggregatable
+    deduplication_key: null
+    selection_rule: latest-per-system-scope
+    notes: Administrative-layer and technology counts are separate scopes and must
+      not be added without an explicit non-overlap rule.
+  reporting_requirements:
+    reporting_period_required: true
+    activity_window_required: false
+    monitoring_period_required: false
+    statistic_required: false
+    source_verification_required: true
+    allowed_period_types:
+    - year
+    - unknown
+  display:
+    label: Network links
+    short_label: Network links
+    format: integer
+    decimal_places: 0
+    unit_label: links
+    allowed_chart_types:
+    - single-value
+    - bar
+    - table
+  status: active
+- schema_version: 1.0.0
+  record_version: 1
+  kpi_code: broadband-coverage-percent
+  name: Broadband coverage by network generation
+  description: Reported share of broadband connectivity attributed to a named mobile-network
+    generation.
+  kpi_category: coverage
+  applicable_system_types:
+  - platform
+  - other
+  measurement_type: percentage
+  value_type: number
+  allowed_operators:
+  - equal
+  - approximate
+  - range
+  - not-specified
+  allowed_units:
+  - percent
+  direction_of_improvement: contextual
+  aggregation:
+    method: not-aggregatable
+    deduplication_key: null
+    selection_rule: latest-per-system-scope
+    notes: Network-generation shares are reported as a source-defined composition
+      and require denominator verification.
+  reporting_requirements:
+    reporting_period_required: true
+    activity_window_required: false
+    monitoring_period_required: false
+    statistic_required: false
+    source_verification_required: true
+    allowed_period_types:
+    - year
+    - unknown
+  display:
+    label: Broadband coverage by network generation
+    short_label: Broadband share
+    format: percent
+    decimal_places: 2
+    unit_label: '%'
+    allowed_chart_types:
+    - bar
+    - table
+  status: active
+- schema_version: 1.0.0
+  record_version: 1
+  kpi_code: data-center-storage
+  name: Data-center storage capacity
+  description: Storage capacity reported for a named data-center deployment.
+  kpi_category: coverage
+  applicable_system_types:
+  - platform
+  - other
+  measurement_type: point-in-time
+  value_type: number
+  allowed_operators:
+  - equal
+  - greater-than
+  - greater-than-or-equal
+  - approximate
+  - range
+  - not-specified
+  allowed_units:
+  - terabyte
+  direction_of_improvement: contextual
+  aggregation:
+    method: latest
+    deduplication_key: null
+    selection_rule: latest-per-system-scope
+    notes: Capacity values are system-level snapshots and must not be added across
+      overlapping infrastructure descriptions.
+  reporting_requirements:
+    reporting_period_required: true
+    activity_window_required: false
+    monitoring_period_required: false
+    statistic_required: false
+    source_verification_required: true
+    allowed_period_types:
+    - as-of-date
+    - year
+    - unknown
+  display:
+    label: Data-center storage capacity
+    short_label: Storage
+    format: decimal
+    decimal_places: 2
+    unit_label: TB
+    allowed_chart_types:
+    - single-value
+    - bar
+    - table
+  status: active
+- schema_version: 1.0.0
+  record_version: 1
+  kpi_code: services-hosted
+  name: Services hosted
+  description: Digital services reported as hosted by a named infrastructure platform.
+  kpi_category: service-delivery
+  applicable_system_types:
+  - platform
+  - integrated-system
+  - other
+  measurement_type: point-in-time
+  value_type: integer
+  allowed_operators:
+  - equal
+  - greater-than
+  - greater-than-or-equal
+  - approximate
+  - range
+  - not-specified
+  allowed_units:
+  - service
+  direction_of_improvement: increase
+  aggregation:
+    method: latest
+    deduplication_key: null
+    selection_rule: latest-per-system-scope
+    notes: Hosted-service counts describe infrastructure responsibility and are not
+      the same as citizen-facing services offered.
+  reporting_requirements:
+    reporting_period_required: true
+    activity_window_required: false
+    monitoring_period_required: false
+    statistic_required: false
+    source_verification_required: true
+    allowed_period_types:
+    - as-of-date
+    - year
+    - unknown
+  display:
+    label: Services hosted
+    short_label: Hosted services
+    format: integer
+    decimal_places: 0
+    unit_label: services
+    allowed_chart_types:
+    - single-value
+    - bar
+    - table
+  status: active
+- schema_version: 1.0.0
+  record_version: 1
+  kpi_code: documents-digitized
+  name: Documents digitized
+  description: Documents converted from paper to digital form under a declared regional
+    digitization scope.
+  kpi_category: digitization-output
+  applicable_system_types:
+  - document-management-system
+  - information-system
+  - platform
+  measurement_type: cumulative
+  value_type: integer
+  allowed_operators:
+  - equal
+  - greater-than
+  - greater-than-or-equal
+  - approximate
+  - range
+  - not-specified
+  allowed_units:
+  - document
+  direction_of_improvement: increase
+  aggregation:
+    method: not-aggregatable
+    deduplication_key: null
+    selection_rule: latest-per-system-scope
+    notes: The source does not identify the document inventory or prevent overlap
+      with scanned
+    captured: null
+    indexed: null
+    and uploaded counts.: null
+  reporting_requirements:
+    reporting_period_required: true
+    activity_window_required: false
+    monitoring_period_required: false
+    statistic_required: false
+    source_verification_required: true
+    allowed_period_types:
+    - year
+    - unknown
+  display:
+    label: Documents digitized
+    short_label: Digitized documents
+    format: integer
+    decimal_places: 0
+    unit_label: documents
+    allowed_chart_types:
+    - single-value
+    - bar
+    - table
+  status: active
+- schema_version: 1.0.0
+  record_version: 1
+  kpi_code: land-tasks
+  name: Land-system tasks
+  description: Tasks reported by the real-property registration workflow within the
+    declared scope.
+  kpi_category: usage
+  applicable_system_types:
+  - information-system
+  - platform
+  measurement_type: cumulative
+  value_type: integer
+  allowed_operators:
+  - equal
+  - greater-than
+  - greater-than-or-equal
+  - approximate
+  - range
+  - not-specified
+  allowed_units:
+  - task
+  direction_of_improvement: increase
+  aggregation:
+    method: latest
+    deduplication_key: null
+    selection_rule: latest-per-system-scope
+    notes: Task counters are retained as system-level values until the workflow and
+      period are verified.
+  reporting_requirements:
+    reporting_period_required: true
+    activity_window_required: false
+    monitoring_period_required: false
+    statistic_required: false
+    source_verification_required: true
+    allowed_period_types:
+    - as-of-date
+    - year
+    - unknown
+  display:
+    label: Land-system tasks
+    short_label: Tasks
+    format: integer
+    decimal_places: 0
+    unit_label: tasks
+    allowed_chart_types:
+    - single-value
+    - bar
+    - table
+  status: active
+- schema_version: 1.0.0
+  record_version: 1
+  kpi_code: land-certificates-issued
+  name: Land certificates issued
+  description: Property certificates reported as issued by the real-property registration
+    workflow.
+  kpi_category: service-delivery
+  applicable_system_types:
+  - information-system
+  - platform
+  measurement_type: cumulative
+  value_type: integer
+  allowed_operators:
+  - equal
+  - greater-than
+  - greater-than-or-equal
+  - approximate
+  - range
+  - not-specified
+  allowed_units:
+  - certificate
+  direction_of_improvement: increase
+  aggregation:
+    method: latest
+    deduplication_key: null
+    selection_rule: latest-per-system-scope
+    notes: Certificate counts are retained as a system-level value until the certificate
+      population and period are verified.
+  reporting_requirements:
+    reporting_period_required: true
+    activity_window_required: false
+    monitoring_period_required: false
+    statistic_required: true
+    source_verification_required: true
+    allowed_period_types:
+    - as-of-date
+    - year
+    - unknown
+  display:
+    label: Land certificates issued
+    short_label: Certificates
+    format: integer
+    decimal_places: 0
+    unit_label: certificates
+    allowed_chart_types:
+    - single-value
+    - bar
+    - table
+  status: active
+- schema_version: 1.0.0
+  record_version: 1
+  kpi_code: land-parcels-migrated
+  name: Land parcels migrated
+  description: Parcels reported as migrated into the real-property registration system.
+  kpi_category: digitization-output
+  applicable_system_types:
+  - information-system
+  - platform
+  measurement_type: cumulative
+  value_type: integer
+  allowed_operators:
+  - equal
+  - greater-than
+  - greater-than-or-equal
+  - approximate
+  - range
+  - not-specified
+  allowed_units:
+  - parcel
+  direction_of_improvement: increase
+  aggregation:
+    method: latest
+    deduplication_key: null
+    selection_rule: latest-per-system-scope
+    notes: Parcel migration counts are retained as a system-level value until source
+      scope and deduplication are verified.
+  reporting_requirements:
+    reporting_period_required: true
+    activity_window_required: false
+    monitoring_period_required: false
+    statistic_required: true
+    source_verification_required: true
+    allowed_period_types:
+    - as-of-date
+    - year
+    - unknown
+  display:
+    label: Land parcels migrated
+    short_label: Migrated parcels
+    format: integer
+    decimal_places: 0
+    unit_label: parcels
+    allowed_chart_types:
+    - single-value
+    - bar
+    - table
+  status: active
+- schema_version: 1.0.0
+  record_version: 1
+  kpi_code: education-teachers
+  name: Teachers in education system
+  description: Teachers reported in the education-system dashboard scope.
+  kpi_category: coverage
+  applicable_system_types:
+  - platform
+  - information-system
+  measurement_type: point-in-time
+  value_type: integer
+  allowed_operators:
+  - equal
+  - greater-than
+  - greater-than-or-equal
+  - approximate
+  - range
+  - not-specified
+  allowed_units:
+  - teacher
+  direction_of_improvement: contextual
+  aggregation:
+    method: latest
+    deduplication_key: null
+    selection_rule: latest-per-system-scope
+    notes: The source does not define whether the teacher count is registered
+    active: null
+    or unique across institutions.: null
+  reporting_requirements:
+    reporting_period_required: true
+    activity_window_required: false
+    monitoring_period_required: false
+    statistic_required: false
+    source_verification_required: true
+    allowed_period_types:
+    - as-of-date
+    - year
+    - unknown
+  display:
+    label: Teachers in education system
+    short_label: Teachers
+    format: integer
+    decimal_places: 0
+    unit_label: teachers
+    allowed_chart_types:
+    - single-value
+    - bar
+    - table
+  status: active
+- schema_version: 1.0.0
+  record_version: 1
+  kpi_code: education-students
+  name: Students in education system
+  description: Students reported in the education-system dashboard scope.
+  kpi_category: coverage
+  applicable_system_types:
+  - platform
+  - information-system
+  measurement_type: point-in-time
+  value_type: integer
+  allowed_operators:
+  - equal
+  - greater-than
+  - greater-than-or-equal
+  - approximate
+  - range
+  - not-specified
+  allowed_units:
+  - student
+  direction_of_improvement: contextual
+  aggregation:
+    method: latest
+    deduplication_key: null
+    selection_rule: latest-per-system-scope
+    notes: The source does not define whether the student count is enrolled
+    active: null
+    or unique across institutions.: null
+  reporting_requirements:
+    reporting_period_required: true
+    activity_window_required: false
+    monitoring_period_required: false
+    statistic_required: false
+    source_verification_required: true
+    allowed_period_types:
+    - as-of-date
+    - year
+    - unknown
+  display:
+    label: Students in education system
+    short_label: Students
+    format: integer
+    decimal_places: 0
+    unit_label: students
+    allowed_chart_types:
+    - single-value
+    - bar
+    - table
+  status: active
+- schema_version: 1.0.0
+  record_version: 1
+  kpi_code: education-schools
+  name: Schools in education system
+  description: Schools reported in the education-system dashboard scope.
+  kpi_category: coverage
+  applicable_system_types:
+  - platform
+  - information-system
+  measurement_type: point-in-time
+  value_type: integer
+  allowed_operators:
+  - equal
+  - greater-than
+  - greater-than-or-equal
+  - approximate
+  - range
+  - not-specified
+  allowed_units:
+  - school
+  direction_of_improvement: contextual
+  aggregation:
+    method: latest
+    deduplication_key: null
+    selection_rule: latest-per-system-scope
+    notes: The source does not define the school inventory or whether all school types
+      are included.
+  reporting_requirements:
+    reporting_period_required: true
+    activity_window_required: false
+    monitoring_period_required: false
+    statistic_required: false
+    source_verification_required: true
+    allowed_period_types:
+    - as-of-date
+    - year
+    - unknown
+  display:
+    label: Schools in education system
+    short_label: Schools
+    format: integer
+    decimal_places: 0
+    unit_label: schools
+    allowed_chart_types:
+    - single-value
+    - bar
+    - table
+  status: active
+- schema_version: 1.0.0
+  record_version: 1
+  kpi_code: transport-passengers
+  name: Transport passengers
+  description: Passengers reported by the DTrip transport dashboard scope.
+  kpi_category: usage
+  applicable_system_types:
+  - information-system
+  - platform
+  measurement_type: cumulative
+  value_type: integer
+  allowed_operators:
+  - equal
+  - greater-than
+  - greater-than-or-equal
+  - approximate
+  - range
+  - not-specified
+  allowed_units:
+  - passenger
+  direction_of_improvement: contextual
+  aggregation:
+    method: latest
+    deduplication_key: null
+    selection_rule: latest-per-system-scope
+    notes: The source does not state whether this is a period total
+    current count: null
+    or unique passenger count.: null
+  reporting_requirements:
+    reporting_period_required: true
+    activity_window_required: false
+    monitoring_period_required: false
+    statistic_required: false
+    source_verification_required: true
+    allowed_period_types:
+    - as-of-date
+    - year
+    - unknown
+  display:
+    label: Transport passengers
+    short_label: Passengers
+    format: integer
+    decimal_places: 0
+    unit_label: passengers
+    allowed_chart_types:
+    - single-value
+    - bar
+    - table
+  status: active
+- schema_version: 1.0.0
+  record_version: 1
+  kpi_code: transport-routes
+  name: Transport routes
+  description: Routes reported by the DTrip transport dashboard scope.
+  kpi_category: coverage
+  applicable_system_types:
+  - information-system
+  - platform
+  measurement_type: point-in-time
+  value_type: integer
+  allowed_operators:
+  - equal
+  - greater-than
+  - greater-than-or-equal
+  - approximate
+  - range
+  - not-specified
+  allowed_units:
+  - route
+  direction_of_improvement: contextual
+  aggregation:
+    method: latest
+    deduplication_key: null
+    selection_rule: latest-per-system-scope
+    notes: Route inventory is retained as a system-level snapshot until route identity
+      and reporting period are verified.
+  reporting_requirements:
+    reporting_period_required: true
+    activity_window_required: false
+    monitoring_period_required: false
+    statistic_required: false
+    source_verification_required: true
+    allowed_period_types:
+    - as-of-date
+    - year
+    - unknown
+  display:
+    label: Transport routes
+    short_label: Routes
+    format: integer
+    decimal_places: 0
+    unit_label: routes
+    allowed_chart_types:
+    - single-value
+    - bar
+    - table
+  status: active
+- schema_version: 1.0.0
+  record_version: 1
+  kpi_code: transport-vehicles
+  name: Transport vehicles
+  description: Vehicles reported by the DTrip transport dashboard scope.
+  kpi_category: coverage
+  applicable_system_types:
+  - information-system
+  - platform
+  measurement_type: point-in-time
+  value_type: integer
+  allowed_operators:
+  - equal
+  - greater-than
+  - greater-than-or-equal
+  - approximate
+  - range
+  - not-specified
+  allowed_units:
+  - vehicle
+  direction_of_improvement: contextual
+  aggregation:
+    method: latest
+    deduplication_key: null
+    selection_rule: latest-per-system-scope
+    notes: Vehicle inventory is retained as a system-level snapshot until vehicle
+      identity and reporting period are verified.
+  reporting_requirements:
+    reporting_period_required: true
+    activity_window_required: false
+    monitoring_period_required: false
+    statistic_required: false
+    source_verification_required: true
+    allowed_period_types:
+    - as-of-date
+    - year
+    - unknown
+  display:
+    label: Transport vehicles
+    short_label: Vehicles
+    format: integer
+    decimal_places: 0
+    unit_label: vehicles
+    allowed_chart_types:
+    - single-value
+    - bar
+    - table
+  status: active
+- schema_version: 1.0.0
+  record_version: 1
+  kpi_code: transport-employees
+  name: Transport employees
+  description: Employees reported by the DTrip transport dashboard scope.
+  kpi_category: coverage
+  applicable_system_types:
+  - information-system
+  - platform
+  measurement_type: point-in-time
+  value_type: integer
+  allowed_operators:
+  - equal
+  - greater-than
+  - greater-than-or-equal
+  - approximate
+  - range
+  - not-specified
+  allowed_units:
+  - employee
+  direction_of_improvement: contextual
+  aggregation:
+    method: latest
+    deduplication_key: null
+    selection_rule: latest-per-system-scope
+    notes: The source does not define whether the employee count is active
+    registered: null
+    or unique across operators.: null
+  reporting_requirements:
+    reporting_period_required: true
+    activity_window_required: false
+    monitoring_period_required: false
+    statistic_required: false
+    source_verification_required: true
+    allowed_period_types:
+    - as-of-date
+    - year
+    - unknown
+  display:
+    label: Transport employees
+    short_label: Employees
+    format: integer
+    decimal_places: 0
+    unit_label: employees
+    allowed_chart_types:
+    - single-value
+    - bar
+    - table
+  status: active
