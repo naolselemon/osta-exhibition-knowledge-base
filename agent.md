@@ -39,7 +39,7 @@ Use current repository locations only:
 - dashboard derivation: [`content/portfolio-kpis/`](content/portfolio-kpis/);
 - transformation stories: [`content/transformation-stories/`](content/transformation-stories/);
 - FAQs: [`content/faqs/`](content/faqs/);
-- authorized local evidence: [`source-materials/`](source-materials/); PowerPoint binaries in `source-materials/presentations/` are Git-ignored and must be obtained outside GitHub;
+- authorized local evidence: [`source-materials/`](source-materials/); presentation binaries in `source-materials/presentations/` are Git-ignored and must be obtained outside GitHub;
 - contracts and tooling: [`schemas/`](schemas/), [`scripts/`](scripts/), and [`tests/`](tests/);
 - generated public artifacts: [`dist/`](dist/).
 

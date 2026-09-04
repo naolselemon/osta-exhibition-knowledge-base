@@ -33,7 +33,7 @@ Organization, service, training-program, achievement, glossary, standalone sourc
 ## Standard Contribution Workflow
 
 1. Read the relevant [folder guide](README.md#folder-responsibilities), schema, template, and detailed guide before editing.
-2. Obtain the authorized source through an approved channel and place it locally under [`source-materials/`](source-materials/). PowerPoint files under `source-materials/presentations/` are Git-ignored and must never be staged or pushed.
+2. Obtain the authorized source through an approved channel and place it locally under [`source-materials/`](source-materials/). Presentation files under `source-materials/presentations/` are Git-ignored and must never be staged or pushed.
 3. Create or update the normalized record. Preserve exact names, operators, units, dates, periods, scope, and uncertainty from the source.
 4. Add an exact inline `source_refs` entry. Keep verification and display approval false or pending until the responsible reviewers complete their work.
 5. Keep new facts and translations draft. Repository presence is not publication approval.
