@@ -3,6 +3,196 @@
   "systems": [
     {
       "headline_kpi_refs": [
+        "broadband-5g-coverage-2025-published",
+        "broadband-4g-coverage-2025-published",
+        "broadband-3g-coverage-2025-published"
+      ],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Reported network-generation share; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "percent",
+            "value": 47
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "percent",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "47%",
+          "exhibition": {
+            "chart_type": "bar",
+            "display_priority": 29,
+            "headline": false,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "broadband-3g-coverage-2025-published",
+          "kpi_code": "broadband-coverage-percent",
+          "kpi_name": "Broadband coverage by network generation",
+          "measurement_scope": {
+            "description": "Reported broadband share attributed to 3G.",
+            "scope_id": "broadband-3g",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 2, section “4. Broadband Connectivity” — 3G 47%",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "broadband-connectivity",
+          "target": {
+            "operator": "not-specified",
+            "unit": "percent",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Reported network-generation share; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "percent",
+            "value": 51
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "percent",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "51%",
+          "exhibition": {
+            "chart_type": "bar",
+            "display_priority": 28,
+            "headline": false,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "broadband-4g-coverage-2025-published",
+          "kpi_code": "broadband-coverage-percent",
+          "kpi_name": "Broadband coverage by network generation",
+          "measurement_scope": {
+            "description": "Reported broadband share attributed to 4G.",
+            "scope_id": "broadband-4g",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 2, section “4. Broadband Connectivity” — 4G 51%",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "broadband-connectivity",
+          "target": {
+            "operator": "not-specified",
+            "unit": "percent",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Reported network-generation share; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "percent",
+            "value": 2
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "percent",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "2%",
+          "exhibition": {
+            "chart_type": "bar",
+            "display_priority": 27,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "broadband-5g-coverage-2025-published",
+          "kpi_code": "broadband-coverage-percent",
+          "kpi_name": "Broadband coverage by network generation",
+          "measurement_scope": {
+            "description": "Reported broadband share attributed to 5G.",
+            "scope_id": "broadband-5g",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 2, section “4. Broadband Connectivity” — 5G 2%",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "broadband-connectivity",
+          "target": {
+            "operator": "not-specified",
+            "unit": "percent",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "broadband-connectivity"
+    },
+    {
+      "headline_kpi_refs": [
         "business-automation-records-registered-2018-verified"
       ],
       "observations": [
@@ -389,6 +579,16 @@
       "system_id": "court-case-management-prosecutor-sims"
     },
     {
+      "headline_kpi_refs": [],
+      "observations": [],
+      "system_id": "dagu"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [],
+      "system_id": "dhis2"
+    },
+    {
       "headline_kpi_refs": [
         "digital-kebele-implementation-progress-2018-verified"
       ],
@@ -455,6 +655,1068 @@
         }
       ],
       "system_id": "digital-kebele-government"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [],
+      "system_id": "document-management-system"
+    },
+    {
+      "headline_kpi_refs": [
+        "dtrip-passengers-2025-published",
+        "dtrip-routes-2025-published",
+        "dtrip-vehicles-2025-published",
+        "dtrip-employees-2025-published"
+      ],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Reported employee count; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "employee",
+            "value": 404
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "employee",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "404 employees",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 47,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "dtrip-employees-2025-published",
+          "kpi_code": "transport-employees",
+          "kpi_name": "Transport employees",
+          "measurement_scope": {
+            "description": "Employees reported by the DTrip dashboard.",
+            "scope_id": "dtrip-admin",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 6, section “16. E-Transport” — DTrip 404 employees",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "dtrip-admin",
+          "target": {
+            "operator": "not-specified",
+            "unit": "employee",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Reported passenger count; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "passenger",
+            "value": 35029
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "passenger",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "35,029 passengers",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 44,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "dtrip-passengers-2025-published",
+          "kpi_code": "transport-passengers",
+          "kpi_name": "Transport passengers",
+          "measurement_scope": {
+            "description": "Passengers reported by the DTrip dashboard.",
+            "scope_id": "dtrip-admin",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 6, section “16. E-Transport” — DTrip 35,029 passengers",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "dtrip-admin",
+          "target": {
+            "operator": "not-specified",
+            "unit": "passenger",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Reported route inventory; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "route",
+            "value": 478
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "route",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "478 routes",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 45,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "dtrip-routes-2025-published",
+          "kpi_code": "transport-routes",
+          "kpi_name": "Transport routes",
+          "measurement_scope": {
+            "description": "Routes reported by the DTrip dashboard.",
+            "scope_id": "dtrip-admin",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 6, section “16. E-Transport” — DTrip 478 routes",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "dtrip-admin",
+          "target": {
+            "operator": "not-specified",
+            "unit": "route",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Four E-Transport services are listed; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "service",
+            "value": 4
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "4 services",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 43,
+            "headline": false,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "dtrip-services-offered-2025-published",
+          "kpi_code": "services-offered",
+          "kpi_name": "Services offered",
+          "measurement_scope": {
+            "description": "E-Transport services listed in the PDF.",
+            "scope_id": "dtrip-admin",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 6, section “16. E-Transport” — four services",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "dtrip-admin",
+          "target": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Reported vehicle inventory; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "vehicle",
+            "value": 2461
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "vehicle",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "2,461 vehicles",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 46,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "dtrip-vehicles-2025-published",
+          "kpi_code": "transport-vehicles",
+          "kpi_name": "Transport vehicles",
+          "measurement_scope": {
+            "description": "Vehicles reported by the DTrip dashboard.",
+            "scope_id": "dtrip-admin",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 6, section “16. E-Transport” — DTrip 2,461 vehicles",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "dtrip-admin",
+          "target": {
+            "operator": "not-specified",
+            "unit": "vehicle",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "dtrip-admin"
+    },
+    {
+      "headline_kpi_refs": [
+        "e-education-teachers-2025-published",
+        "e-education-students-2025-published",
+        "e-education-schools-2025-published"
+      ],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Reported school count; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "school",
+            "value": 23339
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "school",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "23,339 schools",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 42,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "e-education-schools-2025-published",
+          "kpi_code": "education-schools",
+          "kpi_name": "Schools in education system",
+          "measurement_scope": {
+            "description": "Schools reported in the E-Education dashboard.",
+            "scope_id": "e-education-services",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 5, section “15. E-Education Services” — 23,339 schools",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "e-education-services",
+          "target": {
+            "operator": "not-specified",
+            "unit": "school",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Three core services are listed; digital-library resources are described separately.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "service",
+            "value": 3
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "3 services",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 39,
+            "headline": false,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "e-education-services-offered-2025-published",
+          "kpi_code": "services-offered",
+          "kpi_name": "Services offered",
+          "measurement_scope": {
+            "description": "E-Education services explicitly listed in the PDF.",
+            "scope_id": "e-education-services",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 5, section “15. E-Education Services” — three core services",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "e-education-services",
+          "target": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Reported student count; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "student",
+            "value": 10390179
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "student",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "10,390,179 students",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 41,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "e-education-students-2025-published",
+          "kpi_code": "education-students",
+          "kpi_name": "Students in education system",
+          "measurement_scope": {
+            "description": "Students reported in the E-Education dashboard.",
+            "scope_id": "e-education-services",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 5, section “15. E-Education Services” — 10,390,179 students",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "e-education-services",
+          "target": {
+            "operator": "not-specified",
+            "unit": "student",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Reported teacher count; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "teacher",
+            "value": 230531
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "teacher",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "230,531 teachers",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 40,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "e-education-teachers-2025-published",
+          "kpi_code": "education-teachers",
+          "kpi_name": "Teachers in education system",
+          "measurement_scope": {
+            "description": "Teachers reported in the E-Education dashboard.",
+            "scope_id": "e-education-services",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 5, section “15. E-Education Services” — 230,531 teachers",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "e-education-services",
+          "target": {
+            "operator": "not-specified",
+            "unit": "teacher",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "e-education-services"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Reported E-Health service count; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "service",
+            "value": 5
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "5 services",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 38,
+            "headline": false,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "e-health-services-offered-2025-published",
+          "kpi_code": "services-offered",
+          "kpi_name": "Services offered",
+          "measurement_scope": {
+            "description": "E-Health services reported in the PDF.",
+            "scope_id": "e-health-services",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 5, section “14. E-Health Services” — five services",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "e-health-services",
+          "target": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "e-health-services"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Four investment services are listed; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "service",
+            "value": 4
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "4 services",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 50,
+            "headline": false,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "e-investment-services-offered-2025-published",
+          "kpi_code": "services-offered",
+          "kpi_name": "Services offered",
+          "measurement_scope": {
+            "description": "E-Investment services listed in the PDF.",
+            "scope_id": "e-investment-services",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 7, section “19. E-Investment” — four services",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "e-investment-services",
+          "target": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "e-investment-services"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [],
+      "system_id": "e-land-services"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Ten E-Vital services are listed; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "service",
+            "value": 10
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "10 services",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 48,
+            "headline": false,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "e-vital-services-offered-2025-published",
+          "kpi_code": "services-offered",
+          "kpi_name": "Services offered",
+          "measurement_scope": {
+            "description": "E-Vital services listed in the PDF.",
+            "scope_id": "e-vital-event-registration",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 6, section “17. E-Vital Event Registration Services” — ten services",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "e-vital-event-registration",
+          "target": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "e-vital-event-registration"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [],
+      "system_id": "echis"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [],
+      "system_id": "ethio-language-box"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [],
+      "system_id": "etrade-electronic-single-window"
+    },
+    {
+      "headline_kpi_refs": [
+        "g2c-e-services-offered-2025-published"
+      ],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Reported service count across listed sectors; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "service",
+            "value": 89
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "89 services",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 33,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "g2c-e-services-offered-2025-published",
+          "kpi_code": "services-offered",
+          "kpi_name": "Services offered",
+          "measurement_scope": {
+            "description": "Citizen-facing digital services reported across the G2C service layer.",
+            "scope_id": "g2c-e-services",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 4, section “11. Government-to-Citizen (G2C) Service Layer” — 89 e-services",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "g2c-e-services",
+          "target": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "g2c-e-services"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [],
+      "system_id": "human-resource-management"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [],
+      "system_id": "integrated-business-exchange"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [],
+      "system_id": "mbrana"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Nine E-Court services are listed; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "service",
+            "value": 9
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "9 services",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 52,
+            "headline": false,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "occms-services-offered-2025-published",
+          "kpi_code": "services-offered",
+          "kpi_name": "Services offered",
+          "measurement_scope": {
+            "description": "E-Court services listed in the PDF for OCCMS.",
+            "scope_id": "occms",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 8, section “24. E-Court Services” — nine services",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "occms",
+          "target": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "occms"
+    },
+    {
+      "headline_kpi_refs": [
+        "oromia-data-center-storage-2025-published",
+        "oromia-data-center-services-hosted-2025-published"
+      ],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Reported hosted-service count; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "service",
+            "value": 40
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "40 services",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 31,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "oromia-data-center-services-hosted-2025-published",
+          "kpi_code": "services-hosted",
+          "kpi_name": "Services hosted",
+          "measurement_scope": {
+            "description": "Services reported as hosted by the Oromia Regional State Data Center.",
+            "scope_id": "oromia-regional-data-center",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 2, section “5. Oromia Regional State Data Center” — hosts 40 services",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "oromia-regional-data-center",
+          "target": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Reported storage capacity; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "terabyte",
+            "value": 900
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "terabyte",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "900 TB",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 30,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "oromia-data-center-storage-2025-published",
+          "kpi_code": "data-center-storage",
+          "kpi_name": "Data-center storage capacity",
+          "measurement_scope": {
+            "description": "Storage capacity reported for the Oromia Regional State Data Center.",
+            "scope_id": "oromia-regional-data-center",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 2, section “5. Oromia Regional State Data Center” — 900 TB storage",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "oromia-regional-data-center",
+          "target": {
+            "operator": "not-specified",
+            "unit": "terabyte",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "oromia-regional-data-center"
     },
     {
       "headline_kpi_refs": [
@@ -525,6 +1787,482 @@
       "system_id": "prms"
     },
     {
+      "headline_kpi_refs": [],
+      "observations": [],
+      "system_id": "property-management-system"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Nine prosecution services are listed; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "service",
+            "value": 9
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "9 services",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 53,
+            "headline": false,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "prosecution-services-offered-2025-published",
+          "kpi_code": "services-offered",
+          "kpi_name": "Services offered",
+          "measurement_scope": {
+            "description": "Prosecution E-Services listed in the PDF.",
+            "scope_id": "prosecution-e-services",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 8, section “25. Prosecution E-Services” — nine services",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "prosecution-e-services",
+          "target": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "prosecution-e-services"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [],
+      "system_id": "queue-management-system"
+    },
+    {
+      "headline_kpi_refs": [
+        "regional-document-digitization-documents-2025-published"
+      ],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Reported cumulative digitization total; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "document",
+            "value": 22400600
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "document",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "22,400,600 documents",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 32,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "regional-document-digitization-documents-2025-published",
+          "kpi_code": "documents-digitized",
+          "kpi_name": "Documents digitized",
+          "measurement_scope": {
+            "description": "Regional document-digitization total reported in the PDF.",
+            "scope_id": "oromia-regional-document-digitization",
+            "scope_type": "program"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 3, section “8. Digitization / Records Conversion” — 22,400,600 documents digitized",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "regional-document-digitization",
+          "target": {
+            "operator": "not-specified",
+            "unit": "document",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "regional-document-digitization"
+    },
+    {
+      "headline_kpi_refs": [
+        "rprs-total-tasks-2025-published",
+        "rprs-certificates-issued-2025-published",
+        "rprs-parcels-migrated-2025-published"
+      ],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Reported certificate total; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "certificate",
+            "value": 75788
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "certificate",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "75,788 certificates",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 35,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "rprs-certificates-issued-2025-published",
+          "kpi_code": "land-certificates-issued",
+          "kpi_name": "Land certificates issued",
+          "measurement_scope": {
+            "description": "Property certificates reported as issued by the Real Property Registration System.",
+            "scope_id": "rprs",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 4, section “12. E-Land Administration” — RPRS certificates issued 75,788",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "rprs",
+          "target": {
+            "operator": "not-specified",
+            "unit": "certificate",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Reported migrated-parcel total; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "parcel",
+            "value": 80071
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "parcel",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "80,071 parcels",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 36,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "rprs-parcels-migrated-2025-published",
+          "kpi_code": "land-parcels-migrated",
+          "kpi_name": "Land parcels migrated",
+          "measurement_scope": {
+            "description": "Parcels reported as migrated by the Real Property Registration System.",
+            "scope_id": "rprs",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 4, section “12. E-Land Administration” — RPRS migrated parcels 80,071",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "rprs",
+          "target": {
+            "operator": "not-specified",
+            "unit": "parcel",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Reported task total; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "task",
+            "value": 95123
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "task",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "95,123 tasks",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 34,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "rprs-total-tasks-2025-published",
+          "kpi_code": "land-tasks",
+          "kpi_name": "Land-system tasks",
+          "measurement_scope": {
+            "description": "Total tasks reported by the Real Property Registration System.",
+            "scope_id": "rprs",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 4, section “12. E-Land Administration” — RPRS total tasks 95,123",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "rprs",
+          "target": {
+            "operator": "not-specified",
+            "unit": "task",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "rprs"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [],
+      "system_id": "sdris"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Eleven SIGTAX services are listed; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "service",
+            "value": 11
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "11 services",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 51,
+            "headline": false,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "sigtax-services-offered-2025-published",
+          "kpi_code": "services-offered",
+          "kpi_name": "Services offered",
+          "measurement_scope": {
+            "description": "SIGTAX services listed in the PDF.",
+            "scope_id": "sigtax",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 8, section “23. Revenue E-Services (SIGTAX)” — eleven services",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "sigtax",
+          "target": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "sigtax"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [],
+      "system_id": "smartcare"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Eight trade services are listed; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "service",
+            "value": 8
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "8 services",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 49,
+            "headline": false,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "trade-e-services-offered-2025-published",
+          "kpi_code": "services-offered",
+          "kpi_name": "Services offered",
+          "measurement_scope": {
+            "description": "Trade services listed in the PDF.",
+            "scope_id": "trade-e-services",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 6, section “18. Trade E-Services” — eight services",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "trade-e-services",
+          "target": {
+            "operator": "not-specified",
+            "unit": "service",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "trade-e-services"
+    },
+    {
       "headline_kpi_refs": [
         "uemis-registered-users-2018-verified"
       ],
@@ -591,6 +2329,437 @@
         }
       ],
       "system_id": "uemis"
+    },
+    {
+      "headline_kpi_refs": [
+        "woredanet-vpn-regional-lines-2025-published",
+        "woredanet-vpn-zone-city-lines-2025-published",
+        "woredanet-vpn-woreda-kebele-lines-2025-published"
+      ],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Reported technology count; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "link",
+            "value": 1052
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "link",
+            "value": null
+          },
+          "dimensions": {
+            "geography_name": "Oromia"
+          },
+          "display_value": "1,052 links",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 25,
+            "headline": false,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "woredanet-apn-links-2025-published",
+          "kpi_code": "network-links",
+          "kpi_name": "Network links",
+          "measurement_scope": {
+            "description": "APN/mobile links reported in the WoredaNet/VPN connectivity mix.",
+            "scope_id": "woredanet-apn-mobile",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 1,052 APN/mobile links",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "woredanet-vpn",
+          "target": {
+            "operator": "not-specified",
+            "unit": "link",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Reported technology count; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "link",
+            "value": 612
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "link",
+            "value": null
+          },
+          "dimensions": {
+            "geography_name": "Oromia"
+          },
+          "display_value": "612 links",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 24,
+            "headline": false,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "woredanet-copper-links-2025-published",
+          "kpi_code": "network-links",
+          "kpi_name": "Network links",
+          "measurement_scope": {
+            "description": "Copper links reported in the WoredaNet/VPN connectivity mix.",
+            "scope_id": "woredanet-copper",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 612 copper links",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "woredanet-vpn",
+          "target": {
+            "operator": "not-specified",
+            "unit": "link",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Reported technology count; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "link",
+            "value": 1053
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "link",
+            "value": null
+          },
+          "dimensions": {
+            "geography_name": "Oromia"
+          },
+          "display_value": "1,053 links",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 23,
+            "headline": false,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "woredanet-fiber-links-2025-published",
+          "kpi_code": "network-links",
+          "kpi_name": "Network links",
+          "measurement_scope": {
+            "description": "Fiber links reported in the WoredaNet/VPN connectivity mix.",
+            "scope_id": "woredanet-fiber",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 1,053 fiber links",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "woredanet-vpn",
+          "target": {
+            "operator": "not-specified",
+            "unit": "link",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Reported network-line count; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "link",
+            "value": 61
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "link",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "61 links",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 20,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "woredanet-vpn-regional-lines-2025-published",
+          "kpi_code": "network-links",
+          "kpi_name": "Network links",
+          "measurement_scope": {
+            "description": "Regional VPN lines reported for Oromia.",
+            "scope_id": "oromia-regional-network",
+            "scope_type": "geography"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 61 regional VPN lines",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "woredanet-vpn",
+          "target": {
+            "operator": "not-specified",
+            "unit": "link",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Reported network-line count; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "link",
+            "value": 1856
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "link",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "district-and-kebele",
+            "geography_name": "Oromia"
+          },
+          "display_value": "1,856 links",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 22,
+            "headline": false,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "woredanet-vpn-woreda-kebele-lines-2025-published",
+          "kpi_code": "network-links",
+          "kpi_name": "Network links",
+          "measurement_scope": {
+            "description": "Woreda-and-kebele VPN lines reported for Oromia.",
+            "scope_id": "oromia-woreda-kebele-network",
+            "scope_type": "geography"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 1,856 woreda-and-kebele lines",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "woredanet-vpn",
+          "target": {
+            "operator": "not-specified",
+            "unit": "link",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Reported network-line count; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "link",
+            "value": 879
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "link",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "zone-and-city",
+            "geography_name": "Oromia"
+          },
+          "display_value": "879 links",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 21,
+            "headline": false,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "woredanet-vpn-zone-city-lines-2025-published",
+          "kpi_code": "network-links",
+          "kpi_name": "Network links",
+          "measurement_scope": {
+            "description": "Zone-and-city VPN lines reported for Oromia.",
+            "scope_id": "oromia-zone-city-network",
+            "scope_type": "geography"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 879 zone-and-city lines",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "woredanet-vpn",
+          "target": {
+            "operator": "not-specified",
+            "unit": "link",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Reported technology count; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "link",
+            "value": 79
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "link",
+            "value": null
+          },
+          "dimensions": {
+            "geography_name": "Oromia"
+          },
+          "display_value": "79 links",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 26,
+            "headline": false,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "woredanet-vsat-links-2025-published",
+          "kpi_code": "network-links",
+          "kpi_name": "Network links",
+          "measurement_scope": {
+            "description": "VSAT links reported in the WoredaNet/VPN connectivity mix.",
+            "scope_id": "woredanet-vsat",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+              "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 79 VSAT links",
+              "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+            }
+          ],
+          "system_id": "woredanet-vpn",
+          "target": {
+            "operator": "not-specified",
+            "unit": "link",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "woredanet-vpn"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [],
+      "system_id": "wumis"
     }
   ]
 }

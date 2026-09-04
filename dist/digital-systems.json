@@ -3,6 +3,65 @@
     {
       "acronym": null,
       "beneficiaries": [
+        "residents",
+        "public institutions",
+        "businesses",
+        "digital-service users"
+      ],
+      "category": "digital-infrastructure",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF reports a network-generation split; geographic denominator details require review.",
+        "levels": [
+          "regional"
+        ]
+      },
+      "headline_kpi_refs": [
+        "broadband-5g-coverage-2025-published",
+        "broadband-4g-coverage-2025-published",
+        "broadband-3g-coverage-2025-published"
+      ],
+      "id": "broadband-connectivity",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Broadband Connectivity",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Expand fiber-backed and mobile broadband access across the region.",
+      "services_digitized": [
+        {
+          "description": "Public mobile and broadband connectivity supported by fiber and last-mile networks.",
+          "id": "broadband-access",
+          "name": "Broadband access"
+        }
+      ],
+      "slug": "broadband-connectivity",
+      "subcategories": [
+        "broadband",
+        "mobile-network",
+        "fiber"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "mobile",
+          "other"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "platform"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": null,
+      "beneficiaries": [
         "member-based organizations",
         "administrators"
       ],
@@ -161,6 +220,97 @@
       "transformation_story_refs": []
     },
     {
+      "acronym": "Dagu",
+      "beneficiaries": [
+        "health-logistics administrators",
+        "health institutions"
+      ],
+      "category": "health-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF lists Dagu among systems shown in the E-Health section.",
+        "levels": [
+          "regional",
+          "institution"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "dagu",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Dagu Health Logistics System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support digital health-logistics information management.",
+      "services_digitized": [],
+      "slug": "dagu",
+      "subcategories": [
+        "health-logistics",
+        "supply-management"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "DHIS2",
+      "beneficiaries": [
+        "health administrators",
+        "health institutions",
+        "health workers"
+      ],
+      "category": "health-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF lists DHIS2 among systems shown in the E-Health section.",
+        "levels": [
+          "regional",
+          "institution"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "dhis2",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "District Health Information Software 2",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support digital health-information management within the regional health platform ecosystem.",
+      "services_digitized": [],
+      "slug": "dhis2",
+      "subcategories": [
+        "health-information",
+        "reporting"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
       "acronym": "DKG",
       "beneficiaries": [
         "residents",
@@ -208,6 +358,1184 @@
         "primary_type": "platform"
       },
       "transformation_story_refs": []
+    },
+    {
+      "acronym": "DMS",
+      "beneficiaries": [
+        "government institutions",
+        "records administrators"
+      ],
+      "category": "government-back-office",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF names DMS as a G2G system without a detailed deployment scope.",
+        "levels": [
+          "regional",
+          "institution"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "document-management-system",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Document Management System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support government-to-government document management and records workflows.",
+      "services_digitized": [
+        {
+          "description": "Digital management of government documents.",
+          "id": "government-document-management",
+          "name": "Government document management"
+        }
+      ],
+      "slug": "document-management-system",
+      "subcategories": [
+        "document-management",
+        "records-management",
+        "g2g"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "document-management-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "DTrip Admin",
+      "beneficiaries": [
+        "passengers",
+        "transport operators",
+        "transport administrators"
+      ],
+      "category": "transport-services",
+      "faq_refs": [
+        "dtrip-kpi-faq"
+      ],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF reports DTrip dashboard figures; the covered route and service period require review.",
+        "levels": [
+          "regional",
+          "city",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [
+        "dtrip-passengers-2025-published",
+        "dtrip-routes-2025-published",
+        "dtrip-vehicles-2025-published",
+        "dtrip-employees-2025-published"
+      ],
+      "id": "dtrip-admin",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "DTrip Transport Administration System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support public-transport administration, route operations, passenger services, and e-ticketing.",
+      "services_digitized": [
+        {
+          "description": "Digital vehicle registration.",
+          "id": "online-vehicle-registration",
+          "name": "Online vehicle registration"
+        },
+        {
+          "description": "Digital driver's-license services.",
+          "id": "drivers-license-application-renewal",
+          "name": "Driver's-license application and renewal"
+        },
+        {
+          "description": "Digital inspection scheduling.",
+          "id": "vehicle-inspection-scheduling",
+          "name": "Vehicle inspection scheduling"
+        },
+        {
+          "description": "Digital passenger ticketing.",
+          "id": "e-ticket",
+          "name": "E-ticket"
+        }
+      ],
+      "slug": "dtrip-admin",
+      "subcategories": [
+        "passenger-operations",
+        "routes",
+        "vehicles",
+        "e-ticketing"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "mobile"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": [
+        "dtrip-transport-story"
+      ]
+    },
+    {
+      "acronym": null,
+      "beneficiaries": [
+        "students",
+        "teachers",
+        "schools",
+        "education administrators"
+      ],
+      "category": "education-services",
+      "faq_refs": [
+        "e-education-kpi-faq"
+      ],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF reports education dashboard figures without an explicit reporting denominator.",
+        "levels": [
+          "regional",
+          "institution",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [
+        "e-education-teachers-2025-published",
+        "e-education-students-2025-published",
+        "e-education-schools-2025-published"
+      ],
+      "id": "e-education-services",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "E-Education Services",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Provide digital education services for learning, enrollment, examination scheduling, and educational resources.",
+      "services_digitized": [
+        {
+          "description": "Digital learning platforms.",
+          "id": "e-learning-platforms",
+          "name": "E-learning platforms"
+        },
+        {
+          "description": "Digital student enrollment.",
+          "id": "student-enrollment-systems",
+          "name": "Student enrollment systems"
+        },
+        {
+          "description": "Digital examination scheduling.",
+          "id": "online-examination-scheduling",
+          "name": "Online examination scheduling"
+        },
+        {
+          "description": "Grade-level PDF learning resources.",
+          "id": "digital-library",
+          "name": "Digital library"
+        }
+      ],
+      "slug": "e-education-services",
+      "subcategories": [
+        "e-learning",
+        "student-information",
+        "digital-library",
+        "examinations"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "mobile"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "platform"
+      },
+      "transformation_story_refs": [
+        "e-education-dashboard-story"
+      ]
+    },
+    {
+      "acronym": null,
+      "beneficiaries": [
+        "patients",
+        "health workers",
+        "health administrators",
+        "health institutions"
+      ],
+      "category": "health-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF lists health platforms and services but does not define a single deployment denominator.",
+        "levels": [
+          "regional",
+          "institution",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "e-health-services",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "E-Health Services",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Provide digital health information, clinical, appointment, document, and licensing services.",
+      "services_digitized": [
+        {
+          "description": "Digital health-care service.",
+          "id": "electronic-care-health-service",
+          "name": "Electronic care health service"
+        },
+        {
+          "description": "Digital appointment scheduling.",
+          "id": "electronic-appointments",
+          "name": "Electronic appointments"
+        },
+        {
+          "description": "Digital management of health documents.",
+          "id": "health-dms",
+          "name": "Health document management"
+        },
+        {
+          "description": "Digital health-information management service.",
+          "id": "electronic-dhims",
+          "name": "Electronic DHIMS"
+        },
+        {
+          "description": "Digital health licensing service.",
+          "id": "electronic-health-license",
+          "name": "Electronic health license"
+        }
+      ],
+      "slug": "e-health-services",
+      "subcategories": [
+        "health-information",
+        "clinical-records",
+        "appointments",
+        "licensing"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "mobile"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "platform"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": null,
+      "beneficiaries": [
+        "investors",
+        "businesses",
+        "investment administrators"
+      ],
+      "category": "investment-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF describes the service types but does not state a deployment denominator.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "e-investment-services",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "E-Investment",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Provide digital investment-project registration, licensing, permitting, and advisory services.",
+      "services_digitized": [
+        {
+          "description": "Digital investment-project registration.",
+          "id": "investment-project-registration",
+          "name": "Online investment-project registration"
+        },
+        {
+          "description": "Digital investment licensing.",
+          "id": "investment-license-issuance",
+          "name": "Investment-license issuance"
+        },
+        {
+          "description": "Digital investment-permit renewal.",
+          "id": "investment-permit-renewal",
+          "name": "Investment-permit renewal"
+        },
+        {
+          "description": "Digital business-advisory services.",
+          "id": "online-business-advisory",
+          "name": "Online business advisory"
+        }
+      ],
+      "slug": "e-investment-services",
+      "subcategories": [
+        "investment-registration",
+        "licensing",
+        "permits",
+        "advisory"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "web-application"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": null,
+      "beneficiaries": [
+        "landholders",
+        "property applicants",
+        "residents",
+        "land administrators"
+      ],
+      "category": "land-administration",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Bishoftu",
+          "Shagar",
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF shows Bishoftu and Shagar portals and references a Geoportal; the service count discrepancy is retained in the source observation.",
+        "levels": [
+          "city",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "e-land-services",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "E-Land Services",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Provide citizen-facing transactional land services through portals and geoportal interfaces.",
+      "services_digitized": [
+        {
+          "description": "Online leasehold registration.",
+          "id": "leasehold-registration",
+          "name": "Leasehold registration"
+        },
+        {
+          "description": "Registration of old possession records.",
+          "id": "old-possession-registration",
+          "name": "Old possession registration"
+        },
+        {
+          "description": "Registration of urban farmland holdings.",
+          "id": "urban-farmland-holding-registration",
+          "name": "Urban farmland holding registration"
+        },
+        {
+          "description": "Registration of landholding without a use right.",
+          "id": "landholding-without-use-right-registration",
+          "name": "Landholding without use-right registration"
+        },
+        {
+          "description": "Registration of condominium units.",
+          "id": "condominium-unit-registration",
+          "name": "Condominium-unit registration"
+        },
+        {
+          "description": "Registration of subleases or subsequent transactions.",
+          "id": "sublease-registration",
+          "name": "Sublease or subsequent registration"
+        },
+        {
+          "description": "Registration of mortgages.",
+          "id": "mortgage-registration",
+          "name": "Mortgage registration"
+        },
+        {
+          "description": "Cancellation of mortgages.",
+          "id": "mortgage-cancellation",
+          "name": "Mortgage cancellation"
+        },
+        {
+          "description": "Registration of court injunctions.",
+          "id": "court-injunction-registration",
+          "name": "Court injunction registration"
+        },
+        {
+          "description": "Cancellation of court injunctions.",
+          "id": "court-injunction-cancellation",
+          "name": "Court injunction cancellation"
+        },
+        {
+          "description": "Registration of general restrictions.",
+          "id": "general-restriction-registration",
+          "name": "General restriction registration"
+        },
+        {
+          "description": "Cancellation of general restrictions.",
+          "id": "general-restriction-cancellation",
+          "name": "General restriction cancellation"
+        }
+      ],
+      "slug": "e-land-services",
+      "subcategories": [
+        "e-services",
+        "land-registration",
+        "geoportal"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "multi-level",
+        "primary_type": "platform"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": null,
+      "beneficiaries": [
+        "residents",
+        "civil-registration staff",
+        "public-service administrators"
+      ],
+      "category": "civil-registration",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF names the service domain but does not state a deployment denominator.",
+        "levels": [
+          "regional",
+          "zone",
+          "city",
+          "district",
+          "kebele",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "e-vital-event-registration",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "E-Vital Event Registration Services",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Digitize birth, marriage, and death registration and certificate issuance.",
+      "services_digitized": [
+        {
+          "description": "Digital birth registration.",
+          "id": "online-birth-registration",
+          "name": "Online birth registration"
+        },
+        {
+          "description": "Digital birth-certificate service.",
+          "id": "birth-certificate-application-issuance",
+          "name": "Birth-certificate application and issuance"
+        },
+        {
+          "description": "Digital notification for birth registration.",
+          "id": "parent-notification",
+          "name": "Parent notification"
+        },
+        {
+          "description": "Digital marriage application.",
+          "id": "online-marriage-application",
+          "name": "Online marriage application"
+        },
+        {
+          "description": "Digital marriage-certificate service.",
+          "id": "marriage-certificate-issuance",
+          "name": "Marriage-certificate issuance"
+        },
+        {
+          "description": "Digital divorce application.",
+          "id": "online-divorce-application",
+          "name": "Online divorce application"
+        },
+        {
+          "description": "Digital death registration.",
+          "id": "online-death-registration",
+          "name": "Online death registration"
+        },
+        {
+          "description": "Digital death-certificate service.",
+          "id": "death-certificate-issuance",
+          "name": "Death-certificate issuance"
+        },
+        {
+          "description": "Digital civil certificate issuance.",
+          "id": "certificate-issuance",
+          "name": "Certificate issuance"
+        },
+        {
+          "description": "Digital notifications and appeals support.",
+          "id": "notifications-and-appeals",
+          "name": "Notifications and appeals"
+        }
+      ],
+      "slug": "e-vital-event-registration",
+      "subcategories": [
+        "birth-registration",
+        "marriage-registration",
+        "death-registration",
+        "digital-certificates"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "mobile"
+        ],
+        "deployment_scope": "multi-level",
+        "primary_type": "platform"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "eCHIS",
+      "beneficiaries": [
+        "community-health workers",
+        "health administrators",
+        "residents"
+      ],
+      "category": "health-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF lists eCHIS among systems shown in the E-Health section.",
+        "levels": [
+          "regional",
+          "institution"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "echis",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Electronic Community Health Information System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support electronic community-health information management.",
+      "services_digitized": [],
+      "slug": "echis",
+      "subcategories": [
+        "community-health",
+        "health-information"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "mobile"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "mobile-application"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": null,
+      "beneficiaries": [
+        "government institutions",
+        "multilingual service users"
+      ],
+      "category": "language-technology",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF names Ethio Language Box among G2G platforms but does not define its operational scope.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "ethio-language-box",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Ethio Language Box Technology",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support language technology within the regional government digital ecosystem.",
+      "services_digitized": [
+        {
+          "description": "Language-technology capability shown among G2G platforms.",
+          "id": "language-technology-service",
+          "name": "Language technology service"
+        }
+      ],
+      "slug": "ethio-language-box",
+      "subcategories": [
+        "language-technology",
+        "g2g",
+        "digital-inclusion"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "other"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "eTRADE / eSW",
+      "beneficiaries": [
+        "traders",
+        "businesses",
+        "trade administrators",
+        "inspection authorities"
+      ],
+      "category": "trade-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF shows the eTRADE/eSW URL and module names; current availability requires review.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "etrade-electronic-single-window",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Ethiopian Electronic Single Window for Trader",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Provide a unified interface for multiple trade-facilitation services and workflow functions.",
+      "services_digitized": [
+        {
+          "description": "Business-related trade-facilitation functions.",
+          "id": "single-window-business",
+          "name": "Business module"
+        },
+        {
+          "description": "Digital bill-payment function.",
+          "id": "single-window-bill-payment",
+          "name": "Bill payment"
+        },
+        {
+          "description": "Application and declaration workflow.",
+          "id": "single-window-application-processing",
+          "name": "Application and declaration processing"
+        },
+        {
+          "description": "Application status tracking.",
+          "id": "single-window-processing-status",
+          "name": "Processing status"
+        },
+        {
+          "description": "Coordinated inspection workflow.",
+          "id": "single-window-coordinated-inspection",
+          "name": "Coordinated inspection"
+        },
+        {
+          "and notices.": null,
+          "codes": null,
+          "description": "Reference dates",
+          "exchange rates": null,
+          "id": "single-window-reference-information",
+          "name": "Reference information",
+          "tariff lists": null
+        }
+      ],
+      "slug": "etrade-electronic-single-window",
+      "subcategories": [
+        "single-window",
+        "trade-facilitation",
+        "interoperability",
+        "workflow"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "integrated-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "G2C",
+      "beneficiaries": [
+        "residents",
+        "businesses",
+        "public-service users"
+      ],
+      "category": "citizen-services",
+      "faq_refs": [
+        "g2c-services-kpi-faq"
+      ],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF states 89 e-services across sectors; the service inventory and reporting date require review.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [
+        "g2c-e-services-offered-2025-published"
+      ],
+      "id": "g2c-e-services",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Government-to-Citizen Digital Service Layer",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Aggregate citizen-facing digital services across major government sectors.",
+      "services_digitized": [
+        {
+          "description": "Citizen-facing land services.",
+          "id": "land-e-services",
+          "name": "Land services"
+        },
+        {
+          "description": "Citizen-facing health services.",
+          "id": "health-e-services",
+          "name": "Health services"
+        },
+        {
+          "description": "Citizen-facing education services.",
+          "id": "education-e-services",
+          "name": "Education services"
+        },
+        {
+          "description": "Citizen-facing transport services.",
+          "id": "transport-e-services",
+          "name": "Transport services"
+        },
+        {
+          "description": "Citizen-facing vital-event services.",
+          "id": "vital-events-e-services",
+          "name": "Vital-event services"
+        },
+        {
+          "description": "Citizen-facing trade services.",
+          "id": "trade-e-services",
+          "name": "Trade services"
+        },
+        {
+          "description": "Citizen-facing investment services.",
+          "id": "investment-e-services",
+          "name": "Investment services"
+        },
+        {
+          "description": "Citizen-facing revenue services.",
+          "id": "revenue-e-services",
+          "name": "Revenue services"
+        },
+        {
+          "description": "Citizen-facing court services.",
+          "id": "court-e-services",
+          "name": "Court services"
+        },
+        {
+          "description": "Citizen-facing prosecution services.",
+          "id": "prosecution-e-services",
+          "name": "Prosecution services"
+        }
+      ],
+      "slug": "g2c-e-services",
+      "subcategories": [
+        "e-government",
+        "citizen-services",
+        "multi-sector"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "mobile"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "platform"
+      },
+      "transformation_story_refs": [
+        "g2c-service-layer-story"
+      ]
+    },
+    {
+      "acronym": "HRM",
+      "beneficiaries": [
+        "employees",
+        "human-resource administrators",
+        "government institutions"
+      ],
+      "category": "government-back-office",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF names HRM as a G2G system without a detailed deployment scope.",
+        "levels": [
+          "regional",
+          "institution"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "human-resource-management",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Human Resource Management System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support digital human-resource management across government institutions.",
+      "services_digitized": [
+        {
+          "description": "Digital human-resource administration.",
+          "id": "government-human-resource-management",
+          "name": "Government human-resource management"
+        }
+      ],
+      "slug": "human-resource-management",
+      "subcategories": [
+        "human-resources",
+        "g2g"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "IBX",
+      "beneficiaries": [
+        "finance administrators",
+        "government institutions",
+        "budget managers"
+      ],
+      "category": "government-finance",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF describes IBX as an Integrated Budget and Expenditure System; exact integration scope requires review.",
+        "levels": [
+          "regional",
+          "institution"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "integrated-business-exchange",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Integrated Business Exchange System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support integrated government budget, expenditure, and business-exchange information workflows.",
+      "services_digitized": [
+        {
+          "description": "Integrated budget and expenditure workflow.",
+          "id": "budget-and-expenditure-management",
+          "name": "Budget and expenditure management"
+        }
+      ],
+      "slug": "integrated-business-exchange",
+      "subcategories": [
+        "budget",
+        "expenditure",
+        "g2g",
+        "business-exchange"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "integrated-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "mBrana",
+      "beneficiaries": [
+        "residents",
+        "health workers",
+        "health administrators"
+      ],
+      "category": "health-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF lists mBrana among systems shown in the E-Health section.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "mbrana",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "mBrana Mobile Health Application",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Provide a mobile health-information application within the regional digital-health ecosystem.",
+      "services_digitized": [],
+      "slug": "mbrana",
+      "subcategories": [
+        "mobile-health",
+        "health-information"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "mobile"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "mobile-application"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "OCCMS",
+      "beneficiaries": [
+        "court users",
+        "court staff",
+        "judges",
+        "justice administrators"
+      ],
+      "category": "justice",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF identifies OCCMS modules and services; deployment coverage requires review.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "occms",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Oromia Court Case Management System",
+      "organization": {
+        "name": "Oromia Supreme Court",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Provide electronic court processes, case management, hearing, payment, reporting, communication, and security functions.",
+      "services_digitized": [
+        {
+          "description": "Digital filing of court cases.",
+          "id": "online-case-filing",
+          "name": "Online case filing"
+        },
+        {
+          "description": "Digital case tracking.",
+          "id": "case-tracking",
+          "name": "Case tracking"
+        },
+        {
+          "description": "Electronic filing of court documents.",
+          "id": "e-filing",
+          "name": "E-filing"
+        },
+        {
+          "description": "Digital hearing scheduling.",
+          "id": "hearing-scheduling",
+          "name": "Hearing scheduling"
+        },
+        {
+          "description": "Digital hearing notifications.",
+          "id": "hearing-notifications",
+          "name": "Hearing notifications"
+        },
+        {
+          "description": "Access to rulings and judgments.",
+          "id": "rulings-and-judgments",
+          "name": "Rulings and judgments"
+        },
+        {
+          "description": "Digital legal-resource access.",
+          "id": "legal-resource-library",
+          "name": "Legal-resource library"
+        },
+        {
+          "description": "Online court-fee and fine payment.",
+          "id": "court-fee-payment",
+          "name": "Court-fee and fine payment"
+        },
+        {
+          "description": "Digital payment history and receipts.",
+          "id": "payment-history-receipts",
+          "name": "Payment history and receipts"
+        }
+      ],
+      "slug": "occms",
+      "subcategories": [
+        "case-management",
+        "e-filing",
+        "hearings",
+        "payments",
+        "analytics"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "integrated-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "HCI Data Center",
+      "beneficiaries": [
+        "regional government institutions",
+        "digital-service operators",
+        "public-service users"
+      ],
+      "category": "digital-infrastructure",
+      "faq_refs": [
+        "data-center-kpi-faq"
+      ],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF describes one primary facility and three specialized edge facilities; operational scope requires review.",
+        "levels": [
+          "regional"
+        ]
+      },
+      "headline_kpi_refs": [
+        "oromia-data-center-storage-2025-published",
+        "oromia-data-center-services-hosted-2025-published"
+      ],
+      "id": "oromia-regional-data-center",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Oromia Regional State Data Center",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Host regional digital-transformation workloads through a tiered hyper-converged data-center facility.",
+      "services_digitized": [
+        {
+          "description": "Hosting for regional digital-transformation services.",
+          "id": "regional-service-hosting",
+          "name": "Regional service hosting"
+        },
+        {
+          "description": "Central and edge storage for hosted workloads.",
+          "id": "data-storage",
+          "name": "Data storage"
+        },
+        {
+          "description": "Virtualized compute and storage infrastructure.",
+          "id": "virtualization",
+          "name": "Virtualization"
+        }
+      ],
+      "slug": "oromia-regional-data-center",
+      "subcategories": [
+        "data-center",
+        "hosting",
+        "storage",
+        "virtualization"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "other"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "platform"
+      },
+      "transformation_story_refs": [
+        "data-center-hosting-story"
+      ]
     },
     {
       "acronym": "PRMS",
@@ -261,6 +1589,669 @@
       "transformation_story_refs": []
     },
     {
+      "acronym": "PMS",
+      "beneficiaries": [
+        "property administrators",
+        "government institutions",
+        "asset managers"
+      ],
+      "category": "government-back-office",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF names PMS as a G2G system without a detailed deployment scope.",
+        "levels": [
+          "regional",
+          "institution"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "property-management-system",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Property Management System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support digital management of government property and assets.",
+      "services_digitized": [
+        {
+          "description": "Digital property and asset administration.",
+          "id": "government-property-management",
+          "name": "Government property management"
+        }
+      ],
+      "slug": "property-management-system",
+      "subcategories": [
+        "property-management",
+        "assets",
+        "g2g"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": null,
+      "beneficiaries": [
+        "prosecutors",
+        "advocates",
+        "complainants",
+        "legal administrators"
+      ],
+      "category": "justice",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF shows a public portal and internal HR workflow; deployment coverage requires review.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "prosecution-e-services",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Prosecution E-Services",
+      "organization": {
+        "name": "Attorney General's Bureau",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Provide digital prosecution case, legal-information, document, human-resource, complaint, and customer-satisfaction workflows.",
+      "services_digitized": [
+        {
+          "description": "Digital prosecution case management.",
+          "id": "prosecution-case-management",
+          "name": "Case management"
+        },
+        {
+          "description": "Digital crime-reference management.",
+          "id": "crime-reference-management",
+          "name": "Crime-reference management"
+        },
+        {
+          "and licensing": null,
+          "authentication": null,
+          "description": "Digital document services.",
+          "id": "document-registration-authentication-licensing",
+          "name": "Document registration"
+        },
+        {
+          "description": "Digital legal research and drafting.",
+          "id": "legal-research-and-drafting",
+          "name": "Legal research and drafting"
+        },
+        {
+          "description": "Digital directive workflows.",
+          "id": "directive-review-registration",
+          "name": "Directive review and registration"
+        },
+        {
+          "description": "Digital legal-awareness management.",
+          "id": "legal-awareness-management",
+          "name": "Legal-awareness management"
+        },
+        {
+          "description": "Internal prosecution HR workflow.",
+          "id": "prosecution-hrm",
+          "name": "Human-resource management"
+        },
+        {
+          "description": "Digital discipline workflow.",
+          "id": "prosecutor-discipline",
+          "name": "Prosecutor and advocate discipline"
+        },
+        {
+          "description": "Digital complaints and satisfaction workflow.",
+          "id": "complaints-and-customer-satisfaction",
+          "name": "Complaints and customer satisfaction"
+        }
+      ],
+      "slug": "prosecution-e-services",
+      "subcategories": [
+        "prosecution",
+        "case-management",
+        "legal-information",
+        "hr-workflow"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "integrated-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "QMS",
+      "beneficiaries": [
+        "walk-in service users",
+        "service-counter staff",
+        "public-service administrators"
+      ],
+      "category": "citizen-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF describes an in-office system but does not identify all installations.",
+        "levels": [
+          "institution"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "queue-management-system",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Queue Management System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Organize walk-in citizen flow at service counters through electronic ticketing and service displays.",
+      "services_digitized": [
+        {
+          "description": "Digital ticket issuance for walk-in service.",
+          "id": "electronic-queue-ticketing",
+          "name": "Electronic queue ticketing"
+        },
+        {
+          "description": "Selection of the requested service category.",
+          "id": "service-category-selection",
+          "name": "Service-category selection"
+        },
+        {
+          "description": "Touch terminals for service counters.",
+          "id": "counter-touch-terminals",
+          "name": "Counter-mounted touch terminals"
+        },
+        {
+          "description": "Overhead display of the currently served ticket number.",
+          "id": "served-ticket-signage",
+          "name": "Served-ticket signage"
+        }
+      ],
+      "slug": "queue-management-system",
+      "subcategories": [
+        "queue-management",
+        "ticketing",
+        "service-counters",
+        "digital-signage"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "kiosk",
+          "other"
+        ],
+        "deployment_scope": "institutional",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "DMS",
+      "beneficiaries": [
+        "government institutions",
+        "records administrators",
+        "public-service users"
+      ],
+      "category": "records-management",
+      "faq_refs": [
+        "regional-documents-kpi-faq"
+      ],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF states a regional digitization total; source ownership and location breakdown require review.",
+        "levels": [
+          "regional"
+        ]
+      },
+      "headline_kpi_refs": [
+        "regional-document-digitization-documents-2025-published"
+      ],
+      "id": "regional-document-digitization",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Regional Document Digitization and Records Conversion",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Convert paper archives into searchable digital records through bulk scanning, capture, and indexing.",
+      "services_digitized": [
+        {
+          "description": "High-volume scanning of paper archives.",
+          "id": "bulk-archive-scanning",
+          "name": "Bulk archive scanning"
+        },
+        {
+          "description": "Capture of scanned documents using high-volume scanners.",
+          "id": "digital-document-capture",
+          "name": "Digital document capture"
+        },
+        {
+          "description": "Indexing documents into a searchable records-management dashboard.",
+          "id": "searchable-records-indexing",
+          "name": "Searchable records indexing"
+        }
+      ],
+      "slug": "regional-document-digitization",
+      "subcategories": [
+        "document-digitization",
+        "scanning",
+        "indexing",
+        "records-management"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "other"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "document-management-system"
+      },
+      "transformation_story_refs": [
+        "regional-document-digitization-story"
+      ]
+    },
+    {
+      "acronym": "RPRS",
+      "beneficiaries": [
+        "land administrators",
+        "property holders",
+        "residents"
+      ],
+      "category": "land-administration",
+      "faq_refs": [
+        "rprs-kpi-faq"
+      ],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF reports RPRS counters; exact reporting scope and locations require review.",
+        "levels": [
+          "regional",
+          "city"
+        ]
+      },
+      "headline_kpi_refs": [
+        "rprs-total-tasks-2025-published",
+        "rprs-certificates-issued-2025-published",
+        "rprs-parcels-migrated-2025-published"
+      ],
+      "id": "rprs",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Real Property Registration System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Register real property and manage parcel records through digital land-administration workflows.",
+      "services_digitized": [
+        {
+          "description": "Registration of real property records.",
+          "id": "real-property-registration",
+          "name": "Real property registration"
+        },
+        {
+          "description": "Issuance of property certificates.",
+          "id": "digital-certificate-issuance",
+          "name": "Digital certificate issuance"
+        },
+        {
+          "description": "Migration of parcel records into the system.",
+          "id": "parcel-migration",
+          "name": "Parcel migration"
+        }
+      ],
+      "slug": "rprs",
+      "subcategories": [
+        "property-registration",
+        "digital-certificates",
+        "parcel-records"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "multi-level",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": [
+        "rprs-land-registration-story"
+      ]
+    },
+    {
+      "acronym": "SDRIS",
+      "beneficiaries": [
+        "investors",
+        "businesses",
+        "service applicants",
+        "investment and industry administrators"
+      ],
+      "category": "investment-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF states that the portal and kiosk are trilingual; deployment coverage requires review.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "sdris",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Oromia Investment and Industry Bureau SDRIS",
+      "organization": {
+        "name": "Oromia Investment and Industry Bureau",
+        "ownership": "owner",
+        "type": "government-organization"
+      },
+      "purpose": "Support investment and industry service-delivery reform through a multilingual portal and self-service kiosk.",
+      "services_digitized": [
+        {
+          "description": "Multilingual web service-delivery portal.",
+          "id": "sdris-web-portal",
+          "name": "SDRIS web portal"
+        },
+        {
+          "description": "Physical self-service kiosk using the portal's language and menu design.",
+          "id": "sdris-self-service-kiosk",
+          "name": "SDRIS self-service kiosk"
+        }
+      ],
+      "slug": "sdris",
+      "subcategories": [
+        "service-delivery",
+        "multilingual-portal",
+        "kiosk"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "kiosk"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "SIGTAX",
+      "beneficiaries": [
+        "taxpayers",
+        "businesses",
+        "revenue administrators",
+        "auditors"
+      ],
+      "category": "revenue-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF shows transactional and analytics functions; current public availability requires review.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "sigtax",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Revenue E-Services",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Provide digital tax registration, filing, payment, audit, dispute, and appeal information services.",
+      "services_digitized": [
+        {
+          "description": "Digital taxpayer registration.",
+          "id": "online-tax-registration",
+          "name": "Online tax registration"
+        },
+        {
+          "description": "Digital filing of tax information.",
+          "id": "electronic-tax-filing",
+          "name": "Electronic tax filing"
+        },
+        {
+          "description": "Digital tax assessment notices.",
+          "id": "tax-assessment-notices",
+          "name": "Tax assessment notices"
+        },
+        {
+          "description": "Digital tax and fee payment.",
+          "id": "online-tax-payment",
+          "name": "Online tax and fee payment"
+        },
+        {
+          "description": "Mobile tax payment.",
+          "id": "mobile-payment",
+          "name": "Mobile payment"
+        },
+        {
+          "description": "Digital tax guidance.",
+          "id": "tax-guidance",
+          "name": "Tax guidance"
+        },
+        {
+          "description": "Digital information on exemptions and incentives.",
+          "id": "exemptions-and-incentives",
+          "name": "Exemptions and incentives"
+        },
+        {
+          "description": "Digital audit-document submission.",
+          "id": "audit-document-submission",
+          "name": "Audit-document submission"
+        },
+        {
+          "description": "Digital audit-result access.",
+          "id": "audit-results",
+          "name": "Audit results"
+        },
+        {
+          "description": "Digital tax-dispute information.",
+          "id": "tax-disputes",
+          "name": "Tax disputes"
+        },
+        {
+          "description": "Digital appeals information.",
+          "id": "appeals-information",
+          "name": "Appeals information"
+        }
+      ],
+      "slug": "sigtax",
+      "subcategories": [
+        "tax-administration",
+        "e-filing",
+        "e-payment",
+        "analytics",
+        "audit"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "mobile"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "platform"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "SmartCare",
+      "beneficiaries": [
+        "patients",
+        "clinicians",
+        "hospital administrators"
+      ],
+      "category": "health-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF lists SmartCare among systems shown in the E-Health section.",
+        "levels": [
+          "institution"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "smartcare",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "SmartCare EHR / Hospital System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support electronic health records and hospital information management in the regional digital-health ecosystem.",
+      "services_digitized": [],
+      "slug": "smartcare",
+      "subcategories": [
+        "electronic-health-record",
+        "hospital-system"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "institutional",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": null,
+      "beneficiaries": [
+        "traders",
+        "businesses",
+        "trade administrators",
+        "customs users"
+      ],
+      "category": "trade-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF states a bilingual Afaan Oromoo and English portal with TIN-linked login or registration.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "trade-e-services",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Trade E-Services",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Provide bilingual digital trade licensing, business registration, import, export, and customs-related services.",
+      "services_digitized": [
+        {
+          "description": "Digital trade-license application.",
+          "id": "online-trade-license-application",
+          "name": "Online trade-license application"
+        },
+        {
+          "description": "Digital business registration.",
+          "id": "business-registration",
+          "name": "Business registration"
+        },
+        {
+          "description": "Digital license renewal.",
+          "id": "license-renewal",
+          "name": "License renewal"
+        },
+        {
+          "description": "Digital market-price information.",
+          "id": "market-price-information",
+          "name": "Market-price information"
+        },
+        {
+          "description": "Digital regulatory guidance.",
+          "id": "trade-regulations",
+          "name": "Trade regulations and compliance guidelines"
+        },
+        {
+          "description": "Digital export documentation.",
+          "id": "online-export-documentation",
+          "name": "Online export documentation"
+        },
+        {
+          "description": "Digital import-permit applications.",
+          "id": "import-permit-applications",
+          "name": "Import-permit applications"
+        },
+        {
+          "description": "Digital customs-clearance tracking.",
+          "id": "customs-clearance-tracking",
+          "name": "Customs-clearance tracking"
+        }
+      ],
+      "slug": "trade-e-services",
+      "subcategories": [
+        "business-registration",
+        "licensing",
+        "export",
+        "import",
+        "customs"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "web-application"
+      },
+      "transformation_story_refs": []
+    },
+    {
       "acronym": "UEMIS",
       "beneficiaries": [
         "young people",
@@ -309,6 +2300,141 @@
           "web"
         ],
         "deployment_scope": "regional",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "WoredaNet",
+      "beneficiaries": [
+        "regional offices",
+        "zonal offices",
+        "city offices",
+        "woreda offices",
+        "kebele offices"
+      ],
+      "category": "digital-infrastructure",
+      "faq_refs": [
+        "woredanet-vpn-kpi-faq"
+      ],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF reports line counts by administrative layer; the exact office inventory requires review.",
+        "levels": [
+          "regional",
+          "zone",
+          "city",
+          "district",
+          "kebele"
+        ]
+      },
+      "headline_kpi_refs": [
+        "woredanet-vpn-regional-lines-2025-published",
+        "woredanet-vpn-zone-city-lines-2025-published",
+        "woredanet-vpn-woreda-kebele-lines-2025-published"
+      ],
+      "id": "woredanet-vpn",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "WoredaNet / VPN Connectivity",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Connect regional, zonal, city, woreda, and kebele government offices for shared digital access and services.",
+      "services_digitized": [
+        {
+          "description": "Internet access for connected government offices.",
+          "id": "government-internet-access",
+          "name": "Government internet access"
+        },
+        {
+          "description": "Video-conferencing service across connected offices.",
+          "id": "government-video-conferencing",
+          "name": "Government video conferencing"
+        },
+        {
+          "description": "Network access for shared government digital services.",
+          "id": "shared-digital-services-connectivity",
+          "name": "Shared digital-services connectivity"
+        }
+      ],
+      "slug": "woredanet-vpn",
+      "subcategories": [
+        "wide-area-network",
+        "vpn",
+        "connectivity"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "other"
+        ],
+        "deployment_scope": "multi-level",
+        "primary_type": "platform"
+      },
+      "transformation_story_refs": [
+        "woredanet-connectivity-story"
+      ]
+    },
+    {
+      "acronym": "WUMIS",
+      "beneficiaries": [
+        "urban-planning administrators",
+        "land administrators",
+        "residents"
+      ],
+      "category": "land-administration",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF names WUMIS and a GIS map-view interface; exact deployment locations require review.",
+        "levels": [
+          "regional",
+          "city"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "wumis",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Web-based Urban Management Information System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support web-based urban management and map-based land-information access.",
+      "services_digitized": [
+        {
+          "description": "Web-based access to urban-management information.",
+          "id": "urban-management-information",
+          "name": "Urban management information"
+        },
+        {
+          "description": "Map-based viewing of land information.",
+          "id": "gis-map-view",
+          "name": "GIS map view"
+        }
+      ],
+      "slug": "wumis",
+      "subcategories": [
+        "urban-management",
+        "gis",
+        "land-information"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "multi-level",
         "primary_type": "information-system"
       },
       "transformation_story_refs": []
