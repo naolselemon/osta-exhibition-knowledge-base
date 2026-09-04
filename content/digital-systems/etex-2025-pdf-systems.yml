@@ -78,7 +78,7 @@ records:
     acronym: HCI Data Center
     category: digital-infrastructure
     subcategories: [data-center, hosting, storage, virtualization]
-    lifecycle_status: operational
+    lifecycle_status: unknown
     publication_status: draft
     organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
     system_classification: {primary_type: platform, delivery_channels: [other], deployment_scope: regional}
@@ -822,7 +822,7 @@ records:
     lifecycle_status: unknown
     publication_status: draft
     organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
-    system_classification: {primary_type: ai-solution, delivery_channels: [web], deployment_scope: regional}
+    system_classification: {primary_type: other, delivery_channels: [web], deployment_scope: regional}
     purpose: Support language technology within the regional government digital ecosystem.
     beneficiaries: [government institutions, multilingual service users]
     services_digitized:
