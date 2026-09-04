@@ -1,0 +1,1029 @@
+records:
+  - schema_version: 1.0.0
+    id: woredanet-vpn
+    slug: woredanet-vpn
+    official_name: WoredaNet / VPN Connectivity
+    acronym: WoredaNet
+    category: digital-infrastructure
+    subcategories: [wide-area-network, vpn, connectivity]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: platform, delivery_channels: [web, other], deployment_scope: multi-level}
+    purpose: Connect regional, zonal, city, woreda, and kebele government offices for shared digital access and services.
+    beneficiaries: [regional offices, zonal offices, city offices, woreda offices, kebele offices]
+    services_digitized:
+      - {id: government-internet-access, name: Government internet access, description: Internet access for connected government offices.}
+      - {id: government-video-conferencing, name: Government video conferencing, description: Video-conferencing service across connected offices.}
+      - {id: shared-digital-services-connectivity, name: Shared digital-services connectivity, description: Network access for shared government digital services.}
+    integrations: []
+    geographic_coverage: {levels: [regional, zone, city, district, kebele], areas: [Oromia], coverage_notes: The PDF reports line counts by administrative layer; the exact office inventory requires review.}
+    headline_kpi_refs:
+      - woredanet-vpn-regional-lines-2025
+      - woredanet-vpn-zone-city-lines-2025
+      - woredanet-vpn-woreda-kebele-lines-2025
+    transformation_story_refs: [woredanet-connectivity-story]
+    faq_refs: [woredanet-vpn-kpi-faq]
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 2, section “3. WoredaNet / VPN Connectivity”
+        verification_status: needs-review
+        public_display_approved: false
+    kpi_data_unavailable_exception: null
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: broadband-connectivity
+    slug: broadband-connectivity
+    official_name: Broadband Connectivity
+    acronym: null
+    category: digital-infrastructure
+    subcategories: [broadband, mobile-network, fiber]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: platform, delivery_channels: [web, mobile, other], deployment_scope: regional}
+    purpose: Expand fiber-backed and mobile broadband access across the region.
+    beneficiaries: [residents, public institutions, businesses, digital-service users]
+    services_digitized:
+      - {id: broadband-access, name: Broadband access, description: Public mobile and broadband connectivity supported by fiber and last-mile networks.}
+    integrations: []
+    geographic_coverage: {levels: [regional], areas: [Oromia], coverage_notes: The PDF reports a network-generation split; geographic denominator details require review.}
+    headline_kpi_refs:
+      - broadband-5g-coverage-2025
+      - broadband-4g-coverage-2025
+      - broadband-3g-coverage-2025
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 2, section “4. Broadband Connectivity”
+        verification_status: needs-review
+        public_display_approved: false
+    kpi_data_unavailable_exception: null
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: oromia-regional-data-center
+    slug: oromia-regional-data-center
+    official_name: Oromia Regional State Data Center
+    acronym: HCI Data Center
+    category: digital-infrastructure
+    subcategories: [data-center, hosting, storage, virtualization]
+    lifecycle_status: operational
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: platform, delivery_channels: [other], deployment_scope: regional}
+    purpose: Host regional digital-transformation workloads through a tiered hyper-converged data-center facility.
+    beneficiaries: [regional government institutions, digital-service operators, public-service users]
+    services_digitized:
+      - {id: regional-service-hosting, name: Regional service hosting, description: Hosting for regional digital-transformation services.}
+      - {id: data-storage, name: Data storage, description: Central and edge storage for hosted workloads.}
+      - {id: virtualization, name: Virtualization, description: Virtualized compute and storage infrastructure.}
+    integrations: []
+    geographic_coverage: {levels: [regional], areas: [Oromia], coverage_notes: The PDF describes one primary facility and three specialized edge facilities; operational scope requires review.}
+    headline_kpi_refs: [oromia-data-center-storage-2025, oromia-data-center-services-hosted-2025]
+    transformation_story_refs: [data-center-hosting-story]
+    faq_refs: [data-center-kpi-faq]
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 2, section “5. Oromia Regional State Data Center”
+        verification_status: needs-review
+        public_display_approved: false
+    kpi_data_unavailable_exception: null
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: regional-document-digitization
+    slug: regional-document-digitization
+    official_name: Regional Document Digitization and Records Conversion
+    acronym: DMS
+    category: records-management
+    subcategories: [document-digitization, scanning, indexing, records-management]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: document-management-system, delivery_channels: [web, other], deployment_scope: regional}
+    purpose: Convert paper archives into searchable digital records through bulk scanning, capture, and indexing.
+    beneficiaries: [government institutions, records administrators, public-service users]
+    services_digitized:
+      - {id: bulk-archive-scanning, name: Bulk archive scanning, description: High-volume scanning of paper archives.}
+      - {id: digital-document-capture, name: Digital document capture, description: Capture of scanned documents using high-volume scanners.}
+      - {id: searchable-records-indexing, name: Searchable records indexing, description: Indexing documents into a searchable records-management dashboard.}
+    integrations: []
+    geographic_coverage: {levels: [regional], areas: [Oromia], coverage_notes: The PDF states a regional digitization total; source ownership and location breakdown require review.}
+    headline_kpi_refs: [regional-document-digitization-documents-2025]
+    transformation_story_refs: [regional-document-digitization-story]
+    faq_refs: [regional-documents-kpi-faq]
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 3, section “8. Digitization / Records Conversion”
+        verification_status: needs-review
+        public_display_approved: false
+    kpi_data_unavailable_exception: null
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: wumis
+    slug: wumis
+    official_name: Web-based Urban Management Information System
+    acronym: WUMIS
+    category: land-administration
+    subcategories: [urban-management, gis, land-information]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: information-system, delivery_channels: [web], deployment_scope: multi-level}
+    purpose: Support web-based urban management and map-based land-information access.
+    beneficiaries: [urban-planning administrators, land administrators, residents]
+    services_digitized:
+      - {id: urban-management-information, name: Urban management information, description: Web-based access to urban-management information.}
+      - {id: gis-map-view, name: GIS map view, description: Map-based viewing of land information.}
+    integrations: []
+    geographic_coverage: {levels: [regional, city], areas: [Oromia], coverage_notes: The PDF names WUMIS and a GIS map-view interface; exact deployment locations require review.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 4, section “12. E-Land Administration”
+        verification_status: needs-review
+        public_display_approved: false
+    kpi_data_unavailable_exception: null
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: rprs
+    slug: rprs
+    official_name: Real Property Registration System
+    acronym: RPRS
+    category: land-administration
+    subcategories: [property-registration, digital-certificates, parcel-records]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: information-system, delivery_channels: [web], deployment_scope: multi-level}
+    purpose: Register real property and manage parcel records through digital land-administration workflows.
+    beneficiaries: [land administrators, property holders, residents]
+    services_digitized:
+      - {id: real-property-registration, name: Real property registration, description: Registration of real property records.}
+      - {id: digital-certificate-issuance, name: Digital certificate issuance, description: Issuance of property certificates.}
+      - {id: parcel-migration, name: Parcel migration, description: Migration of parcel records into the system.}
+    integrations: []
+    geographic_coverage: {levels: [regional, city], areas: [Oromia], coverage_notes: The PDF reports RPRS counters; exact reporting scope and locations require review.}
+    headline_kpi_refs: [rprs-total-tasks-2025, rprs-certificates-issued-2025, rprs-parcels-migrated-2025]
+    transformation_story_refs: [rprs-land-registration-story]
+    faq_refs: [rprs-kpi-faq]
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 4, section “12. E-Land Administration”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: e-land-services
+    slug: e-land-services
+    official_name: E-Land Services
+    acronym: null
+    category: land-administration
+    subcategories: [e-services, land-registration, geoportal]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: platform, delivery_channels: [web], deployment_scope: multi-level}
+    purpose: Provide citizen-facing transactional land services through portals and geoportal interfaces.
+    beneficiaries: [landholders, property applicants, residents, land administrators]
+    services_digitized:
+      - {id: leasehold-registration, name: Leasehold registration, description: Online leasehold registration.}
+      - {id: old-possession-registration, name: Old possession registration, description: Registration of old possession records.}
+      - {id: urban-farmland-holding-registration, name: Urban farmland holding registration, description: Registration of urban farmland holdings.}
+      - {id: landholding-without-use-right-registration, name: Landholding without use-right registration, description: Registration of landholding without a use right.}
+      - {id: condominium-unit-registration, name: Condominium-unit registration, description: Registration of condominium units.}
+      - {id: sublease-registration, name: Sublease or subsequent registration, description: Registration of subleases or subsequent transactions.}
+      - {id: mortgage-registration, name: Mortgage registration, description: Registration of mortgages.}
+      - {id: mortgage-cancellation, name: Mortgage cancellation, description: Cancellation of mortgages.}
+      - {id: court-injunction-registration, name: Court injunction registration, description: Registration of court injunctions.}
+      - {id: court-injunction-cancellation, name: Court injunction cancellation, description: Cancellation of court injunctions.}
+      - {id: general-restriction-registration, name: General restriction registration, description: Registration of general restrictions.}
+      - {id: general-restriction-cancellation, name: General restriction cancellation, description: Cancellation of general restrictions.}
+    integrations: []
+    geographic_coverage: {levels: [city, online], areas: [Bishoftu, Shagar, Oromia], coverage_notes: The PDF shows Bishoftu and Shagar portals and references a Geoportal; the service count discrepancy is retained in the source observation.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 5, section “13. E-Land Services”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: e-health-services
+    slug: e-health-services
+    official_name: E-Health Services
+    acronym: null
+    category: health-services
+    subcategories: [health-information, clinical-records, appointments, licensing]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: platform, delivery_channels: [web, mobile], deployment_scope: regional}
+    purpose: Provide digital health information, clinical, appointment, document, and licensing services.
+    beneficiaries: [patients, health workers, health administrators, health institutions]
+    services_digitized:
+      - {id: electronic-care-health-service, name: Electronic care health service, description: Digital health-care service.}
+      - {id: electronic-appointments, name: Electronic appointments, description: Digital appointment scheduling.}
+      - {id: health-dms, name: Health document management, description: Digital management of health documents.}
+      - {id: electronic-dhims, name: Electronic DHIMS, description: Digital health-information management service.}
+      - {id: electronic-health-license, name: Electronic health license, description: Digital health licensing service.}
+    integrations: []
+    geographic_coverage: {levels: [regional, institution, online], areas: [Oromia], coverage_notes: The PDF lists health platforms and services but does not define a single deployment denominator.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 5, section “14. E-Health Services”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: dhis2
+    slug: dhis2
+    official_name: District Health Information Software 2
+    acronym: DHIS2
+    category: health-services
+    subcategories: [health-information, reporting]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: information-system, delivery_channels: [web], deployment_scope: regional}
+    purpose: Support digital health-information management within the regional health platform ecosystem.
+    beneficiaries: [health administrators, health institutions, health workers]
+    services_digitized: []
+    integrations: []
+    geographic_coverage: {levels: [regional, institution], areas: [Oromia], coverage_notes: The PDF lists DHIS2 among systems shown in the E-Health section.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 5, section “14. E-Health Services”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: smartcare
+    slug: smartcare
+    official_name: SmartCare EHR / Hospital System
+    acronym: SmartCare
+    category: health-services
+    subcategories: [electronic-health-record, hospital-system]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: information-system, delivery_channels: [web], deployment_scope: institutional}
+    purpose: Support electronic health records and hospital information management in the regional digital-health ecosystem.
+    beneficiaries: [patients, clinicians, hospital administrators]
+    services_digitized: []
+    integrations: []
+    geographic_coverage: {levels: [institution], areas: [Oromia], coverage_notes: The PDF lists SmartCare among systems shown in the E-Health section.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 5, section “14. E-Health Services”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: echis
+    slug: echis
+    official_name: Electronic Community Health Information System
+    acronym: eCHIS
+    category: health-services
+    subcategories: [community-health, health-information]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: mobile-application, delivery_channels: [mobile], deployment_scope: regional}
+    purpose: Support electronic community-health information management.
+    beneficiaries: [community-health workers, health administrators, residents]
+    services_digitized: []
+    integrations: []
+    geographic_coverage: {levels: [regional, institution], areas: [Oromia], coverage_notes: The PDF lists eCHIS among systems shown in the E-Health section.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 5, section “14. E-Health Services”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: dagu
+    slug: dagu
+    official_name: Dagu Health Logistics System
+    acronym: Dagu
+    category: health-services
+    subcategories: [health-logistics, supply-management]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: information-system, delivery_channels: [web], deployment_scope: regional}
+    purpose: Support digital health-logistics information management.
+    beneficiaries: [health-logistics administrators, health institutions]
+    services_digitized: []
+    integrations: []
+    geographic_coverage: {levels: [regional, institution], areas: [Oromia], coverage_notes: The PDF lists Dagu among systems shown in the E-Health section.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 5, section “14. E-Health Services”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: mbrana
+    slug: mbrana
+    official_name: mBrana Mobile Health Application
+    acronym: mBrana
+    category: health-services
+    subcategories: [mobile-health, health-information]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: mobile-application, delivery_channels: [mobile], deployment_scope: regional}
+    purpose: Provide a mobile health-information application within the regional digital-health ecosystem.
+    beneficiaries: [residents, health workers, health administrators]
+    services_digitized: []
+    integrations: []
+    geographic_coverage: {levels: [regional, online], areas: [Oromia], coverage_notes: The PDF lists mBrana among systems shown in the E-Health section.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 5, section “14. E-Health Services”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: e-education-services
+    slug: e-education-services
+    official_name: E-Education Services
+    acronym: null
+    category: education-services
+    subcategories: [e-learning, student-information, digital-library, examinations]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: platform, delivery_channels: [web, mobile], deployment_scope: regional}
+    purpose: Provide digital education services for learning, enrollment, examination scheduling, and educational resources.
+    beneficiaries: [students, teachers, schools, education administrators]
+    services_digitized:
+      - {id: e-learning-platforms, name: E-learning platforms, description: Digital learning platforms.}
+      - {id: student-enrollment-systems, name: Student enrollment systems, description: Digital student enrollment.}
+      - {id: online-examination-scheduling, name: Online examination scheduling, description: Digital examination scheduling.}
+      - {id: digital-library, name: Digital library, description: Grade-level PDF learning resources.}
+    integrations: []
+    geographic_coverage: {levels: [regional, institution, online], areas: [Oromia], coverage_notes: The PDF reports education dashboard figures without an explicit reporting denominator.}
+    headline_kpi_refs: [e-education-teachers-2025, e-education-students-2025, e-education-schools-2025]
+    transformation_story_refs: [e-education-dashboard-story]
+    faq_refs: [e-education-kpi-faq]
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 5, section “15. E-Education Services”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: dtrip-admin
+    slug: dtrip-admin
+    official_name: DTrip Transport Administration System
+    acronym: DTrip Admin
+    category: transport-services
+    subcategories: [passenger-operations, routes, vehicles, e-ticketing]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: information-system, delivery_channels: [web, mobile], deployment_scope: regional}
+    purpose: Support public-transport administration, route operations, passenger services, and e-ticketing.
+    beneficiaries: [passengers, transport operators, transport administrators]
+    services_digitized:
+      - {id: online-vehicle-registration, name: Online vehicle registration, description: Digital vehicle registration.}
+      - {id: drivers-license-application-renewal, name: Driver's-license application and renewal, description: Digital driver's-license services.}
+      - {id: vehicle-inspection-scheduling, name: Vehicle inspection scheduling, description: Digital inspection scheduling.}
+      - {id: e-ticket, name: E-ticket, description: Digital passenger ticketing.}
+    integrations: []
+    geographic_coverage: {levels: [regional, city, online], areas: [Oromia], coverage_notes: The PDF reports DTrip dashboard figures; the covered route and service period require review.}
+    headline_kpi_refs: [dtrip-passengers-2025, dtrip-routes-2025, dtrip-vehicles-2025, dtrip-employees-2025]
+    transformation_story_refs: [dtrip-transport-story]
+    faq_refs: [dtrip-kpi-faq]
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 6, section “16. E-Transport”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: e-vital-event-registration
+    slug: e-vital-event-registration
+    official_name: E-Vital Event Registration Services
+    acronym: null
+    category: civil-registration
+    subcategories: [birth-registration, marriage-registration, death-registration, digital-certificates]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: platform, delivery_channels: [web, mobile], deployment_scope: multi-level}
+    purpose: Digitize birth, marriage, and death registration and certificate issuance.
+    beneficiaries: [residents, civil-registration staff, public-service administrators]
+    services_digitized:
+      - {id: online-birth-registration, name: Online birth registration, description: Digital birth registration.}
+      - {id: birth-certificate-application-issuance, name: Birth-certificate application and issuance, description: Digital birth-certificate service.}
+      - {id: parent-notification, name: Parent notification, description: Digital notification for birth registration.}
+      - {id: online-marriage-application, name: Online marriage application, description: Digital marriage application.}
+      - {id: marriage-certificate-issuance, name: Marriage-certificate issuance, description: Digital marriage-certificate service.}
+      - {id: online-divorce-application, name: Online divorce application, description: Digital divorce application.}
+      - {id: online-death-registration, name: Online death registration, description: Digital death registration.}
+      - {id: death-certificate-issuance, name: Death-certificate issuance, description: Digital death-certificate service.}
+      - {id: certificate-issuance, name: Certificate issuance, description: Digital civil certificate issuance.}
+      - {id: notifications-and-appeals, name: Notifications and appeals, description: Digital notifications and appeals support.}
+    integrations: []
+    geographic_coverage: {levels: [regional, zone, city, district, kebele, online], areas: [Oromia], coverage_notes: The PDF names the service domain but does not state a deployment denominator.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 6, section “17. E-Vital Event Registration Services”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: trade-e-services
+    slug: trade-e-services
+    official_name: Trade E-Services
+    acronym: null
+    category: trade-services
+    subcategories: [business-registration, licensing, export, import, customs]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: web-application, delivery_channels: [web], deployment_scope: regional}
+    purpose: Provide bilingual digital trade licensing, business registration, import, export, and customs-related services.
+    beneficiaries: [traders, businesses, trade administrators, customs users]
+    services_digitized:
+      - {id: online-trade-license-application, name: Online trade-license application, description: Digital trade-license application.}
+      - {id: business-registration, name: Business registration, description: Digital business registration.}
+      - {id: license-renewal, name: License renewal, description: Digital license renewal.}
+      - {id: market-price-information, name: Market-price information, description: Digital market-price information.}
+      - {id: trade-regulations, name: Trade regulations and compliance guidelines, description: Digital regulatory guidance.}
+      - {id: online-export-documentation, name: Online export documentation, description: Digital export documentation.}
+      - {id: import-permit-applications, name: Import-permit applications, description: Digital import-permit applications.}
+      - {id: customs-clearance-tracking, name: Customs-clearance tracking, description: Digital customs-clearance tracking.}
+    integrations: []
+    geographic_coverage: {levels: [regional, online], areas: [Oromia], coverage_notes: The PDF states a bilingual Afaan Oromoo and English portal with TIN-linked login or registration.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 6, section “18. Trade E-Services”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: e-investment-services
+    slug: e-investment-services
+    official_name: E-Investment
+    acronym: null
+    category: investment-services
+    subcategories: [investment-registration, licensing, permits, advisory]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: web-application, delivery_channels: [web], deployment_scope: regional}
+    purpose: Provide digital investment-project registration, licensing, permitting, and advisory services.
+    beneficiaries: [investors, businesses, investment administrators]
+    services_digitized:
+      - {id: investment-project-registration, name: Online investment-project registration, description: Digital investment-project registration.}
+      - {id: investment-license-issuance, name: Investment-license issuance, description: Digital investment licensing.}
+      - {id: investment-permit-renewal, name: Investment-permit renewal, description: Digital investment-permit renewal.}
+      - {id: online-business-advisory, name: Online business advisory, description: Digital business-advisory services.}
+    integrations: []
+    geographic_coverage: {levels: [regional, online], areas: [Oromia], coverage_notes: The PDF describes the service types but does not state a deployment denominator.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 7, section “19. E-Investment”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: etrade-electronic-single-window
+    slug: etrade-electronic-single-window
+    official_name: Ethiopian Electronic Single Window for Trader
+    acronym: eTRADE / eSW
+    category: trade-services
+    subcategories: [single-window, trade-facilitation, interoperability, workflow]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: integrated-system, delivery_channels: [web], deployment_scope: regional}
+    purpose: Provide a unified interface for multiple trade-facilitation services and workflow functions.
+    beneficiaries: [traders, businesses, trade administrators, inspection authorities]
+    services_digitized:
+      - {id: single-window-business, name: Business module, description: Business-related trade-facilitation functions.}
+      - {id: single-window-bill-payment, name: Bill payment, description: Digital bill-payment function.}
+      - {id: single-window-application-processing, name: Application and declaration processing, description: Application and declaration workflow.}
+      - {id: single-window-processing-status, name: Processing status, description: Application status tracking.}
+      - {id: single-window-coordinated-inspection, name: Coordinated inspection, description: Coordinated inspection workflow.}
+      - {id: single-window-reference-information, name: Reference information, description: Reference dates, tariff lists, codes, exchange rates, and notices.}
+    integrations: []
+    geographic_coverage: {levels: [regional, online], areas: [Oromia], coverage_notes: The PDF shows the eTRADE/eSW URL and module names; current availability requires review.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 7, section “20. Electronic Single Window (eSW)”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: g2c-e-services
+    slug: g2c-e-services
+    official_name: Government-to-Citizen Digital Service Layer
+    acronym: G2C
+    category: citizen-services
+    subcategories: [e-government, citizen-services, multi-sector]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: platform, delivery_channels: [web, mobile], deployment_scope: regional}
+    purpose: Aggregate citizen-facing digital services across major government sectors.
+    beneficiaries: [residents, businesses, public-service users]
+    services_digitized:
+      - {id: land-e-services, name: Land services, description: Citizen-facing land services.}
+      - {id: health-e-services, name: Health services, description: Citizen-facing health services.}
+      - {id: education-e-services, name: Education services, description: Citizen-facing education services.}
+      - {id: transport-e-services, name: Transport services, description: Citizen-facing transport services.}
+      - {id: vital-events-e-services, name: Vital-event services, description: Citizen-facing vital-event services.}
+      - {id: trade-e-services, name: Trade services, description: Citizen-facing trade services.}
+      - {id: investment-e-services, name: Investment services, description: Citizen-facing investment services.}
+      - {id: revenue-e-services, name: Revenue services, description: Citizen-facing revenue services.}
+      - {id: court-e-services, name: Court services, description: Citizen-facing court services.}
+      - {id: prosecution-e-services, name: Prosecution services, description: Citizen-facing prosecution services.}
+    integrations: []
+    geographic_coverage: {levels: [regional, online], areas: [Oromia], coverage_notes: The PDF states 89 e-services across sectors; the service inventory and reporting date require review.}
+    headline_kpi_refs: [g2c-e-services-offered-2025]
+    transformation_story_refs: [g2c-service-layer-story]
+    faq_refs: [g2c-services-kpi-faq]
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 4, section “11. Government-to-Citizen (G2C) Service Layer”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: document-management-system
+    slug: document-management-system
+    official_name: Document Management System
+    acronym: DMS
+    category: government-back-office
+    subcategories: [document-management, records-management, g2g]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: document-management-system, delivery_channels: [web], deployment_scope: regional}
+    purpose: Support government-to-government document management and records workflows.
+    beneficiaries: [government institutions, records administrators]
+    services_digitized:
+      - {id: government-document-management, name: Government document management, description: Digital management of government documents.}
+    integrations: []
+    geographic_coverage: {levels: [regional, institution], areas: [Oromia], coverage_notes: The PDF names DMS as a G2G system without a detailed deployment scope.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 3, section “9. G2G Digital Transformation Initiatives”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: human-resource-management
+    slug: human-resource-management
+    official_name: Human Resource Management System
+    acronym: HRM
+    category: government-back-office
+    subcategories: [human-resources, g2g]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: information-system, delivery_channels: [web], deployment_scope: regional}
+    purpose: Support digital human-resource management across government institutions.
+    beneficiaries: [employees, human-resource administrators, government institutions]
+    services_digitized:
+      - {id: government-human-resource-management, name: Government human-resource management, description: Digital human-resource administration.}
+    integrations: []
+    geographic_coverage: {levels: [regional, institution], areas: [Oromia], coverage_notes: The PDF names HRM as a G2G system without a detailed deployment scope.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 3, section “9. G2G Digital Transformation Initiatives”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: integrated-business-exchange
+    slug: integrated-business-exchange
+    official_name: Integrated Business Exchange System
+    acronym: IBX
+    category: government-finance
+    subcategories: [budget, expenditure, g2g, business-exchange]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: integrated-system, delivery_channels: [web], deployment_scope: regional}
+    purpose: Support integrated government budget, expenditure, and business-exchange information workflows.
+    beneficiaries: [finance administrators, government institutions, budget managers]
+    services_digitized:
+      - {id: budget-and-expenditure-management, name: Budget and expenditure management, description: Integrated budget and expenditure workflow.}
+    integrations: []
+    geographic_coverage: {levels: [regional, institution], areas: [Oromia], coverage_notes: The PDF describes IBX as an Integrated Budget and Expenditure System; exact integration scope requires review.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 3, section “9. G2G Digital Transformation Initiatives”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: property-management-system
+    slug: property-management-system
+    official_name: Property Management System
+    acronym: PMS
+    category: government-back-office
+    subcategories: [property-management, assets, g2g]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: information-system, delivery_channels: [web], deployment_scope: regional}
+    purpose: Support digital management of government property and assets.
+    beneficiaries: [property administrators, government institutions, asset managers]
+    services_digitized:
+      - {id: government-property-management, name: Government property management, description: Digital property and asset administration.}
+    integrations: []
+    geographic_coverage: {levels: [regional, institution], areas: [Oromia], coverage_notes: The PDF names PMS as a G2G system without a detailed deployment scope.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 3, section “9. G2G Digital Transformation Initiatives”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: ethio-language-box
+    slug: ethio-language-box
+    official_name: Ethio Language Box Technology
+    acronym: null
+    category: language-technology
+    subcategories: [language-technology, g2g, digital-inclusion]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: ai-solution, delivery_channels: [web], deployment_scope: regional}
+    purpose: Support language technology within the regional government digital ecosystem.
+    beneficiaries: [government institutions, multilingual service users]
+    services_digitized:
+      - {id: language-technology-service, name: Language technology service, description: Language-technology capability shown among G2G platforms.}
+    integrations: []
+    geographic_coverage: {levels: [regional, online], areas: [Oromia], coverage_notes: The PDF names Ethio Language Box among G2G platforms but does not define its operational scope.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 4, section “10. Government-to-Government (G2G) Platforms”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: sdris
+    slug: sdris
+    official_name: Oromia Investment and Industry Bureau SDRIS
+    acronym: SDRIS
+    category: investment-services
+    subcategories: [service-delivery, multilingual-portal, kiosk]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Investment and Industry Bureau, type: government-organization, ownership: owner}
+    system_classification: {primary_type: information-system, delivery_channels: [web, kiosk], deployment_scope: regional}
+    purpose: Support investment and industry service-delivery reform through a multilingual portal and self-service kiosk.
+    beneficiaries: [investors, businesses, service applicants, investment and industry administrators]
+    services_digitized:
+      - {id: sdris-web-portal, name: SDRIS web portal, description: Multilingual web service-delivery portal.}
+      - {id: sdris-self-service-kiosk, name: SDRIS self-service kiosk, description: Physical self-service kiosk using the portal's language and menu design.}
+    integrations: []
+    geographic_coverage: {levels: [regional, online], areas: [Oromia], coverage_notes: The PDF states that the portal and kiosk are trilingual; deployment coverage requires review.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 7, section “21. Oromia Investment and Industry Bureau SDRIS”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: queue-management-system
+    slug: queue-management-system
+    official_name: Queue Management System
+    acronym: QMS
+    category: citizen-services
+    subcategories: [queue-management, ticketing, service-counters, digital-signage]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: information-system, delivery_channels: [kiosk, other], deployment_scope: institutional}
+    purpose: Organize walk-in citizen flow at service counters through electronic ticketing and service displays.
+    beneficiaries: [walk-in service users, service-counter staff, public-service administrators]
+    services_digitized:
+      - {id: electronic-queue-ticketing, name: Electronic queue ticketing, description: Digital ticket issuance for walk-in service.}
+      - {id: service-category-selection, name: Service-category selection, description: Selection of the requested service category.}
+      - {id: counter-touch-terminals, name: Counter-mounted touch terminals, description: Touch terminals for service counters.}
+      - {id: served-ticket-signage, name: Served-ticket signage, description: Overhead display of the currently served ticket number.}
+    integrations: []
+    geographic_coverage: {levels: [institution], areas: [Oromia], coverage_notes: The PDF describes an in-office system but does not identify all installations.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 7, section “22. Queue Management System”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: sigtax
+    slug: sigtax
+    official_name: Revenue E-Services
+    acronym: SIGTAX
+    category: revenue-services
+    subcategories: [tax-administration, e-filing, e-payment, analytics, audit]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Regional State government, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: platform, delivery_channels: [web, mobile], deployment_scope: regional}
+    purpose: Provide digital tax registration, filing, payment, audit, dispute, and appeal information services.
+    beneficiaries: [taxpayers, businesses, revenue administrators, auditors]
+    services_digitized:
+      - {id: online-tax-registration, name: Online tax registration, description: Digital taxpayer registration.}
+      - {id: electronic-tax-filing, name: Electronic tax filing, description: Digital filing of tax information.}
+      - {id: tax-assessment-notices, name: Tax assessment notices, description: Digital tax assessment notices.}
+      - {id: online-tax-payment, name: Online tax and fee payment, description: Digital tax and fee payment.}
+      - {id: mobile-payment, name: Mobile payment, description: Mobile tax payment.}
+      - {id: tax-guidance, name: Tax guidance, description: Digital tax guidance.}
+      - {id: exemptions-and-incentives, name: Exemptions and incentives, description: Digital information on exemptions and incentives.}
+      - {id: audit-document-submission, name: Audit-document submission, description: Digital audit-document submission.}
+      - {id: audit-results, name: Audit results, description: Digital audit-result access.}
+      - {id: tax-disputes, name: Tax disputes, description: Digital tax-dispute information.}
+      - {id: appeals-information, name: Appeals information, description: Digital appeals information.}
+    integrations: []
+    geographic_coverage: {levels: [regional, online], areas: [Oromia], coverage_notes: The PDF shows transactional and analytics functions; current public availability requires review.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 8, section “23. Revenue E-Services (SIGTAX)”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: occms
+    slug: occms
+    official_name: Oromia Court Case Management System
+    acronym: OCCMS
+    category: justice
+    subcategories: [case-management, e-filing, hearings, payments, analytics]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Oromia Supreme Court, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: integrated-system, delivery_channels: [web], deployment_scope: regional}
+    purpose: Provide electronic court processes, case management, hearing, payment, reporting, communication, and security functions.
+    beneficiaries: [court users, court staff, judges, justice administrators]
+    services_digitized:
+      - {id: online-case-filing, name: Online case filing, description: Digital filing of court cases.}
+      - {id: case-tracking, name: Case tracking, description: Digital case tracking.}
+      - {id: e-filing, name: E-filing, description: Electronic filing of court documents.}
+      - {id: hearing-scheduling, name: Hearing scheduling, description: Digital hearing scheduling.}
+      - {id: hearing-notifications, name: Hearing notifications, description: Digital hearing notifications.}
+      - {id: rulings-and-judgments, name: Rulings and judgments, description: Access to rulings and judgments.}
+      - {id: legal-resource-library, name: Legal-resource library, description: Digital legal-resource access.}
+      - {id: court-fee-payment, name: Court-fee and fine payment, description: Online court-fee and fine payment.}
+      - {id: payment-history-receipts, name: Payment history and receipts, description: Digital payment history and receipts.}
+    integrations: []
+    geographic_coverage: {levels: [regional, online], areas: [Oromia], coverage_notes: The PDF identifies OCCMS modules and services; deployment coverage requires review.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 8, section “24. E-Court Services”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}
+
+  - schema_version: 1.0.0
+    id: prosecution-e-services
+    slug: prosecution-e-services
+    official_name: Prosecution E-Services
+    acronym: null
+    category: justice
+    subcategories: [prosecution, case-management, legal-information, hr-workflow]
+    lifecycle_status: unknown
+    publication_status: draft
+    organization: {name: Attorney General's Bureau, type: government-organization, ownership: unknown}
+    system_classification: {primary_type: integrated-system, delivery_channels: [web], deployment_scope: regional}
+    purpose: Provide digital prosecution case, legal-information, document, human-resource, complaint, and customer-satisfaction workflows.
+    beneficiaries: [prosecutors, advocates, complainants, legal administrators]
+    services_digitized:
+      - {id: prosecution-case-management, name: Case management, description: Digital prosecution case management.}
+      - {id: crime-reference-management, name: Crime-reference management, description: Digital crime-reference management.}
+      - {id: document-registration-authentication-licensing, name: Document registration, authentication, and licensing, description: Digital document services.}
+      - {id: legal-research-and-drafting, name: Legal research and drafting, description: Digital legal research and drafting.}
+      - {id: directive-review-registration, name: Directive review and registration, description: Digital directive workflows.}
+      - {id: legal-awareness-management, name: Legal-awareness management, description: Digital legal-awareness management.}
+      - {id: prosecution-hrm, name: Human-resource management, description: Internal prosecution HR workflow.}
+      - {id: prosecutor-discipline, name: Prosecutor and advocate discipline, description: Digital discipline workflow.}
+      - {id: complaints-and-customer-satisfaction, name: Complaints and customer satisfaction, description: Digital complaints and satisfaction workflow.}
+    integrations: []
+    geographic_coverage: {levels: [regional, online], areas: [Oromia], coverage_notes: The PDF shows a public portal and internal HR workflow; deployment coverage requires review.}
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs: []
+    media: []
+    translations: {}
+    source_refs:
+      - source_id: oromia-digital-transformation-chatbot-extraction-v2
+        label: Oromia Digital Transformation Chatbot Knowledge Extraction v2
+        path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf
+        locator: Page 8, section “25. Prosecution E-Services”
+        verification_status: needs-review
+        public_display_approved: false
+    workflow: {record_version: 1, review_status: needs-review, created_at: '2026-09-04', updated_at: '2026-09-04', approved_by_role: null}

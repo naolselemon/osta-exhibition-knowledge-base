@@ -1,0 +1,203 @@
+records:
+  - schema_version: 1.0.0
+    record_version: 1
+    id: woredanet-connectivity-story
+    system_id: woredanet-vpn
+    title: WoredaNet extends shared digital access across government levels
+    summary: The extraction describes a multi-level network connecting regional, zonal, city, woreda, and kebele offices for shared digital access.
+    transformation_dimensions: [multiple-office-visits-to-remote-access]
+    before:
+      label: Disconnected office access
+      description: Government offices depended on separate connectivity arrangements and physical coordination for shared digital work.
+      service_steps: [visit or call another office, exchange information manually]
+      evidence_notes: The PDF names the connected administrative levels; the prior-state process is an interpretation requiring source-owner review.
+    after:
+      label: Shared network access
+      description: Connected offices use WoredaNet and VPN links for shared digital access and video conferencing.
+      service_steps: [connect office to network, access shared service, coordinate remotely]
+      evidence_notes: The PDF explicitly reports WoredaNet and VPN connectivity and lists shared access services.
+    user_impact:
+      beneficiaries: [regional offices, zonal offices, city offices, woreda offices, kebele offices]
+      description: Network access is intended to reduce coordination travel and support remote government collaboration; measured impact is not verified.
+    kpi_observation_refs: [woredanet-vpn-regional-lines-2025, woredanet-vpn-zone-city-lines-2025, woredanet-vpn-woreda-kebele-lines-2025]
+    source_refs:
+      - {source_id: oromia-digital-transformation-chatbot-extraction-v2, label: Oromia Digital Transformation Chatbot Knowledge Extraction v2, path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf, locator: 'Page 2, sections “2. Infrastructure Overview” and “3. WoredaNet / VPN Connectivity”', verification_status: needs-review, public_display_approved: false}
+    translations: {}
+    publication_status: draft
+    verification_status: needs-review
+    public_display_approved: false
+    workflow: {state: needs-review, prepared_by_role: content-author, reviewed_by_role: null, created_at: '2026-09-04', updated_at: '2026-09-04', notes: Draft transformation story; validate the prior-state description and network claims before publication.}
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: data-center-hosting-story
+    system_id: oromia-regional-data-center
+    title: Regional data-center infrastructure centralizes service hosting
+    summary: The extraction describes a Tier III hyper-converged regional facility with specialized edge locations for regional digital services.
+    transformation_dimensions: [multiple-office-visits-to-remote-access]
+    before:
+      label: Distributed hosting dependency
+      description: Regional digital services lacked a documented shared hosting picture in the source material.
+      service_steps: [identify service host, coordinate infrastructure support]
+      evidence_notes: The prior state is not directly documented in the PDF and must be confirmed before publication.
+    after:
+      label: Regional and edge hosting
+      description: A primary regional data center and specialized edge facilities provide a shared hosting foundation for digital services.
+      service_steps: [deploy workload, store service data, serve regional users]
+      evidence_notes: The PDF explicitly describes the primary and edge data-center arrangement; technical interpretations remain unverified.
+    user_impact:
+      beneficiaries: [regional government institutions, digital-service operators, public-service users]
+      description: Shared hosting is intended to improve access to regional digital services; measured availability and user impact are not verified.
+    kpi_observation_refs: [oromia-data-center-storage-2025, oromia-data-center-services-hosted-2025]
+    source_refs:
+      - {source_id: oromia-digital-transformation-chatbot-extraction-v2, label: Oromia Digital Transformation Chatbot Knowledge Extraction v2, path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf, locator: 'Page 2, section “5. Oromia Regional State Data Center”', verification_status: needs-review, public_display_approved: false}
+    translations: {}
+    publication_status: draft
+    verification_status: needs-review
+    public_display_approved: false
+    workflow: {state: needs-review, prepared_by_role: content-author, reviewed_by_role: null, created_at: '2026-09-04', updated_at: '2026-09-04', notes: Draft transformation story; validate data-center architecture and capacity claims before publication.}
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: regional-document-digitization-story
+    system_id: regional-document-digitization
+    title: Regional archives move from paper handling to searchable records
+    summary: The extraction describes scanning, capture, indexing, and a searchable dashboard for regional document conversion.
+    transformation_dimensions: [paper-file-to-digital-record]
+    before:
+      label: Paper archive
+      description: Government records were held in paper archives that required physical handling.
+      service_steps: [locate paper file, retrieve physical record, carry file between offices]
+      evidence_notes: The PDF presents paper-to-digital conversion as the transformation context; detailed prior-state evidence requires review.
+    after:
+      label: Searchable digital record
+      description: Scanned documents are captured, indexed, and managed through a searchable records dashboard.
+      service_steps: [scan source document, capture digital file, index metadata, search managed record]
+      evidence_notes: The PDF explicitly lists the scanning, capture, indexing, and dashboard workflow.
+    user_impact:
+      beneficiaries: [government institutions, records administrators, public-service users]
+      description: Searchable records are intended to reduce physical-file handling and improve retrieval; measured impact is not verified.
+    kpi_observation_refs: [regional-document-digitization-documents-2025]
+    source_refs:
+      - {source_id: oromia-digital-transformation-chatbot-extraction-v2, label: Oromia Digital Transformation Chatbot Knowledge Extraction v2, path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf, locator: 'Page 3, section “8. Digitization / Records Conversion”', verification_status: needs-review, public_display_approved: false}
+    translations: {}
+    publication_status: draft
+    verification_status: needs-review
+    public_display_approved: false
+    workflow: {state: needs-review, prepared_by_role: content-author, reviewed_by_role: null, created_at: '2026-09-04', updated_at: '2026-09-04', notes: Draft transformation story; validate the document inventory and counting rule before publication.}
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: rprs-land-registration-story
+    system_id: rprs
+    title: Real-property registration moves into digital workflows
+    summary: The extraction describes map-based land information, real-property registration, digital certificates, and parcel migration.
+    transformation_dimensions: [paper-application-to-online-application, difficult-tracking-to-end-to-end-tracking]
+    before:
+      label: Manual land administration
+      description: Land applicants and administrators relied on non-digital registration and record-handling steps.
+      service_steps: [submit land request, inspect paper record, follow up with office]
+      evidence_notes: The PDF describes the digital workflow but does not document every prior-state step; confirm before publication.
+    after:
+      label: Digital property registration
+      description: Real-property tasks, certificates, and migrated parcels are managed through a digital registration workflow.
+      service_steps: [submit or register property record, process task, issue certificate, retrieve parcel record]
+      evidence_notes: The PDF explicitly names RPRS and reports task, certificate, and parcel counters; their definitions require review.
+    user_impact:
+      beneficiaries: [land administrators, property holders, residents]
+      description: Digital land workflows are intended to improve tracking and access to property records; measured impact is not verified.
+    kpi_observation_refs: [rprs-total-tasks-2025, rprs-certificates-issued-2025, rprs-parcels-migrated-2025]
+    source_refs:
+      - {source_id: oromia-digital-transformation-chatbot-extraction-v2, label: Oromia Digital Transformation Chatbot Knowledge Extraction v2, path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf, locator: 'Page 4, section “12. E-Land Administration”', verification_status: needs-review, public_display_approved: false}
+    translations: {}
+    publication_status: draft
+    verification_status: needs-review
+    public_display_approved: false
+    workflow: {state: needs-review, prepared_by_role: content-author, reviewed_by_role: null, created_at: '2026-09-04', updated_at: '2026-09-04', notes: Draft transformation story; validate RPRS metric definitions, scope, and timestamp before publication.}
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: e-education-dashboard-story
+    system_id: e-education-services
+    title: Education services combine digital delivery with dashboard coverage
+    summary: The extraction describes e-learning, enrollment, examination scheduling, a digital library, and an education dashboard.
+    transformation_dimensions: [manual-reporting-to-real-time-dashboard]
+    before:
+      label: Manual education administration
+      description: Education service and coverage information depended on non-digital administration and reporting steps.
+      service_steps: [collect institution information, submit education report, coordinate service request]
+      evidence_notes: The prior-state process is a contextual interpretation and requires source-owner review.
+    after:
+      label: Digital education service layer
+      description: Digital learning, enrollment, examination scheduling, library resources, and dashboard reporting are presented as an education-service layer.
+      service_steps: [access learning resource, enroll student, schedule examination, review dashboard]
+      evidence_notes: The PDF explicitly lists the service types and dashboard figures; current operational status requires review.
+    user_impact:
+      beneficiaries: [students, teachers, schools, education administrators]
+      description: Digital education services are intended to improve access and reporting; measured user impact is not verified.
+    kpi_observation_refs: [e-education-teachers-2025, e-education-students-2025, e-education-schools-2025]
+    source_refs:
+      - {source_id: oromia-digital-transformation-chatbot-extraction-v2, label: Oromia Digital Transformation Chatbot Knowledge Extraction v2, path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf, locator: 'Page 5, section “15. E-Education Services”', verification_status: needs-review, public_display_approved: false}
+    translations: {}
+    publication_status: draft
+    verification_status: needs-review
+    public_display_approved: false
+    workflow: {state: needs-review, prepared_by_role: content-author, reviewed_by_role: null, created_at: '2026-09-04', updated_at: '2026-09-04', notes: Draft transformation story; validate dashboard definitions and reporting period before publication.}
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: dtrip-transport-story
+    system_id: dtrip-admin
+    title: Transport administration brings passenger services online
+    summary: The extraction describes online vehicle, licensing, inspection, and ticketing services with a DTrip administration dashboard.
+    transformation_dimensions: [paper-application-to-online-application, multiple-office-visits-to-remote-access]
+    before:
+      label: Office-based transport service
+      description: Vehicle, licensing, inspection, and ticketing requests depended on office-based processing.
+      service_steps: [visit transport office, submit request, wait for processing]
+      evidence_notes: The prior-state process is a contextual interpretation and requires source-owner review.
+    after:
+      label: Digital transport administration
+      description: Transport users and administrators use online registration, licensing, inspection scheduling, and e-ticket workflows.
+      service_steps: [submit online request, schedule inspection, manage route or vehicle record, issue e-ticket]
+      evidence_notes: The PDF explicitly lists four E-Transport services and DTrip dashboard metrics.
+    user_impact:
+      beneficiaries: [passengers, transport operators, transport administrators]
+      description: Digital transport services are intended to reduce office visits and improve operational visibility; measured impact is not verified.
+    kpi_observation_refs: [dtrip-passengers-2025, dtrip-routes-2025, dtrip-vehicles-2025, dtrip-employees-2025]
+    source_refs:
+      - {source_id: oromia-digital-transformation-chatbot-extraction-v2, label: Oromia Digital Transformation Chatbot Knowledge Extraction v2, path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf, locator: 'Page 6, section “16. E-Transport”', verification_status: needs-review, public_display_approved: false}
+    translations: {}
+    publication_status: draft
+    verification_status: needs-review
+    public_display_approved: false
+    workflow: {state: needs-review, prepared_by_role: content-author, reviewed_by_role: null, created_at: '2026-09-04', updated_at: '2026-09-04', notes: Draft transformation story; validate DTrip metric definitions and reporting period before publication.}
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: g2c-service-layer-story
+    system_id: g2c-e-services
+    title: Government-to-citizen services consolidate digital access
+    summary: The extraction describes a cross-sector citizen-service layer spanning land, health, education, transport, vital events, trade, investment, revenue, courts, and prosecution.
+    transformation_dimensions: [multiple-office-visits-to-remote-access]
+    before:
+      label: Sector-by-sector office access
+      description: Residents accessed public services through separate sector offices and channels.
+      service_steps: [identify responsible office, travel to service point, submit request]
+      evidence_notes: The PDF names the service domains but does not provide a complete prior-state process description.
+    after:
+      label: Cross-sector digital service access
+      description: A G2C service layer presents citizen-facing digital services across multiple government sectors.
+      service_steps: [choose service domain, submit digital request, track service response]
+      evidence_notes: The PDF explicitly states a cross-sector G2C layer and reports a service count; service inventory requires review.
+    user_impact:
+      beneficiaries: [residents, businesses, public-service users]
+      description: Cross-sector access is intended to reduce repeated office visits; measured user impact is not verified.
+    kpi_observation_refs: [g2c-e-services-offered-2025]
+    source_refs:
+      - {source_id: oromia-digital-transformation-chatbot-extraction-v2, label: Oromia Digital Transformation Chatbot Knowledge Extraction v2, path: source-materials/presentations/Oromia_Digital_Transformation_Chatbot_Knowledge_Extraction-v2.pdf, locator: 'Page 4, section “11. Government-to-Citizen (G2C) Service Layer”', verification_status: needs-review, public_display_approved: false}
+    translations: {}
+    publication_status: draft
+    verification_status: needs-review
+    public_display_approved: false
+    workflow: {state: needs-review, prepared_by_role: content-author, reviewed_by_role: null, created_at: '2026-09-04', updated_at: '2026-09-04', notes: Draft transformation story; validate service inventory and reporting period before publication.}

@@ -124,7 +124,7 @@ class KpiPipelineTests(unittest.TestCase):
 
     def test_repository_records_are_valid(self) -> None:
         validate_records(self.data(), ROOT)
-        self.assertEqual(REQUIRED_KPI_CODES, {item["kpi_code"] for item in self.base.definitions})
+        self.assertTrue(REQUIRED_KPI_CODES.issubset({item["kpi_code"] for item in self.base.definitions}))
         self.assertEqual(REQUIRED_PORTFOLIO_IDS, {item["id"] for item in self.base.portfolio_kpis})
 
     def test_candidate_observations_remain_nonpublic_and_structured(self) -> None:
