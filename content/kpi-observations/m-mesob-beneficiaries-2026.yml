@@ -1,0 +1,78 @@
+schema_version: 1.0.0
+record_version: 1
+id: m-mesob-beneficiaries-2026
+system_id: m-mesob
+kpi_code: beneficiaries-served
+measurement_scope:
+  scope_type: system
+  scope_id: m-mesob
+  description: Citizens served through M-MESOB platform
+achievement_type: actual
+actual:
+  operator: greater-than-or-equal
+  value: 500000
+  unit: person
+baseline:
+  operator: not-specified
+  value: null
+  unit: null
+target:
+  operator: not-specified
+  value: null
+  unit: null
+achievement: null
+reporting_period:
+  type: as-of-date
+  start_date: null
+  end_date: null
+  reporting_date_text: 'Data as of March 2026'
+  calendar_type: gregorian
+dimensions:
+  geography_level: regional
+  geography_name: Oromia
+measurement_method:
+  method: source-document-claim
+  description: Value reported in source; counting method not defined.
+  data_owner: not-specified
+  update_frequency: unknown
+display_value: null
+source_refs:
+  - source_id: osta-facebook-mmesob-2026
+    label: OSTA Facebook M-MESOB post
+    path: source-materials/social-media/mmesob-facebook-post.pdf
+    locator: Page 1
+    verification_status: needs-review
+    public_display_approved: false
+  - source_id: osta-exhibition-2018-final
+    label: OSTA Exhibition 2018 Final presentation
+    path: source-materials/presentations/OSTA Exibiton 2018 Final ppt.pptx
+    locator: Slide pending review
+    verification_status: needs-review
+    public_display_approved: false
+data_quality:
+  completeness: partial
+  accuracy_status: needs-review
+  duplicate_risk: unknown
+  limitations:
+    - Exact counting methodology not defined.
+    - Partially deployed; not all areas covered.
+exhibition:
+  headline: true
+  display_priority: 1
+  public_display_status: not-approved
+  chart_type: single-value
+  show_reporting_date: true
+  show_source_label: true
+workflow:
+  state: needs-review
+  prepared_by_role: content-author
+  reviewed_by_role: null
+  created_at: '2026-09-04'
+  updated_at: '2026-09-04'
+  notes: ''
+publication_status: draft
+verification_status: needs-review
+data_classification: internal
+contains_personal_data: false
+public_display_approved: false
+supersedes_observation_id: null
