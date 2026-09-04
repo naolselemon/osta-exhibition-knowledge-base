@@ -1,4 +1,318 @@
 {
-  "digital_systems": [],
+  "digital_systems": [
+    {
+      "acronym": null,
+      "beneficiaries": [
+        "member-based organizations",
+        "administrators"
+      ],
+      "category": "organization-administration",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "Detailed service coverage requires source verification.",
+        "levels": [
+          "regional"
+        ]
+      },
+      "headline_kpi_refs": [
+        "business-automation-records-registered-2018-verified"
+      ],
+      "id": "business-automation",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Business Automation",
+      "organization": {
+        "name": "Oromia regional government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Organize member records and automate supporting administrative work.",
+      "services_digitized": [
+        {
+          "description": "Structured management of organizational member records.",
+          "id": "member-record-organization",
+          "name": "Member record organization"
+        }
+      ],
+      "slug": "business-automation",
+      "subcategories": [
+        "member-record-management",
+        "process-automation"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "automation-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "Civil Registration DMS",
+      "beneficiaries": [
+        "civil-registration staff",
+        "public-service administrators",
+        "residents"
+      ],
+      "category": "civil-registration",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The source claims coverage at regional, zonal, and town levels; the location list requires review.",
+        "levels": [
+          "regional",
+          "zone",
+          "city"
+        ]
+      },
+      "headline_kpi_refs": [
+        "civil-registration-files-scanned-2018-verified",
+        "civil-registration-files-uploaded-2018-verified",
+        "civil-registration-metadata-completion-2018-verified",
+        "civil-registration-service-coverage-2018-verified"
+      ],
+      "id": "civil-registration-dms",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Civil Registration Document Management System",
+      "organization": {
+        "name": "Oromia Civil Registration Agency",
+        "ownership": "owner",
+        "type": "government-organization"
+      },
+      "purpose": "Convert civil-registration files into managed digital records with searchable metadata.",
+      "services_digitized": [
+        {
+          "description": "Scanning, upload, metadata capture, and management of civil-registration files.",
+          "id": "civil-registration-file-management",
+          "name": "Civil registration file management"
+        }
+      ],
+      "slug": "civil-registration-dms",
+      "subcategories": [
+        "document-management",
+        "scanning",
+        "metadata",
+        "service-coverage"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "multi-level",
+        "primary_type": "document-management-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "CCM-PSIMS",
+      "beneficiaries": [
+        "court staff",
+        "prosecutors",
+        "justice administrators"
+      ],
+      "category": "justice",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The cited slide presents the two systems together; separate system attribution requires review.",
+        "levels": [
+          "regional"
+        ]
+      },
+      "headline_kpi_refs": [
+        "court-prosecutor-implementation-progress-2018-verified"
+      ],
+      "id": "court-case-management-prosecutor-sims",
+      "integrations": [],
+      "lifecycle_status": "in-development",
+      "media": [],
+      "official_name": "Court Case Management and Prosecutor SIMS",
+      "organization": {
+        "name": "Oromia regional justice institutions",
+        "ownership": "shared",
+        "type": "government-organization"
+      },
+      "purpose": "Support digital court-case and prosecution information management.",
+      "services_digitized": [],
+      "slug": "court-case-management-prosecutor-sims",
+      "subcategories": [
+        "case-management",
+        "prosecution-information-management",
+        "implementation"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "integrated-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "DKG",
+      "beneficiaries": [
+        "residents",
+        "kebele staff",
+        "public-service administrators"
+      ],
+      "category": "local-government-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The candidate progress claim requires verification against a precise source location.",
+        "levels": [
+          "regional",
+          "kebele"
+        ]
+      },
+      "headline_kpi_refs": [
+        "digital-kebele-implementation-progress-2018-verified"
+      ],
+      "id": "digital-kebele-government",
+      "integrations": [],
+      "lifecycle_status": "in-development",
+      "media": [],
+      "official_name": "Digital Kebele Government",
+      "organization": {
+        "name": "Oromia regional government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Digitalize kebele-level government service delivery and administration.",
+      "services_digitized": [],
+      "slug": "digital-kebele-government",
+      "subcategories": [
+        "service-digitalization",
+        "implementation"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "assisted"
+        ],
+        "deployment_scope": "multi-level",
+        "primary_type": "platform"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "PRMS",
+      "beneficiaries": [
+        "corrections administrators",
+        "correctional facilities"
+      ],
+      "category": "corrections-administration",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The source describes region-wide consolidation; detailed coverage requires verification.",
+        "levels": [
+          "regional"
+        ]
+      },
+      "headline_kpi_refs": [
+        "prms-records-registered-2018-verified"
+      ],
+      "id": "prms",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Prison Management System",
+      "organization": {
+        "name": "Oromia regional corrections administration",
+        "ownership": "owner",
+        "type": "government-organization"
+      },
+      "purpose": "Consolidate correctional-facility records in a shared regional system.",
+      "services_digitized": [
+        {
+          "description": "Registration and centralized management of correctional-facility records.",
+          "id": "correctional-record-registration",
+          "name": "Correctional record registration"
+        }
+      ],
+      "slug": "prms",
+      "subcategories": [
+        "record-management"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "UEMIS",
+      "beneficiaries": [
+        "young people",
+        "employment-service administrators"
+      ],
+      "category": "youth-employment",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "Detailed administrative coverage is not stated in the cited slide.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [
+        "uemis-registered-users-2018-verified"
+      ],
+      "id": "uemis",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Urban Employment Management Information System",
+      "organization": {
+        "name": "Oromia regional government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Register young people participating in urban employment services.",
+      "services_digitized": [
+        {
+          "description": "Registration of young people in the employment management system.",
+          "id": "youth-registration",
+          "name": "Youth registration"
+        }
+      ],
+      "slug": "uemis",
+      "subcategories": [
+        "registration",
+        "employment-services"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": []
+    }
+  ],
   "schema_version": "1.0.0"
 }

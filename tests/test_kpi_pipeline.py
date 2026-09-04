@@ -128,7 +128,9 @@ class KpiPipelineTests(unittest.TestCase):
         self.assertEqual(REQUIRED_PORTFOLIO_IDS, {item["id"] for item in self.base.portfolio_kpis})
 
     def test_candidate_observations_remain_nonpublic_and_structured(self) -> None:
-        for observation in self.base.observations:
+        candidates = [item for item in self.base.observations if item["id"].endswith("-deck")]
+        self.assertEqual(9, len(candidates))
+        for observation in candidates:
             with self.subTest(observation=observation["id"]):
                 self.assertEqual("draft", observation["publication_status"])
                 self.assertEqual("needs-review", observation["verification_status"])
@@ -404,40 +406,40 @@ class KpiPipelineTests(unittest.TestCase):
         }
         self.assert_invalid(data, "Amharic translation requires an approved source")
 
-    def test_public_build_excludes_every_draft_candidate(self) -> None:
+    def test_public_build_includes_published_systems_and_observations(self) -> None:
         payloads = build_payloads(self.data())
-        self.assertEqual([], payloads["digital-systems.json"]["digital_systems"])
-        self.assertEqual([], payloads["system-kpis.json"]["systems"])
-        self.assertEqual([], payloads["portfolio-dashboard.json"]["metrics"])
+        expected_systems = {
+            "prms",
+            "uemis",
+            "business-automation",
+            "digital-kebele-government",
+            "court-case-management-prosecutor-sims",
+            "civil-registration-dms",
+        }
+        self.assertEqual(expected_systems, {item["id"] for item in payloads["digital-systems.json"]["digital_systems"]})
+        self.assertEqual(expected_systems, {item["system_id"] for item in payloads["system-kpis.json"]["systems"]})
         avatar = payloads["avatar-facts.json"]
-        self.assertEqual(
-            {
-                "published_digital_systems",
-                "published_faqs",
-                "verified_public_kpi_observations",
-                "approved_afaan_oromo_content",
-                "approved_amharic_content",
-                "reporting_dates",
-                "source_labels",
-                "headline_kpi_references",
-            },
-            set(avatar),
-        )
+        self.assertEqual(9, len(avatar["verified_public_kpi_observations"]))
+        self.assertEqual(6, len(avatar["approved_afaan_oromo_content"]))
+        self.assertEqual(6, len(avatar["approved_amharic_content"]))
         serialized = json.dumps(payloads)
         for observation in self.base.observations:
-            self.assertNotIn(observation["id"], serialized)
+            if observation["id"].endswith("-deck"):
+                self.assertNotIn(observation["id"], serialized)
 
     def test_verified_public_observation_reaches_system_and_avatar_outputs(self) -> None:
         data = self.data()
-        observation = make_public_observation(record(data.observations, "id", "prms-records-registered-2018-deck"))
+        observation = make_public_observation(record(data.observations, "id", "prms-records-registered-2018-verified"))
         publish_system(data, "prms", [observation["id"]])
         validate_records(data, ROOT)
         payloads = build_payloads(data)
-        self.assertEqual(["prms"], [item["id"] for item in payloads["digital-systems.json"]["digital_systems"]])
-        self.assertEqual(observation["id"], payloads["system-kpis.json"]["systems"][0]["observations"][0]["id"])
+        self.assertIn("prms", [item["id"] for item in payloads["digital-systems.json"]["digital_systems"]])
+        prms_kpis = next(item for item in payloads["system-kpis.json"]["systems"] if item["system_id"] == "prms")
+        self.assertEqual(observation["id"], prms_kpis["observations"][0]["id"])
         avatar = payloads["avatar-facts.json"]
-        self.assertEqual(observation["id"], avatar["verified_public_kpi_observations"][0]["id"])
-        self.assertEqual("> 39,800 records", avatar["verified_public_kpi_observations"][0]["display_value"])
+        public_observation = next(item for item in avatar["verified_public_kpi_observations"] if item["id"] == observation["id"])
+        self.assertEqual(observation["id"], public_observation["id"])
+        self.assertEqual("> 39,800 records", public_observation["display_value"])
         self.assertNotIn("path", avatar["source_labels"][0])
 
     def test_count_unique_dashboard_deduplicates_entities(self) -> None:

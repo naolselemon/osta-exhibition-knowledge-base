@@ -1,7 +1,17 @@
 {
   "metrics": [],
   "schema_version": "1.0.0",
-  "source_observation_ids": [],
+  "source_observation_ids": [
+    "business-automation-records-registered-2018-verified",
+    "civil-registration-files-scanned-2018-verified",
+    "civil-registration-files-uploaded-2018-verified",
+    "civil-registration-metadata-completion-2018-verified",
+    "civil-registration-service-coverage-2018-verified",
+    "court-prosecutor-implementation-progress-2018-verified",
+    "digital-kebele-implementation-progress-2018-verified",
+    "prms-records-registered-2018-verified",
+    "uemis-registered-users-2018-verified"
+  ],
   "supported_metrics": [
     {
       "aggregation_method": "count-unique",

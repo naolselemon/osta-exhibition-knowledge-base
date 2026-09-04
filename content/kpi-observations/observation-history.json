@@ -2,11 +2,17 @@
   "algorithm": "sha256-canonical-json",
   "observations": {
     "business-automation-records-registered-2018-deck": "74080fc622a38089e468a9c5ecf06345e239bde2e2b85a4750ef81a5a05cb7c3",
+    "business-automation-records-registered-2018-verified": "f992c13e8a840b892e861263884b7af8f8582cb22dc55e8d44d693da339cee9b",
     "civil-registration-files-scanned-2018-deck": "05e7b17ea93406c5ab56fc9012160bb83d3a937f90166ae687df2146672ce221",
+    "civil-registration-files-scanned-2018-verified": "d3da7b87eac1aa5c74b8f82193fae92ce2e2b9850dff1511cf5186947dc6be3a",
     "civil-registration-files-uploaded-2018-deck": "3ff509f552f103a516954f0d7493aaa93fa569ebe66864bcd965a801b09c416f",
+    "civil-registration-files-uploaded-2018-verified": "8f18e270af5ee0f3cccb755f36c476704ce3cd73fce6a2e9f4e459ea72054e6f",
     "civil-registration-metadata-completion-2018-deck": "fd7c5466ed36878057b7f50949e3d17950dd9de0780468ebe201fe96c1e6a635",
+    "civil-registration-metadata-completion-2018-verified": "1ee207924b0ee8f8863efad33ac8de8bd9260b32d931fd33da1e6022ac449be5",
     "civil-registration-service-coverage-2018-deck": "4533d6244ed833efa1ca946175aa1b9923bb267a06adf8db605dc5365bd0593c",
+    "civil-registration-service-coverage-2018-verified": "eaca0c6980e97047b35e0f24844f6004716dd95faba3dc66c0928596d75b12bb",
     "court-prosecutor-implementation-progress-2018-deck": "e004a5e6b69c7875bde373f967be3bb7cd5f088083cd9e44456c917f51d9687b",
+    "court-prosecutor-implementation-progress-2018-verified": "67c824dabe7e0644191b90513c0ca408a3a6db601319095dde29431a7d274178",
     "digital-kebele-implementation-progress-2018-deck": "b5e0ef840e6de389a4d09fb461a8a3abd450ad7e248075ceae83f609d9b39610",
     "m-mesob-beneficiaries-2026": "bfa303f0c93d9e9297cbcc83e9b008a0dcca1f3ed6db09bdee47a49e9224d782",
     "m-mesob-beneficiaries-2026-v2": "087867f316edfc5983ebdb48b2866238a9c1da359a5d7fb68e561a1ccfb09309",
@@ -14,8 +20,11 @@
     "m-mesob-locations-2026-v2": "a522fa780f491d2f739f6d1a6a87da04fda982be9b515494d88bdaf97dd15527",
     "m-mesob-services-digitized-2026": "81b21dfd6a5bf73de918e390a92b4b5c846b005b4183a4db1d0e0d947e1ea70b",
     "m-mesob-services-digitized-2026-v2": "b8e7cf2ff3bcaafcb1e0bdd7d3f999a247894b130e61ed251508b5429d917773",
+    "digital-kebele-implementation-progress-2018-verified": "3f53e638fd40ce3c415dd48d46fc035a121f8f1cbbbdd701f8a07d0141334a10",
     "prms-records-registered-2018-deck": "966ce91560f3995d5d34cc121c2a22a2c70cfa78b8a75f3aa17af20555ce7c54",
-    "uemis-registered-users-2018-deck": "3e5868eeecfb22aaceb1347fc2b2a0f694402dd2d2f87e8b2871d04f69784925"
+    "prms-records-registered-2018-verified": "1d869a51813e754b1063e126996948f47270c27673578e857201a36b17fda4a1",
+    "uemis-registered-users-2018-deck": "3e5868eeecfb22aaceb1347fc2b2a0f694402dd2d2f87e8b2871d04f69784925",
+    "uemis-registered-users-2018-verified": "0e944041b26e5a685ab65d828b15d6f6edc0ad9dbc5d66d2ebd52f035b1ebd3f"
   },
   "schema_version": "1.0.0"
 }
