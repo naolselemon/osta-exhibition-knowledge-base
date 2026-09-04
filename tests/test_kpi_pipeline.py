@@ -415,13 +415,15 @@ class KpiPipelineTests(unittest.TestCase):
             "digital-kebele-government",
             "court-case-management-prosecutor-sims",
             "civil-registration-dms",
+            "smart-ac-generator",
+            "electric-solar-bajaj",
         }
         self.assertEqual(expected_systems, {item["id"] for item in payloads["digital-systems.json"]["digital_systems"]})
         self.assertEqual(expected_systems, {item["system_id"] for item in payloads["system-kpis.json"]["systems"]})
         avatar = payloads["avatar-facts.json"]
         self.assertEqual(9, len(avatar["verified_public_kpi_observations"]))
-        self.assertEqual(6, len(avatar["approved_afaan_oromo_content"]))
-        self.assertEqual(6, len(avatar["approved_amharic_content"]))
+        self.assertEqual(8, len(avatar["approved_afaan_oromo_content"]))
+        self.assertEqual(8, len(avatar["approved_amharic_content"]))
         serialized = json.dumps(payloads)
         for observation in self.base.observations:
             if observation["id"].endswith("-deck"):
