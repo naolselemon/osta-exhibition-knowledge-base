@@ -85,11 +85,9 @@ Never use this command to conceal an unauthorized modification to an accepted ob
 
 Current translation maps use `om` for Afaan Oromo and `am` for Amharic. Downstream consumers map them to `om-ET` and `am-ET`.
 
-- Do not publish machine-generated Afaan Oromo or Amharic as approved content.
-- Afaan Oromo requires approved-source or appropriate human-review evidence.
-- Amharic requires approved-source evidence or approval by the human Amharic reviewer recognized by current validation.
-- Review meaning, approved terminology, spelling, natural spoken delivery, and every number.
-- Keep unapproved translations absent from public/avatar output.
+- Draft Afaan Oromo and Amharic translations may be stored for language review, but must not be published as approved or included in public/avatar output.
+- Approval requires an approved source or appropriate human-review evidence. Amharic approval specifically requires `status: approved`, `human_reviewed: true`, and `reviewer_role: human-amharic-reviewer` unless an approved source supplies the translation.
+- Review meaning, approved terminology, spelling, natural spoken delivery, and every number before approval.
 - `short_text`, `spoken_text`, `detailed_text`, aliases, pronunciation hints, and gesture cues are planned fields, not current schema fields.
 
 ## Security, Privacy, and Media

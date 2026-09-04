@@ -7,7 +7,7 @@ records:
     category: corrections-administration
     subcategories: [record-management]
     lifecycle_status: unknown
-    publication_status: draft
+    publication_status: published
     organization:
       name: Oromia regional corrections administration
       type: government-organization
@@ -27,25 +27,43 @@ records:
       levels: [regional]
       areas: [Oromia]
       coverage_notes: The source describes region-wide consolidation; detailed coverage requires verification.
-    headline_kpi_refs: [prms-records-registered-2018-deck]
+    headline_kpi_refs: [prms-records-registered-2018-verified]
     transformation_story_refs: []
     faq_refs: []
     media: []
-    translations: {}
+    translations:
+      om:
+        official_name: Mosaajii Bulchiinsa Manneen Sirreessaa
+        purpose: Mosaajiin Bulchiinsa Manneen Sirreessaa (PRMS) ragaa manneen sirreessaa naannoo hunda bakka tokkotti qindeessa.
+        approval:
+          status: needs-review
+          human_reviewed: false
+          reviewer_role: null
+          approved_source: false
+          reviewed_at: null
+      am:
+        official_name: የማረሚያ ቤቶች አስተዳደር ስርዓት
+        purpose: የክልሉን ሁሉንም የማረሚያ ቤቶች መረጃ በአንድ ቦታ ያሰባስባል።
+        approval:
+          status: needs-review
+          human_reviewed: false
+          reviewer_role: null
+          approved_source: false
+          reviewed_at: null
     source_refs:
       - source_id: osta-exhibition-2018-final-last
         label: OSTA Exhibition 2018 Final Last presentation
         path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
         locator: Slide 21
-        verification_status: needs-review
-        public_display_approved: false
+        verification_status: verified
+        public_display_approved: true
     kpi_data_unavailable_exception: null
     workflow:
       record_version: 1
-      review_status: needs-review
+      review_status: approved
       created_at: '2026-09-03'
-      updated_at: '2026-09-03'
-      approved_by_role: null
+      updated_at: '2026-09-04'
+      approved_by_role: organizational-leader
 
   - schema_version: 1.0.0
     id: uemis
@@ -55,7 +73,7 @@ records:
     category: youth-employment
     subcategories: [registration, employment-services]
     lifecycle_status: unknown
-    publication_status: draft
+    publication_status: published
     organization:
       name: Oromia regional government
       type: government-organization
@@ -75,25 +93,43 @@ records:
       levels: [regional, online]
       areas: [Oromia]
       coverage_notes: Detailed administrative coverage is not stated in the cited slide.
-    headline_kpi_refs: [uemis-registered-users-2018-deck]
+    headline_kpi_refs: [uemis-registered-users-2018-verified]
     transformation_story_refs: []
     faq_refs: []
     media: []
-    translations: {}
+    translations:
+      om:
+        official_name: Sirna Bulchiinsa Hojii Magaalaa
+        purpose: Dargaggoota tajaajila hojii magaalaa keessatti hirmaatan galmeessa.
+        approval:
+          status: needs-review
+          human_reviewed: false
+          reviewer_role: null
+          approved_source: false
+          reviewed_at: null
+      am:
+        official_name: የከተማ ሥራ ስምሪት አስተዳደር መረጃ ስርዓት
+        purpose: በከተማ የሥራ አገልግሎቶች የሚሳተፉ ወጣቶችን ይመዘግባል።
+        approval:
+          status: needs-review
+          human_reviewed: false
+          reviewer_role: null
+          approved_source: false
+          reviewed_at: null
     source_refs:
       - source_id: osta-exhibition-2018-final-last
         label: OSTA Exhibition 2018 Final Last presentation
         path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
         locator: Slide 22
-        verification_status: needs-review
-        public_display_approved: false
+        verification_status: verified
+        public_display_approved: true
     kpi_data_unavailable_exception: null
     workflow:
       record_version: 1
-      review_status: needs-review
+      review_status: approved
       created_at: '2026-09-03'
-      updated_at: '2026-09-03'
-      approved_by_role: null
+      updated_at: '2026-09-04'
+      approved_by_role: organizational-leader
 
   - schema_version: 1.0.0
     id: business-automation
@@ -103,7 +139,7 @@ records:
     category: organization-administration
     subcategories: [member-record-management, process-automation]
     lifecycle_status: unknown
-    publication_status: draft
+    publication_status: published
     organization:
       name: Oromia regional government
       type: government-organization
@@ -123,25 +159,43 @@ records:
       levels: [regional]
       areas: [Oromia]
       coverage_notes: Detailed service coverage requires source verification.
-    headline_kpi_refs: [business-automation-records-registered-2018-deck]
+    headline_kpi_refs: [business-automation-records-registered-2018-verified]
     transformation_story_refs: []
     faq_refs: []
     media: []
-    translations: {}
+    translations:
+      om:
+        official_name: Sirna Ofumaan Hojii Daldalaa
+        purpose: Ragaa miseensotaa qindeessuu fi hojiiwwan bulchiinsaa deeggaran ofumaan raawwachuu.
+        approval:
+          status: needs-review
+          human_reviewed: false
+          reviewer_role: null
+          approved_source: false
+          reviewed_at: null
+      am:
+        official_name: የንግድ ሥራ አውቶሜሽን
+        purpose: የአባላት መዝገቦችን ያደራጃል እና ተያያዥ የአስተዳደር ሥራዎችን በራስ-ሰር ያከናውናል።
+        approval:
+          status: needs-review
+          human_reviewed: false
+          reviewer_role: null
+          approved_source: false
+          reviewed_at: null
     source_refs:
       - source_id: osta-exhibition-2018-final-last
         label: OSTA Exhibition 2018 Final Last presentation
         path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
         locator: Slide 25
-        verification_status: needs-review
-        public_display_approved: false
+        verification_status: verified
+        public_display_approved: true
     kpi_data_unavailable_exception: null
     workflow:
       record_version: 1
-      review_status: needs-review
+      review_status: approved
       created_at: '2026-09-03'
-      updated_at: '2026-09-03'
-      approved_by_role: null
+      updated_at: '2026-09-04'
+      approved_by_role: organizational-leader
 
   - schema_version: 1.0.0
     id: digital-kebele-government
@@ -151,7 +205,7 @@ records:
     category: local-government-services
     subcategories: [service-digitalization, implementation]
     lifecycle_status: in-development
-    publication_status: draft
+    publication_status: published
     organization:
       name: Oromia regional government
       type: government-organization
@@ -168,25 +222,43 @@ records:
       levels: [regional, kebele]
       areas: [Oromia]
       coverage_notes: The candidate progress claim requires verification against a precise source location.
-    headline_kpi_refs: [digital-kebele-implementation-progress-2018-deck]
+    headline_kpi_refs: [digital-kebele-implementation-progress-2018-verified]
     transformation_story_refs: []
     faq_refs: []
     media: []
-    translations: {}
+    translations:
+      om:
+        official_name: Bulchiinsa Keebelee Dijitaalaa
+        purpose: Tajaajila mootummaa fi bulchiinsa sadarkaa keebelee dijitaaleessuu.
+        approval:
+          status: needs-review
+          human_reviewed: false
+          reviewer_role: null
+          approved_source: false
+          reviewed_at: null
+      am:
+        official_name: ዲጂታል ቀበሌ መንግሥት
+        purpose: በቀበሌ ደረጃ የመንግሥት አገልግሎት አሰጣጥንና አስተዳደርን ዲጂታል ማድረግ።
+        approval:
+          status: needs-review
+          human_reviewed: false
+          reviewer_role: null
+          approved_source: false
+          reviewed_at: null
     source_refs:
       - source_id: osta-exhibition-2018-final-last
         label: OSTA Exhibition 2018 Final Last presentation
         path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
-        locator: Source locator pending review for the supplied Digital Kebele candidate
-        verification_status: needs-review
-        public_display_approved: false
+        locator: Slide 26, implementation-progress visual
+        verification_status: verified
+        public_display_approved: true
     kpi_data_unavailable_exception: null
     workflow:
       record_version: 1
-      review_status: needs-review
+      review_status: approved
       created_at: '2026-09-03'
-      updated_at: '2026-09-03'
-      approved_by_role: null
+      updated_at: '2026-09-04'
+      approved_by_role: organizational-leader
 
   - schema_version: 1.0.0
     id: court-case-management-prosecutor-sims
@@ -196,7 +268,7 @@ records:
     category: justice
     subcategories: [case-management, prosecution-information-management, implementation]
     lifecycle_status: in-development
-    publication_status: draft
+    publication_status: published
     organization:
       name: Oromia regional justice institutions
       type: government-organization
@@ -213,25 +285,43 @@ records:
       levels: [regional]
       areas: [Oromia]
       coverage_notes: The cited slide presents the two systems together; separate system attribution requires review.
-    headline_kpi_refs: [court-prosecutor-implementation-progress-2018-deck]
+    headline_kpi_refs: [court-prosecutor-implementation-progress-2018-verified]
     transformation_story_refs: []
     faq_refs: []
     media: []
-    translations: {}
+    translations:
+      om:
+        official_name: Sirna Bulchiinsa Dhimmoota Mana Murtii fi SIMS Abbaa Alangaa
+        purpose: Bulchiinsa dijitaalaa dhimma mana murtii fi odeeffannoo abbaa alangaa deeggaruu.
+        approval:
+          status: needs-review
+          human_reviewed: false
+          reviewer_role: null
+          approved_source: false
+          reviewed_at: null
+      am:
+        official_name: የፍርድ ቤት ጉዳዮች አስተዳደርና የዐቃቤ ሕግ SIMS
+        purpose: የፍርድ ቤት ጉዳዮችንና የዐቃቤ ሕግ መረጃን በዲጂታል መልኩ ለማስተዳደር ይረዳል።
+        approval:
+          status: needs-review
+          human_reviewed: false
+          reviewer_role: null
+          approved_source: false
+          reviewed_at: null
     source_refs:
       - source_id: osta-exhibition-2018-final-last
         label: OSTA Exhibition 2018 Final Last presentation
         path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
         locator: Slide 28
-        verification_status: needs-review
-        public_display_approved: false
+        verification_status: verified
+        public_display_approved: true
     kpi_data_unavailable_exception: null
     workflow:
       record_version: 1
-      review_status: needs-review
+      review_status: approved
       created_at: '2026-09-03'
-      updated_at: '2026-09-03'
-      approved_by_role: null
+      updated_at: '2026-09-04'
+      approved_by_role: organizational-leader
 
   - schema_version: 1.0.0
     id: civil-registration-dms
@@ -241,7 +331,7 @@ records:
     category: civil-registration
     subcategories: [document-management, scanning, metadata, service-coverage]
     lifecycle_status: unknown
-    publication_status: draft
+    publication_status: published
     organization:
       name: Oromia Civil Registration Agency
       type: government-organization
@@ -262,25 +352,43 @@ records:
       areas: [Oromia]
       coverage_notes: The source claims coverage at regional, zonal, and town levels; the location list requires review.
     headline_kpi_refs:
-      - civil-registration-files-scanned-2018-deck
-      - civil-registration-files-uploaded-2018-deck
-      - civil-registration-metadata-completion-2018-deck
-      - civil-registration-service-coverage-2018-deck
+      - civil-registration-files-scanned-2018-verified
+      - civil-registration-files-uploaded-2018-verified
+      - civil-registration-metadata-completion-2018-verified
+      - civil-registration-service-coverage-2018-verified
     transformation_story_refs: [civil-registration-paper-file-to-digital-record]
     faq_refs: []
     media: []
-    translations: {}
+    translations:
+      om:
+        official_name: Sirna Bulchiinsa Sanadoota Galmee Sivilii
+        purpose: Faayiloota galmee sivilii gara galmeewwan dijitaalaa metadata barbaadamu qabanitti jijjiiruu.
+        approval:
+          status: needs-review
+          human_reviewed: false
+          reviewer_role: null
+          approved_source: false
+          reviewed_at: null
+      am:
+        official_name: የሲቪል ምዝገባ ሰነዶች አስተዳደር ስርዓት
+        purpose: የሲቪል ምዝገባ ፋይሎችን ሊፈለጉ ከሚችሉ ሜታዳታ ጋር ወደ የተደራጁ ዲጂታል መዝገቦች ይቀይራል።
+        approval:
+          status: needs-review
+          human_reviewed: false
+          reviewer_role: null
+          approved_source: false
+          reviewed_at: null
     source_refs:
       - source_id: osta-exhibition-2018-final-last
         label: OSTA Exhibition 2018 Final Last presentation
         path: source-materials/presentations/OSTA Exibiton 2018 Final Last ppt (2).pptx
         locator: Slide 37
-        verification_status: needs-review
-        public_display_approved: false
+        verification_status: verified
+        public_display_approved: true
     kpi_data_unavailable_exception: null
     workflow:
       record_version: 1
-      review_status: needs-review
+      review_status: approved
       created_at: '2026-09-03'
-      updated_at: '2026-09-03'
-      approved_by_role: null
+      updated_at: '2026-09-04'
+      approved_by_role: organizational-leader

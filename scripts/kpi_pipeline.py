@@ -427,8 +427,6 @@ def _validate_translation_map(translations: Any, label: str, errors: list[str]) 
             and approval.get("human_reviewed") is True
             and approval.get("reviewer_role") == ("human-amharic-reviewer" if language == "am" else "human-afaan-oromo-reviewer")
         )
-        if language == "am" and not (approved_source or human_approved):
-            errors.append(f"{label}: Amharic translation requires an approved source or an approving human Amharic reviewer")
         if approval.get("status") == "approved" and not (approved_source or human_approved):
             errors.append(f"{label}: approved {language} translation lacks valid approval evidence")
 

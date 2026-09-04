@@ -1,4 +1,596 @@
 {
   "schema_version": "1.0.0",
-  "systems": []
+  "systems": [
+    {
+      "headline_kpi_refs": [
+        "business-automation-records-registered-2018-verified"
+      ],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Reported cumulative result; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "greater-than",
+            "unit": "record",
+            "value": 6700000
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "record",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "> 6,700,000 records",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 1,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "business-automation-records-registered-2018-verified",
+          "kpi_code": "records-registered",
+          "kpi_name": "Records registered",
+          "measurement_scope": {
+            "description": "Organized member records in Business Automation",
+            "scope_id": "business-automation",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "ethiopian",
+            "end_date": null,
+            "reporting_date_text": "Bitootessa, 2018 (Ethiopian calendar)",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "OSTA Exhibition 2018 Final Last presentation",
+              "locator": "Slide 25",
+              "source_id": "osta-exhibition-2018-final-last"
+            }
+          ],
+          "system_id": "business-automation",
+          "target": {
+            "operator": "not-specified",
+            "unit": "record",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "business-automation"
+    },
+    {
+      "headline_kpi_refs": [
+        "civil-registration-files-scanned-2018-verified",
+        "civil-registration-files-uploaded-2018-verified",
+        "civil-registration-metadata-completion-2018-verified",
+        "civil-registration-service-coverage-2018-verified"
+      ],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Reported scanning output; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "approximate",
+            "unit": "file",
+            "value": 2200000
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "file",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "≈ 2,200,000 files",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 1,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "civil-registration-files-scanned-2018-verified",
+          "kpi_code": "files-scanned",
+          "kpi_name": "Files scanned",
+          "measurement_scope": {
+            "description": "Civil-registration DMS scanning output",
+            "scope_id": "civil-registration-dms",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "ethiopian",
+            "end_date": null,
+            "reporting_date_text": "Bitootessa, 2018 (Ethiopian calendar)",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "OSTA Exhibition 2018 Final Last presentation",
+              "locator": "Slide 37",
+              "source_id": "osta-exhibition-2018-final-last"
+            }
+          ],
+          "system_id": "civil-registration-dms",
+          "target": {
+            "operator": "not-specified",
+            "unit": "file",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Reported upload output; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "approximate",
+            "unit": "file",
+            "value": 2500000
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "file",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "≈ 2,500,000 files",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 2,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "civil-registration-files-uploaded-2018-verified",
+          "kpi_code": "files-uploaded",
+          "kpi_name": "Files uploaded",
+          "measurement_scope": {
+            "description": "Civil-registration DMS upload output",
+            "scope_id": "civil-registration-dms",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "ethiopian",
+            "end_date": null,
+            "reporting_date_text": "Bitootessa, 2018 (Ethiopian calendar)",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "OSTA Exhibition 2018 Final Last presentation",
+              "locator": "Slide 37",
+              "source_id": "osta-exhibition-2018-final-last"
+            }
+          ],
+          "system_id": "civil-registration-dms",
+          "target": {
+            "operator": "not-specified",
+            "unit": "file",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Reported completion; denominator and required fields are not supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "percent",
+            "value": 100
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "percent",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "100%",
+          "exhibition": {
+            "chart_type": "progress",
+            "display_priority": 3,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "civil-registration-metadata-completion-2018-verified",
+          "kpi_code": "metadata-completion-percent",
+          "kpi_name": "Metadata completion",
+          "measurement_scope": {
+            "description": "Metadata completion for in-scope civil-registration DMS files",
+            "scope_id": "civil-registration-dms",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "ethiopian",
+            "end_date": null,
+            "reporting_date_text": "Bitootessa, 2018 (Ethiopian calendar)",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "OSTA Exhibition 2018 Final Last presentation",
+              "locator": "Slide 37",
+              "source_id": "osta-exhibition-2018-final-last"
+            }
+          ],
+          "system_id": "civil-registration-dms",
+          "target": {
+            "operator": "not-specified",
+            "unit": "percent",
+            "value": null
+          }
+        },
+        {
+          "achievement": {
+            "description": "Reported coverage; the eligible coverage denominator is not supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "percent",
+            "value": 100
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "percent",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "multi-level",
+            "geography_name": "Oromia region"
+          },
+          "display_value": "100%",
+          "exhibition": {
+            "chart_type": "progress",
+            "display_priority": 4,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "civil-registration-service-coverage-2018-verified",
+          "kpi_code": "service-coverage-percent",
+          "kpi_name": "Service coverage",
+          "measurement_scope": {
+            "description": "Reported civil-registration DMS service coverage",
+            "scope_id": "civil-registration-dms",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "ethiopian",
+            "end_date": null,
+            "reporting_date_text": "Bitootessa, 2018 (Ethiopian calendar)",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "OSTA Exhibition 2018 Final Last presentation",
+              "locator": "Slide 37",
+              "source_id": "osta-exhibition-2018-final-last"
+            }
+          ],
+          "system_id": "civil-registration-dms",
+          "target": {
+            "operator": "not-specified",
+            "unit": "percent",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "civil-registration-dms"
+    },
+    {
+      "headline_kpi_refs": [
+        "court-prosecutor-implementation-progress-2018-verified"
+      ],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Reported progress without a documented plan denominator.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "percent",
+            "value": 95
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "percent",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "95%",
+          "exhibition": {
+            "chart_type": "progress",
+            "display_priority": 1,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "court-prosecutor-implementation-progress-2018-verified",
+          "kpi_code": "implementation-progress-percent",
+          "kpi_name": "Implementation progress",
+          "measurement_scope": {
+            "description": "Combined implementation claim for the named justice systems",
+            "scope_id": "court-case-management-prosecutor-sims",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "ethiopian",
+            "end_date": null,
+            "reporting_date_text": "Bitootessa, 2018 (Ethiopian calendar)",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "OSTA Exhibition 2018 Final Last presentation",
+              "locator": "Slide 28",
+              "source_id": "osta-exhibition-2018-final-last"
+            }
+          ],
+          "system_id": "court-case-management-prosecutor-sims",
+          "target": {
+            "operator": "not-specified",
+            "unit": "percent",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "court-case-management-prosecutor-sims"
+    },
+    {
+      "headline_kpi_refs": [
+        "digital-kebele-implementation-progress-2018-verified"
+      ],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Reported progress without a documented plan denominator.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "percent",
+            "value": 70
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "percent",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "70%",
+          "exhibition": {
+            "chart_type": "progress",
+            "display_priority": 1,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "digital-kebele-implementation-progress-2018-verified",
+          "kpi_code": "implementation-progress-percent",
+          "kpi_name": "Implementation progress",
+          "measurement_scope": {
+            "description": "Reported implementation progress",
+            "scope_id": "digital-kebele-government",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "ethiopian",
+            "end_date": null,
+            "reporting_date_text": "Bitootessa, 2018 (Ethiopian calendar)",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "OSTA Exhibition 2018 Final Last presentation",
+              "locator": "Slide 26, implementation-progress visual",
+              "source_id": "osta-exhibition-2018-final-last"
+            }
+          ],
+          "system_id": "digital-kebele-government",
+          "target": {
+            "operator": "not-specified",
+            "unit": "percent",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "digital-kebele-government"
+    },
+    {
+      "headline_kpi_refs": [
+        "prms-records-registered-2018-verified"
+      ],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Reported cumulative result; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "greater-than",
+            "unit": "record",
+            "value": 39800
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "record",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "> 39,800 records",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 1,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "prms-records-registered-2018-verified",
+          "kpi_code": "records-registered",
+          "kpi_name": "Records registered",
+          "measurement_scope": {
+            "description": "Regional PRMS record collection",
+            "scope_id": "prms",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "ethiopian",
+            "end_date": null,
+            "reporting_date_text": "Bitootessa, 2018 (Ethiopian calendar)",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "OSTA Exhibition 2018 Final Last presentation",
+              "locator": "Slide 21",
+              "source_id": "osta-exhibition-2018-final-last"
+            }
+          ],
+          "system_id": "prms",
+          "target": {
+            "operator": "not-specified",
+            "unit": "record",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "prms"
+    },
+    {
+      "headline_kpi_refs": [
+        "uemis-registered-users-2018-verified"
+      ],
+      "observations": [
+        {
+          "achievement": {
+            "description": "Reported registration result; no target is supplied.",
+            "status": "reported",
+            "unit": null,
+            "value": null
+          },
+          "actual": {
+            "operator": "equal",
+            "unit": "person",
+            "value": 3987
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": "person",
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "3,987 users",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 1,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": true
+          },
+          "id": "uemis-registered-users-2018-verified",
+          "kpi_code": "registered-users",
+          "kpi_name": "Registered users",
+          "measurement_scope": {
+            "description": "Users registered in UEMIS",
+            "scope_id": "uemis",
+            "scope_type": "system"
+          },
+          "record_version": 1,
+          "reporting_period": {
+            "calendar_type": "ethiopian",
+            "end_date": null,
+            "reporting_date_text": "Bitootessa, 2018 (Ethiopian calendar)",
+            "start_date": null,
+            "type": "year"
+          },
+          "source_labels": [
+            {
+              "label": "OSTA Exhibition 2018 Final Last presentation",
+              "locator": "Slide 22",
+              "source_id": "osta-exhibition-2018-final-last"
+            }
+          ],
+          "system_id": "uemis",
+          "target": {
+            "operator": "not-specified",
+            "unit": "person",
+            "value": null
+          }
+        }
+      ],
+      "system_id": "uemis"
+    }
+  ]
 }
