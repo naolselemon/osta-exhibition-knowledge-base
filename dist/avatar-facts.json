@@ -2,6 +2,15 @@
   "approved_afaan_oromo_content": [
     {
       "content": {
+        "official_name": "Walqunnamtii Baandii Bal'aa",
+        "purpose": "Naannicha keessatti qaqqabummaa baandii bal’aa faayibaraa fi moobaayiliin deeggarame babal’isa."
+      },
+      "language": "om",
+      "record_id": "broadband-connectivity",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
         "official_name": "Sirna Ofumaan Hojii Daldalaa",
         "purpose": "Ragaa miseensotaa qindeessuu fi hojiiwwan bulchiinsaa deeggaran ofumaan raawwachuu."
       },
@@ -29,6 +38,24 @@
     },
     {
       "content": {
+        "official_name": "Sirna Loojistikii Fayyaa Dagu",
+        "purpose": "Bulchiinsa odeeffannoo loojistikii fayyaa dijitaalaa deeggera."
+      },
+      "language": "om",
+      "record_id": "dagu",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Software Odeeffannoo Fayyaa Aanaa 2",
+        "purpose": "Sirna ikoo-plaatfoormii fayyaa dijitaalaa naannoo keessatti bulchiinsa odeeffannoo fayyaa dijitaalaa deeggera."
+      },
+      "language": "om",
+      "record_id": "dhis2",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
         "official_name": "Bulchiinsa Keebelee Dijitaalaa",
         "purpose": "Tajaajila mootummaa fi bulchiinsa sadarkaa keebelee dijitaaleessuu."
       },
@@ -43,6 +70,146 @@
       },
       "language": "om",
       "record_id": "electric-solar-bajaj",
+        "official_name": "Sirna Bulchiinsa Sanadootaa",
+        "purpose": "Bulchiinsa sanadootaa mootummaa irraa gara mootummaa fi adeemsa galmeewwanii deeggera."
+      },
+      "language": "om",
+      "record_id": "document-management-system",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Sirna Bulchiinsa Geejjibaa DTrip",
+        "purpose": "Bulchiinsa geejjibaa uummataa, hojii daandiiwwanii, tajaajila imaltootaa fi tikkeeta elektiroonikaa deeggera."
+      },
+      "language": "om",
+      "record_id": "dtrip-admin",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Tajaajiloota Barnootaa Elektiroonikaa",
+        "purpose": "Tajaajiloota barnootaa dijitaalaa barnoota, galmee, sagantaa qormaataa fi qabeenya barnootaaf dhiyeessa."
+      },
+      "language": "om",
+      "record_id": "e-education-services",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Tajaajiloota Fayyaa Elektiroonikaa",
+        "purpose": "Odeeffannoo fayyaa, tajaajila kilinikaa, beellama, sanadootaa fi hayyama fayyaa dijitaalaan dhiyeessa."
+      },
+      "language": "om",
+      "record_id": "e-health-services",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Invastimantii Elektiroonikaa",
+        "purpose": "Galmee pirojektii invastimantii, hayyama, eeyyama fi gorsa dijitaalaa dhiyeessa."
+      },
+      "language": "om",
+      "record_id": "e-investment-services",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Tajaajiloota Lafaa Elektiroonikaa",
+        "purpose": "Tajaajiloota lafaa daldalaa lammilee ilaallatan poortaalii fi intarfeysii ji’oo-poritaalii irratti hundaa’een dhiyeessa."
+      },
+      "language": "om",
+      "record_id": "e-land-services",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Tajaajiloota Galmeessa Taateewwan Jireenyaa Elektiroonikaa",
+        "purpose": "Galmee dhalootaa, gaa’elaa fi du’aa akkasumas kenninsa ragaa dijitaaleessa."
+      },
+      "language": "om",
+      "record_id": "e-vital-event-registration",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Sirna Odeeffannoo Fayyaa Hawaasaa Elektiroonikaa",
+        "purpose": "Bulchiinsa odeeffannoo fayyaa hawaasaa elektiroonikaa deeggera."
+      },
+      "language": "om",
+      "record_id": "echis",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Teknooloojii Ethio Language Box",
+        "purpose": "Teknooloojii afaanii sirna ikoo dijitaalaa mootummaa naannoo keessatti deeggera."
+      },
+      "language": "om",
+      "record_id": "ethio-language-box",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Foddaa Tokkoo Elektiroonikaa Itoophiyaa Daldalaaf",
+        "purpose": "Tajaajiloota mijeessa daldalaa fi adeemsa hojii hedduuuf intarfeysii tokko qofa dhiyeessa."
+      },
+      "language": "om",
+      "record_id": "etrade-electronic-single-window",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Sadarkaa Tajaajila Dijitaalaa Mootummaa irraa gara Lammileetti",
+        "purpose": "Tajaajiloota dijitaalaa lammilee ilaallatan dameewwan mootummaa gurguddoo keessatti walitti qabee dhiyeessa."
+      },
+      "language": "om",
+      "record_id": "g2c-e-services",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Sirna Bulchiinsa Qabeenya Namaa",
+        "purpose": "Bulchiinsa qabeenya namaa dijitaalaa dhaabbilee mootummaa keessatti deeggera."
+      },
+      "language": "om",
+      "record_id": "human-resource-management",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Sirna Waljijjiirraa Hojii Walitti Qindaa’e",
+        "purpose": "Adeemsa odeeffannoo baajataa, baasii fi waljijjiirraa hojii mootummaa walitti qindaa’e deeggera."
+      },
+      "language": "om",
+      "record_id": "integrated-business-exchange",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Appilikeeshinii Fayyaa Moobaayilii mBrana",
+        "purpose": "Sirna ikoo fayyaa dijitaalaa naannoo keessatti appilikeeshinii odeeffannoo fayyaa moobaayilii dhiyeessa."
+      },
+      "language": "om",
+      "record_id": "mbrana",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Sirna Bulchiinsa Dhimmoota Mana Murtii Oromiyaa",
+        "purpose": "Adeemsa mana murtii, bulchiinsa dhimmaa, dhagahamaa, kaffaltii, gabaasaa, qunnamtii fi nageenya elektiroonikaa dhiyeessa."
+      },
+      "language": "om",
+      "record_id": "occms",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Wiirtuu Deetaa Mootummaa Naannoo Oromiyaa",
+        "purpose": "Hojiiwwan jijjiirama dijitaalaa naannoo sanaa wiirtuu deetaa sadarkaa adda addaa fi walitti-qindaa’e irratti keessummeessa."
+      },
+      "language": "om",
+      "record_id": "oromia-regional-data-center",
       "record_type": "digital-system"
     },
     {
@@ -61,6 +228,83 @@
       },
       "language": "om",
       "record_id": "smart-ac-generator",
+        "official_name": "Sirna Bulchiinsa Qabeenyaa",
+        "purpose": "Bulchiinsa qabeenyaa fi mi’a mootummaa dijitaalaan deeggera."
+      },
+      "language": "om",
+      "record_id": "property-management-system",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Tajaajiloota Abbaa Alangaa Elektiroonikaa",
+        "purpose": "Adeemsa dhimma abbaa alangaa, odeeffannoo seeraa, sanadoota, qabeenya namaa, komii fi quufa maamilaa dijitaalaa dhiyeessa."
+      },
+      "language": "om",
+      "record_id": "prosecution-e-services",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Sirna Bulchiinsa Tarree",
+        "purpose": "Dhaabbata tajaajilaa keessatti sochii lammilee dhufanii tajaajila eegu tikkeetii elektiroonikaa fi agarsiisa tajaajilaatiin qindeessa."
+      },
+      "language": "om",
+      "record_id": "queue-management-system",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Dijitaaleessuu Sanadootaa fi Jijjiirraa Galmeewwan Naannoo",
+        "purpose": "Kuusaa waraqaalee gara galmeewwan dijitaalaa barbaadamuun barbaadamanitti, iskaaniingii, qabannaa fi indeeksii baay’inaan fayyadamuun jijjiira."
+      },
+      "language": "om",
+      "record_id": "regional-document-digitization",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Sirna Galmeessa Qabeenya Dhaabbataa",
+        "purpose": "Qabeenya dhaabbataa galmeessuu fi galmeewwan paarselii adeemsa bulchiinsa lafaa dijitaalaa keessatti bulcha."
+      },
+      "language": "om",
+      "record_id": "rprs",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "SDRIS Biiroo Invastimantii fi Indaastirii Oromiyaa",
+        "purpose": "Fooyya’iinsa tajaajila invastimantii fi indaastirii poortaalii afaanota hedduu fi kiyooskii ofiin tajaajilamuun deeggera."
+      },
+      "language": "om",
+      "record_id": "sdris",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Tajaajiloota Galii Elektiroonikaa",
+        "purpose": "Galmee gibiraa, faayilii, kaffaltii, odiitii, falmii fi odeeffannoo iyyannoo gibiraa dijitaalaan dhiyeessa."
+      },
+      "language": "om",
+      "record_id": "sigtax",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Sirna SmartCare EHR / Hospitaalaa",
+        "purpose": "Sirna ikoo fayyaa dijitaalaa naannoo keessatti galmee fayyaa elektiroonikaa fi bulchiinsa odeeffannoo hospitaalaa deeggera."
+      },
+      "language": "om",
+      "record_id": "smartcare",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Tajaajiloota Daldalaa Elektiroonikaa",
+        "purpose": "Tajaajiloota hayyama daldalaa, galmee daldalaa, galtee, ba’ii fi dhimma gumurukaa dijitaalaa Afaan Oromoo fi Ingiliffaan dhiyeessa."
+      },
+      "language": "om",
+      "record_id": "trade-e-services",
       "record_type": "digital-system"
     },
     {
@@ -71,9 +315,99 @@
       "language": "om",
       "record_id": "uemis",
       "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Walqunnamtii WoredaNet / VPN",
+        "purpose": "Waajjiraalee mootummaa naannoo, godinaa, magaalaa, aanaa fi ganda tajaajiloota dijitaalaa waloo fi qaqqabummaa dijitaalaaf walqunnamsiisa."
+      },
+      "language": "om",
+      "record_id": "woredanet-vpn",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Sirna Odeeffannoo Bulchiinsa Magaalaa Weebii irratti Hundaa’e",
+        "purpose": "Bulchiinsa magaalaa weebii irratti hundaa’e fi odeeffannoo lafaa kaartaa irratti hundaa’e argamsiisuuf deeggera."
+      },
+      "language": "om",
+      "record_id": "wumis",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "answer": "Qorannoon kun kuufama deetaa gabaafame {{kpi:oromia-data-center-storage-2025-published}} fi tajaajiloota keessummeeffaman {{kpi:oromia-data-center-services-hosted-2025-published}} galmeessa. Himannoowwan lamaan kunneen qorannoo viidiyoo irraa waan dhufaniif mirkaneessa teeknikaa fi abbaa ragaa barbaadu.",
+        "question": "Hojiiwwan wiirtuu deetaa irratti galmaa’an maali?"
+      },
+      "language": "om",
+      "record_id": "data-center-kpi-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "Qorannoon kun {{kpi:dtrip-passengers-2025-published}}, {{kpi:dtrip-routes-2025-published}}, {{kpi:dtrip-vehicles-2025-published}} fi {{kpi:dtrip-employees-2025-published}} akka galmaa’an ibsa. Maddaichi yeroo yookaan seera lakkaa’umsaa lakkoofsota daashboordii kanaa hin ibsine.",
+        "question": "Lakkoofsotni geejjiba DTrip kam galmaa’aniiru?"
+      },
+      "language": "om",
+      "record_id": "dtrip-kpi-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "Qorannoon kun {{kpi:e-education-teachers-2025-published}}, {{kpi:e-education-students-2025-published}} fi {{kpi:e-education-schools-2025-published}} akka galmaa’an ibsa. Maddaichi uummata galmaa’e, socho’aa yookaan addaa ta’e jechuun hin ibsine; kanaaf himannoowwan kun qoratamuu qabu.",
+        "question": "Lakkoofsotni daashboordii barnootaa kam galmaa’aniiru?"
+      },
+      "language": "om",
+      "record_id": "e-education-kpi-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "Qorannoon kun sadarkaa tajaajila G2C keessatti {{kpi:g2c-e-services-offered-2025-published}} akka galmaa’e ibsa. Kuusaan tajaajilootaa fi yeroo gabaasaa isaa maxxansa dura abbaa ragaa irraa mirkanaa’uu qaba.",
+        "question": "Tajaajiloota lammilee ilaallatan meeqa galmaa’aniiru?"
+      },
+      "language": "om",
+      "record_id": "g2c-services-kpi-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "Qorannoon kun waliigala dijitaaleessuu sanadootaa naannoo {{kpi:regional-document-digitization-documents-2025-published}} akka ta’e galmeessa. Seerri lakkaa’umsaa, kuusaan sanadootaa fi daangaan isaa ammallee mirkanaa’uu qabu.",
+        "question": "Hojii jijjiirraa galmeewwanii irratti galmeen maal jedhu?"
+      },
+      "language": "om",
+      "record_id": "regional-documents-kpi-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "Qorannoon kun {{kpi:rprs-total-tasks-2025-published}}, {{kpi:rprs-certificates-issued-2025-published}} fi {{kpi:rprs-parcels-migrated-2025-published}} akka galmaa’an ibsa. Maddaichi hiika hojii, ragaa, paarselii yookaan yeroo gabaasaa hin ibsine; kanaaf himannoowwan kun qoratamuu qabu.",
+        "question": "Lakkoofsotni hojii RPRS kam galmaa’aniiru?"
+      },
+      "language": "om",
+      "record_id": "rprs-kpi-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "Qorannoon kun sararoota VPN naannoo 61, sararoota godinaa fi magaalaa 879, akkasumas sararoota aanaa fi ganda 1,856 akka gabaafaman galmeessa. Lakkoofsotni teeknooloojii adda addaa himannaa qofa waan ta’aniif mirkaneessa abbaa ragaa barbaadu.",
+        "question": "Lakkoofsotni walqunnamtii WoredaNet maal galmaa’aniiru?"
+      },
+      "language": "om",
+      "record_id": "woredanet-vpn-kpi-faq",
+      "record_type": "faq"
     }
   ],
   "approved_amharic_content": [
+    {
+      "content": {
+        "official_name": "የብሮድባንድ ግንኙነት",
+        "purpose": "በክልሉ ውስጥ በፋይበር እና በሞባይል ኔትወርክ የተደገፈ የብሮድባንድ ተደራሽነትን ያስፋፋል።"
+      },
+      "language": "am",
+      "record_id": "broadband-connectivity",
+      "record_type": "digital-system"
+    },
     {
       "content": {
         "official_name": "የንግድ ሥራ አውቶሜሽን",
@@ -103,6 +437,24 @@
     },
     {
       "content": {
+        "official_name": "የዳጉ የጤና ሎጂስቲክስ ሥርዓት",
+        "purpose": "ዲጂታል የጤና ሎጂስቲክስ መረጃ አስተዳደርን ይደግፋል።"
+      },
+      "language": "am",
+      "record_id": "dagu",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የወረዳ የጤና መረጃ ሶፍትዌር 2",
+        "purpose": "በክልሉ ዲጂታል የጤና መድረክ ሥነ-ምህዳር ውስጥ ዲጂታል የጤና መረጃ አስተዳደርን ይደግፋል።"
+      },
+      "language": "am",
+      "record_id": "dhis2",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
         "official_name": "ዲጂታል ቀበሌ መንግሥት",
         "purpose": "በቀበሌ ደረጃ የመንግሥት አገልግሎት አሰጣጥንና አስተዳደርን ዲጂታል ማድረግ።"
       },
@@ -123,9 +475,11 @@
       "content": {
         "official_name": "የማረሚያ ቤቶች አስተዳደር ስርዓት",
         "purpose": "የክልሉን ሁሉንም የማረሚያ ቤቶች መረጃ በአንድ ቦታ ያሰባስባል።"
+        "official_name": "የሰነድ አስተዳደር ሥርዓት",
+        "purpose": "የመንግሥት-ለ-መንግሥት የሰነድ አስተዳደርን እና የመዝገብ ሥራ ሂደቶችን ይደግፋል።"
       },
       "language": "am",
-      "record_id": "prms",
+      "record_id": "document-management-system",
       "record_type": "digital-system"
     },
     {
@@ -141,13 +495,333 @@
       "content": {
         "official_name": "የከተማ ሥራ ስምሪት አስተዳደር መረጃ ስርዓት",
         "purpose": "በከተማ የሥራ አገልግሎቶች የሚሳተፉ ወጣቶችን ይመዘግባል።"
+        "official_name": "DTrip የመጓጓዣ አስተዳደር ሥርዓት",
+        "purpose": "የሕዝብ መጓጓዣ አስተዳደርን፣ የመስመር ሥራዎችን፣ የተሳፋሪ አገልግሎቶችን እና ኤሌክትሮኒክ ትኬትን ይደግፋል።"
+      },
+      "language": "am",
+      "record_id": "dtrip-admin",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የኢ-ትምህርት አገልግሎቶች",
+        "purpose": "ለትምህርት፣ ምዝገባ፣ የፈተና መርሐ-ግብር እና የትምህርት ሀብቶች ዲጂታል የትምህርት አገልግሎቶችን ይሰጣል።"
+      },
+      "language": "am",
+      "record_id": "e-education-services",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የኢ-ጤና አገልግሎቶች",
+        "purpose": "ዲጂታል የጤና መረጃ፣ ክሊኒካዊ፣ የቀጠሮ፣ የሰነድ እና የፈቃድ አገልግሎቶችን ይሰጣል።"
+      },
+      "language": "am",
+      "record_id": "e-health-services",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "ኢ-ኢንቨስትመንት",
+        "purpose": "ዲጂታል የኢንቨስትመንት ፕሮጀክት ምዝገባ፣ ፈቃድ፣ ፍቃደኝነት እና የምክር አገልግሎቶችን ይሰጣል።"
+      },
+      "language": "am",
+      "record_id": "e-investment-services",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የኢ-መሬት አገልግሎቶች",
+        "purpose": "ዜጎችን የሚመለከቱ የመሬት ግብይት አገልግሎቶችን በፖርታሎች እና በጂኦፖርታል በይነገጾች ይሰጣል።"
+      },
+      "language": "am",
+      "record_id": "e-land-services",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የኢ-ወሳኝ ክስተቶች ምዝገባ አገልግሎቶች",
+        "purpose": "የልደት፣ የጋብቻ እና የሞት ምዝገባን እና የምስክር ወረቀት አሰጣጥን ዲጂታል ያደርጋል።"
+      },
+      "language": "am",
+      "record_id": "e-vital-event-registration",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የኤሌክትሮኒክ ማህበረሰብ ጤና መረጃ ሥርዓት",
+        "purpose": "ኤሌክትሮኒክ የማህበረሰብ ጤና መረጃ አስተዳደርን ይደግፋል።"
+      },
+      "language": "am",
+      "record_id": "echis",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የኢትዮ ቋንቋ ቦክስ ቴክኖሎጂ",
+        "purpose": "በክልሉ የመንግሥት ዲጂታል ሥነ-ምህዳር ውስጥ የቋንቋ ቴክኖሎጂን ይደግፋል።"
+      },
+      "language": "am",
+      "record_id": "ethio-language-box",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የኢትዮጵያ የነጋዴዎች ኤሌክትሮኒክ ነጠላ መስኮት",
+        "purpose": "ለብዙ የንግድ ማመቻቸት አገልግሎቶችና የሥራ ሂደቶች አንድ የተዋሃደ በይነገጽ ይሰጣል።"
+      },
+      "language": "am",
+      "record_id": "etrade-electronic-single-window",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የመንግሥት-ወደ-ዜጋ ዲጂታል አገልግሎት ንብርብር",
+        "purpose": "በዋና ዋና የመንግሥት ዘርፎች የዜጎችን ዲጂታል አገልግሎቶች ያጠቃልላል።"
+      },
+      "language": "am",
+      "record_id": "g2c-e-services",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የሰው ኃይል አስተዳደር ሥርዓት",
+        "purpose": "በመንግሥት ተቋማት ውስጥ ዲጂታል የሰው ኃይል አስተዳደርን ይደግፋል።"
+      },
+      "language": "am",
+      "record_id": "human-resource-management",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የተቀናጀ የንግድ ልውውጥ ሥርዓት",
+        "purpose": "የመንግሥት በጀት፣ ወጪ እና የንግድ ልውውጥ መረጃ የተቀናጁ የሥራ ሂደቶችን ይደግፋል።"
+      },
+      "language": "am",
+      "record_id": "integrated-business-exchange",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "mBrana የሞባይል ጤና መተግበሪያ",
+        "purpose": "በክልሉ ዲጂታል የጤና ሥነ-ምህዳር ውስጥ የሞባይል የጤና መረጃ መተግበሪያን ይሰጣል።"
+      },
+      "language": "am",
+      "record_id": "mbrana",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የኦሮሚያ ፍርድ ቤት ጉዳይ አስተዳደር ሥርዓት",
+        "purpose": "ኤሌክትሮኒክ የፍርድ ቤት ሂደቶችን፣ የጉዳይ አስተዳደርን፣ ችሎትን፣ ክፍያን፣ ሪፖርትን፣ ግንኙነትን እና ደህንነትን ይሰጣል።"
+      },
+      "language": "am",
+      "record_id": "occms",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የኦሮሚያ ክልል የመረጃ ማዕከል",
+        "purpose": "የክልሉን የዲጂታል ለውጥ የሥራ ጫናዎች በደረጃ በተደራጀ ሃይፐር-ኮንቨርጅድ የመረጃ ማዕከል መሠረተ ልማት ላይ ያስተናግዳል።"
+      },
+      "language": "am",
+      "record_id": "oromia-regional-data-center",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የማረሚያ ቤቶች አስተዳደር ስርዓት",
+        "purpose": "የክልሉን ሁሉንም የማረሚያ ቤቶች መረጃ በአንድ ቦታ ያሰባስባል።"
+      },
+      "language": "am",
+      "record_id": "prms",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የንብረት አስተዳደር ሥርዓት",
+        "purpose": "ዲጂታል የመንግሥት ንብረትና አሴት አስተዳደርን ይደግፋል።"
+      },
+      "language": "am",
+      "record_id": "property-management-system",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የአቃቤ ሕግ ኢ-አገልግሎቶች",
+        "purpose": "ዲጂታል የአቃቤ ሕግ ጉዳይ፣ የሕግ መረጃ፣ የሰነድ፣ የሰው ኃይል፣ የቅሬታ እና የደንበኛ እርካታ የሥራ ሂደቶችን ይሰጣል።"
+      },
+      "language": "am",
+      "record_id": "prosecution-e-services",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የሰልፍ አስተዳደር ሥርዓት",
+        "purpose": "በአገልግሎት መስጫ ቆጣሪዎች የሚመጡ ዜጎችን ፍሰት በኤሌክትሮኒክ ትኬት እና በአገልግሎት ማሳያዎች ያደራጃል።"
+      },
+      "language": "am",
+      "record_id": "queue-management-system",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የክልሉ ሰነድ ዲጂታላይዜሽንና የመዝገብ ለውጥ",
+        "purpose": "በከፍተኛ መጠን በመስካን፣ በመቅረጽ እና በመጠቆሚያ በመጠቀም የወረቀት ማህደሮችን ወደ ሊፈለጉ የሚችሉ ዲጂታል መዝገቦች ይቀይራል።"
+      },
+      "language": "am",
+      "record_id": "regional-document-digitization",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የሪል እስቴት ምዝገባ ሥርዓት",
+        "purpose": "የሪል እስቴት ንብረቶችን ይመዘግባል እና የፓርሴል መዝገቦችን በዲጂታል የመሬት አስተዳደር ሂደቶች ያስተዳድራል።"
+      },
+      "language": "am",
+      "record_id": "rprs",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የኦሮሚያ ኢንቨስትመንትና ኢንዱስትሪ ቢሮ SDRIS",
+        "purpose": "በብዙ ቋንቋ ፖርታል እና በራስ-አገልግሎት ኪዮስክ የኢንቨስትመንትና ኢንዱስትሪ አገልግሎት አሰጣጥ ማሻሻያን ይደግፋል።"
+      },
+      "language": "am",
+      "record_id": "sdris",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የገቢ ኢ-አገልግሎቶች",
+        "purpose": "ዲጂታል የግብር ምዝገባ፣ ማስገባት፣ ክፍያ፣ ኦዲት፣ ክርክር እና የይግባኝ መረጃ አገልግሎቶችን ይሰጣል።"
+      },
+      "language": "am",
+      "record_id": "sigtax",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "ስማርትኬር EHR / የሆስፒታል ሥርዓት",
+        "purpose": "በክልሉ ዲጂታል የጤና ሥነ-ምህዳር ውስጥ ኤሌክትሮኒክ የጤና መዝገቦችን እና የሆስፒታል መረጃ አስተዳደርን ይደግፋል።"
+      },
+      "language": "am",
+      "record_id": "smartcare",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የንግድ ኢ-አገልግሎቶች",
+        "purpose": "በአፋን ኦሮሞ እና በእንግሊዝኛ ዲጂታል የንግድ ፈቃድ፣ የንግድ ምዝገባ፣ የገቢ፣ የወጪ እና ከጉምሩክ ጋር የተያያዙ አገልግሎቶችን ይሰጣል።"
+      },
+      "language": "am",
+      "record_id": "trade-e-services",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የከተማ ሥራ ስምሪት አስተዳደር መረጃ ስርዓት",
+        "purpose": "በከተማ የሥራ አገልግሎቶች የሚሳተፉ ወጣቶችን ይመዘግባል።"
       },
       "language": "am",
       "record_id": "uemis",
       "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የወረዳኔት / ቪፒኤን ግንኙነት",
+        "purpose": "የክልል፣ የዞን፣ የከተማ፣ የወረዳ እና የቀበሌ የመንግሥት ጽሕፈት ቤቶችን ለጋራ ዲጂታል ተደራሽነትና አገልግሎቶች ያገናኛል።"
+      },
+      "language": "am",
+      "record_id": "woredanet-vpn",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "በድረ-ገጽ ላይ የተመሠረተ የከተማ አስተዳደር የመረጃ ሥርዓት",
+        "purpose": "በድረ-ገጽ ላይ የተመሠረተ የከተማ አስተዳደርን እና በካርታ ላይ የተመሠረተ የመሬት መረጃ ተደራሽነትን ይደግፋል።"
+      },
+      "language": "am",
+      "record_id": "wumis",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "answer": "ማጠቃለያው {{kpi:oromia-data-center-storage-2025-published}} የተመዘገበ የማከማቻ አቅም እና {{kpi:oromia-data-center-services-hosted-2025-published}} የተስተናገዱ አገልግሎቶች እንዳሉ ይገልጻል። ሁለቱም ከቪዲዮ ማጠቃለያ የተገኙ የምንጭ ጥያቄዎች ስለሆኑ ቴክኒካዊና የምንጭ ባለቤት ማረጋገጫ ያስፈልጋቸዋል።",
+        "question": "ምን ዓይነት የመረጃ ማዕከል ሥራ ተመዝግቧል?"
+      },
+      "language": "am",
+      "record_id": "data-center-kpi-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "ማጠቃለያው {{kpi:dtrip-passengers-2025-published}}፣ {{kpi:dtrip-routes-2025-published}}፣ {{kpi:dtrip-vehicles-2025-published}} እና {{kpi:dtrip-employees-2025-published}} እንደተመዘገቡ ይገልጻል። ምንጩ የእነዚህን የዳሽቦርድ አኃዞች ጊዜ ወይም የቆጠራ መስፈርት አልገለጸም።",
+        "question": "የDTrip የመጓጓዣ አኃዞች ምን ምን ናቸው?"
+      },
+      "language": "am",
+      "record_id": "dtrip-kpi-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "ማጠቃለያው {{kpi:e-education-teachers-2025-published}}፣ {{kpi:e-education-students-2025-published}} እና {{kpi:e-education-schools-2025-published}} እንደተመዘገቡ ይገልጻል። ምንጩ እነዚህ የተመዘገቡ፣ ንቁ ወይም በተቋማት መካከል የማይደጋገሙ ሕዝቦች መሆናቸውን አልገለጸም።",
+        "question": "የትምህርት ዳሽቦርድ ምን ዓይነት አኃዞችን ይይዛል?"
+      },
+      "language": "am",
+      "record_id": "e-education-kpi-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "ማጠቃለያው በG2C የአገልግሎት ንብርብር {{kpi:g2c-e-services-offered-2025-published}} እንደተመዘገበ ይገልጻል። የአገልግሎት ዝርዝሩና የሪፖርት ጊዜው ከመታተሙ በፊት ከምንጩ ባለቤት መረጋገጥ አለበት።",
+        "question": "ስንት የዜጎች አገልግሎቶች ተመዝግበዋል?"
+      },
+      "language": "am",
+      "record_id": "g2c-services-kpi-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "ማጠቃለያው የክልሉ የሰነድ ዲጂታላይዜሽን ጠቅላላ መጠን {{kpi:regional-document-digitization-documents-2025-published}} መሆኑን ይገልጻል። የቆጠራ መስፈርቱ፣ የሰነድ ማህደሩ እና ሽፋኑ አሁንም መረጋገጥ አለባቸው።",
+        "question": "የክልሉ ሰነዶች ለውጥ ምን ውጤት እንዳለው ተመዝግቧል?"
+      },
+      "language": "am",
+      "record_id": "regional-documents-kpi-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "ማጠቃለያው {{kpi:rprs-total-tasks-2025-published}}፣ {{kpi:rprs-certificates-issued-2025-published}} እና {{kpi:rprs-parcels-migrated-2025-published}} እንደተመዘገቡ ይገልጻል። ምንጩ የሥራ፣ የምስክር ወረቀት፣ የፓርሴል ወይም የሪፖርት ጊዜ ትርጉም ስላልገለጸ እነዚህ እንደ ጥያቄ የሚፈልጉ አኃዞች ናቸው።",
+        "question": "የትኞቹ የRPRS ሥራ አኃዞች ተመዝግበዋል?"
+      },
+      "language": "am",
+      "record_id": "rprs-kpi-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "ማጠቃለያው 61 የክልል ቪፒኤን መስመሮች፣ 879 የዞንና የከተማ መስመሮች እና 1,856 የወረዳና የቀበሌ መስመሮች እንደተመዘገቡ ይገልጻል። የቴክኖሎጂ አኃዞቹ የማጠቃለያ ጥያቄዎች ስለሆኑ ከምንጩ ባለቤት መረጋገጥ አለባቸው።",
+        "question": "የWoredaNet ግንኙነት ምን ዓይነት አኃዞችን ይይዛል?"
+      },
+      "language": "am",
+      "record_id": "woredanet-vpn-kpi-faq",
+      "record_type": "faq"
     }
   ],
   "headline_kpi_references": [
+    {
+      "observation_id": "broadband-5g-coverage-2025-published",
+      "system_id": "broadband-connectivity"
+    },
+    {
+      "observation_id": "broadband-4g-coverage-2025-published",
+      "system_id": "broadband-connectivity"
+    },
+    {
+      "observation_id": "broadband-3g-coverage-2025-published",
+      "system_id": "broadband-connectivity"
+    },
     {
       "observation_id": "business-automation-records-registered-2018-verified",
       "system_id": "business-automation"
@@ -177,15 +851,142 @@
       "system_id": "digital-kebele-government"
     },
     {
+      "observation_id": "dtrip-passengers-2025-published",
+      "system_id": "dtrip-admin"
+    },
+    {
+      "observation_id": "dtrip-routes-2025-published",
+      "system_id": "dtrip-admin"
+    },
+    {
+      "observation_id": "dtrip-vehicles-2025-published",
+      "system_id": "dtrip-admin"
+    },
+    {
+      "observation_id": "dtrip-employees-2025-published",
+      "system_id": "dtrip-admin"
+    },
+    {
+      "observation_id": "e-education-teachers-2025-published",
+      "system_id": "e-education-services"
+    },
+    {
+      "observation_id": "e-education-students-2025-published",
+      "system_id": "e-education-services"
+    },
+    {
+      "observation_id": "e-education-schools-2025-published",
+      "system_id": "e-education-services"
+    },
+    {
+      "observation_id": "g2c-e-services-offered-2025-published",
+      "system_id": "g2c-e-services"
+    },
+    {
+      "observation_id": "oromia-data-center-storage-2025-published",
+      "system_id": "oromia-regional-data-center"
+    },
+    {
+      "observation_id": "oromia-data-center-services-hosted-2025-published",
+      "system_id": "oromia-regional-data-center"
+    },
+    {
       "observation_id": "prms-records-registered-2018-verified",
       "system_id": "prms"
     },
     {
+      "observation_id": "regional-document-digitization-documents-2025-published",
+      "system_id": "regional-document-digitization"
+    },
+    {
+      "observation_id": "rprs-total-tasks-2025-published",
+      "system_id": "rprs"
+    },
+    {
+      "observation_id": "rprs-certificates-issued-2025-published",
+      "system_id": "rprs"
+    },
+    {
+      "observation_id": "rprs-parcels-migrated-2025-published",
+      "system_id": "rprs"
+    },
+    {
       "observation_id": "uemis-registered-users-2018-verified",
       "system_id": "uemis"
+    },
+    {
+      "observation_id": "woredanet-vpn-regional-lines-2025-published",
+      "system_id": "woredanet-vpn"
+    },
+    {
+      "observation_id": "woredanet-vpn-zone-city-lines-2025-published",
+      "system_id": "woredanet-vpn"
+    },
+    {
+      "observation_id": "woredanet-vpn-woreda-kebele-lines-2025-published",
+      "system_id": "woredanet-vpn"
     }
   ],
   "published_digital_systems": [
+    {
+      "acronym": null,
+      "beneficiaries": [
+        "residents",
+        "public institutions",
+        "businesses",
+        "digital-service users"
+      ],
+      "category": "digital-infrastructure",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF reports a network-generation split; geographic denominator details require review.",
+        "levels": [
+          "regional"
+        ]
+      },
+      "headline_kpi_refs": [
+        "broadband-5g-coverage-2025-published",
+        "broadband-4g-coverage-2025-published",
+        "broadband-3g-coverage-2025-published"
+      ],
+      "id": "broadband-connectivity",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Broadband Connectivity",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Expand fiber-backed and mobile broadband access across the region.",
+      "services_digitized": [
+        {
+          "description": "Public mobile and broadband connectivity supported by fiber and last-mile networks.",
+          "id": "broadband-access",
+          "name": "Broadband access"
+        }
+      ],
+      "slug": "broadband-connectivity",
+      "subcategories": [
+        "broadband",
+        "mobile-network",
+        "fiber"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "mobile",
+          "other"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "platform"
+      },
+      "transformation_story_refs": []
+    },
     {
       "acronym": null,
       "beneficiaries": [
@@ -347,6 +1148,97 @@
       "transformation_story_refs": []
     },
     {
+      "acronym": "Dagu",
+      "beneficiaries": [
+        "health-logistics administrators",
+        "health institutions"
+      ],
+      "category": "health-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF lists Dagu among systems shown in the E-Health section.",
+        "levels": [
+          "regional",
+          "institution"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "dagu",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Dagu Health Logistics System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support digital health-logistics information management.",
+      "services_digitized": [],
+      "slug": "dagu",
+      "subcategories": [
+        "health-logistics",
+        "supply-management"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "DHIS2",
+      "beneficiaries": [
+        "health administrators",
+        "health institutions",
+        "health workers"
+      ],
+      "category": "health-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF lists DHIS2 among systems shown in the E-Health section.",
+        "levels": [
+          "regional",
+          "institution"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "dhis2",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "District Health Information Software 2",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support digital health-information management within the regional health platform ecosystem.",
+      "services_digitized": [],
+      "slug": "dhis2",
+      "subcategories": [
+        "health-information",
+        "reporting"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
       "acronym": "DKG",
       "beneficiaries": [
         "residents",
@@ -443,6 +1335,1232 @@
     },
     {
       "acronym": "PRMS",
+      "acronym": "DMS",
+      "beneficiaries": [
+        "government institutions",
+        "records administrators"
+      ],
+      "category": "government-back-office",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF names DMS as a G2G system without a detailed deployment scope.",
+        "levels": [
+          "regional",
+          "institution"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "document-management-system",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Document Management System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support government-to-government document management and records workflows.",
+      "services_digitized": [
+        {
+          "description": "Digital management of government documents.",
+          "id": "government-document-management",
+          "name": "Government document management"
+        }
+      ],
+      "slug": "document-management-system",
+      "subcategories": [
+        "document-management",
+        "records-management",
+        "g2g"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "document-management-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": null,
+      "beneficiaries": [
+        "exhibition-visitors",
+        "researchers",
+        "energy-sector-innovators"
+      ],
+      "category": "energy-electrical-technology",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "Demonstrated within the regional exhibition framework.",
+        "levels": [
+          "regional"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "smart-ac-generator",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Smart AC Generator",
+      "organization": {
+        "name": "OSTA Exhibition",
+        "ownership": "exhibitor",
+        "type": "exhibition-demonstration"
+      },
+      "purpose": "Demonstrated as a generator/electrical technology with a visible control interface in the exhibition video. The device is shown in a laboratory/workshop environment alongside electrical equipment, computers, and a display.",
+      "services_digitized": [],
+      "slug": "smart-ac-generator",
+      "subcategories": [
+        "generator",
+        "electrical-technology",
+        "exhibition-demonstration"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "exhibition-display"
+        ],
+        "deployment_scope": "exhibition",
+        "primary_type": "technology-demonstration"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "UEMIS",
+      "acronym": "DTrip Admin",
+      "beneficiaries": [
+        "passengers",
+        "transport operators",
+        "transport administrators"
+      ],
+      "category": "transport-services",
+      "faq_refs": [
+        "dtrip-kpi-faq"
+      ],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF reports DTrip dashboard figures; the covered route and service period require review.",
+        "levels": [
+          "regional",
+          "city",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [
+        "dtrip-passengers-2025-published",
+        "dtrip-routes-2025-published",
+        "dtrip-vehicles-2025-published",
+        "dtrip-employees-2025-published"
+      ],
+      "id": "dtrip-admin",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "DTrip Transport Administration System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support public-transport administration, route operations, passenger services, and e-ticketing.",
+      "services_digitized": [
+        {
+          "description": "Digital vehicle registration.",
+          "id": "online-vehicle-registration",
+          "name": "Online vehicle registration"
+        },
+        {
+          "description": "Digital driver's-license services.",
+          "id": "drivers-license-application-renewal",
+          "name": "Driver's-license application and renewal"
+        },
+        {
+          "description": "Digital inspection scheduling.",
+          "id": "vehicle-inspection-scheduling",
+          "name": "Vehicle inspection scheduling"
+        },
+        {
+          "description": "Digital passenger ticketing.",
+          "id": "e-ticket",
+          "name": "E-ticket"
+        }
+      ],
+      "slug": "dtrip-admin",
+      "subcategories": [
+        "passenger-operations",
+        "routes",
+        "vehicles",
+        "e-ticketing"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "mobile"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": [
+        "dtrip-transport-story"
+      ]
+    },
+    {
+      "acronym": null,
+      "beneficiaries": [
+        "students",
+        "teachers",
+        "schools",
+        "education administrators"
+      ],
+      "category": "education-services",
+      "faq_refs": [
+        "e-education-kpi-faq"
+      ],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF reports education dashboard figures without an explicit reporting denominator.",
+        "levels": [
+          "regional",
+          "institution",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [
+        "e-education-teachers-2025-published",
+        "e-education-students-2025-published",
+        "e-education-schools-2025-published"
+      ],
+      "id": "e-education-services",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "E-Education Services",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Provide digital education services for learning, enrollment, examination scheduling, and educational resources.",
+      "services_digitized": [
+        {
+          "description": "Digital learning platforms.",
+          "id": "e-learning-platforms",
+          "name": "E-learning platforms"
+        },
+        {
+          "description": "Digital student enrollment.",
+          "id": "student-enrollment-systems",
+          "name": "Student enrollment systems"
+        },
+        {
+          "description": "Digital examination scheduling.",
+          "id": "online-examination-scheduling",
+          "name": "Online examination scheduling"
+        },
+        {
+          "description": "Grade-level PDF learning resources.",
+          "id": "digital-library",
+          "name": "Digital library"
+        }
+      ],
+      "slug": "e-education-services",
+      "subcategories": [
+        "e-learning",
+        "student-information",
+        "digital-library",
+        "examinations"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "mobile"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "platform"
+      },
+      "transformation_story_refs": [
+        "e-education-dashboard-story"
+      ]
+    },
+    {
+      "acronym": null,
+      "beneficiaries": [
+        "patients",
+        "health workers",
+        "health administrators",
+        "health institutions"
+      ],
+      "category": "health-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF lists health platforms and services but does not define a single deployment denominator.",
+        "levels": [
+          "regional",
+          "institution",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "e-health-services",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "E-Health Services",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Provide digital health information, clinical, appointment, document, and licensing services.",
+      "services_digitized": [
+        {
+          "description": "Digital health-care service.",
+          "id": "electronic-care-health-service",
+          "name": "Electronic care health service"
+        },
+        {
+          "description": "Digital appointment scheduling.",
+          "id": "electronic-appointments",
+          "name": "Electronic appointments"
+        },
+        {
+          "description": "Digital management of health documents.",
+          "id": "health-dms",
+          "name": "Health document management"
+        },
+        {
+          "description": "Digital health-information management service.",
+          "id": "electronic-dhims",
+          "name": "Electronic DHIMS"
+        },
+        {
+          "description": "Digital health licensing service.",
+          "id": "electronic-health-license",
+          "name": "Electronic health license"
+        }
+      ],
+      "slug": "e-health-services",
+      "subcategories": [
+        "health-information",
+        "clinical-records",
+        "appointments",
+        "licensing"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "mobile"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "platform"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": null,
+      "beneficiaries": [
+        "investors",
+        "businesses",
+        "investment administrators"
+      ],
+      "category": "investment-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF describes the service types but does not state a deployment denominator.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "e-investment-services",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "E-Investment",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Provide digital investment-project registration, licensing, permitting, and advisory services.",
+      "services_digitized": [
+        {
+          "description": "Digital investment-project registration.",
+          "id": "investment-project-registration",
+          "name": "Online investment-project registration"
+        },
+        {
+          "description": "Digital investment licensing.",
+          "id": "investment-license-issuance",
+          "name": "Investment-license issuance"
+        },
+        {
+          "description": "Digital investment-permit renewal.",
+          "id": "investment-permit-renewal",
+          "name": "Investment-permit renewal"
+        },
+        {
+          "description": "Digital business-advisory services.",
+          "id": "online-business-advisory",
+          "name": "Online business advisory"
+        }
+      ],
+      "slug": "e-investment-services",
+      "subcategories": [
+        "investment-registration",
+        "licensing",
+        "permits",
+        "advisory"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "web-application"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": null,
+      "beneficiaries": [
+        "landholders",
+        "property applicants",
+        "residents",
+        "land administrators"
+      ],
+      "category": "land-administration",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Bishoftu",
+          "Shagar",
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF shows Bishoftu and Shagar portals and references a Geoportal; the service count discrepancy is retained in the source observation.",
+        "levels": [
+          "city",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "e-land-services",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "E-Land Services",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Provide citizen-facing transactional land services through portals and geoportal interfaces.",
+      "services_digitized": [
+        {
+          "description": "Online leasehold registration.",
+          "id": "leasehold-registration",
+          "name": "Leasehold registration"
+        },
+        {
+          "description": "Registration of old possession records.",
+          "id": "old-possession-registration",
+          "name": "Old possession registration"
+        },
+        {
+          "description": "Registration of urban farmland holdings.",
+          "id": "urban-farmland-holding-registration",
+          "name": "Urban farmland holding registration"
+        },
+        {
+          "description": "Registration of landholding without a use right.",
+          "id": "landholding-without-use-right-registration",
+          "name": "Landholding without use-right registration"
+        },
+        {
+          "description": "Registration of condominium units.",
+          "id": "condominium-unit-registration",
+          "name": "Condominium-unit registration"
+        },
+        {
+          "description": "Registration of subleases or subsequent transactions.",
+          "id": "sublease-registration",
+          "name": "Sublease or subsequent registration"
+        },
+        {
+          "description": "Registration of mortgages.",
+          "id": "mortgage-registration",
+          "name": "Mortgage registration"
+        },
+        {
+          "description": "Cancellation of mortgages.",
+          "id": "mortgage-cancellation",
+          "name": "Mortgage cancellation"
+        },
+        {
+          "description": "Registration of court injunctions.",
+          "id": "court-injunction-registration",
+          "name": "Court injunction registration"
+        },
+        {
+          "description": "Cancellation of court injunctions.",
+          "id": "court-injunction-cancellation",
+          "name": "Court injunction cancellation"
+        },
+        {
+          "description": "Registration of general restrictions.",
+          "id": "general-restriction-registration",
+          "name": "General restriction registration"
+        },
+        {
+          "description": "Cancellation of general restrictions.",
+          "id": "general-restriction-cancellation",
+          "name": "General restriction cancellation"
+        }
+      ],
+      "slug": "e-land-services",
+      "subcategories": [
+        "e-services",
+        "land-registration",
+        "geoportal"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "multi-level",
+        "primary_type": "platform"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": null,
+      "beneficiaries": [
+        "residents",
+        "civil-registration staff",
+        "public-service administrators"
+      ],
+      "category": "civil-registration",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF names the service domain but does not state a deployment denominator.",
+        "levels": [
+          "regional",
+          "zone",
+          "city",
+          "district",
+          "kebele",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "e-vital-event-registration",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "E-Vital Event Registration Services",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Digitize birth, marriage, and death registration and certificate issuance.",
+      "services_digitized": [
+        {
+          "description": "Digital birth registration.",
+          "id": "online-birth-registration",
+          "name": "Online birth registration"
+        },
+        {
+          "description": "Digital birth-certificate service.",
+          "id": "birth-certificate-application-issuance",
+          "name": "Birth-certificate application and issuance"
+        },
+        {
+          "description": "Digital notification for birth registration.",
+          "id": "parent-notification",
+          "name": "Parent notification"
+        },
+        {
+          "description": "Digital marriage application.",
+          "id": "online-marriage-application",
+          "name": "Online marriage application"
+        },
+        {
+          "description": "Digital marriage-certificate service.",
+          "id": "marriage-certificate-issuance",
+          "name": "Marriage-certificate issuance"
+        },
+        {
+          "description": "Digital divorce application.",
+          "id": "online-divorce-application",
+          "name": "Online divorce application"
+        },
+        {
+          "description": "Digital death registration.",
+          "id": "online-death-registration",
+          "name": "Online death registration"
+        },
+        {
+          "description": "Digital death-certificate service.",
+          "id": "death-certificate-issuance",
+          "name": "Death-certificate issuance"
+        },
+        {
+          "description": "Digital civil certificate issuance.",
+          "id": "certificate-issuance",
+          "name": "Certificate issuance"
+        },
+        {
+          "description": "Digital notifications and appeals support.",
+          "id": "notifications-and-appeals",
+          "name": "Notifications and appeals"
+        }
+      ],
+      "slug": "e-vital-event-registration",
+      "subcategories": [
+        "birth-registration",
+        "marriage-registration",
+        "death-registration",
+        "digital-certificates"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "mobile"
+        ],
+        "deployment_scope": "multi-level",
+        "primary_type": "platform"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "eCHIS",
+      "beneficiaries": [
+        "community-health workers",
+        "health administrators",
+        "residents"
+      ],
+      "category": "health-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF lists eCHIS among systems shown in the E-Health section.",
+        "levels": [
+          "regional",
+          "institution"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "echis",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Electronic Community Health Information System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support electronic community-health information management.",
+      "services_digitized": [],
+      "slug": "echis",
+      "subcategories": [
+        "community-health",
+        "health-information"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "mobile"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "mobile-application"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": null,
+      "beneficiaries": [
+        "government institutions",
+        "multilingual service users"
+      ],
+      "category": "language-technology",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF names Ethio Language Box among G2G platforms but does not define its operational scope.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "ethio-language-box",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Ethio Language Box Technology",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support language technology within the regional government digital ecosystem.",
+      "services_digitized": [
+        {
+          "description": "Language-technology capability shown among G2G platforms.",
+          "id": "language-technology-service",
+          "name": "Language technology service"
+        }
+      ],
+      "slug": "ethio-language-box",
+      "subcategories": [
+        "language-technology",
+        "g2g",
+        "digital-inclusion"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "other"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "eTRADE / eSW",
+      "beneficiaries": [
+        "traders",
+        "businesses",
+        "trade administrators",
+        "inspection authorities"
+      ],
+      "category": "trade-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF shows the eTRADE/eSW URL and module names; current availability requires review.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "etrade-electronic-single-window",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Ethiopian Electronic Single Window for Trader",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Provide a unified interface for multiple trade-facilitation services and workflow functions.",
+      "services_digitized": [
+        {
+          "description": "Business-related trade-facilitation functions.",
+          "id": "single-window-business",
+          "name": "Business module"
+        },
+        {
+          "description": "Digital bill-payment function.",
+          "id": "single-window-bill-payment",
+          "name": "Bill payment"
+        },
+        {
+          "description": "Application and declaration workflow.",
+          "id": "single-window-application-processing",
+          "name": "Application and declaration processing"
+        },
+        {
+          "description": "Application status tracking.",
+          "id": "single-window-processing-status",
+          "name": "Processing status"
+        },
+        {
+          "description": "Coordinated inspection workflow.",
+          "id": "single-window-coordinated-inspection",
+          "name": "Coordinated inspection"
+        },
+        {
+          "and notices.": null,
+          "codes": null,
+          "description": "Reference dates",
+          "exchange rates": null,
+          "id": "single-window-reference-information",
+          "name": "Reference information",
+          "tariff lists": null
+        }
+      ],
+      "slug": "etrade-electronic-single-window",
+      "subcategories": [
+        "single-window",
+        "trade-facilitation",
+        "interoperability",
+        "workflow"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "integrated-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "G2C",
+      "beneficiaries": [
+        "residents",
+        "businesses",
+        "public-service users"
+      ],
+      "category": "citizen-services",
+      "faq_refs": [
+        "g2c-services-kpi-faq"
+      ],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF states 89 e-services across sectors; the service inventory and reporting date require review.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [
+        "g2c-e-services-offered-2025-published"
+      ],
+      "id": "g2c-e-services",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Government-to-Citizen Digital Service Layer",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Aggregate citizen-facing digital services across major government sectors.",
+      "services_digitized": [
+        {
+          "description": "Citizen-facing land services.",
+          "id": "land-e-services",
+          "name": "Land services"
+        },
+        {
+          "description": "Citizen-facing health services.",
+          "id": "health-e-services",
+          "name": "Health services"
+        },
+        {
+          "description": "Citizen-facing education services.",
+          "id": "education-e-services",
+          "name": "Education services"
+        },
+        {
+          "description": "Citizen-facing transport services.",
+          "id": "transport-e-services",
+          "name": "Transport services"
+        },
+        {
+          "description": "Citizen-facing vital-event services.",
+          "id": "vital-events-e-services",
+          "name": "Vital-event services"
+        },
+        {
+          "description": "Citizen-facing trade services.",
+          "id": "trade-e-services",
+          "name": "Trade services"
+        },
+        {
+          "description": "Citizen-facing investment services.",
+          "id": "investment-e-services",
+          "name": "Investment services"
+        },
+        {
+          "description": "Citizen-facing revenue services.",
+          "id": "revenue-e-services",
+          "name": "Revenue services"
+        },
+        {
+          "description": "Citizen-facing court services.",
+          "id": "court-e-services",
+          "name": "Court services"
+        },
+        {
+          "description": "Citizen-facing prosecution services.",
+          "id": "prosecution-e-services",
+          "name": "Prosecution services"
+        }
+      ],
+      "slug": "g2c-e-services",
+      "subcategories": [
+        "e-government",
+        "citizen-services",
+        "multi-sector"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "mobile"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "platform"
+      },
+      "transformation_story_refs": [
+        "g2c-service-layer-story"
+      ]
+    },
+    {
+      "acronym": "HRM",
+      "beneficiaries": [
+        "employees",
+        "human-resource administrators",
+        "government institutions"
+      ],
+      "category": "government-back-office",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF names HRM as a G2G system without a detailed deployment scope.",
+        "levels": [
+          "regional",
+          "institution"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "human-resource-management",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Human Resource Management System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support digital human-resource management across government institutions.",
+      "services_digitized": [
+        {
+          "description": "Digital human-resource administration.",
+          "id": "government-human-resource-management",
+          "name": "Government human-resource management"
+        }
+      ],
+      "slug": "human-resource-management",
+      "subcategories": [
+        "human-resources",
+        "g2g"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "IBX",
+      "beneficiaries": [
+        "finance administrators",
+        "government institutions",
+        "budget managers"
+      ],
+      "category": "government-finance",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF describes IBX as an Integrated Budget and Expenditure System; exact integration scope requires review.",
+        "levels": [
+          "regional",
+          "institution"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "integrated-business-exchange",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Integrated Business Exchange System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support integrated government budget, expenditure, and business-exchange information workflows.",
+      "services_digitized": [
+        {
+          "description": "Integrated budget and expenditure workflow.",
+          "id": "budget-and-expenditure-management",
+          "name": "Budget and expenditure management"
+        }
+      ],
+      "slug": "integrated-business-exchange",
+      "subcategories": [
+        "budget",
+        "expenditure",
+        "g2g",
+        "business-exchange"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "integrated-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "mBrana",
+      "beneficiaries": [
+        "residents",
+        "health workers",
+        "health administrators"
+      ],
+      "category": "health-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF lists mBrana among systems shown in the E-Health section.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "mbrana",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "mBrana Mobile Health Application",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Provide a mobile health-information application within the regional digital-health ecosystem.",
+      "services_digitized": [],
+      "slug": "mbrana",
+      "subcategories": [
+        "mobile-health",
+        "health-information"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "mobile"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "mobile-application"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "OCCMS",
+      "beneficiaries": [
+        "court users",
+        "court staff",
+        "judges",
+        "justice administrators"
+      ],
+      "category": "justice",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF identifies OCCMS modules and services; deployment coverage requires review.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "occms",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Oromia Court Case Management System",
+      "organization": {
+        "name": "Oromia Supreme Court",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Provide electronic court processes, case management, hearing, payment, reporting, communication, and security functions.",
+      "services_digitized": [
+        {
+          "description": "Digital filing of court cases.",
+          "id": "online-case-filing",
+          "name": "Online case filing"
+        },
+        {
+          "description": "Digital case tracking.",
+          "id": "case-tracking",
+          "name": "Case tracking"
+        },
+        {
+          "description": "Electronic filing of court documents.",
+          "id": "e-filing",
+          "name": "E-filing"
+        },
+        {
+          "description": "Digital hearing scheduling.",
+          "id": "hearing-scheduling",
+          "name": "Hearing scheduling"
+        },
+        {
+          "description": "Digital hearing notifications.",
+          "id": "hearing-notifications",
+          "name": "Hearing notifications"
+        },
+        {
+          "description": "Access to rulings and judgments.",
+          "id": "rulings-and-judgments",
+          "name": "Rulings and judgments"
+        },
+        {
+          "description": "Digital legal-resource access.",
+          "id": "legal-resource-library",
+          "name": "Legal-resource library"
+        },
+        {
+          "description": "Online court-fee and fine payment.",
+          "id": "court-fee-payment",
+          "name": "Court-fee and fine payment"
+        },
+        {
+          "description": "Digital payment history and receipts.",
+          "id": "payment-history-receipts",
+          "name": "Payment history and receipts"
+        }
+      ],
+      "slug": "occms",
+      "subcategories": [
+        "case-management",
+        "e-filing",
+        "hearings",
+        "payments",
+        "analytics"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "integrated-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "HCI Data Center",
+      "beneficiaries": [
+        "regional government institutions",
+        "digital-service operators",
+        "public-service users"
+      ],
+      "category": "digital-infrastructure",
+      "faq_refs": [
+        "data-center-kpi-faq"
+      ],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF describes one primary facility and three specialized edge facilities; operational scope requires review.",
+        "levels": [
+          "regional"
+        ]
+      },
+      "headline_kpi_refs": [
+        "oromia-data-center-storage-2025-published",
+        "oromia-data-center-services-hosted-2025-published"
+      ],
+      "id": "oromia-regional-data-center",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Oromia Regional State Data Center",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Host regional digital-transformation workloads through a tiered hyper-converged data-center facility.",
+      "services_digitized": [
+        {
+          "description": "Hosting for regional digital-transformation services.",
+          "id": "regional-service-hosting",
+          "name": "Regional service hosting"
+        },
+        {
+          "description": "Central and edge storage for hosted workloads.",
+          "id": "data-storage",
+          "name": "Data storage"
+        },
+        {
+          "description": "Virtualized compute and storage infrastructure.",
+          "id": "virtualization",
+          "name": "Virtualization"
+        }
+      ],
+      "slug": "oromia-regional-data-center",
+      "subcategories": [
+        "data-center",
+        "hosting",
+        "storage",
+        "virtualization"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "other"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "platform"
+      },
+      "transformation_story_refs": [
+        "data-center-hosting-story"
+      ]
+    },
+    {
+      "acronym": "PRMS",
       "beneficiaries": [
         "corrections administrators",
         "correctional facilities"
@@ -493,48 +2611,665 @@
       "transformation_story_refs": []
     },
     {
-      "acronym": null,
+      "acronym": "PMS",
       "beneficiaries": [
-        "exhibition-visitors",
-        "researchers",
-        "energy-sector-innovators"
+        "property administrators",
+        "government institutions",
+        "asset managers"
       ],
-      "category": "energy-electrical-technology",
+      "category": "government-back-office",
       "faq_refs": [],
       "geographic_coverage": {
         "areas": [
           "Oromia"
         ],
-        "coverage_notes": "Demonstrated within the regional exhibition framework.",
+        "coverage_notes": "The PDF names PMS as a G2G system without a detailed deployment scope.",
+        "levels": [
+          "regional",
+          "institution"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "property-management-system",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Property Management System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support digital management of government property and assets.",
+      "services_digitized": [
+        {
+          "description": "Digital property and asset administration.",
+          "id": "government-property-management",
+          "name": "Government property management"
+        }
+      ],
+      "slug": "property-management-system",
+      "subcategories": [
+        "property-management",
+        "assets",
+        "g2g"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": null,
+      "beneficiaries": [
+        "prosecutors",
+        "advocates",
+        "complainants",
+        "legal administrators"
+      ],
+      "category": "justice",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF shows a public portal and internal HR workflow; deployment coverage requires review.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "prosecution-e-services",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Prosecution E-Services",
+      "organization": {
+        "name": "Attorney General's Bureau",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Provide digital prosecution case, legal-information, document, human-resource, complaint, and customer-satisfaction workflows.",
+      "services_digitized": [
+        {
+          "description": "Digital prosecution case management.",
+          "id": "prosecution-case-management",
+          "name": "Case management"
+        },
+        {
+          "description": "Digital crime-reference management.",
+          "id": "crime-reference-management",
+          "name": "Crime-reference management"
+        },
+        {
+          "and licensing": null,
+          "authentication": null,
+          "description": "Digital document services.",
+          "id": "document-registration-authentication-licensing",
+          "name": "Document registration"
+        },
+        {
+          "description": "Digital legal research and drafting.",
+          "id": "legal-research-and-drafting",
+          "name": "Legal research and drafting"
+        },
+        {
+          "description": "Digital directive workflows.",
+          "id": "directive-review-registration",
+          "name": "Directive review and registration"
+        },
+        {
+          "description": "Digital legal-awareness management.",
+          "id": "legal-awareness-management",
+          "name": "Legal-awareness management"
+        },
+        {
+          "description": "Internal prosecution HR workflow.",
+          "id": "prosecution-hrm",
+          "name": "Human-resource management"
+        },
+        {
+          "description": "Digital discipline workflow.",
+          "id": "prosecutor-discipline",
+          "name": "Prosecutor and advocate discipline"
+        },
+        {
+          "description": "Digital complaints and satisfaction workflow.",
+          "id": "complaints-and-customer-satisfaction",
+          "name": "Complaints and customer satisfaction"
+        }
+      ],
+      "slug": "prosecution-e-services",
+      "subcategories": [
+        "prosecution",
+        "case-management",
+        "legal-information",
+        "hr-workflow"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "integrated-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "QMS",
+      "beneficiaries": [
+        "walk-in service users",
+        "service-counter staff",
+        "public-service administrators"
+      ],
+      "category": "citizen-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF describes an in-office system but does not identify all installations.",
+        "levels": [
+          "institution"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "queue-management-system",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Queue Management System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Organize walk-in citizen flow at service counters through electronic ticketing and service displays.",
+      "services_digitized": [
+        {
+          "description": "Digital ticket issuance for walk-in service.",
+          "id": "electronic-queue-ticketing",
+          "name": "Electronic queue ticketing"
+        },
+        {
+          "description": "Selection of the requested service category.",
+          "id": "service-category-selection",
+          "name": "Service-category selection"
+        },
+        {
+          "description": "Touch terminals for service counters.",
+          "id": "counter-touch-terminals",
+          "name": "Counter-mounted touch terminals"
+        },
+        {
+          "description": "Overhead display of the currently served ticket number.",
+          "id": "served-ticket-signage",
+          "name": "Served-ticket signage"
+        }
+      ],
+      "slug": "queue-management-system",
+      "subcategories": [
+        "queue-management",
+        "ticketing",
+        "service-counters",
+        "digital-signage"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "kiosk",
+          "other"
+        ],
+        "deployment_scope": "institutional",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "DMS",
+      "beneficiaries": [
+        "government institutions",
+        "records administrators",
+        "public-service users"
+      ],
+      "category": "records-management",
+      "faq_refs": [
+        "regional-documents-kpi-faq"
+      ],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF states a regional digitization total; source ownership and location breakdown require review.",
         "levels": [
           "regional"
         ]
       },
-      "headline_kpi_refs": [],
-      "id": "smart-ac-generator",
+      "headline_kpi_refs": [
+        "regional-document-digitization-documents-2025-published"
+      ],
+      "id": "regional-document-digitization",
       "integrations": [],
       "lifecycle_status": "unknown",
       "media": [],
-      "official_name": "Smart AC Generator",
+      "official_name": "Regional Document Digitization and Records Conversion",
       "organization": {
-        "name": "OSTA Exhibition",
-        "ownership": "exhibitor",
-        "type": "exhibition-demonstration"
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
       },
-      "purpose": "Demonstrated as a generator/electrical technology with a visible control interface in the exhibition video. The device is shown in a laboratory/workshop environment alongside electrical equipment, computers, and a display.",
-      "services_digitized": [],
-      "slug": "smart-ac-generator",
+      "purpose": "Convert paper archives into searchable digital records through bulk scanning, capture, and indexing.",
+      "services_digitized": [
+        {
+          "description": "High-volume scanning of paper archives.",
+          "id": "bulk-archive-scanning",
+          "name": "Bulk archive scanning"
+        },
+        {
+          "description": "Capture of scanned documents using high-volume scanners.",
+          "id": "digital-document-capture",
+          "name": "Digital document capture"
+        },
+        {
+          "description": "Indexing documents into a searchable records-management dashboard.",
+          "id": "searchable-records-indexing",
+          "name": "Searchable records indexing"
+        }
+      ],
+      "slug": "regional-document-digitization",
       "subcategories": [
-        "generator",
-        "electrical-technology",
-        "exhibition-demonstration"
+        "document-digitization",
+        "scanning",
+        "indexing",
+        "records-management"
       ],
       "system_classification": {
         "delivery_channels": [
-          "exhibition-display"
+          "web",
+          "other"
         ],
-        "deployment_scope": "exhibition",
-        "primary_type": "technology-demonstration"
+        "deployment_scope": "regional",
+        "primary_type": "document-management-system"
+      },
+      "transformation_story_refs": [
+        "regional-document-digitization-story"
+      ]
+    },
+    {
+      "acronym": "RPRS",
+      "beneficiaries": [
+        "land administrators",
+        "property holders",
+        "residents"
+      ],
+      "category": "land-administration",
+      "faq_refs": [
+        "rprs-kpi-faq"
+      ],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF reports RPRS counters; exact reporting scope and locations require review.",
+        "levels": [
+          "regional",
+          "city"
+        ]
+      },
+      "headline_kpi_refs": [
+        "rprs-total-tasks-2025-published",
+        "rprs-certificates-issued-2025-published",
+        "rprs-parcels-migrated-2025-published"
+      ],
+      "id": "rprs",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Real Property Registration System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Register real property and manage parcel records through digital land-administration workflows.",
+      "services_digitized": [
+        {
+          "description": "Registration of real property records.",
+          "id": "real-property-registration",
+          "name": "Real property registration"
+        },
+        {
+          "description": "Issuance of property certificates.",
+          "id": "digital-certificate-issuance",
+          "name": "Digital certificate issuance"
+        },
+        {
+          "description": "Migration of parcel records into the system.",
+          "id": "parcel-migration",
+          "name": "Parcel migration"
+        }
+      ],
+      "slug": "rprs",
+      "subcategories": [
+        "property-registration",
+        "digital-certificates",
+        "parcel-records"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "multi-level",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": [
+        "rprs-land-registration-story"
+      ]
+    },
+    {
+      "acronym": "SDRIS",
+      "beneficiaries": [
+        "investors",
+        "businesses",
+        "service applicants",
+        "investment and industry administrators"
+      ],
+      "category": "investment-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF states that the portal and kiosk are trilingual; deployment coverage requires review.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "sdris",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Oromia Investment and Industry Bureau SDRIS",
+      "organization": {
+        "name": "Oromia Investment and Industry Bureau",
+        "ownership": "owner",
+        "type": "government-organization"
+      },
+      "purpose": "Support investment and industry service-delivery reform through a multilingual portal and self-service kiosk.",
+      "services_digitized": [
+        {
+          "description": "Multilingual web service-delivery portal.",
+          "id": "sdris-web-portal",
+          "name": "SDRIS web portal"
+        },
+        {
+          "description": "Physical self-service kiosk using the portal's language and menu design.",
+          "id": "sdris-self-service-kiosk",
+          "name": "SDRIS self-service kiosk"
+        }
+      ],
+      "slug": "sdris",
+      "subcategories": [
+        "service-delivery",
+        "multilingual-portal",
+        "kiosk"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "kiosk"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "SIGTAX",
+      "beneficiaries": [
+        "taxpayers",
+        "businesses",
+        "revenue administrators",
+        "auditors"
+      ],
+      "category": "revenue-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF shows transactional and analytics functions; current public availability requires review.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "sigtax",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Revenue E-Services",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Provide digital tax registration, filing, payment, audit, dispute, and appeal information services.",
+      "services_digitized": [
+        {
+          "description": "Digital taxpayer registration.",
+          "id": "online-tax-registration",
+          "name": "Online tax registration"
+        },
+        {
+          "description": "Digital filing of tax information.",
+          "id": "electronic-tax-filing",
+          "name": "Electronic tax filing"
+        },
+        {
+          "description": "Digital tax assessment notices.",
+          "id": "tax-assessment-notices",
+          "name": "Tax assessment notices"
+        },
+        {
+          "description": "Digital tax and fee payment.",
+          "id": "online-tax-payment",
+          "name": "Online tax and fee payment"
+        },
+        {
+          "description": "Mobile tax payment.",
+          "id": "mobile-payment",
+          "name": "Mobile payment"
+        },
+        {
+          "description": "Digital tax guidance.",
+          "id": "tax-guidance",
+          "name": "Tax guidance"
+        },
+        {
+          "description": "Digital information on exemptions and incentives.",
+          "id": "exemptions-and-incentives",
+          "name": "Exemptions and incentives"
+        },
+        {
+          "description": "Digital audit-document submission.",
+          "id": "audit-document-submission",
+          "name": "Audit-document submission"
+        },
+        {
+          "description": "Digital audit-result access.",
+          "id": "audit-results",
+          "name": "Audit results"
+        },
+        {
+          "description": "Digital tax-dispute information.",
+          "id": "tax-disputes",
+          "name": "Tax disputes"
+        },
+        {
+          "description": "Digital appeals information.",
+          "id": "appeals-information",
+          "name": "Appeals information"
+        }
+      ],
+      "slug": "sigtax",
+      "subcategories": [
+        "tax-administration",
+        "e-filing",
+        "e-payment",
+        "analytics",
+        "audit"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "mobile"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "platform"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "SmartCare",
+      "beneficiaries": [
+        "patients",
+        "clinicians",
+        "hospital administrators"
+      ],
+      "category": "health-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF lists SmartCare among systems shown in the E-Health section.",
+        "levels": [
+          "institution"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "smartcare",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "SmartCare EHR / Hospital System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support electronic health records and hospital information management in the regional digital-health ecosystem.",
+      "services_digitized": [],
+      "slug": "smartcare",
+      "subcategories": [
+        "electronic-health-record",
+        "hospital-system"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "institutional",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": null,
+      "beneficiaries": [
+        "traders",
+        "businesses",
+        "trade administrators",
+        "customs users"
+      ],
+      "category": "trade-services",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF states a bilingual Afaan Oromoo and English portal with TIN-linked login or registration.",
+        "levels": [
+          "regional",
+          "online"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "trade-e-services",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Trade E-Services",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Provide bilingual digital trade licensing, business registration, import, export, and customs-related services.",
+      "services_digitized": [
+        {
+          "description": "Digital trade-license application.",
+          "id": "online-trade-license-application",
+          "name": "Online trade-license application"
+        },
+        {
+          "description": "Digital business registration.",
+          "id": "business-registration",
+          "name": "Business registration"
+        },
+        {
+          "description": "Digital license renewal.",
+          "id": "license-renewal",
+          "name": "License renewal"
+        },
+        {
+          "description": "Digital market-price information.",
+          "id": "market-price-information",
+          "name": "Market-price information"
+        },
+        {
+          "description": "Digital regulatory guidance.",
+          "id": "trade-regulations",
+          "name": "Trade regulations and compliance guidelines"
+        },
+        {
+          "description": "Digital export documentation.",
+          "id": "online-export-documentation",
+          "name": "Online export documentation"
+        },
+        {
+          "description": "Digital import-permit applications.",
+          "id": "import-permit-applications",
+          "name": "Import-permit applications"
+        },
+        {
+          "description": "Digital customs-clearance tracking.",
+          "id": "customs-clearance-tracking",
+          "name": "Customs-clearance tracking"
+        }
+      ],
+      "slug": "trade-e-services",
+      "subcategories": [
+        "business-registration",
+        "licensing",
+        "export",
+        "import",
+        "customs"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "web-application"
       },
       "transformation_story_refs": []
     },
@@ -590,10 +3325,249 @@
         "primary_type": "information-system"
       },
       "transformation_story_refs": []
+    },
+    {
+      "acronym": "WoredaNet",
+      "beneficiaries": [
+        "regional offices",
+        "zonal offices",
+        "city offices",
+        "woreda offices",
+        "kebele offices"
+      ],
+      "category": "digital-infrastructure",
+      "faq_refs": [
+        "woredanet-vpn-kpi-faq"
+      ],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF reports line counts by administrative layer; the exact office inventory requires review.",
+        "levels": [
+          "regional",
+          "zone",
+          "city",
+          "district",
+          "kebele"
+        ]
+      },
+      "headline_kpi_refs": [
+        "woredanet-vpn-regional-lines-2025-published",
+        "woredanet-vpn-zone-city-lines-2025-published",
+        "woredanet-vpn-woreda-kebele-lines-2025-published"
+      ],
+      "id": "woredanet-vpn",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "WoredaNet / VPN Connectivity",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Connect regional, zonal, city, woreda, and kebele government offices for shared digital access and services.",
+      "services_digitized": [
+        {
+          "description": "Internet access for connected government offices.",
+          "id": "government-internet-access",
+          "name": "Government internet access"
+        },
+        {
+          "description": "Video-conferencing service across connected offices.",
+          "id": "government-video-conferencing",
+          "name": "Government video conferencing"
+        },
+        {
+          "description": "Network access for shared government digital services.",
+          "id": "shared-digital-services-connectivity",
+          "name": "Shared digital-services connectivity"
+        }
+      ],
+      "slug": "woredanet-vpn",
+      "subcategories": [
+        "wide-area-network",
+        "vpn",
+        "connectivity"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "other"
+        ],
+        "deployment_scope": "multi-level",
+        "primary_type": "platform"
+      },
+      "transformation_story_refs": [
+        "woredanet-connectivity-story"
+      ]
+    },
+    {
+      "acronym": "WUMIS",
+      "beneficiaries": [
+        "urban-planning administrators",
+        "land administrators",
+        "residents"
+      ],
+      "category": "land-administration",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "The PDF names WUMIS and a GIS map-view interface; exact deployment locations require review.",
+        "levels": [
+          "regional",
+          "city"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "wumis",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Web-based Urban Management Information System",
+      "organization": {
+        "name": "Oromia Regional State government",
+        "ownership": "unknown",
+        "type": "government-organization"
+      },
+      "purpose": "Support web-based urban management and map-based land-information access.",
+      "services_digitized": [
+        {
+          "description": "Web-based access to urban-management information.",
+          "id": "urban-management-information",
+          "name": "Urban management information"
+        },
+        {
+          "description": "Map-based viewing of land information.",
+          "id": "gis-map-view",
+          "name": "GIS map view"
+        }
+      ],
+      "slug": "wumis",
+      "subcategories": [
+        "urban-management",
+        "gis",
+        "land-information"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web"
+        ],
+        "deployment_scope": "multi-level",
+        "primary_type": "information-system"
+      },
+      "transformation_story_refs": []
     }
   ],
-  "published_faqs": [],
+  "published_faqs": [
+    {
+      "answer": "The extraction records 900 TB of reported storage capacity and 40 services hosted services. Both are candidate claims from a video extraction and require technical and source-owner verification.",
+      "id": "data-center-kpi-faq",
+      "kpi_observation_refs": [
+        "oromia-data-center-storage-2025-published",
+        "oromia-data-center-services-hosted-2025-published"
+      ],
+      "question": "What data-center work is recorded?",
+      "system_id": "oromia-regional-data-center"
+    },
+    {
+      "answer": "The extraction records 35,029 passengers, 478 routes, 2,461 vehicles, and 404 employees. The source does not state the period or counting rule for these dashboard figures.",
+      "id": "dtrip-kpi-faq",
+      "kpi_observation_refs": [
+        "dtrip-passengers-2025-published",
+        "dtrip-routes-2025-published",
+        "dtrip-vehicles-2025-published",
+        "dtrip-employees-2025-published"
+      ],
+      "question": "What DTrip transport figures are recorded?",
+      "system_id": "dtrip-admin"
+    },
+    {
+      "answer": "The extraction records 230,531 teachers, 10,390,179 students, and 23,339 schools. The source does not define whether these are registered, active, or unique populations, so they remain candidate claims.",
+      "id": "e-education-kpi-faq",
+      "kpi_observation_refs": [
+        "e-education-teachers-2025-published",
+        "e-education-students-2025-published",
+        "e-education-schools-2025-published"
+      ],
+      "question": "What education dashboard figures are recorded?",
+      "system_id": "e-education-services"
+    },
+    {
+      "answer": "The extraction records 89 services across the G2C service layer. The underlying service inventory and reporting period require source-owner verification before publication.",
+      "id": "g2c-services-kpi-faq",
+      "kpi_observation_refs": [
+        "g2c-e-services-offered-2025-published"
+      ],
+      "question": "How many citizen-facing services are recorded?",
+      "system_id": "g2c-e-services"
+    },
+    {
+      "answer": "The extraction records 22,400,600 documents as the reported regional document-digitization total. The counting rule, document inventory, and reporting timestamp still require verification.",
+      "id": "regional-documents-kpi-faq",
+      "kpi_observation_refs": [
+        "regional-document-digitization-documents-2025-published"
+      ],
+      "question": "What records-conversion work is recorded?",
+      "system_id": "regional-document-digitization"
+    },
+    {
+      "answer": "The extraction records 95,123 tasks, 75,788 certificates, and 80,071 parcels. The source does not define the task, certificate, parcel, or reporting-period rules, so these remain candidate claims.",
+      "id": "rprs-kpi-faq",
+      "kpi_observation_refs": [
+        "rprs-total-tasks-2025-published",
+        "rprs-certificates-issued-2025-published",
+        "rprs-parcels-migrated-2025-published"
+      ],
+      "question": "Which RPRS work figures are recorded?",
+      "system_id": "rprs"
+    },
+    {
+      "answer": "The extraction records 61 links for regional VPN lines, 879 links for zone-and-city lines, and 1,856 links for woreda-and-kebele lines. Technology counts are separate candidate scopes and require source-owner verification.",
+      "id": "woredanet-vpn-kpi-faq",
+      "kpi_observation_refs": [
+        "woredanet-vpn-regional-lines-2025-published",
+        "woredanet-vpn-zone-city-lines-2025-published",
+        "woredanet-vpn-woreda-kebele-lines-2025-published"
+      ],
+      "question": "What WoredaNet connectivity figures are recorded?",
+      "system_id": "woredanet-vpn"
+    }
+  ],
   "reporting_dates": [
+    {
+      "observation_id": "broadband-3g-coverage-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "broadband-4g-coverage-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "broadband-5g-coverage-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
     {
       "observation_id": "business-automation-records-registered-2018-verified",
       "reporting_period": {
@@ -665,11 +3639,241 @@
       }
     },
     {
+      "observation_id": "dtrip-employees-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "dtrip-passengers-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "dtrip-routes-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "dtrip-services-offered-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "dtrip-vehicles-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "e-education-schools-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "e-education-services-offered-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "e-education-students-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "e-education-teachers-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "e-health-services-offered-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "e-investment-services-offered-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "e-vital-services-offered-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "g2c-e-services-offered-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "occms-services-offered-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "oromia-data-center-services-hosted-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "oromia-data-center-storage-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
       "observation_id": "prms-records-registered-2018-verified",
       "reporting_period": {
         "calendar_type": "ethiopian",
         "end_date": null,
         "reporting_date_text": "Bitootessa, 2018 (Ethiopian calendar)",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "prosecution-services-offered-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "regional-document-digitization-documents-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "rprs-certificates-issued-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "rprs-parcels-migrated-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "rprs-total-tasks-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "sigtax-services-offered-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "trade-e-services-offered-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
         "start_date": null,
         "type": "year"
       }
@@ -683,9 +3887,244 @@
         "start_date": null,
         "type": "year"
       }
+    },
+    {
+      "observation_id": "woredanet-apn-links-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "woredanet-copper-links-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "woredanet-fiber-links-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "woredanet-vpn-regional-lines-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "woredanet-vpn-woreda-kebele-lines-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "woredanet-vpn-zone-city-lines-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
+    },
+    {
+      "observation_id": "woredanet-vsat-links-2025-published",
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      }
     }
   ],
   "source_labels": [
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 1,052 APN/mobile links",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 1,053 fiber links",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 1,856 woreda-and-kebele lines",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 61 regional VPN lines",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 612 copper links",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 79 VSAT links",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 879 zone-and-city lines",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 2, section “4. Broadband Connectivity” — 3G 47%",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 2, section “4. Broadband Connectivity” — 4G 51%",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 2, section “4. Broadband Connectivity” — 5G 2%",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 2, section “5. Oromia Regional State Data Center” — 900 TB storage",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 2, section “5. Oromia Regional State Data Center” — hosts 40 services",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 3, section “8. Digitization / Records Conversion” — 22,400,600 documents digitized",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 4, section “11. Government-to-Citizen (G2C) Service Layer” — 89 e-services",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 4, section “12. E-Land Administration” — RPRS certificates issued 75,788",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 4, section “12. E-Land Administration” — RPRS migrated parcels 80,071",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 4, section “12. E-Land Administration” — RPRS total tasks 95,123",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 5, section “14. E-Health Services” — five services",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 5, section “15. E-Education Services” — 10,390,179 students",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 5, section “15. E-Education Services” — 23,339 schools",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 5, section “15. E-Education Services” — 230,531 teachers",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 5, section “15. E-Education Services” — three core services",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 6, section “16. E-Transport” — DTrip 2,461 vehicles",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 6, section “16. E-Transport” — DTrip 35,029 passengers",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 6, section “16. E-Transport” — DTrip 404 employees",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 6, section “16. E-Transport” — DTrip 478 routes",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 6, section “16. E-Transport” — four services",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 6, section “17. E-Vital Event Registration Services” — ten services",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 6, section “18. Trade E-Services” — eight services",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 7, section “19. E-Investment” — four services",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 8, section “23. Revenue E-Services (SIGTAX)” — eleven services",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 8, section “24. E-Court Services” — nine services",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
+    {
+      "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+      "locator": "Page 8, section “25. Prosecution E-Services” — nine services",
+      "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+    },
     {
       "label": "OSTA Exhibition 2018 Final Last presentation",
       "locator": "Slide 21",
@@ -718,6 +4157,186 @@
     }
   ],
   "verified_public_kpi_observations": [
+    {
+      "achievement": {
+        "description": "Reported network-generation share; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "percent",
+        "value": 47
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "percent",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "47%",
+      "exhibition": {
+        "chart_type": "bar",
+        "display_priority": 29,
+        "headline": false,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "broadband-3g-coverage-2025-published",
+      "kpi_code": "broadband-coverage-percent",
+      "kpi_name": "Broadband coverage by network generation",
+      "measurement_scope": {
+        "description": "Reported broadband share attributed to 3G.",
+        "scope_id": "broadband-3g",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 2, section “4. Broadband Connectivity” — 3G 47%",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "broadband-connectivity",
+      "target": {
+        "operator": "not-specified",
+        "unit": "percent",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported network-generation share; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "percent",
+        "value": 51
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "percent",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "51%",
+      "exhibition": {
+        "chart_type": "bar",
+        "display_priority": 28,
+        "headline": false,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "broadband-4g-coverage-2025-published",
+      "kpi_code": "broadband-coverage-percent",
+      "kpi_name": "Broadband coverage by network generation",
+      "measurement_scope": {
+        "description": "Reported broadband share attributed to 4G.",
+        "scope_id": "broadband-4g",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 2, section “4. Broadband Connectivity” — 4G 51%",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "broadband-connectivity",
+      "target": {
+        "operator": "not-specified",
+        "unit": "percent",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported network-generation share; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "percent",
+        "value": 2
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "percent",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "2%",
+      "exhibition": {
+        "chart_type": "bar",
+        "display_priority": 27,
+        "headline": true,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "broadband-5g-coverage-2025-published",
+      "kpi_code": "broadband-coverage-percent",
+      "kpi_name": "Broadband coverage by network generation",
+      "measurement_scope": {
+        "description": "Reported broadband share attributed to 5G.",
+        "scope_id": "broadband-5g",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 2, section “4. Broadband Connectivity” — 5G 2%",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "broadband-connectivity",
+      "target": {
+        "operator": "not-specified",
+        "unit": "percent",
+        "value": null
+      }
+    },
     {
       "achievement": {
         "description": "Reported cumulative result; no target is supplied.",
@@ -1140,6 +4759,966 @@
     },
     {
       "achievement": {
+        "description": "Reported employee count; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "employee",
+        "value": 404
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "employee",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "404 employees",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 47,
+        "headline": true,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "dtrip-employees-2025-published",
+      "kpi_code": "transport-employees",
+      "kpi_name": "Transport employees",
+      "measurement_scope": {
+        "description": "Employees reported by the DTrip dashboard.",
+        "scope_id": "dtrip-admin",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 6, section “16. E-Transport” — DTrip 404 employees",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "dtrip-admin",
+      "target": {
+        "operator": "not-specified",
+        "unit": "employee",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported passenger count; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "passenger",
+        "value": 35029
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "passenger",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "35,029 passengers",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 44,
+        "headline": true,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "dtrip-passengers-2025-published",
+      "kpi_code": "transport-passengers",
+      "kpi_name": "Transport passengers",
+      "measurement_scope": {
+        "description": "Passengers reported by the DTrip dashboard.",
+        "scope_id": "dtrip-admin",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 6, section “16. E-Transport” — DTrip 35,029 passengers",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "dtrip-admin",
+      "target": {
+        "operator": "not-specified",
+        "unit": "passenger",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported route inventory; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "route",
+        "value": 478
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "route",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "478 routes",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 45,
+        "headline": true,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "dtrip-routes-2025-published",
+      "kpi_code": "transport-routes",
+      "kpi_name": "Transport routes",
+      "measurement_scope": {
+        "description": "Routes reported by the DTrip dashboard.",
+        "scope_id": "dtrip-admin",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 6, section “16. E-Transport” — DTrip 478 routes",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "dtrip-admin",
+      "target": {
+        "operator": "not-specified",
+        "unit": "route",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Four E-Transport services are listed; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "service",
+        "value": 4
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "4 services",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 43,
+        "headline": false,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "dtrip-services-offered-2025-published",
+      "kpi_code": "services-offered",
+      "kpi_name": "Services offered",
+      "measurement_scope": {
+        "description": "E-Transport services listed in the PDF.",
+        "scope_id": "dtrip-admin",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 6, section “16. E-Transport” — four services",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "dtrip-admin",
+      "target": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported vehicle inventory; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "vehicle",
+        "value": 2461
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "vehicle",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "2,461 vehicles",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 46,
+        "headline": true,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "dtrip-vehicles-2025-published",
+      "kpi_code": "transport-vehicles",
+      "kpi_name": "Transport vehicles",
+      "measurement_scope": {
+        "description": "Vehicles reported by the DTrip dashboard.",
+        "scope_id": "dtrip-admin",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 6, section “16. E-Transport” — DTrip 2,461 vehicles",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "dtrip-admin",
+      "target": {
+        "operator": "not-specified",
+        "unit": "vehicle",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported school count; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "school",
+        "value": 23339
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "school",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "23,339 schools",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 42,
+        "headline": true,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "e-education-schools-2025-published",
+      "kpi_code": "education-schools",
+      "kpi_name": "Schools in education system",
+      "measurement_scope": {
+        "description": "Schools reported in the E-Education dashboard.",
+        "scope_id": "e-education-services",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 5, section “15. E-Education Services” — 23,339 schools",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "e-education-services",
+      "target": {
+        "operator": "not-specified",
+        "unit": "school",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Three core services are listed; digital-library resources are described separately.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "service",
+        "value": 3
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "3 services",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 39,
+        "headline": false,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "e-education-services-offered-2025-published",
+      "kpi_code": "services-offered",
+      "kpi_name": "Services offered",
+      "measurement_scope": {
+        "description": "E-Education services explicitly listed in the PDF.",
+        "scope_id": "e-education-services",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 5, section “15. E-Education Services” — three core services",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "e-education-services",
+      "target": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported student count; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "student",
+        "value": 10390179
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "student",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "10,390,179 students",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 41,
+        "headline": true,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "e-education-students-2025-published",
+      "kpi_code": "education-students",
+      "kpi_name": "Students in education system",
+      "measurement_scope": {
+        "description": "Students reported in the E-Education dashboard.",
+        "scope_id": "e-education-services",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 5, section “15. E-Education Services” — 10,390,179 students",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "e-education-services",
+      "target": {
+        "operator": "not-specified",
+        "unit": "student",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported teacher count; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "teacher",
+        "value": 230531
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "teacher",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "230,531 teachers",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 40,
+        "headline": true,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "e-education-teachers-2025-published",
+      "kpi_code": "education-teachers",
+      "kpi_name": "Teachers in education system",
+      "measurement_scope": {
+        "description": "Teachers reported in the E-Education dashboard.",
+        "scope_id": "e-education-services",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 5, section “15. E-Education Services” — 230,531 teachers",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "e-education-services",
+      "target": {
+        "operator": "not-specified",
+        "unit": "teacher",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported E-Health service count; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "service",
+        "value": 5
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "5 services",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 38,
+        "headline": false,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "e-health-services-offered-2025-published",
+      "kpi_code": "services-offered",
+      "kpi_name": "Services offered",
+      "measurement_scope": {
+        "description": "E-Health services reported in the PDF.",
+        "scope_id": "e-health-services",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 5, section “14. E-Health Services” — five services",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "e-health-services",
+      "target": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Four investment services are listed; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "service",
+        "value": 4
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "4 services",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 50,
+        "headline": false,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "e-investment-services-offered-2025-published",
+      "kpi_code": "services-offered",
+      "kpi_name": "Services offered",
+      "measurement_scope": {
+        "description": "E-Investment services listed in the PDF.",
+        "scope_id": "e-investment-services",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 7, section “19. E-Investment” — four services",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "e-investment-services",
+      "target": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Ten E-Vital services are listed; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "service",
+        "value": 10
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "10 services",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 48,
+        "headline": false,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "e-vital-services-offered-2025-published",
+      "kpi_code": "services-offered",
+      "kpi_name": "Services offered",
+      "measurement_scope": {
+        "description": "E-Vital services listed in the PDF.",
+        "scope_id": "e-vital-event-registration",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 6, section “17. E-Vital Event Registration Services” — ten services",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "e-vital-event-registration",
+      "target": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported service count across listed sectors; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "service",
+        "value": 89
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "89 services",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 33,
+        "headline": true,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "g2c-e-services-offered-2025-published",
+      "kpi_code": "services-offered",
+      "kpi_name": "Services offered",
+      "measurement_scope": {
+        "description": "Citizen-facing digital services reported across the G2C service layer.",
+        "scope_id": "g2c-e-services",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 4, section “11. Government-to-Citizen (G2C) Service Layer” — 89 e-services",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "g2c-e-services",
+      "target": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Nine E-Court services are listed; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "service",
+        "value": 9
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "9 services",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 52,
+        "headline": false,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "occms-services-offered-2025-published",
+      "kpi_code": "services-offered",
+      "kpi_name": "Services offered",
+      "measurement_scope": {
+        "description": "E-Court services listed in the PDF for OCCMS.",
+        "scope_id": "occms",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 8, section “24. E-Court Services” — nine services",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "occms",
+      "target": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported hosted-service count; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "service",
+        "value": 40
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "40 services",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 31,
+        "headline": true,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "oromia-data-center-services-hosted-2025-published",
+      "kpi_code": "services-hosted",
+      "kpi_name": "Services hosted",
+      "measurement_scope": {
+        "description": "Services reported as hosted by the Oromia Regional State Data Center.",
+        "scope_id": "oromia-regional-data-center",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 2, section “5. Oromia Regional State Data Center” — hosts 40 services",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "oromia-regional-data-center",
+      "target": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported storage capacity; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "terabyte",
+        "value": 900
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "terabyte",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "900 TB",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 30,
+        "headline": true,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "oromia-data-center-storage-2025-published",
+      "kpi_code": "data-center-storage",
+      "kpi_name": "Data-center storage capacity",
+      "measurement_scope": {
+        "description": "Storage capacity reported for the Oromia Regional State Data Center.",
+        "scope_id": "oromia-regional-data-center",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 2, section “5. Oromia Regional State Data Center” — 900 TB storage",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "oromia-regional-data-center",
+      "target": {
+        "operator": "not-specified",
+        "unit": "terabyte",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
         "description": "Reported cumulative result; no target is supplied.",
         "status": "reported",
         "unit": null,
@@ -1200,6 +5779,426 @@
     },
     {
       "achievement": {
+        "description": "Nine prosecution services are listed; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "service",
+        "value": 9
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "9 services",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 53,
+        "headline": false,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "prosecution-services-offered-2025-published",
+      "kpi_code": "services-offered",
+      "kpi_name": "Services offered",
+      "measurement_scope": {
+        "description": "Prosecution E-Services listed in the PDF.",
+        "scope_id": "prosecution-e-services",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 8, section “25. Prosecution E-Services” — nine services",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "prosecution-e-services",
+      "target": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported cumulative digitization total; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "document",
+        "value": 22400600
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "document",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "22,400,600 documents",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 32,
+        "headline": true,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "regional-document-digitization-documents-2025-published",
+      "kpi_code": "documents-digitized",
+      "kpi_name": "Documents digitized",
+      "measurement_scope": {
+        "description": "Regional document-digitization total reported in the PDF.",
+        "scope_id": "oromia-regional-document-digitization",
+        "scope_type": "program"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 3, section “8. Digitization / Records Conversion” — 22,400,600 documents digitized",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "regional-document-digitization",
+      "target": {
+        "operator": "not-specified",
+        "unit": "document",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported certificate total; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "certificate",
+        "value": 75788
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "certificate",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "75,788 certificates",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 35,
+        "headline": true,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "rprs-certificates-issued-2025-published",
+      "kpi_code": "land-certificates-issued",
+      "kpi_name": "Land certificates issued",
+      "measurement_scope": {
+        "description": "Property certificates reported as issued by the Real Property Registration System.",
+        "scope_id": "rprs",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 4, section “12. E-Land Administration” — RPRS certificates issued 75,788",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "rprs",
+      "target": {
+        "operator": "not-specified",
+        "unit": "certificate",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported migrated-parcel total; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "parcel",
+        "value": 80071
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "parcel",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "80,071 parcels",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 36,
+        "headline": true,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "rprs-parcels-migrated-2025-published",
+      "kpi_code": "land-parcels-migrated",
+      "kpi_name": "Land parcels migrated",
+      "measurement_scope": {
+        "description": "Parcels reported as migrated by the Real Property Registration System.",
+        "scope_id": "rprs",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 4, section “12. E-Land Administration” — RPRS migrated parcels 80,071",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "rprs",
+      "target": {
+        "operator": "not-specified",
+        "unit": "parcel",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported task total; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "task",
+        "value": 95123
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "task",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "95,123 tasks",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 34,
+        "headline": true,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "rprs-total-tasks-2025-published",
+      "kpi_code": "land-tasks",
+      "kpi_name": "Land-system tasks",
+      "measurement_scope": {
+        "description": "Total tasks reported by the Real Property Registration System.",
+        "scope_id": "rprs",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 4, section “12. E-Land Administration” — RPRS total tasks 95,123",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "rprs",
+      "target": {
+        "operator": "not-specified",
+        "unit": "task",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Eleven SIGTAX services are listed; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "service",
+        "value": 11
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "11 services",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 51,
+        "headline": false,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "sigtax-services-offered-2025-published",
+      "kpi_code": "services-offered",
+      "kpi_name": "Services offered",
+      "measurement_scope": {
+        "description": "SIGTAX services listed in the PDF.",
+        "scope_id": "sigtax",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 8, section “23. Revenue E-Services (SIGTAX)” — eleven services",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "sigtax",
+      "target": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Eight trade services are listed; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "service",
+        "value": 8
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "8 services",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 49,
+        "headline": false,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "trade-e-services-offered-2025-published",
+      "kpi_code": "services-offered",
+      "kpi_name": "Services offered",
+      "measurement_scope": {
+        "description": "Trade services listed in the PDF.",
+        "scope_id": "trade-e-services",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 6, section “18. Trade E-Services” — eight services",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "trade-e-services",
+      "target": {
+        "operator": "not-specified",
+        "unit": "service",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
         "description": "Reported registration result; no target is supplied.",
         "status": "reported",
         "unit": null,
@@ -1255,6 +6254,422 @@
       "target": {
         "operator": "not-specified",
         "unit": "person",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported technology count; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "link",
+        "value": 1052
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "link",
+        "value": null
+      },
+      "dimensions": {
+        "geography_name": "Oromia"
+      },
+      "display_value": "1,052 links",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 25,
+        "headline": false,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "woredanet-apn-links-2025-published",
+      "kpi_code": "network-links",
+      "kpi_name": "Network links",
+      "measurement_scope": {
+        "description": "APN/mobile links reported in the WoredaNet/VPN connectivity mix.",
+        "scope_id": "woredanet-apn-mobile",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 1,052 APN/mobile links",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "woredanet-vpn",
+      "target": {
+        "operator": "not-specified",
+        "unit": "link",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported technology count; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "link",
+        "value": 612
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "link",
+        "value": null
+      },
+      "dimensions": {
+        "geography_name": "Oromia"
+      },
+      "display_value": "612 links",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 24,
+        "headline": false,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "woredanet-copper-links-2025-published",
+      "kpi_code": "network-links",
+      "kpi_name": "Network links",
+      "measurement_scope": {
+        "description": "Copper links reported in the WoredaNet/VPN connectivity mix.",
+        "scope_id": "woredanet-copper",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 612 copper links",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "woredanet-vpn",
+      "target": {
+        "operator": "not-specified",
+        "unit": "link",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported technology count; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "link",
+        "value": 1053
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "link",
+        "value": null
+      },
+      "dimensions": {
+        "geography_name": "Oromia"
+      },
+      "display_value": "1,053 links",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 23,
+        "headline": false,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "woredanet-fiber-links-2025-published",
+      "kpi_code": "network-links",
+      "kpi_name": "Network links",
+      "measurement_scope": {
+        "description": "Fiber links reported in the WoredaNet/VPN connectivity mix.",
+        "scope_id": "woredanet-fiber",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 1,053 fiber links",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "woredanet-vpn",
+      "target": {
+        "operator": "not-specified",
+        "unit": "link",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported network-line count; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "link",
+        "value": 61
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "link",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "regional",
+        "geography_name": "Oromia"
+      },
+      "display_value": "61 links",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 20,
+        "headline": true,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "woredanet-vpn-regional-lines-2025-published",
+      "kpi_code": "network-links",
+      "kpi_name": "Network links",
+      "measurement_scope": {
+        "description": "Regional VPN lines reported for Oromia.",
+        "scope_id": "oromia-regional-network",
+        "scope_type": "geography"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 61 regional VPN lines",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "woredanet-vpn",
+      "target": {
+        "operator": "not-specified",
+        "unit": "link",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported network-line count; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "link",
+        "value": 1856
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "link",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "district-and-kebele",
+        "geography_name": "Oromia"
+      },
+      "display_value": "1,856 links",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 22,
+        "headline": false,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "woredanet-vpn-woreda-kebele-lines-2025-published",
+      "kpi_code": "network-links",
+      "kpi_name": "Network links",
+      "measurement_scope": {
+        "description": "Woreda-and-kebele VPN lines reported for Oromia.",
+        "scope_id": "oromia-woreda-kebele-network",
+        "scope_type": "geography"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 1,856 woreda-and-kebele lines",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "woredanet-vpn",
+      "target": {
+        "operator": "not-specified",
+        "unit": "link",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported network-line count; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "link",
+        "value": 879
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "link",
+        "value": null
+      },
+      "dimensions": {
+        "geography_level": "zone-and-city",
+        "geography_name": "Oromia"
+      },
+      "display_value": "879 links",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 21,
+        "headline": false,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "woredanet-vpn-zone-city-lines-2025-published",
+      "kpi_code": "network-links",
+      "kpi_name": "Network links",
+      "measurement_scope": {
+        "description": "Zone-and-city VPN lines reported for Oromia.",
+        "scope_id": "oromia-zone-city-network",
+        "scope_type": "geography"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 879 zone-and-city lines",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "woredanet-vpn",
+      "target": {
+        "operator": "not-specified",
+        "unit": "link",
+        "value": null
+      }
+    },
+    {
+      "achievement": {
+        "description": "Reported technology count; no target is supplied.",
+        "status": "reported",
+        "unit": null,
+        "value": null
+      },
+      "actual": {
+        "operator": "equal",
+        "unit": "link",
+        "value": 79
+      },
+      "baseline": {
+        "operator": "not-specified",
+        "unit": "link",
+        "value": null
+      },
+      "dimensions": {
+        "geography_name": "Oromia"
+      },
+      "display_value": "79 links",
+      "exhibition": {
+        "chart_type": "single-value",
+        "display_priority": 26,
+        "headline": false,
+        "public_display_status": "approved",
+        "show_reporting_date": true,
+        "show_source_label": true
+      },
+      "id": "woredanet-vsat-links-2025-published",
+      "kpi_code": "network-links",
+      "kpi_name": "Network links",
+      "measurement_scope": {
+        "description": "VSAT links reported in the WoredaNet/VPN connectivity mix.",
+        "scope_id": "woredanet-vsat",
+        "scope_type": "system"
+      },
+      "record_version": 1,
+      "reporting_period": {
+        "calendar_type": "gregorian",
+        "end_date": null,
+        "reporting_date_text": "Ethiopian Tech Expo (ETEX) 2025",
+        "start_date": null,
+        "type": "year"
+      },
+      "source_labels": [
+        {
+          "label": "Oromia Digital Transformation Chatbot Knowledge Extraction v2",
+          "locator": "Page 2, section “3. WoredaNet / VPN Connectivity” — 79 VSAT links",
+          "source_id": "oromia-digital-transformation-chatbot-extraction-v2"
+        }
+      ],
+      "system_id": "woredanet-vpn",
+      "target": {
+        "operator": "not-specified",
+        "unit": "link",
         "value": null
       }
     }
