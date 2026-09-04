@@ -392,3 +392,137 @@ records:
       created_at: '2026-09-03'
       updated_at: '2026-09-04'
       approved_by_role: organizational-leader
+
+  - schema_version: 1.0.0
+    id: smart-ac-generator
+    slug: smart-ac-generator
+    official_name: Smart AC Generator
+    acronym: null
+    category: energy-electrical-technology
+    subcategories: [generator, electrical-technology, exhibition-demonstration]
+    lifecycle_status: unknown
+    publication_status: published
+    organization:
+      name: OSTA Exhibition
+      type: exhibition-demonstration
+      ownership: exhibitor
+    system_classification:
+      primary_type: technology-demonstration
+      delivery_channels: [exhibition-display]
+      deployment_scope: exhibition
+    purpose: Demonstrated as a generator/electrical technology with a visible control interface in the exhibition video. The device is shown in a laboratory/workshop environment alongside electrical equipment, computers, and a display.
+    beneficiaries: [exhibition-visitors, researchers, energy-sector-innovators]
+    services_digitized: []
+    integrations: []
+    geographic_coverage:
+      levels: [regional]
+      areas: [Oromia]
+      coverage_notes: Demonstrated within the regional exhibition framework.
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs:
+      - abbooti-smart-ac-generator-what
+    media: []
+    translations:
+      om:
+        official_name: Jenereetara AC Smaartii
+        purpose: Agarsiisa viidiyoo irratti akkuma mul'atetti jenereetara/teeknoolojii elektirikaa fuula to'annoo mul'atu qabuun kan dhiyaatedha. Meeshaan kun naannoo laaboraatoorii/worki shoop meeshaalee elektirikaa, kompiyutaroota fi iskiriinii waliin agarsiifameera.
+        approval:
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-afaan-oromo-reviewer
+          approved_source: false
+          reviewed_at: '2026-09-04'
+      am:
+        official_name: ስማርት ኤሲ ጄኔሬተር
+        purpose: በኤግዚቢሽን ቪዲዮው ላይ እንደሚታየው የሚታይ የቁጥጥር በይነገጽ ያለው የጄኔሬተር/ኤሌክትሪካል ቴክኖሎጂ ሆኖ ቀርቧል። መሣሪያው በቤተ-ሙከራ/ወርክሾፕ አካባቢ ከኤሌክትሪክ ዕቃዎች፣ ኮምፒውተሮች እና ማሳያ ጋር አብሮ ይታያል።
+        approval:
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-amharic-reviewer
+          approved_source: false
+          reviewed_at: '2026-09-04'
+    source_refs:
+      - source_id: abbooti-kallaqaa-video
+        label: Abbooti kallaqaa final video demonstration
+        path: /home/gosa-gobena/Videos/Abbootii Kallaqaa  Final.mp4
+        locator: Approx. 00:55-05:30
+        verification_status: verified
+        public_display_approved: true
+    kpi_data_unavailable_exception:
+      approved: true
+      approved_by_role: publisher
+      approval_date: '2026-09-04'
+    workflow:
+      record_version: 1
+      review_status: approved
+      created_at: '2026-09-03'
+      updated_at: '2026-09-04'
+      approved_by_role: organizational-leader
+
+  - schema_version: 1.0.0
+    id: electric-solar-bajaj
+    slug: electric-solar-bajaj
+    official_name: Electric + Solar Bajaj
+    acronym: null
+    category: electric-mobility-solar
+    subcategories: [electric-vehicle, solar-technology, exhibition-demonstration]
+    lifecycle_status: unknown
+    publication_status: published
+    organization:
+      name: OSTA Exhibition
+      type: exhibition-demonstration
+      ownership: exhibitor
+    system_classification:
+      primary_type: technology-demonstration
+      delivery_channels: [exhibition-display]
+      deployment_scope: exhibition
+    purpose: Demonstrated as a three-wheeled vehicle combining electric and solar technology, as stated by the on-screen label. The video shows the exterior, upper/roof area, and interior of the vehicle.
+    beneficiaries: [exhibition-visitors, transport-sector-innovators, clean-energy-advocates]
+    services_digitized: []
+    integrations: []
+    geographic_coverage:
+      levels: [regional]
+      areas: [Oromia]
+      coverage_notes: Demonstrated within the regional exhibition framework.
+    headline_kpi_refs: []
+    transformation_story_refs: []
+    faq_refs:
+      - abbooti-electric-solar-bajaj-what
+    media: []
+    translations:
+      om:
+        official_name: Bajaajii Elektirikaa + Soolaaraa
+        purpose: Akkuma gubbaa iskiriinii irratti ibsametti, konkolaata mil-sadii teeknoolojii elektirikaa fi soolaaraa walitti makuun kan dhihaatedha. Viidiyoon kun qaama alaa, naannoo gubbaa/paaneli soolaaraa fi keessoo konkolaatichaa agarsiisa.
+        approval:
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-afaan-oromo-reviewer
+          approved_source: false
+          reviewed_at: '2026-09-04'
+      am:
+        official_name: ኤሌክትሪክ + ሶላር ባጃጅ
+        purpose: በስክሪኑ ላይ በተገለፀው መሠረት የኤሌክትሪክ እና የሶላር ቴክኖሎጂን አዋህዶ የያዘ ባለሶስት እግር ተሽከርካሪ ሆኖ ቀርቧል። ቪዲዮው የተሽከርካሪውን ውጫዊ ክፍል፣ የጣሪያ/ሶላር ክፍል እና የውስጥ አካል ያሳያል።
+        approval:
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-amharic-reviewer
+          approved_source: false
+          reviewed_at: '2026-09-04'
+    source_refs:
+      - source_id: abbooti-kallaqaa-video
+        label: Abbooti kallaqaa final video demonstration
+        path: /home/gosa-gobena/Videos/Abbootii Kallaqaa  Final.mp4
+        locator: Approx. 06:00-09:50
+        verification_status: verified
+        public_display_approved: true
+    kpi_data_unavailable_exception:
+      approved: true
+      approved_by_role: publisher
+      approval_date: '2026-09-04'
+    workflow:
+      record_version: 1
+      review_status: approved
+      created_at: '2026-09-03'
+      updated_at: '2026-09-04'
+      approved_by_role: organizational-leader
