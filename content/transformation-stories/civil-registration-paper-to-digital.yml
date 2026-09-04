@@ -20,10 +20,10 @@ user_impact:
   beneficiaries: [civil-registration staff, public-service administrators, residents]
   description: Digital record retrieval is intended to reduce dependence on physical-file handling; measured user impact has not yet been verified.
 kpi_observation_refs:
-  - civil-registration-files-scanned-2018-deck
-  - civil-registration-files-uploaded-2018-deck
-  - civil-registration-metadata-completion-2018-deck
-  - civil-registration-service-coverage-2018-deck
+  - civil-registration-files-scanned-2018-verified
+  - civil-registration-files-uploaded-2018-verified
+  - civil-registration-metadata-completion-2018-verified
+  - civil-registration-service-coverage-2018-verified
 source_refs:
   - source_id: osta-exhibition-2018-final-last
     label: OSTA Exhibition 2018 Final Last presentation
