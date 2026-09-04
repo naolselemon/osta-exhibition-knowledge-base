@@ -27,3 +27,4 @@ venv/
 
 # Local source presentations; keep authorized copies outside Git history
 source-materials/presentations/*.pptx
+source-materials/social-media/*.pdf

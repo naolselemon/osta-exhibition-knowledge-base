@@ -1,0 +1,105 @@
+schema_version: 1.0.0
+id: m-mesob
+slug: m-mesob
+official_name: M-MESOB
+acronym: M-MESOB
+category: municipal-service-delivery
+subcategories: [one-stop-shop, public-service-delivery]
+lifecycle_status: operational
+publication_status: draft
+organization:
+  name: Federal Civil Service
+  type: government-organization
+  ownership: owner
+system_classification:
+  primary_type: platform
+  delivery_channels: [web-application, physical-counter]
+  deployment_scope: regional
+purpose: >
+  Integrated One-Stop-Shop public service delivery platform
+  with 12 specialized service windows (Foddaa 1-12) combining
+  civil registration, licensing, land, revenue, and banking
+  services. Customized for Oromia by OSTA.
+beneficiaries: [citizens, businesses]
+services_digitized:
+  - id: foddaa-1-civil-status
+    name: Civil Status and Identity Documents
+    description: Core civil registries including foundational digital identity registrations, vital statistics, birth certificates, and residency validations.
+  - id: foddaa-2-correspondence
+    name: Letter and Correspondence Services
+    description: Formal official requests, public sector communications, clearing letters, and authentication processes.
+  - id: foddaa-3-social-affairs
+    name: Public and Social Affairs Services
+    description: Community petitions, social security welfare allocations, labor issues, and civil society queries.
+  - id: foddaa-4-licensing-1
+    name: Licensing and Permit Services Part 1
+    description: General licensing approvals, trade registrations, vehicle registrations, and municipal permits.
+  - id: foddaa-5-general
+    name: General Window
+    description: Versatile intake counter for miscellaneous civic applications crossing multiple structural boundaries.
+  - id: foddaa-6-licensing-2
+    name: Regulatory and Business Licensing Part 2
+    description: Construction approvals, specialized business permits, professional standard accreditations, and industrial land allocations.
+  - id: foddaa-7-registration
+    name: Registration Services
+    description: Central ledger for documenting contracts, vital deeds, civil agreements, and legal certifications.
+  - id: foddaa-8-utilities
+    name: Public Utility Services
+    description: Infrastructural utilities management including service setups, electricity grids, and clean water access requests.
+  - id: foddaa-9-land
+    name: Land Services
+    description: Public and private land allocation records, property deeds, structural boundary maps, and urban planning compliance certificates.
+  - id: foddaa-10-collection
+    name: Collection Services
+    description: Systematic filing and tracking of standard municipal rates, licensing fees, and local administrative penalties.
+  - id: foddaa-11-revenue
+    name: Revenue Payment Services
+    description: Government portal for processing state taxes, commercial tariff dues, custom payments, and municipal revenues. Associated with Oromia Bureau of Finance.
+  - id: foddaa-12-banking
+    name: Banking Services
+    description: Secure transaction platform for electronic fee settlements, microfinance loans, and digital payments. Associated with Siinqee Bank.
+integrations:
+  - id: oromia-bureau-finance
+    name: Oromia Bureau of Finance
+    integration_type: data-exchange
+    status: operational
+    public_display_approved: false
+  - id: siinqee-bank
+    name: Siinqee Bank
+    integration_type: embedded
+    status: operational
+    public_display_approved: false
+geographic_coverage:
+  levels: [regional]
+  areas: [Oromia]
+  coverage_notes: >
+    Operational in some areas, under way in others.
+    Exact coverage awaiting verification.
+headline_kpi_refs:
+  - m-mesob-beneficiaries-2026-v2
+  - m-mesob-services-digitized-2026-v2
+  - m-mesob-locations-2026-v2
+transformation_story_refs: []
+faq_refs: []
+media: []
+translations: {}
+source_refs:
+  - source_id: osta-facebook-mmesob-2026
+    label: M-MESOB Service Window System Reference Documentation
+    path: source-materials/social-media/mmesob-facebook-post.pdf
+    locator: Sections 1-2, Foddaa 1-12
+    verification_status: needs-review
+    public_display_approved: false
+  - source_id: osta-exhibition-2018-final
+    label: OSTA Exhibition 2018 Final presentation
+    path: source-materials/presentations/OSTA Exibiton 2018 Final ppt.pptx
+    locator: Slide pending review
+    verification_status: needs-review
+    public_display_approved: false
+kpi_data_unavailable_exception: null
+workflow:
+  record_version: 1
+  review_status: needs-review
+  created_at: '2026-09-04'
+  updated_at: '2026-09-04'
+  approved_by_role: null
