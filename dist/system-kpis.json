@@ -457,6 +457,11 @@
       "system_id": "digital-kebele-government"
     },
     {
+      "headline_kpi_refs": [],
+      "observations": [],
+      "system_id": "electric-solar-bajaj"
+    },
+    {
       "headline_kpi_refs": [
         "prms-records-registered-2018-verified"
       ],
@@ -523,6 +528,11 @@
         }
       ],
       "system_id": "prms"
+    },
+    {
+      "headline_kpi_refs": [],
+      "observations": [],
+      "system_id": "smart-ac-generator"
     },
     {
       "headline_kpi_refs": [
