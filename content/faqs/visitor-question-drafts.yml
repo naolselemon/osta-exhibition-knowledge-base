@@ -1,0 +1,1882 @@
+records:
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "prms-purpose-faq"
+  system_id: "prms"
+  question: "What is Prison Management System?"
+  answer: "Consolidate correctional-facility records in a shared regional system."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "prms-beneficiaries-faq"
+  system_id: "prms"
+  question: "Who is Prison Management System intended to serve?"
+  answer: "corrections administrators; correctional facilities"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "prms-capabilities-faq"
+  system_id: "prms"
+  question: "What services does Prison Management System support?"
+  answer: "Correctional record registration: Registration and centralized management of correctional-facility records."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "uemis-purpose-faq"
+  system_id: "uemis"
+  question: "What is Urban Employment Management Information System?"
+  answer: "Register young people participating in urban employment services."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "uemis-beneficiaries-faq"
+  system_id: "uemis"
+  question: "Who is Urban Employment Management Information System intended to serve?"
+  answer: "young people; employment-service administrators"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "uemis-capabilities-faq"
+  system_id: "uemis"
+  question: "What services does Urban Employment Management Information System support?"
+  answer: "Youth registration: Registration of young people in the employment management system."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "business-automation-purpose-faq"
+  system_id: "business-automation"
+  question: "What is Business Automation?"
+  answer: "Organize member records and automate supporting administrative work."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "business-automation-beneficiaries-faq"
+  system_id: "business-automation"
+  question: "Who is Business Automation intended to serve?"
+  answer: "member-based organizations; administrators"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "business-automation-capabilities-faq"
+  system_id: "business-automation"
+  question: "What services does Business Automation support?"
+  answer: "Member record organization: Structured management of organizational member records."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "digital-kebele-government-purpose-faq"
+  system_id: "digital-kebele-government"
+  question: "What is Digital Kebele Government?"
+  answer: "Digitalize kebele-level government service delivery and administration."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "digital-kebele-government-beneficiaries-faq"
+  system_id: "digital-kebele-government"
+  question: "Who is Digital Kebele Government intended to serve?"
+  answer: "residents; kebele staff; public-service administrators"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "court-case-management-prosecutor-sims-purpose-faq"
+  system_id: "court-case-management-prosecutor-sims"
+  question: "What is Court Case Management and Prosecutor SIMS?"
+  answer: "Support digital court-case and prosecution information management."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "court-case-management-prosecutor-sims-beneficiaries-faq"
+  system_id: "court-case-management-prosecutor-sims"
+  question: "Who is Court Case Management and Prosecutor SIMS intended to serve?"
+  answer: "court staff; prosecutors; justice administrators"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "civil-registration-dms-purpose-faq"
+  system_id: "civil-registration-dms"
+  question: "What is Civil Registration Document Management System?"
+  answer: "Convert civil-registration files into managed digital records with searchable metadata."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "civil-registration-dms-beneficiaries-faq"
+  system_id: "civil-registration-dms"
+  question: "Who is Civil Registration Document Management System intended to serve?"
+  answer: "civil-registration staff; public-service administrators; residents"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "civil-registration-dms-capabilities-faq"
+  system_id: "civil-registration-dms"
+  question: "What services does Civil Registration Document Management System support?"
+  answer: "Civil registration file management: Scanning, upload, metadata capture, and management of civil-registration files."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "woredanet-vpn-purpose-faq"
+  system_id: "woredanet-vpn"
+  question: "What is WoredaNet / VPN Connectivity?"
+  answer: "Connect regional, zonal, city, woreda, and kebele government offices for shared digital access and services."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "woredanet-vpn-beneficiaries-faq"
+  system_id: "woredanet-vpn"
+  question: "Who is WoredaNet / VPN Connectivity intended to serve?"
+  answer: "regional offices; zonal offices; city offices; woreda offices; kebele offices"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "woredanet-vpn-capabilities-faq"
+  system_id: "woredanet-vpn"
+  question: "What services does WoredaNet / VPN Connectivity support?"
+  answer: "Government internet access: Internet access for connected government offices.; Government video conferencing: Video-conferencing service across connected offices.; Shared digital-services connectivity: Network access for shared government digital services."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "broadband-connectivity-purpose-faq"
+  system_id: "broadband-connectivity"
+  question: "What is Broadband Connectivity?"
+  answer: "Expand fiber-backed and mobile broadband access across the region."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "broadband-connectivity-beneficiaries-faq"
+  system_id: "broadband-connectivity"
+  question: "Who is Broadband Connectivity intended to serve?"
+  answer: "residents; public institutions; businesses; digital-service users"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "broadband-connectivity-capabilities-faq"
+  system_id: "broadband-connectivity"
+  question: "What services does Broadband Connectivity support?"
+  answer: "Broadband access: Public mobile and broadband connectivity supported by fiber and last-mile networks."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "oromia-regional-data-center-purpose-faq"
+  system_id: "oromia-regional-data-center"
+  question: "What is Oromia Regional State Data Center?"
+  answer: "Host regional digital-transformation workloads through a tiered hyper-converged data-center facility."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "oromia-regional-data-center-beneficiaries-faq"
+  system_id: "oromia-regional-data-center"
+  question: "Who is Oromia Regional State Data Center intended to serve?"
+  answer: "regional government institutions; digital-service operators; public-service users"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "oromia-regional-data-center-capabilities-faq"
+  system_id: "oromia-regional-data-center"
+  question: "What services does Oromia Regional State Data Center support?"
+  answer: "Regional service hosting: Hosting for regional digital-transformation services.; Data storage: Central and edge storage for hosted workloads.; Virtualization: Virtualized compute and storage infrastructure."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "regional-document-digitization-purpose-faq"
+  system_id: "regional-document-digitization"
+  question: "What is Regional Document Digitization and Records Conversion?"
+  answer: "Convert paper archives into searchable digital records through bulk scanning, capture, and indexing."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "regional-document-digitization-beneficiaries-faq"
+  system_id: "regional-document-digitization"
+  question: "Who is Regional Document Digitization and Records Conversion intended to serve?"
+  answer: "government institutions; records administrators; public-service users"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "regional-document-digitization-capabilities-faq"
+  system_id: "regional-document-digitization"
+  question: "What services does Regional Document Digitization and Records Conversion support?"
+  answer: "Bulk archive scanning: High-volume scanning of paper archives.; Digital document capture: Capture of scanned documents using high-volume scanners.; Searchable records indexing: Indexing documents into a searchable records-management dashboard."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "wumis-purpose-faq"
+  system_id: "wumis"
+  question: "What is Web-based Urban Management Information System?"
+  answer: "Support web-based urban management and map-based land-information access."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "wumis-beneficiaries-faq"
+  system_id: "wumis"
+  question: "Who is Web-based Urban Management Information System intended to serve?"
+  answer: "urban-planning administrators; land administrators; residents"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "wumis-capabilities-faq"
+  system_id: "wumis"
+  question: "What services does Web-based Urban Management Information System support?"
+  answer: "Urban management information: Web-based access to urban-management information.; GIS map view: Map-based viewing of land information."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "rprs-purpose-faq"
+  system_id: "rprs"
+  question: "What is Real Property Registration System?"
+  answer: "Register real property and manage parcel records through digital land-administration workflows."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "rprs-beneficiaries-faq"
+  system_id: "rprs"
+  question: "Who is Real Property Registration System intended to serve?"
+  answer: "land administrators; property holders; residents"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "rprs-capabilities-faq"
+  system_id: "rprs"
+  question: "What services does Real Property Registration System support?"
+  answer: "Real property registration: Registration of real property records.; Digital certificate issuance: Issuance of property certificates.; Parcel migration: Migration of parcel records into the system."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-land-services-purpose-faq"
+  system_id: "e-land-services"
+  question: "What is E-Land Services?"
+  answer: "Provide citizen-facing transactional land services through portals and geoportal interfaces."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-land-services-beneficiaries-faq"
+  system_id: "e-land-services"
+  question: "Who is E-Land Services intended to serve?"
+  answer: "landholders; property applicants; residents; land administrators"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-land-services-capabilities-faq"
+  system_id: "e-land-services"
+  question: "What services does E-Land Services support?"
+  answer: "Leasehold registration: Online leasehold registration.; Old possession registration: Registration of old possession records.; Urban farmland holding registration: Registration of urban farmland holdings.; Landholding without use-right registration: Registration of landholding without a use right.; Condominium-unit registration: Registration of condominium units.; Sublease or subsequent registration: Registration of subleases or subsequent transactions.; Mortgage registration: Registration of mortgages.; Mortgage cancellation: Cancellation of mortgages.; Court injunction registration: Registration of court injunctions.; Court injunction cancellation: Cancellation of court injunctions.; General restriction registration: Registration of general restrictions.; General restriction cancellation: Cancellation of general restrictions."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-health-services-purpose-faq"
+  system_id: "e-health-services"
+  question: "What is E-Health Services?"
+  answer: "Provide digital health information, clinical, appointment, document, and licensing services."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-health-services-beneficiaries-faq"
+  system_id: "e-health-services"
+  question: "Who is E-Health Services intended to serve?"
+  answer: "patients; health workers; health administrators; health institutions"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-health-services-capabilities-faq"
+  system_id: "e-health-services"
+  question: "What services does E-Health Services support?"
+  answer: "Electronic care health service: Digital health-care service.; Electronic appointments: Digital appointment scheduling.; Health document management: Digital management of health documents.; Electronic DHIMS: Digital health-information management service.; Electronic health license: Digital health licensing service."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "smartcare-purpose-faq"
+  system_id: "smartcare"
+  question: "What is SmartCare EHR / Hospital System?"
+  answer: "Support electronic health records and hospital information management in the regional digital-health ecosystem."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "smartcare-beneficiaries-faq"
+  system_id: "smartcare"
+  question: "Who is SmartCare EHR / Hospital System intended to serve?"
+  answer: "patients; clinicians; hospital administrators"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "echis-purpose-faq"
+  system_id: "echis"
+  question: "What is Electronic Community Health Information System?"
+  answer: "Support electronic community-health information management."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "echis-beneficiaries-faq"
+  system_id: "echis"
+  question: "Who is Electronic Community Health Information System intended to serve?"
+  answer: "community-health workers; health administrators; residents"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "dagu-purpose-faq"
+  system_id: "dagu"
+  question: "What is Dagu Health Logistics System?"
+  answer: "Support digital health-logistics information management."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "dagu-beneficiaries-faq"
+  system_id: "dagu"
+  question: "Who is Dagu Health Logistics System intended to serve?"
+  answer: "health-logistics administrators; health institutions"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "mbrana-purpose-faq"
+  system_id: "mbrana"
+  question: "What is mBrana Mobile Health Application?"
+  answer: "Provide a mobile health-information application within the regional digital-health ecosystem."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "mbrana-beneficiaries-faq"
+  system_id: "mbrana"
+  question: "Who is mBrana Mobile Health Application intended to serve?"
+  answer: "residents; health workers; health administrators"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-education-services-purpose-faq"
+  system_id: "e-education-services"
+  question: "What is E-Education Services?"
+  answer: "Provide digital education services for learning, enrollment, examination scheduling, and educational resources."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-education-services-beneficiaries-faq"
+  system_id: "e-education-services"
+  question: "Who is E-Education Services intended to serve?"
+  answer: "students; teachers; schools; education administrators"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-education-services-capabilities-faq"
+  system_id: "e-education-services"
+  question: "What services does E-Education Services support?"
+  answer: "E-learning platforms: Digital learning platforms.; Student enrollment systems: Digital student enrollment.; Online examination scheduling: Digital examination scheduling.; Digital library: Grade-level PDF learning resources."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "dtrip-admin-purpose-faq"
+  system_id: "dtrip-admin"
+  question: "What is DTrip Transport Administration System?"
+  answer: "Support public-transport administration, route operations, passenger services, and e-ticketing."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "dtrip-admin-beneficiaries-faq"
+  system_id: "dtrip-admin"
+  question: "Who is DTrip Transport Administration System intended to serve?"
+  answer: "passengers; transport operators; transport administrators"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "dtrip-admin-capabilities-faq"
+  system_id: "dtrip-admin"
+  question: "What services does DTrip Transport Administration System support?"
+  answer: "Online vehicle registration: Digital vehicle registration.; Driver's-license application and renewal: Digital driver's-license services.; Vehicle inspection scheduling: Digital inspection scheduling.; E-ticket: Digital passenger ticketing."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-vital-event-registration-purpose-faq"
+  system_id: "e-vital-event-registration"
+  question: "What is E-Vital Event Registration Services?"
+  answer: "Digitize birth, marriage, and death registration and certificate issuance."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-vital-event-registration-beneficiaries-faq"
+  system_id: "e-vital-event-registration"
+  question: "Who is E-Vital Event Registration Services intended to serve?"
+  answer: "residents; civil-registration staff; public-service administrators"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-vital-event-registration-capabilities-faq"
+  system_id: "e-vital-event-registration"
+  question: "What services does E-Vital Event Registration Services support?"
+  answer: "Online birth registration: Digital birth registration.; Birth-certificate application and issuance: Digital birth-certificate service.; Parent notification: Digital notification for birth registration.; Online marriage application: Digital marriage application.; Marriage-certificate issuance: Digital marriage-certificate service.; Online divorce application: Digital divorce application.; Online death registration: Digital death registration.; Death-certificate issuance: Digital death-certificate service.; Certificate issuance: Digital civil certificate issuance.; Notifications and appeals: Digital notifications and appeals support."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "trade-e-services-purpose-faq"
+  system_id: "trade-e-services"
+  question: "What is Trade E-Services?"
+  answer: "Provide bilingual digital trade licensing, business registration, import, export, and customs-related services."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "trade-e-services-beneficiaries-faq"
+  system_id: "trade-e-services"
+  question: "Who is Trade E-Services intended to serve?"
+  answer: "traders; businesses; trade administrators; customs users"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "trade-e-services-capabilities-faq"
+  system_id: "trade-e-services"
+  question: "What services does Trade E-Services support?"
+  answer: "Online trade-license application: Digital trade-license application.; Business registration: Digital business registration.; License renewal: Digital license renewal.; Market-price information: Digital market-price information.; Trade regulations and compliance guidelines: Digital regulatory guidance.; Online export documentation: Digital export documentation.; Import-permit applications: Digital import-permit applications.; Customs-clearance tracking: Digital customs-clearance tracking."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-investment-services-purpose-faq"
+  system_id: "e-investment-services"
+  question: "What is E-Investment?"
+  answer: "Provide digital investment-project registration, licensing, permitting, and advisory services."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-investment-services-beneficiaries-faq"
+  system_id: "e-investment-services"
+  question: "Who is E-Investment intended to serve?"
+  answer: "investors; businesses; investment administrators"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-investment-services-capabilities-faq"
+  system_id: "e-investment-services"
+  question: "What services does E-Investment support?"
+  answer: "Online investment-project registration: Digital investment-project registration.; Investment-license issuance: Digital investment licensing.; Investment-permit renewal: Digital investment-permit renewal.; Online business advisory: Digital business-advisory services."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "etrade-electronic-single-window-purpose-faq"
+  system_id: "etrade-electronic-single-window"
+  question: "What is Ethiopian Electronic Single Window for Trader?"
+  answer: "Provide a unified interface for multiple trade-facilitation services and workflow functions."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "etrade-electronic-single-window-beneficiaries-faq"
+  system_id: "etrade-electronic-single-window"
+  question: "Who is Ethiopian Electronic Single Window for Trader intended to serve?"
+  answer: "traders; businesses; trade administrators; inspection authorities"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "etrade-electronic-single-window-capabilities-faq"
+  system_id: "etrade-electronic-single-window"
+  question: "What services does Ethiopian Electronic Single Window for Trader support?"
+  answer: "Business module: Business-related trade-facilitation functions.; Bill payment: Digital bill-payment function.; Application and declaration processing: Application and declaration workflow.; Processing status: Application status tracking.; Coordinated inspection: Coordinated inspection workflow.; Reference information: Reference dates"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "g2c-e-services-purpose-faq"
+  system_id: "g2c-e-services"
+  question: "What is Government-to-Citizen Digital Service Layer?"
+  answer: "Aggregate citizen-facing digital services across major government sectors."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "g2c-e-services-beneficiaries-faq"
+  system_id: "g2c-e-services"
+  question: "Who is Government-to-Citizen Digital Service Layer intended to serve?"
+  answer: "residents; businesses; public-service users"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "g2c-e-services-capabilities-faq"
+  system_id: "g2c-e-services"
+  question: "What services does Government-to-Citizen Digital Service Layer support?"
+  answer: "Land services: Citizen-facing land services.; Health services: Citizen-facing health services.; Education services: Citizen-facing education services.; Transport services: Citizen-facing transport services.; Vital-event services: Citizen-facing vital-event services.; Trade services: Citizen-facing trade services.; Investment services: Citizen-facing investment services.; Revenue services: Citizen-facing revenue services.; Court services: Citizen-facing court services.; Prosecution services: Citizen-facing prosecution services."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "document-management-system-purpose-faq"
+  system_id: "document-management-system"
+  question: "What is Document Management System?"
+  answer: "Support government-to-government document management and records workflows."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "document-management-system-beneficiaries-faq"
+  system_id: "document-management-system"
+  question: "Who is Document Management System intended to serve?"
+  answer: "government institutions; records administrators"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "document-management-system-capabilities-faq"
+  system_id: "document-management-system"
+  question: "What services does Document Management System support?"
+  answer: "Government document management: Digital management of government documents."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "human-resource-management-purpose-faq"
+  system_id: "human-resource-management"
+  question: "What is Human Resource Management System?"
+  answer: "Support digital human-resource management across government institutions."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "human-resource-management-beneficiaries-faq"
+  system_id: "human-resource-management"
+  question: "Who is Human Resource Management System intended to serve?"
+  answer: "employees; human-resource administrators; government institutions"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "human-resource-management-capabilities-faq"
+  system_id: "human-resource-management"
+  question: "What services does Human Resource Management System support?"
+  answer: "Government human-resource management: Digital human-resource administration."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "integrated-business-exchange-purpose-faq"
+  system_id: "integrated-business-exchange"
+  question: "What is Integrated Business Exchange System?"
+  answer: "Support integrated government budget, expenditure, and business-exchange information workflows."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "integrated-business-exchange-beneficiaries-faq"
+  system_id: "integrated-business-exchange"
+  question: "Who is Integrated Business Exchange System intended to serve?"
+  answer: "finance administrators; government institutions; budget managers"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "integrated-business-exchange-capabilities-faq"
+  system_id: "integrated-business-exchange"
+  question: "What services does Integrated Business Exchange System support?"
+  answer: "Budget and expenditure management: Integrated budget and expenditure workflow."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "property-management-system-purpose-faq"
+  system_id: "property-management-system"
+  question: "What is Property Management System?"
+  answer: "Support digital management of government property and assets."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "property-management-system-beneficiaries-faq"
+  system_id: "property-management-system"
+  question: "Who is Property Management System intended to serve?"
+  answer: "property administrators; government institutions; asset managers"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "property-management-system-capabilities-faq"
+  system_id: "property-management-system"
+  question: "What services does Property Management System support?"
+  answer: "Government property management: Digital property and asset administration."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "ethio-language-box-purpose-faq"
+  system_id: "ethio-language-box"
+  question: "What is Ethio Language Box Technology?"
+  answer: "Support language technology within the regional government digital ecosystem."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "ethio-language-box-beneficiaries-faq"
+  system_id: "ethio-language-box"
+  question: "Who is Ethio Language Box Technology intended to serve?"
+  answer: "government institutions; multilingual service users"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "ethio-language-box-capabilities-faq"
+  system_id: "ethio-language-box"
+  question: "What services does Ethio Language Box Technology support?"
+  answer: "Language technology service: Language-technology capability shown among G2G platforms."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "sdris-purpose-faq"
+  system_id: "sdris"
+  question: "What is Oromia Investment and Industry Bureau SDRIS?"
+  answer: "Support investment and industry service-delivery reform through a multilingual portal and self-service kiosk."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "sdris-beneficiaries-faq"
+  system_id: "sdris"
+  question: "Who is Oromia Investment and Industry Bureau SDRIS intended to serve?"
+  answer: "investors; businesses; service applicants; investment and industry administrators"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "sdris-capabilities-faq"
+  system_id: "sdris"
+  question: "What services does Oromia Investment and Industry Bureau SDRIS support?"
+  answer: "SDRIS web portal: Multilingual web service-delivery portal.; SDRIS self-service kiosk: Physical self-service kiosk using the portal's language and menu design."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "queue-management-system-purpose-faq"
+  system_id: "queue-management-system"
+  question: "What is Queue Management System?"
+  answer: "Organize walk-in citizen flow at service counters through electronic ticketing and service displays."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "queue-management-system-beneficiaries-faq"
+  system_id: "queue-management-system"
+  question: "Who is Queue Management System intended to serve?"
+  answer: "walk-in service users; service-counter staff; public-service administrators"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "queue-management-system-capabilities-faq"
+  system_id: "queue-management-system"
+  question: "What services does Queue Management System support?"
+  answer: "Electronic queue ticketing: Digital ticket issuance for walk-in service.; Service-category selection: Selection of the requested service category.; Counter-mounted touch terminals: Touch terminals for service counters.; Served-ticket signage: Overhead display of the currently served ticket number."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "sigtax-purpose-faq"
+  system_id: "sigtax"
+  question: "What is Revenue E-Services?"
+  answer: "Provide digital tax registration, filing, payment, audit, dispute, and appeal information services."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "sigtax-beneficiaries-faq"
+  system_id: "sigtax"
+  question: "Who is Revenue E-Services intended to serve?"
+  answer: "taxpayers; businesses; revenue administrators; auditors"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "sigtax-capabilities-faq"
+  system_id: "sigtax"
+  question: "What services does Revenue E-Services support?"
+  answer: "Online tax registration: Digital taxpayer registration.; Electronic tax filing: Digital filing of tax information.; Tax assessment notices: Digital tax assessment notices.; Online tax and fee payment: Digital tax and fee payment.; Mobile payment: Mobile tax payment.; Tax guidance: Digital tax guidance.; Exemptions and incentives: Digital information on exemptions and incentives.; Audit-document submission: Digital audit-document submission.; Audit results: Digital audit-result access.; Tax disputes: Digital tax-dispute information.; Appeals information: Digital appeals information."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "occms-purpose-faq"
+  system_id: "occms"
+  question: "What is Oromia Court Case Management System?"
+  answer: "Provide electronic court processes, case management, hearing, payment, reporting, communication, and security functions."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "occms-beneficiaries-faq"
+  system_id: "occms"
+  question: "Who is Oromia Court Case Management System intended to serve?"
+  answer: "court users; court staff; judges; justice administrators"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "occms-capabilities-faq"
+  system_id: "occms"
+  question: "What services does Oromia Court Case Management System support?"
+  answer: "Online case filing: Digital filing of court cases.; Case tracking: Digital case tracking.; E-filing: Electronic filing of court documents.; Hearing scheduling: Digital hearing scheduling.; Hearing notifications: Digital hearing notifications.; Rulings and judgments: Access to rulings and judgments.; Legal-resource library: Digital legal-resource access.; Court-fee and fine payment: Online court-fee and fine payment.; Payment history and receipts: Digital payment history and receipts."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "prosecution-e-services-purpose-faq"
+  system_id: "prosecution-e-services"
+  question: "What is Prosecution E-Services?"
+  answer: "Provide digital prosecution case, legal-information, document, human-resource, complaint, and customer-satisfaction workflows."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "prosecution-e-services-beneficiaries-faq"
+  system_id: "prosecution-e-services"
+  question: "Who is Prosecution E-Services intended to serve?"
+  answer: "prosecutors; advocates; complainants; legal administrators"
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "prosecution-e-services-capabilities-faq"
+  system_id: "prosecution-e-services"
+  question: "What services does Prosecution E-Services support?"
+  answer: "Case management: Digital prosecution case management.; Crime-reference management: Digital crime-reference management.; Document registration: Digital document services.; Legal research and drafting: Digital legal research and drafting.; Directive review and registration: Digital directive workflows.; Legal-awareness management: Digital legal-awareness management.; Human-resource management: Internal prosecution HR workflow.; Prosecutor and advocate discipline: Digital discipline workflow.; Complaints and customer satisfaction: Digital complaints and satisfaction workflow."
+  kpi_observation_refs: []
+  translations: {}
+  publication_status: "draft"
+  data_classification: "internal"
+  contains_personal_data: false
+  public_display_approved: false
+  workflow:
+    state: "draft"
+    prepared_by_role: "content-author"
+    reviewed_by_role: null
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    notes: "Draft assembled from the existing digital-system record. Verify its linked evidence and approve both languages before publication; no new factual or language approval is asserted."

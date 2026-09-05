@@ -75,7 +75,7 @@ answer: The verified result is {{kpi:example-observation-id}}.
 kpi_observation_refs: [example-observation-id]
 ```
 
-The public build resolves the token from the structured observation. Literal numeric claims in FAQ text are rejected.
+The public build resolves the token from the structured observation. Literal numeric claims in FAQ text, including translated FAQ text, are rejected. Translations can use `{{kpi:observation-id|number}}` when approved surrounding prose supplies the unit. Full tokens require reviewed `kpi_unit_labels` for the chatbot export. See the [chatbot release guide](chatbot-release-guide.md).
 
 ## Translation approval
 

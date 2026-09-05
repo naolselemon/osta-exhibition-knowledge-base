@@ -16,8 +16,8 @@ records:
   translations:
     om:
       question: Lakkoofsotni walqunnamtii WoredaNet maal galmaa’aniiru?
-      answer: Qorannoon kun sararoota VPN naannoo 61, sararoota godinaa fi magaalaa
-        879, akkasumas sararoota aanaa fi ganda 1,856 akka gabaafaman galmeessa. Lakkoofsotni
+      answer: Qorannoon kun sararoota VPN naannoo {{kpi:woredanet-vpn-regional-lines-2025-published|number}}, sararoota godinaa fi magaalaa
+        {{kpi:woredanet-vpn-zone-city-lines-2025-published|number}}, akkasumas sararoota aanaa fi ganda {{kpi:woredanet-vpn-woreda-kebele-lines-2025-published|number}} akka gabaafaman galmeessa. Lakkoofsotni
         teeknooloojii adda addaa himannaa qofa waan ta’aniif mirkaneessa abbaa ragaa
         barbaadu.
       approval:
@@ -28,7 +28,7 @@ records:
         reviewed_at: '2026-09-04'
     am:
       question: የWoredaNet ግንኙነት ምን ዓይነት አኃዞችን ይይዛል?
-      answer: ማጠቃለያው 61 የክልል ቪፒኤን መስመሮች፣ 879 የዞንና የከተማ መስመሮች እና 1,856 የወረዳና የቀበሌ መስመሮች
+      answer: ማጠቃለያው {{kpi:woredanet-vpn-regional-lines-2025-published|number}} የክልል ቪፒኤን መስመሮች፣ {{kpi:woredanet-vpn-zone-city-lines-2025-published|number}} የዞንና የከተማ መስመሮች እና {{kpi:woredanet-vpn-woreda-kebele-lines-2025-published|number}} የወረዳና የቀበሌ መስመሮች
         እንደተመዘገቡ ይገልጻል። የቴክኖሎጂ አኃዞቹ የማጠቃለያ ጥያቄዎች ስለሆኑ ከምንጩ ባለቤት መረጋገጥ አለባቸው።
       approval:
         status: approved

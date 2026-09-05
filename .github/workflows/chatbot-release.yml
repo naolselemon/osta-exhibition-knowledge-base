@@ -1,0 +1,32 @@
+name: Reviewed chatbot knowledge release
+on:
+  workflow_dispatch:
+    inputs:
+      reviewed_commit:
+        description: Full commit SHA reviewed by the publisher
+        required: true
+permissions:
+  contents: read
+jobs:
+  release:
+    runs-on: [self-hosted, osta-evidence]
+    environment: publisher
+    steps:
+      - name: Require immutable revision
+        env:
+          REVIEWED_COMMIT: ${{ inputs.reviewed_commit }}
+        run: '[[ "$REVIEWED_COMMIT" =~ ^[0-9a-f]{40}$ ]]'
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.reviewed_commit }}
+          persist-credentials: false
+      - name: Mount authorized evidence
+        run: cp -a /srv/osta/evidence/. source-materials/
+      - run: python3 scripts/kpi_pipeline.py validate
+      - run: python3 -m unittest discover -s tests -v
+      - run: python3 -m scripts.chatbot_release build --output releases
+      - uses: actions/upload-artifact@v4
+        with:
+          name: approved-knowledge-${{ inputs.reviewed_commit }}
+          path: releases/
+          retention-days: 30

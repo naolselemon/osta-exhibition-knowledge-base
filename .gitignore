@@ -28,5 +28,5 @@ venv/
 # Local source presentations; keep authorized copies outside Git history
 source-materials/presentations/*.pdf
 source-materials/social-media/*.pdf
-
-source-materials/presentations/*.pdf
+source-materials/presentations/*.pptx
+releases/
