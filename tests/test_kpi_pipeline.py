@@ -428,6 +428,21 @@ class KpiPipelineTests(unittest.TestCase):
         data = self.data()
         payloads = build_payloads(data)
         expected_systems = {
+            "prms",
+            "uemis",
+            "business-automation",
+            "digital-kebele-government",
+            "court-case-management-prosecutor-sims",
+            "civil-registration-dms",
+            "smart-ac-generator",
+            "electric-solar-bajaj",
+        }
+        self.assertEqual(expected_systems, {item["id"] for item in payloads["digital-systems.json"]["digital_systems"]})
+        self.assertEqual(expected_systems, {item["system_id"] for item in payloads["system-kpis.json"]["systems"]})
+        avatar = payloads["avatar-facts.json"]
+        self.assertEqual(9, len(avatar["verified_public_kpi_observations"]))
+        self.assertEqual(8, len(avatar["approved_afaan_oromo_content"]))
+        self.assertEqual(8, len(avatar["approved_amharic_content"]))
             item["id"] for item in data.systems if item.get("publication_status") == "published"
         }
         self.assertEqual(expected_systems, {item["id"] for item in payloads["digital-systems.json"]["digital_systems"]})

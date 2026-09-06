@@ -65,6 +65,11 @@
     },
     {
       "content": {
+        "official_name": "Bajaajii Elektirikaa + Soolaaraa",
+        "purpose": "Akkuma gubbaa iskiriinii irratti ibsametti, konkolaata mil-sadii teeknoolojii elektirikaa fi soolaaraa walitti makuun kan dhihaatedha. Viidiyoon kun qaama alaa, naannoo gubbaa/paaneli soolaaraa fi keessoo konkolaatichaa agarsiisa."
+      },
+      "language": "om",
+      "record_id": "electric-solar-bajaj",
         "official_name": "Sirna Bulchiinsa Sanadootaa",
         "purpose": "Bulchiinsa sanadootaa mootummaa irraa gara mootummaa fi adeemsa galmeewwanii deeggera."
       },
@@ -227,6 +232,11 @@
     },
     {
       "content": {
+        "official_name": "Jenereetara AC Smaartii",
+        "purpose": "Agarsiisa viidiyoo irratti akkuma mul'atetti jenereetara/teeknoolojii elektirikaa fuula to'annoo mul'atu qabuun kan dhiyaatedha. Meeshaan kun naannoo laaboraatoorii/worki shoop meeshaalee elektirikaa, kompiyutaroota fi iskiriinii waliin agarsiifameera."
+      },
+      "language": "om",
+      "record_id": "smart-ac-generator",
         "official_name": "Sirna Bulchiinsa Qabeenyaa",
         "purpose": "Bulchiinsa qabeenyaa fi mi’a mootummaa dijitaalaan deeggera."
       },
@@ -1381,6 +1391,17 @@
     },
     {
       "content": {
+        "official_name": "ኤሌክትሪክ + ሶላር ባጃጅ",
+        "purpose": "በስክሪኑ ላይ በተገለፀው መሠረት የኤሌክትሪክ እና የሶላር ቴክኖሎጂን አዋህዶ የያዘ ባለሶስት እግር ተሽከርካሪ ሆኖ ቀርቧል። ቪዲዮው የተሽከርካሪውን ውጫዊ ክፍል፣ የጣሪያ/ሶላር ክፍል እና የውስጥ አካል ያሳያል።"
+      },
+      "language": "am",
+      "record_id": "electric-solar-bajaj",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የማረሚያ ቤቶች አስተዳደር ስርዓት",
+        "purpose": "የክልሉን ሁሉንም የማረሚያ ቤቶች መረጃ በአንድ ቦታ ያሰባስባል።"
         "official_name": "የሰነድ አስተዳደር ሥርዓት",
         "purpose": "የመንግሥት-ለ-መንግሥት የሰነድ አስተዳደርን እና የመዝገብ ሥራ ሂደቶችን ይደግፋል።"
       },
@@ -1390,6 +1411,17 @@
     },
     {
       "content": {
+        "official_name": "ስማርት ኤሲ ጄኔሬተር",
+        "purpose": "በኤግዚቢሽን ቪዲዮው ላይ እንደሚታየው የሚታይ የቁጥጥር በይነገጽ ያለው የጄኔሬተር/ኤሌክትሪካል ቴክኖሎጂ ሆኖ ቀርቧል። መሣሪያው በቤተ-ሙከራ/ወርክሾፕ አካባቢ ከኤሌክትሪክ ዕቃዎች፣ ኮምፒውተሮች እና ማሳያ ጋር አብሮ ይታያል።"
+      },
+      "language": "am",
+      "record_id": "smart-ac-generator",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "የከተማ ሥራ ስምሪት አስተዳደር መረጃ ስርዓት",
+        "purpose": "በከተማ የሥራ አገልግሎቶች የሚሳተፉ ወጣቶችን ይመዘግባል።"
         "official_name": "DTrip የመጓጓዣ አስተዳደር ሥርዓት",
         "purpose": "የሕዝብ መጓጓዣ አስተዳደርን፣ የመስመር ሥራዎችን፣ የተሳፋሪ አገልግሎቶችን እና ኤሌክትሮኒክ ትኬትን ይደግፋል።"
       },
@@ -3122,6 +3154,53 @@
       "transformation_story_refs": []
     },
     {
+      "acronym": null,
+      "beneficiaries": [
+        "exhibition-visitors",
+        "transport-sector-innovators",
+        "clean-energy-advocates"
+      ],
+      "category": "electric-mobility-solar",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "Demonstrated within the regional exhibition framework.",
+        "levels": [
+          "regional"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "electric-solar-bajaj",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Electric + Solar Bajaj",
+      "organization": {
+        "name": "OSTA Exhibition",
+        "ownership": "exhibitor",
+        "type": "exhibition-demonstration"
+      },
+      "purpose": "Demonstrated as a three-wheeled vehicle combining electric and solar technology, as stated by the on-screen label. The video shows the exterior, upper/roof area, and interior of the vehicle.",
+      "services_digitized": [],
+      "slug": "electric-solar-bajaj",
+      "subcategories": [
+        "electric-vehicle",
+        "solar-technology",
+        "exhibition-demonstration"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "exhibition-display"
+        ],
+        "deployment_scope": "exhibition",
+        "primary_type": "technology-demonstration"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "PRMS",
       "acronym": "DMS",
       "beneficiaries": [
         "government institutions",
@@ -3174,6 +3253,53 @@
       "transformation_story_refs": []
     },
     {
+      "acronym": null,
+      "beneficiaries": [
+        "exhibition-visitors",
+        "researchers",
+        "energy-sector-innovators"
+      ],
+      "category": "energy-electrical-technology",
+      "faq_refs": [],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "Demonstrated within the regional exhibition framework.",
+        "levels": [
+          "regional"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "smart-ac-generator",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Smart AC Generator",
+      "organization": {
+        "name": "OSTA Exhibition",
+        "ownership": "exhibitor",
+        "type": "exhibition-demonstration"
+      },
+      "purpose": "Demonstrated as a generator/electrical technology with a visible control interface in the exhibition video. The device is shown in a laboratory/workshop environment alongside electrical equipment, computers, and a display.",
+      "services_digitized": [],
+      "slug": "smart-ac-generator",
+      "subcategories": [
+        "generator",
+        "electrical-technology",
+        "exhibition-demonstration"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "exhibition-display"
+        ],
+        "deployment_scope": "exhibition",
+        "primary_type": "technology-demonstration"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": "UEMIS",
       "acronym": "DTrip Admin",
       "beneficiaries": [
         "passengers",
