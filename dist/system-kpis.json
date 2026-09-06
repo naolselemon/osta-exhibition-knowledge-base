@@ -1519,6 +1519,166 @@
       "system_id": "integrated-business-exchange"
     },
     {
+      "headline_kpi_refs": [
+        "m-mesob-beneficiaries-2026-v3",
+        "m-mesob-services-digitized-2026-v3",
+        "m-mesob-locations-2026-v3"
+      ],
+      "observations": [
+        {
+          "achievement": null,
+          "actual": {
+            "operator": "greater-than-or-equal",
+            "unit": "person",
+            "value": 500000
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": null,
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "≥ 500,000 beneficiaries",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 1,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": false
+          },
+          "id": "m-mesob-beneficiaries-2026-v3",
+          "kpi_code": "beneficiaries-served",
+          "kpi_name": "Beneficiaries served",
+          "measurement_scope": {
+            "description": "Citizens served through M-MESOB platform",
+            "scope_id": "m-mesob",
+            "scope_type": "system"
+          },
+          "record_version": 3,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Data as of March 2026",
+            "start_date": null,
+            "type": "as-of-date"
+          },
+          "source_labels": [],
+          "system_id": "m-mesob",
+          "target": {
+            "operator": "not-specified",
+            "unit": null,
+            "value": null
+          }
+        },
+        {
+          "achievement": null,
+          "actual": {
+            "operator": "greater-than-or-equal",
+            "unit": "location",
+            "value": 30
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": null,
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "≥ 30 locations",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 3,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": false
+          },
+          "id": "m-mesob-locations-2026-v3",
+          "kpi_code": "locations-covered",
+          "kpi_name": "Locations covered",
+          "measurement_scope": {
+            "description": "Locations where M-MESOB is available",
+            "scope_id": "m-mesob",
+            "scope_type": "system"
+          },
+          "record_version": 3,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Plan as of March 2026",
+            "start_date": null,
+            "type": "as-of-date"
+          },
+          "source_labels": [],
+          "system_id": "m-mesob",
+          "target": {
+            "operator": "not-specified",
+            "unit": null,
+            "value": null
+          }
+        },
+        {
+          "achievement": null,
+          "actual": {
+            "operator": "range",
+            "unit": "service",
+            "value": {
+              "maximum": 156,
+              "minimum": 108
+            }
+          },
+          "baseline": {
+            "operator": "not-specified",
+            "unit": null,
+            "value": null
+          },
+          "dimensions": {
+            "geography_level": "regional",
+            "geography_name": "Oromia"
+          },
+          "display_value": "108–156 services",
+          "exhibition": {
+            "chart_type": "single-value",
+            "display_priority": 2,
+            "headline": true,
+            "public_display_status": "approved",
+            "show_reporting_date": true,
+            "show_source_label": false
+          },
+          "id": "m-mesob-services-digitized-2026-v3",
+          "kpi_code": "services-digitized",
+          "kpi_name": "Services digitized",
+          "measurement_scope": {
+            "description": "Services digitized through M-MESOB platform",
+            "scope_id": "m-mesob",
+            "scope_type": "system"
+          },
+          "record_version": 3,
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Plan as of March 2026",
+            "start_date": null,
+            "type": "as-of-date"
+          },
+          "source_labels": [],
+          "system_id": "m-mesob",
+          "target": {
+            "operator": "not-specified",
+            "unit": null,
+            "value": null
+          }
+        }
+      ],
+      "system_id": "m-mesob"
+    },
+    {
       "headline_kpi_refs": [],
       "observations": [],
       "system_id": "mbrana"

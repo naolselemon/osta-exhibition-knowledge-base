@@ -7,7 +7,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 from scripts.chatbot_release import approved_translation, build_chatbot_payload, release
-from scripts.kpi_pipeline import RepositoryData, ValidationFailure, _validate_faqs, render_localized_faq
+from scripts.kpi_pipeline import RepositoryData, ValidationFailure, _validate_faqs, build_payloads, load_repository, render_localized_faq
 
 
 class ChatbotReleaseTests(unittest.TestCase):
@@ -44,6 +44,68 @@ class ChatbotReleaseTests(unittest.TestCase):
         self.assertIsNone(approved_translation(record, "am"))
         self.translation["approval"]["status"] = "needs-review"
         self.assertIsNone(approved_translation(record, "om"))
+
+    def test_generated_faq_translations_are_human_approved(self):
+        faq = next(item for item in load_repository(Path(__file__).resolve().parents[1]).faqs if item["id"] == "prms-purpose-faq")
+        self.assertEqual("published", faq["publication_status"])
+        self.assertEqual("approved", faq["workflow"]["state"])
+        for language, role in (("om", "human-afaan-oromo-reviewer"), ("am", "human-amharic-reviewer")):
+            translation = faq["translations"][language]
+            self.assertEqual("approved", translation["approval"]["status"])
+            self.assertTrue(translation["approval"]["human_reviewed"])
+            self.assertEqual(role, translation["approval"]["reviewer_role"])
+            self.assertIsNotNone(approved_translation(faq, language))
+
+    def test_reviewed_generated_faq_enters_chatbot_bundle(self):
+        system = {
+            "id": "test-system", "publication_status": "published",
+            "workflow": {"review_status": "approved"},
+            "translations": {
+                language: {
+                    "official_name": f"Synthetic {language}", "purpose": "Synthetic purpose",
+                    "approval": {
+                        "status": "approved", "human_reviewed": True,
+                        "reviewer_role": f"human-{'amharic' if language == 'am' else 'afaan-oromo'}-reviewer",
+                    },
+                }
+                for language in ("om", "am")
+            },
+        }
+        faq = {
+            "id": "test-purpose-faq", "system_id": "test-system", "kpi_observation_refs": [],
+            "publication_status": "published", "public_display_approved": True,
+            "data_classification": "public", "contains_personal_data": False,
+            "workflow": {"state": "approved"},
+            "translations": {
+                language: {
+                    "question": f"Synthetic question {language}", "answer": f"Synthetic answer {language}",
+                    "approval": {
+                        "status": "approved", "human_reviewed": True,
+                        "reviewer_role": f"human-{'amharic' if language == 'am' else 'afaan-oromo'}-reviewer",
+                    },
+                }
+                for language in ("om", "am")
+            },
+        }
+        data = RepositoryData([system], [], [], [], [], [faq])
+        public = {"avatar-facts.json": {"verified_public_kpi_observations": [], "published_faqs": [{"id": faq["id"]}]}}
+        payload = build_chatbot_payload(data, public)
+        self.assertEqual({"system:test-system:om", "system:test-system:am", "faq:test-purpose-faq:om", "faq:test-purpose-faq:am"}, {item["id"] for item in payload["answers"]})
+
+    def test_approved_m_mesob_is_in_chatbot_bundle(self):
+        root = Path(__file__).resolve().parents[1]
+        data = load_repository(root)
+        public = build_payloads(data)
+        payload = build_chatbot_payload(data, public)
+        self.assertEqual(
+            {
+                "system:m-mesob:om", "system:m-mesob:am",
+                "faq:m-mesob-purpose-faq:om", "faq:m-mesob-purpose-faq:am",
+                "faq:m-mesob-beneficiaries-faq:om", "faq:m-mesob-beneficiaries-faq:am",
+                "faq:m-mesob-capabilities-faq:om", "faq:m-mesob-capabilities-faq:am",
+            },
+            {item["id"] for item in payload["answers"] if item["system_id"] == "m-mesob"},
+        )
 
     def test_translated_literals_and_unlisted_tokens_are_rejected(self):
         faq = {"id": "test-faq", "system_id": "test-system", "kpi_observation_refs": ["test-count"], "question": "Synthetic question", "answer": "{{kpi:test-count}}", "translations": {"om": self.translation}}

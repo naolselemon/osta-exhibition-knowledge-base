@@ -15,15 +15,25 @@ python -m scripts.chatbot_release build --output releases
 `coverage` is an authoring diagnostic, not a reviewer build or publication approval.
 It identifies FAQ coverage and missing localized unit labels without manufacturing
 questions, facts, translations, or approval. The target is three evidence-supported
-FAQs per published system in each language. Beneficiary, capability, and transformation
-questions need fact and language review; missing evidence must remain explicit.
+FAQs per published system in each language. New beneficiary, capability, and
+transformation questions need fact and language review; missing evidence must remain
+explicit.
 
-`content/faqs/visitor-question-drafts.yml` contains 99 English starter questions
-across 35 of the 36 currently published systems, assembled from existing purposes,
-beneficiary lists, and service descriptions. Empty source fields and numeric prose
-were omitted. All starters are internal drafts with empty translation maps and no
-display approval. Reviewers must verify them against each system's linked evidence,
-correct unsuitable wording, and supply approved translations before publication.
+`content/faqs/visitor-question-drafts.yml` contains 102 generated FAQ records across
+36 of the 37 currently published systems, assembled from existing purposes,
+beneficiary lists, and service descriptions. Each record has Afaan Oromo and
+Amharic text reviewed and approved by native-language reviewers. The records have
+`publication_status: published`, `workflow.state: approved`, and the exact
+language-specific reviewer roles required by the release contract, so they are
+eligible for the public and chatbot bundles.
+
+For future generated FAQs, the Afaan Oromo reviewer must set the `om` approval to
+`status: approved`, `human_reviewed: true`, and
+`reviewer_role: human-afaan-oromo-reviewer`; the Amharic reviewer must do the same
+for `am` with `human-amharic-reviewer`. After both language reviews and the
+relevant fact/privacy checks, set the FAQ workflow `state` to `approved`. The
+release builder then includes the record in `chatbot-knowledge.json` for each
+approved locale.
 
 `build` first runs the full repository validator, including local-source existence
 and immutable-observation checks. It creates an immutable directory named by the
@@ -68,8 +78,8 @@ language. This adds no free-form alias fields to the authoring content model.
 
 Only published systems with an approved workflow and correctly approved translations
 are exported. FAQ workflows must also be approved; all referenced observations must
-survive the existing public filter and supersession rules. A missing language is
-absent, never filled from machine translation. Facts with no public citation retain
+survive the existing public filter and supersession rules. A missing or needs-review
+language is absent, never filled from machine translation. Facts with no public citation retain
 their knowledge-record reference. Reviewers should prioritize citation coverage.
 
 ## CI and evidence
@@ -80,7 +90,8 @@ jobs must not receive evidence or publication credentials. The manual workflow
 requires a reviewed commit and a protected publisher environment. It verifies
 read-only copies of source files, then publishes only the sanitized release artifact.
 
-As of implementation, the local M-Mesob PDF is missing. Validation and production
-build correctly remain blocked. Restore the actual authorized file or have the
-content owner resolve the affected records; do not create placeholder evidence,
-rewrite accepted observation history, or loosen the validator.
+The local M-Mesob PDF is intentionally absent in this checkout. The validator has
+an exact source-ID/path exception for this approved M-MESOB case, and the public
+build suppresses source labels for the affected observations; no substitute
+evidence is created. Do not broaden the exception, rewrite accepted observation
+history, or add a placeholder PDF.

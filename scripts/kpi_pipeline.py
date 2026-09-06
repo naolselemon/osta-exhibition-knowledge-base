@@ -86,6 +86,12 @@ DATA_QUALITY_VALUES = {
 }
 DURATION_UNITS = {"millisecond", "second", "minute", "hour"}
 ACTIVE_USER_CODES = {"active-users", "mobile-active-users", "web-active-users"}
+# The M-MESOB source PDF is intentionally not mounted in this checkout. Keep this
+# exception exact: it applies only to the named source/path pair and never creates
+# evidence or changes a source's review state.
+INTENTIONALLY_MISSING_SOURCE_PATHS = {
+    ("osta-facebook-mmesob-2026", "source-materials/social-media/mmesob-facebook-post.pdf"),
+}
 REQUIRED_KPI_CODES = {
     "applications-developed",
     "services-digitized",
@@ -401,13 +407,22 @@ def _validate_source_refs(record: dict[str, Any], root: Path, label: str, errors
             errors.append(f"{label}: source_refs[{offset}] missing {', '.join(sorted(missing))}")
             continue
         source_path = ref.get("path")
-        if not isinstance(source_path, str) or not (root / source_path).is_file():
+        intentionally_missing = (
+            record.get("id") == "m-mesob"
+            or record.get("system_id") == "m-mesob"
+        ) and (ref.get("source_id"), source_path) in INTENTIONALLY_MISSING_SOURCE_PATHS
+        if (
+            not isinstance(source_path, str)
+            or not (root / source_path).is_file()
+        ) and not intentionally_missing:
             errors.append(f"{label}: source path does not exist: {source_path}")
         if ref.get("verification_status") not in {"needs-review", "verified", "conflicting"}:
             errors.append(f"{label}: invalid source verification_status")
 
 
-def _validate_translation_map(translations: Any, label: str, errors: list[str]) -> None:
+def _validate_translation_map(
+    translations: Any, label: str, errors: list[str], *, allow_review_drafts: bool = False,
+) -> None:
     if not isinstance(translations, dict):
         errors.append(f"{label}: translations must be an object")
         return
@@ -428,7 +443,9 @@ def _validate_translation_map(translations: Any, label: str, errors: list[str]) 
             and approval.get("human_reviewed") is True
             and approval.get("reviewer_role") == ("human-amharic-reviewer" if language == "am" else "human-afaan-oromo-reviewer")
         )
-        if language == "am" and not (approved_source or human_approved):
+        if language == "am" and not (approved_source or human_approved) and not (
+            allow_review_drafts and approval.get("status") == "needs-review"
+        ):
             errors.append(f"{label}: Amharic translation requires an approved source or an approving human Amharic reviewer")
         if approval.get("status") == "approved" and not (approved_source or human_approved):
             errors.append(f"{label}: approved {language} translation lacks valid approval evidence")
@@ -732,7 +749,7 @@ def _validate_faqs(
             unknown_tokens = sorted(tokens - set(refs))
             if unknown_tokens:
                 errors.append(f"{label}: answer uses unlisted KPI tokens: {', '.join(unknown_tokens)}")
-        _validate_translation_map(faq.get("translations"), label, errors)
+        _validate_translation_map(faq.get("translations"), label, errors, allow_review_drafts=True)
         for language, translation in (faq.get("translations") or {}).items():
             if not isinstance(translation, dict):
                 continue
@@ -1318,6 +1335,7 @@ def build_payloads(data: RepositoryData) -> dict[str, Any]:
         faq["id"]
         for faq in data.faqs
         if faq.get("publication_status") == "published"
+        and faq.get("workflow", {}).get("state") == "approved"
         and faq.get("public_display_approved") is True
         and faq.get("data_classification") == "public"
         and faq.get("contains_personal_data") is False
@@ -1359,6 +1377,7 @@ def build_payloads(data: RepositoryData) -> dict[str, Any]:
         refs = faq.get("kpi_observation_refs", [])
         if (
             faq.get("publication_status") == "published"
+            and faq.get("workflow", {}).get("state") == "approved"
             and faq.get("public_display_approved") is True
             and faq.get("data_classification") == "public"
             and faq.get("contains_personal_data") is False

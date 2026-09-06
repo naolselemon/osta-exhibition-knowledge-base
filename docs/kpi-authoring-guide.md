@@ -79,7 +79,7 @@ The public build resolves the token from the structured observation. Literal num
 
 ## Translation approval
 
-Do not create Amharic content from machine translation or inference. An Amharic translation record is valid only when it is traceable to an approved source or has `status: approved`, `human_reviewed: true`, and `reviewer_role: human-amharic-reviewer`. Approved Afaan Oromo content follows the equivalent human-review or approved-source rule. Draft and unapproved translations never enter `dist/avatar-facts.json`.
+Generated translation text may be staged for native-speaker review, but it must remain `status: needs-review` with `human_reviewed: false`; it is not approved language content. An Amharic translation enters a release only when it is traceable to an approved source or has `status: approved`, `human_reviewed: true`, and `reviewer_role: human-amharic-reviewer`. Approved Afaan Oromo content follows the equivalent human-review or approved-source rule. Draft and unapproved translations never enter `dist/avatar-facts.json`.
 
 ## Commands
 

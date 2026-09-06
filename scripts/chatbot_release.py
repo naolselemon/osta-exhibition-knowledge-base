@@ -111,7 +111,12 @@ def coverage(data: RepositoryData) -> dict:
         faqs = [faq for faq in data.faqs if faq["system_id"] == system["id"]]
         for language, locale in LOCALES.items():
             gaps = []
-            approved = [faq for faq in faqs if faq.get("publication_status") == "published" and approved_translation(faq, language)]
+            approved = [
+                faq for faq in faqs
+                if faq.get("publication_status") == "published"
+                and faq.get("workflow", {}).get("state") == "approved"
+                and approved_translation(faq, language)
+            ]
             for faq in approved:
                 translation = faq["translations"][language]
                 for ref, number_only in LOCALIZED_KPI_TOKEN_RE.findall(translation["answer"]):
@@ -123,6 +128,11 @@ def coverage(data: RepositoryData) -> dict:
                 "approved_purpose": bool(approved_translation(system, language)),
                 "approved_faq_count": len(approved), "faq_target": 3,
                 "draft_faq_count": sum(faq.get("publication_status") == "draft" for faq in faqs),
+                "faq_needs_review_count": sum(
+                    faq.get("publication_status") == "published"
+                    and faq.get("workflow", {}).get("state") != "approved"
+                    for faq in faqs
+                ),
                 "review_gaps": gaps,
                 "beneficiaries": "needs-question-and-language-review",
                 "capabilities": "needs-question-and-language-review",

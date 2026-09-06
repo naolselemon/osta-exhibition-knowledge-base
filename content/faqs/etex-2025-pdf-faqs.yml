@@ -67,23 +67,29 @@ records:
         fi tajaajiloota keessummeeffaman {{kpi:oromia-data-center-services-hosted-2025-published}}
         galmeessa. Himannoowwan lamaan kunneen qorannoo viidiyoo irraa waan dhufaniif
         mirkaneessa teeknikaa fi abbaa ragaa barbaadu.
+      kpi_unit_labels:
+        oromia-data-center-storage-2025-published: terabaayitii
+        oromia-data-center-services-hosted-2025-published: tajaajiloota
       approval:
         status: approved
         human_reviewed: true
         reviewer_role: human-afaan-oromo-reviewer
         approved_source: false
-        reviewed_at: '2026-09-04'
+        reviewed_at: '2026-09-06'
     am:
       question: ምን ዓይነት የመረጃ ማዕከል ሥራ ተመዝግቧል?
       answer: ማጠቃለያው {{kpi:oromia-data-center-storage-2025-published}} የተመዘገበ የማከማቻ
         አቅም እና {{kpi:oromia-data-center-services-hosted-2025-published}} የተስተናገዱ አገልግሎቶች
         እንዳሉ ይገልጻል። ሁለቱም ከቪዲዮ ማጠቃለያ የተገኙ የምንጭ ጥያቄዎች ስለሆኑ ቴክኒካዊና የምንጭ ባለቤት ማረጋገጫ ያስፈልጋቸዋል።
+      kpi_unit_labels:
+        oromia-data-center-storage-2025-published: ቴራባይቶች
+        oromia-data-center-services-hosted-2025-published: አገልግሎቶች
       approval:
         status: approved
         human_reviewed: true
         reviewer_role: human-amharic-reviewer
         approved_source: false
-        reviewed_at: '2026-09-04'
+        reviewed_at: '2026-09-06'
   publication_status: published
   data_classification: public
   contains_personal_data: false
@@ -112,22 +118,26 @@ records:
       answer: Qorannoon kun waliigala dijitaaleessuu sanadootaa naannoo {{kpi:regional-document-digitization-documents-2025-published}}
         akka ta’e galmeessa. Seerri lakkaa’umsaa, kuusaan sanadootaa fi daangaan isaa
         ammallee mirkanaa’uu qabu.
+      kpi_unit_labels:
+        regional-document-digitization-documents-2025-published: sanadoota
       approval:
         status: approved
         human_reviewed: true
         reviewer_role: human-afaan-oromo-reviewer
         approved_source: false
-        reviewed_at: '2026-09-04'
+        reviewed_at: '2026-09-06'
     am:
       question: የክልሉ ሰነዶች ለውጥ ምን ውጤት እንዳለው ተመዝግቧል?
       answer: ማጠቃለያው የክልሉ የሰነድ ዲጂታላይዜሽን ጠቅላላ መጠን {{kpi:regional-document-digitization-documents-2025-published}}
         መሆኑን ይገልጻል። የቆጠራ መስፈርቱ፣ የሰነድ ማህደሩ እና ሽፋኑ አሁንም መረጋገጥ አለባቸው።
+      kpi_unit_labels:
+        regional-document-digitization-documents-2025-published: ሰነዶች
       approval:
         status: approved
         human_reviewed: true
         reviewer_role: human-amharic-reviewer
         approved_source: false
-        reviewed_at: '2026-09-04'
+        reviewed_at: '2026-09-06'
   publication_status: published
   data_classification: public
   contains_personal_data: false
@@ -160,23 +170,31 @@ records:
         fi {{kpi:rprs-parcels-migrated-2025-published}} akka galmaa’an ibsa. Maddaichi
         hiika hojii, ragaa, paarselii yookaan yeroo gabaasaa hin ibsine; kanaaf himannoowwan
         kun qoratamuu qabu.
+      kpi_unit_labels:
+        rprs-total-tasks-2025-published: hojiiwwan
+        rprs-certificates-issued-2025-published: ragawwan
+        rprs-parcels-migrated-2025-published: paarseloota
       approval:
         status: approved
         human_reviewed: true
         reviewer_role: human-afaan-oromo-reviewer
         approved_source: false
-        reviewed_at: '2026-09-04'
+        reviewed_at: '2026-09-06'
     am:
       question: የትኞቹ የRPRS ሥራ አኃዞች ተመዝግበዋል?
       answer: ማጠቃለያው {{kpi:rprs-total-tasks-2025-published}}፣ {{kpi:rprs-certificates-issued-2025-published}}
         እና {{kpi:rprs-parcels-migrated-2025-published}} እንደተመዘገቡ ይገልጻል። ምንጩ የሥራ፣ የምስክር
         ወረቀት፣ የፓርሴል ወይም የሪፖርት ጊዜ ትርጉም ስላልገለጸ እነዚህ እንደ ጥያቄ የሚፈልጉ አኃዞች ናቸው።
+      kpi_unit_labels:
+        rprs-total-tasks-2025-published: ተግባራት
+        rprs-certificates-issued-2025-published: ምስክር ወረቀቶች
+        rprs-parcels-migrated-2025-published: ፓርሴሎች
       approval:
         status: approved
         human_reviewed: true
         reviewer_role: human-amharic-reviewer
         approved_source: false
-        reviewed_at: '2026-09-04'
+        reviewed_at: '2026-09-06'
   publication_status: published
   data_classification: public
   contains_personal_data: false
@@ -209,23 +227,31 @@ records:
         fi {{kpi:e-education-schools-2025-published}} akka galmaa’an ibsa. Maddaichi
         uummata galmaa’e, socho’aa yookaan addaa ta’e jechuun hin ibsine; kanaaf himannoowwan
         kun qoratamuu qabu.
+      kpi_unit_labels:
+        e-education-teachers-2025-published: barsiisota
+        e-education-students-2025-published: barattoota
+        e-education-schools-2025-published: manneen barnootaa
       approval:
         status: approved
         human_reviewed: true
         reviewer_role: human-afaan-oromo-reviewer
         approved_source: false
-        reviewed_at: '2026-09-04'
+        reviewed_at: '2026-09-06'
     am:
       question: የትምህርት ዳሽቦርድ ምን ዓይነት አኃዞችን ይይዛል?
       answer: ማጠቃለያው {{kpi:e-education-teachers-2025-published}}፣ {{kpi:e-education-students-2025-published}}
         እና {{kpi:e-education-schools-2025-published}} እንደተመዘገቡ ይገልጻል። ምንጩ እነዚህ የተመዘገቡ፣
         ንቁ ወይም በተቋማት መካከል የማይደጋገሙ ሕዝቦች መሆናቸውን አልገለጸም።
+      kpi_unit_labels:
+        e-education-teachers-2025-published: መምህራን
+        e-education-students-2025-published: ተማሪዎች
+        e-education-schools-2025-published: ትምህርት ቤቶች
       approval:
         status: approved
         human_reviewed: true
         reviewer_role: human-amharic-reviewer
         approved_source: false
-        reviewed_at: '2026-09-04'
+        reviewed_at: '2026-09-06'
   publication_status: published
   data_classification: public
   contains_personal_data: false
@@ -258,23 +284,33 @@ records:
         {{kpi:dtrip-vehicles-2025-published}} fi {{kpi:dtrip-employees-2025-published}}
         akka galmaa’an ibsa. Maddaichi yeroo yookaan seera lakkaa’umsaa lakkoofsota
         daashboordii kanaa hin ibsine.
+      kpi_unit_labels:
+        dtrip-passengers-2025-published: imaltoota
+        dtrip-routes-2025-published: daandiiwwan
+        dtrip-vehicles-2025-published: konkolaattota
+        dtrip-employees-2025-published: hojjettoota
       approval:
         status: approved
         human_reviewed: true
         reviewer_role: human-afaan-oromo-reviewer
         approved_source: false
-        reviewed_at: '2026-09-04'
+        reviewed_at: '2026-09-06'
     am:
       question: የDTrip የመጓጓዣ አኃዞች ምን ምን ናቸው?
       answer: ማጠቃለያው {{kpi:dtrip-passengers-2025-published}}፣ {{kpi:dtrip-routes-2025-published}}፣
         {{kpi:dtrip-vehicles-2025-published}} እና {{kpi:dtrip-employees-2025-published}}
         እንደተመዘገቡ ይገልጻል። ምንጩ የእነዚህን የዳሽቦርድ አኃዞች ጊዜ ወይም የቆጠራ መስፈርት አልገለጸም።
+      kpi_unit_labels:
+        dtrip-passengers-2025-published: ተሳፋሪዎች
+        dtrip-routes-2025-published: መስመሮች
+        dtrip-vehicles-2025-published: ተሽከርካሪዎች
+        dtrip-employees-2025-published: ሠራተኞች
       approval:
         status: approved
         human_reviewed: true
         reviewer_role: human-amharic-reviewer
         approved_source: false
-        reviewed_at: '2026-09-04'
+        reviewed_at: '2026-09-06'
   publication_status: published
   data_classification: public
   contains_personal_data: false
@@ -303,22 +339,26 @@ records:
       answer: Qorannoon kun sadarkaa tajaajila G2C keessatti {{kpi:g2c-e-services-offered-2025-published}}
         akka galmaa’e ibsa. Kuusaan tajaajilootaa fi yeroo gabaasaa isaa maxxansa
         dura abbaa ragaa irraa mirkanaa’uu qaba.
+      kpi_unit_labels:
+        g2c-e-services-offered-2025-published: tajaajiloota
       approval:
         status: approved
         human_reviewed: true
         reviewer_role: human-afaan-oromo-reviewer
         approved_source: false
-        reviewed_at: '2026-09-04'
+        reviewed_at: '2026-09-06'
     am:
       question: ስንት የዜጎች አገልግሎቶች ተመዝግበዋል?
       answer: ማጠቃለያው በG2C የአገልግሎት ንብርብር {{kpi:g2c-e-services-offered-2025-published}}
         እንደተመዘገበ ይገልጻል። የአገልግሎት ዝርዝሩና የሪፖርት ጊዜው ከመታተሙ በፊት ከምንጩ ባለቤት መረጋገጥ አለበት።
+      kpi_unit_labels:
+        g2c-e-services-offered-2025-published: አገልግሎቶች
       approval:
         status: approved
         human_reviewed: true
         reviewer_role: human-amharic-reviewer
         approved_source: false
-        reviewed_at: '2026-09-04'
+        reviewed_at: '2026-09-06'
   publication_status: published
   data_classification: public
   contains_personal_data: false

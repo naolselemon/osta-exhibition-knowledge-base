@@ -15,6 +15,7 @@ from scripts.kpi_pipeline import (
     check_observation_history,
     is_verified_public_observation,
     load_repository,
+    _validate_source_refs,
     validate_records,
 )
 
@@ -127,6 +128,22 @@ class KpiPipelineTests(unittest.TestCase):
         validate_records(self.data(), ROOT)
         self.assertTrue(REQUIRED_KPI_CODES.issubset({item["kpi_code"] for item in self.base.definitions}))
         self.assertEqual(REQUIRED_PORTFOLIO_IDS, {item["id"] for item in self.base.portfolio_kpis})
+
+    def test_missing_m_mesob_pdf_exception_is_record_scoped(self) -> None:
+        source_ref = {
+            "source_id": "osta-facebook-mmesob-2026",
+            "label": "M-MESOB source",
+            "path": "source-materials/social-media/mmesob-facebook-post.pdf",
+            "locator": "Page 1",
+            "verification_status": "needs-review",
+            "public_display_approved": False,
+        }
+        errors: list[str] = []
+        _validate_source_refs({"id": "foreign", "system_id": "prms", "source_refs": [source_ref]}, ROOT, "foreign", errors)
+        self.assertIn("source path does not exist", errors[0])
+        errors = []
+        _validate_source_refs({"id": "m-mesob", "source_refs": [source_ref]}, ROOT, "m-mesob", errors)
+        self.assertEqual([], errors)
 
     def test_candidate_observations_remain_nonpublic_and_structured(self) -> None:
         candidates = [item for item in self.base.observations if item["id"].endswith("-deck")]
@@ -436,6 +453,7 @@ class KpiPipelineTests(unittest.TestCase):
             for item in data.faqs
             if (
                 item.get("publication_status") == "published"
+                and item.get("workflow", {}).get("state") == "approved"
                 and item.get("public_display_approved") is True
                 and item.get("data_classification") == "public"
                 and item.get("contains_personal_data") is False
@@ -450,6 +468,17 @@ class KpiPipelineTests(unittest.TestCase):
                 (item["record_type"], item["record_id"])
                 for item in payloads["avatar-facts.json"]["approved_afaan_oromo_content"]
             },
+        )
+
+        generated_faqs = {
+            item["id"]
+            for item in data.faqs
+            if item["id"].endswith("-faq") and item["id"] not in expected_faqs
+        }
+        self.assertFalse(generated_faqs)
+        self.assertTrue(
+            {item["id"] for item in data.faqs if item["id"].endswith("-faq")}
+            <= {item["id"] for item in payloads["avatar-facts.json"]["published_faqs"]}
         )
         self.assertEqual(
             expected_translation_records,
