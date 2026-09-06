@@ -28,7 +28,7 @@ Start with the [README](README.md). Its [folder map](README.md#folder-map), [con
 | Authorized local source binary | [`source-materials/`](source-materials/) | [Source-evidence guidance](README.md#source-evidence) |
 | Schema or validation behavior | [`schemas/`](schemas/), [`scripts/`](scripts/), and [`tests/`](tests/) | Existing adjacent schema, implementation, and tests |
 
-Organization, service, training-program, achievement, glossary, standalone source-claim, conflict, workbench, reusable `src/`, and `.github/` models are not currently implemented. Do not create an ad hoc structure for them. A contribution that introduces one of those models must include its schema, template, validation, relationships, migration reasoning, tests, and README updates in the same reviewed change.
+Organization, service, training-program, achievement, glossary, standalone source-claim, conflict, workbench, and reusable `src/` models are not currently implemented. Do not create an ad hoc structure for them. A contribution that introduces one of those models must include its schema, template, validation, relationships, migration reasoning, tests, and README updates in the same reviewed change. The manual chatbot release workflow under `.github/` requires an authorized private runner and publisher environment; see the [release guide](docs/chatbot-release-guide.md).
 
 ## Standard Contribution Workflow
 
@@ -129,6 +129,8 @@ PYTHONDONTWRITEBYTECODE=1 python scripts/kpi_pipeline.py build
 ```
 
 The builder writes the four files under [`dist/`](dist/). Never edit generated JSON directly. There is no reviewer-build command; reviewers inspect source YAML and validation/test output.
+
+The separate `python -m scripts.chatbot_release build --output releases` command packages those public contracts with a chatbot-specific export and checksummed manifest. `python -m scripts.chatbot_release coverage` reports authoring gaps. New visitor FAQ drafts require fact and bilingual review; their presence is not approval.
 
 ## Schema and Tooling Changes
 

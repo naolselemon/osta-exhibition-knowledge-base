@@ -1,5 +1,38 @@
 {
-  "metrics": [],
+  "metrics": [
+    {
+      "aggregation_method": "count-unique",
+      "aggregation_status": "series-only-non-exact-values",
+      "id": "dashboard-digital-services",
+      "kpi_code": "services-digitized",
+      "name": "Digital services",
+      "observation_ids": [
+        "m-mesob-services-digitized-2026-v3"
+      ],
+      "series": [
+        {
+          "actual": {
+            "operator": "range",
+            "unit": "service",
+            "value": {
+              "maximum": 156,
+              "minimum": 108
+            }
+          },
+          "display_value": "108–156 services",
+          "observation_id": "m-mesob-services-digitized-2026-v3",
+          "reporting_period": {
+            "calendar_type": "gregorian",
+            "end_date": null,
+            "reporting_date_text": "Plan as of March 2026",
+            "start_date": null,
+            "type": "as-of-date"
+          },
+          "system_id": "m-mesob"
+        }
+      ]
+    }
+  ],
   "schema_version": "1.0.0",
   "source_observation_ids": [
     "broadband-3g-coverage-2025-published",
@@ -25,6 +58,9 @@
     "e-investment-services-offered-2025-published",
     "e-vital-services-offered-2025-published",
     "g2c-e-services-offered-2025-published",
+    "m-mesob-beneficiaries-2026-v3",
+    "m-mesob-locations-2026-v3",
+    "m-mesob-services-digitized-2026-v3",
     "occms-services-offered-2025-published",
     "oromia-data-center-services-hosted-2025-published",
     "oromia-data-center-storage-2025-published",

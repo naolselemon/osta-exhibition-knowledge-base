@@ -1,0 +1,78 @@
+schema_version: 1.0.0
+record_version: 3
+id: m-mesob-services-digitized-2026-v3
+system_id: m-mesob
+kpi_code: services-digitized
+measurement_scope:
+  scope_type: system
+  scope_id: m-mesob
+  description: Services digitized through M-MESOB platform
+achievement_type: reported-progress
+actual:
+  operator: range
+  value: {minimum: 108, maximum: 156}
+  unit: service
+baseline:
+  operator: not-specified
+  value: null
+  unit: null
+target:
+  operator: not-specified
+  value: null
+  unit: null
+achievement: null
+reporting_period:
+  type: as-of-date
+  start_date: null
+  end_date: null
+  reporting_date_text: 'Plan as of March 2026'
+  calendar_type: gregorian
+dimensions:
+  geography_level: regional
+  geography_name: Oromia
+measurement_method:
+  method: source-document-claim
+  description: Planned range reported for M-MESOB and approved by the organization; exact count remains unknown.
+  data_owner: not-specified
+  update_frequency: unknown
+display_value: null
+source_refs:
+  - source_id: osta-facebook-mmesob-2026
+    label: M-MESOB Service Window System Reference Documentation
+    path: source-materials/social-media/mmesob-facebook-post.pdf
+    locator: Sections 1-2, Foddaa 1-12
+    verification_status: needs-review
+    public_display_approved: false
+  - source_id: osta-exhibition-2018-final
+    label: OSTA Exhibition 2018 Final presentation
+    path: source-materials/presentations/OSTA Exibiton 2018 Final ppt.pptx
+    locator: Slide pending review
+    verification_status: verified
+    public_display_approved: false
+data_quality:
+  completeness: partial
+  accuracy_status: verified
+  duplicate_risk: unknown
+  limitations:
+    - Exact digitized service count unknown.
+    - Range represents planned scope.
+exhibition:
+  headline: true
+  display_priority: 2
+  public_display_status: approved
+  chart_type: single-value
+  show_reporting_date: true
+  show_source_label: false
+workflow:
+  state: approved
+  prepared_by_role: content-author
+  reviewed_by_role: user-requested-publisher
+  created_at: '2026-09-06'
+  updated_at: '2026-09-06'
+  notes: M-MESOB KPI reviewed and approved by the organization; the local Facebook PDF is intentionally absent from this checkout.
+publication_status: published
+verification_status: verified
+data_classification: public
+contains_personal_data: false
+public_display_approved: true
+supersedes_observation_id: m-mesob-services-digitized-2026-v2

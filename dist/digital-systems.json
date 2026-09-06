@@ -1326,6 +1326,120 @@
       "transformation_story_refs": []
     },
     {
+      "acronym": "M-MESOB",
+      "beneficiaries": [
+        "citizens",
+        "businesses"
+      ],
+      "category": "municipal-service-delivery",
+      "faq_refs": [
+        "m-mesob-purpose-faq",
+        "m-mesob-beneficiaries-faq",
+        "m-mesob-capabilities-faq"
+      ],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "Operational in some areas, under way in others. Exact coverage awaiting verification.\n",
+        "levels": [
+          "regional"
+        ]
+      },
+      "headline_kpi_refs": [
+        "m-mesob-beneficiaries-2026-v3",
+        "m-mesob-services-digitized-2026-v3",
+        "m-mesob-locations-2026-v3"
+      ],
+      "id": "m-mesob",
+      "integrations": [],
+      "lifecycle_status": "operational",
+      "media": [],
+      "official_name": "M-MESOB",
+      "organization": {
+        "name": "Federal Civil Service",
+        "ownership": "owner",
+        "type": "government-organization"
+      },
+      "purpose": "Integrated One-Stop-Shop public service delivery platform with 12 specialized service windows (Foddaa 1-12) combining civil registration, licensing, land, revenue, and banking services. Customized for Oromia by OSTA.\n",
+      "services_digitized": [
+        {
+          "description": "Core civil registries including foundational digital identity registrations, vital statistics, birth certificates, and residency validations.",
+          "id": "foddaa-1-civil-status",
+          "name": "Civil Status and Identity Documents"
+        },
+        {
+          "description": "Formal official requests, public sector communications, clearing letters, and authentication processes.",
+          "id": "foddaa-2-correspondence",
+          "name": "Letter and Correspondence Services"
+        },
+        {
+          "description": "Community petitions, social security welfare allocations, labor issues, and civil society queries.",
+          "id": "foddaa-3-social-affairs",
+          "name": "Public and Social Affairs Services"
+        },
+        {
+          "description": "General licensing approvals, trade registrations, vehicle registrations, and municipal permits.",
+          "id": "foddaa-4-licensing-1",
+          "name": "Licensing and Permit Services Part 1"
+        },
+        {
+          "description": "Versatile intake counter for miscellaneous civic applications crossing multiple structural boundaries.",
+          "id": "foddaa-5-general",
+          "name": "General Window"
+        },
+        {
+          "description": "Construction approvals, specialized business permits, professional standard accreditations, and industrial land allocations.",
+          "id": "foddaa-6-licensing-2",
+          "name": "Regulatory and Business Licensing Part 2"
+        },
+        {
+          "description": "Central ledger for documenting contracts, vital deeds, civil agreements, and legal certifications.",
+          "id": "foddaa-7-registration",
+          "name": "Registration Services"
+        },
+        {
+          "description": "Infrastructural utilities management including service setups, electricity grids, and clean water access requests.",
+          "id": "foddaa-8-utilities",
+          "name": "Public Utility Services"
+        },
+        {
+          "description": "Public and private land allocation records, property deeds, structural boundary maps, and urban planning compliance certificates.",
+          "id": "foddaa-9-land",
+          "name": "Land Services"
+        },
+        {
+          "description": "Systematic filing and tracking of standard municipal rates, licensing fees, and local administrative penalties.",
+          "id": "foddaa-10-collection",
+          "name": "Collection Services"
+        },
+        {
+          "description": "Government portal for processing state taxes, commercial tariff dues, custom payments, and municipal revenues. Associated with Oromia Bureau of Finance.",
+          "id": "foddaa-11-revenue",
+          "name": "Revenue Payment Services"
+        },
+        {
+          "description": "Secure transaction platform for electronic fee settlements, microfinance loans, and digital payments. Associated with Siinqee Bank.",
+          "id": "foddaa-12-banking",
+          "name": "Banking Services"
+        }
+      ],
+      "slug": "m-mesob",
+      "subcategories": [
+        "one-stop-shop",
+        "public-service-delivery"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "web",
+          "assisted"
+        ],
+        "deployment_scope": "regional",
+        "primary_type": "platform"
+      },
+      "transformation_story_refs": []
+    },
+    {
       "acronym": "mBrana",
       "beneficiaries": [
         "residents",

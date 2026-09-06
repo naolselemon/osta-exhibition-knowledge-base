@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Approved chatbot knowledge bundle",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema_version", "locales", "topics", "answers"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "locales": {"const": ["om-ET", "am-ET"]},
+    "topics": {"type": "array", "items": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "locale", "name", "answer_id"],
+      "properties": {"id": {"type": "string"}, "locale": {"$ref": "#/$defs/locale"}, "name": {"type": "string", "minLength": 1}, "answer_id": {"type": "string"}}
+    }},
+    "answers": {"type": "array", "items": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "record_id", "system_id", "locale", "kind", "question", "answer", "aliases", "kpis", "sources"],
+      "properties": {
+        "id": {"type": "string"}, "record_id": {"type": "string"}, "system_id": {"type": "string"},
+        "locale": {"$ref": "#/$defs/locale"}, "kind": {"enum": ["system", "faq"]},
+        "question": {"type": "string", "minLength": 1}, "answer": {"type": "string", "minLength": 1},
+        "aliases": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+        "kpis": {"type": "array", "items": {"type": "object", "additionalProperties": false,
+          "required": ["observation_id", "actual", "reporting_period", "measurement_scope"],
+          "properties": {"observation_id": {"type": "string"}, "actual": {"type": "object"}, "reporting_period": {"type": "object"}, "measurement_scope": {"type": "object"}}
+        }},
+        "sources": {"type": "array", "items": {"type": "object", "additionalProperties": false,
+          "required": ["source_id", "label", "locator"],
+          "properties": {"source_id": {"type": "string"}, "label": {"type": "string"}, "locator": {"type": "string"}}
+        }}
+      }
+    }}
+  },
+  "$defs": {"locale": {"enum": ["om-ET", "am-ET"]}}
+}

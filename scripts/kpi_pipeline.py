@@ -86,6 +86,12 @@ DATA_QUALITY_VALUES = {
 }
 DURATION_UNITS = {"millisecond", "second", "minute", "hour"}
 ACTIVE_USER_CODES = {"active-users", "mobile-active-users", "web-active-users"}
+# The M-MESOB source PDF is intentionally not mounted in this checkout. Keep this
+# exception exact: it applies only to the named source/path pair and never creates
+# evidence or changes a source's review state.
+INTENTIONALLY_MISSING_SOURCE_PATHS = {
+    ("osta-facebook-mmesob-2026", "source-materials/social-media/mmesob-facebook-post.pdf"),
+}
 REQUIRED_KPI_CODES = {
     "applications-developed",
     "services-digitized",
@@ -143,6 +149,7 @@ TRANSFORMATION_DIMENSIONS = {
 }
 PLACEHOLDER_RE = re.compile(r"(?:\bXX\b|\bTODO\b|\bTBD\b|replace-with|<[^>]+>)", re.IGNORECASE)
 KPI_TOKEN_RE = re.compile(r"\{\{kpi:([a-z0-9]+(?:-[a-z0-9]+)*)\}\}")
+LOCALIZED_KPI_TOKEN_RE = re.compile(r"\{\{kpi:([a-z0-9]+(?:-[a-z0-9]+)*)(\|number)?\}\}")
 NUMBER_RE = re.compile(r"(?<![a-z0-9])(?:\d[\d,]*(?:\.\d+)?)(?:\s*%|\s+(?:thousand|million|billion))?(?![a-z0-9])", re.IGNORECASE)
 
 SYSTEM_REQUIRED = {
@@ -400,13 +407,22 @@ def _validate_source_refs(record: dict[str, Any], root: Path, label: str, errors
             errors.append(f"{label}: source_refs[{offset}] missing {', '.join(sorted(missing))}")
             continue
         source_path = ref.get("path")
-        if not isinstance(source_path, str) or not (root / source_path).is_file():
+        intentionally_missing = (
+            record.get("id") == "m-mesob"
+            or record.get("system_id") == "m-mesob"
+        ) and (ref.get("source_id"), source_path) in INTENTIONALLY_MISSING_SOURCE_PATHS
+        if (
+            not isinstance(source_path, str)
+            or not (root / source_path).is_file()
+        ) and not intentionally_missing:
             errors.append(f"{label}: source path does not exist: {source_path}")
         if ref.get("verification_status") not in {"needs-review", "verified", "conflicting"}:
             errors.append(f"{label}: invalid source verification_status")
 
 
-def _validate_translation_map(translations: Any, label: str, errors: list[str]) -> None:
+def _validate_translation_map(
+    translations: Any, label: str, errors: list[str], *, allow_review_drafts: bool = False,
+) -> None:
     if not isinstance(translations, dict):
         errors.append(f"{label}: translations must be an object")
         return
@@ -427,7 +443,9 @@ def _validate_translation_map(translations: Any, label: str, errors: list[str]) 
             and approval.get("human_reviewed") is True
             and approval.get("reviewer_role") == ("human-amharic-reviewer" if language == "am" else "human-afaan-oromo-reviewer")
         )
-        if language == "am" and not (approved_source or human_approved):
+        if language == "am" and not (approved_source or human_approved) and not (
+            allow_review_drafts and approval.get("status") == "needs-review"
+        ):
             errors.append(f"{label}: Amharic translation requires an approved source or an approving human Amharic reviewer")
         if approval.get("status") == "approved" and not (approved_source or human_approved):
             errors.append(f"{label}: approved {language} translation lacks valid approval evidence")
@@ -731,7 +749,29 @@ def _validate_faqs(
             unknown_tokens = sorted(tokens - set(refs))
             if unknown_tokens:
                 errors.append(f"{label}: answer uses unlisted KPI tokens: {', '.join(unknown_tokens)}")
-        _validate_translation_map(faq.get("translations"), label, errors)
+        _validate_translation_map(faq.get("translations"), label, errors, allow_review_drafts=True)
+        for language, translation in (faq.get("translations") or {}).items():
+            if not isinstance(translation, dict):
+                continue
+            for field in ("question", "answer"):
+                value = translation.get(field)
+                if not isinstance(value, str) or not value.strip():
+                    errors.append(f"{label}: {language} {field} must be nonempty text")
+                    continue
+                tokens = {match.group(1) for match in LOCALIZED_KPI_TOKEN_RE.finditer(value)}
+                if tokens - set(refs):
+                    errors.append(f"{label}: {language} {field} uses unlisted KPI tokens")
+                remainder = LOCALIZED_KPI_TOKEN_RE.sub("", value)
+                if "{{" in remainder or "}}" in remainder:
+                    errors.append(f"{label}: {language} {field} contains malformed KPI tokens")
+                if NUMBER_RE.search(remainder):
+                    errors.append(f"{label}: {language} numeric FAQ claims must use a KPI observation token")
+            labels = translation.get("kpi_unit_labels", {})
+            if not isinstance(labels, dict) or any(
+                ref not in refs or not isinstance(value, str) or not value.strip()
+                for ref, value in labels.items()
+            ):
+                errors.append(f"{label}: {language} kpi_unit_labels must map referenced observations to nonempty labels")
         _validate_numeric_narrative(faq, refs, observation_index, label, errors, faq_record=True)
         if faq.get("public_display_approved") is True:
             if faq.get("contains_personal_data") is not False:
@@ -914,6 +954,7 @@ def validate_records(data: RepositoryData, root: Path) -> None:
         "kpi-observation.schema.json",
         "portfolio-kpi.schema.json",
         "transformation-story.schema.json",
+        "faq.schema.json",
     ):
         path = root / "schemas" / schema_name
         try:
@@ -1025,6 +1066,42 @@ def format_observation_value(observation: dict[str, Any], definition: dict[str, 
         return f"{prefix}{rendered}%"
     unit_label = (definition.get("display") or {}).get("unit_label") or unit or ""
     return f"{prefix}{rendered} {unit_label}".strip()
+
+
+def render_localized_faq(
+    translation: dict[str, Any], observations: dict[str, dict[str, Any]],
+    definitions: dict[str, dict[str, Any]], *, require_localized_units: bool = False,
+) -> dict[str, Any]:
+    """Resolve approved templates, preserving their prose and exact KPI operators.
+
+    A number token is appropriate only where approved prose already states the unit.
+    Full tokens require an approved unit label in the chatbot export; the legacy
+    avatar contract retains its canonical-unit fallback for compatibility.
+    """
+    result = copy.deepcopy(translation)
+
+    def replace(match: re.Match[str]) -> str:
+        ref, number_only = match.groups()
+        observation = observations[ref]
+        definition = copy.deepcopy(definitions[observation["kpi_code"]])
+        actual = observation["actual"]
+        if number_only:
+            numeric = copy.deepcopy(observation)
+            numeric["actual"]["unit"] = None
+            definition.setdefault("display", {})["unit_label"] = ""
+            return format_observation_value(numeric, definition)
+        unit_label = translation.get("kpi_unit_labels", {}).get(ref)
+        if unit_label:
+            definition.setdefault("display", {})["unit_label"] = unit_label
+        elif require_localized_units and actual.get("unit") != "percent":
+            raise ValidationFailure([f"{ref}: approved localized KPI unit label required"])
+        return format_observation_value(observation, definition)
+
+    for field in ("question", "answer"):
+        if field in result:
+            result[field] = LOCALIZED_KPI_TOKEN_RE.sub(replace, result[field])
+    result.pop("kpi_unit_labels", None)
+    return result
 
 
 def _public_source_labels(observation: dict[str, Any]) -> list[dict[str, str]]:
@@ -1258,6 +1335,7 @@ def build_payloads(data: RepositoryData) -> dict[str, Any]:
         faq["id"]
         for faq in data.faqs
         if faq.get("publication_status") == "published"
+        and faq.get("workflow", {}).get("state") == "approved"
         and faq.get("public_display_approved") is True
         and faq.get("data_classification") == "public"
         and faq.get("contains_personal_data") is False
@@ -1299,6 +1377,7 @@ def build_payloads(data: RepositoryData) -> dict[str, Any]:
         refs = faq.get("kpi_observation_refs", [])
         if (
             faq.get("publication_status") == "published"
+            and faq.get("workflow", {}).get("state") == "approved"
             and faq.get("public_display_approved") is True
             and faq.get("data_classification") == "public"
             and faq.get("contains_personal_data") is False
@@ -1325,8 +1404,13 @@ def build_payloads(data: RepositoryData) -> dict[str, Any]:
         am_content.extend(_approved_translation_entries("digital-system", system, "am"))
     for faq in data.faqs:
         if any(item["id"] == faq.get("id") for item in published_faqs):
-            om_content.extend(_approved_translation_entries("faq", faq, "om"))
-            am_content.extend(_approved_translation_entries("faq", faq, "am"))
+            rendered_faq = copy.deepcopy(faq)
+            for language, translation in faq.get("translations", {}).items():
+                rendered_faq["translations"][language] = render_localized_faq(
+                    translation, {item["id"]: item for item in safe_observations}, definitions,
+                )
+            om_content.extend(_approved_translation_entries("faq", rendered_faq, "om"))
+            am_content.extend(_approved_translation_entries("faq", rendered_faq, "am"))
     reporting_dates = [
         {"observation_id": item["id"], "reporting_period": copy.deepcopy(item["reporting_period"])}
         for item in sorted(safe_observations, key=lambda item: item["id"])

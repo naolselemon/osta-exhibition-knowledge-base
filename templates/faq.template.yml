@@ -7,6 +7,10 @@ answer: Use {{kpi:observation-id}} wherever an authoritative KPI value belongs.
 kpi_observation_refs:
   - observation-id
 translations: {}
+# Approved translations use the same KPI tokens. Use {{kpi:observation-id|number}}
+# only when the approved surrounding prose already states the unit. Otherwise,
+# provide kpi_unit_labels: {observation-id: <reviewed localized unit label>} inside
+# the translation. These labels are covered by that translation's review.
 publication_status: draft
 data_classification: internal
 contains_personal_data: false

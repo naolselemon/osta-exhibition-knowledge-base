@@ -1,0 +1,4084 @@
+records:
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "prms-purpose-faq"
+  system_id: "prms"
+  question: "What is Prison Management System?"
+  answer: "Consolidate correctional-facility records in a shared regional system."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Mosaajii Bulchiinsa Manneen Sirreessaa jechuun maali?"
+      answer: "Mosaajiin Bulchiinsa Manneen Sirreessaa (PRMS) ragaa manneen sirreessaa naannoo hunda bakka tokkotti qindeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የማረሚያ ቤቶች አስተዳደር ስርዓት ምንድን ነው?"
+      answer: "የክልሉን ሁሉንም የማረሚያ ቤቶች መረጃ በአንድ ቦታ ያሰባስባል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+
+
+
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "prms-beneficiaries-faq"
+  system_id: "prms"
+  question: "Who is Prison Management System intended to serve?"
+  answer: "corrections administrators; correctional facilities"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Mosaajii Bulchiinsa Manneen Sirreessaa eenyuuf qophaa'e?"
+      answer: "bulchitoota manneen sirreessaa; manneen sirreessaa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የማረሚያ ቤቶች አስተዳደር ስርዓት ለማን የታሰበ ነው?"
+      answer: "የማረሚያ ቤቶች አስተዳዳሪዎች; የማረሚያ ቤቶች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "prms-capabilities-faq"
+  system_id: "prms"
+  question: "What services does Prison Management System support?"
+  answer: "Correctional record registration: Registration and centralized management of correctional-facility records."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Mosaajii Bulchiinsa Manneen Sirreessaa tajaajiloota kam deeggera?"
+      answer: "Mosaajiin Bulchiinsa Manneen Sirreessaa (PRMS) ragaa manneen sirreessaa naannoo hunda bakka tokkotti qindeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የማረሚያ ቤቶች አስተዳደር ስርዓት የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "የክልሉን ሁሉንም የማረሚያ ቤቶች መረጃ በአንድ ቦታ ያሰባስባል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "uemis-purpose-faq"
+  system_id: "uemis"
+  question: "What is Urban Employment Management Information System?"
+  answer: "Register young people participating in urban employment services."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Hojii Magaalaa jechuun maali?"
+      answer: "Dargaggoota tajaajila hojii magaalaa keessatti hirmaatan galmeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የከተማ ሥራ ስምሪት አስተዳደር መረጃ ስርዓት ምንድን ነው?"
+      answer: "በከተማ የሥራ አገልግሎቶች የሚሳተፉ ወጣቶችን ይመዘግባል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "uemis-beneficiaries-faq"
+  system_id: "uemis"
+  question: "Who is Urban Employment Management Information System intended to serve?"
+  answer: "young people; employment-service administrators"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Hojii Magaalaa eenyuuf qophaa'e?"
+      answer: "dargaggoota; bulchitoota tajaajila hojii"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የከተማ ሥራ ስምሪት አስተዳደር መረጃ ስርዓት ለማን የታሰበ ነው?"
+      answer: "ወጣቶች; የሥራ አገልግሎት አስተዳዳሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "uemis-capabilities-faq"
+  system_id: "uemis"
+  question: "What services does Urban Employment Management Information System support?"
+  answer: "Youth registration: Registration of young people in the employment management system."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Hojii Magaalaa tajaajiloota kam deeggera?"
+      answer: "Dargaggoota tajaajila hojii magaalaa keessatti hirmaatan galmeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የከተማ ሥራ ስምሪት አስተዳደር መረጃ ስርዓት የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "በከተማ የሥራ አገልግሎቶች የሚሳተፉ ወጣቶችን ይመዘግባል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "business-automation-purpose-faq"
+  system_id: "business-automation"
+  question: "What is Business Automation?"
+  answer: "Organize member records and automate supporting administrative work."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Ofumaan Hojii Daldalaa jechuun maali?"
+      answer: "Ragaa miseensotaa qindeessuu fi hojiiwwan bulchiinsaa deeggaran ofumaan raawwachuu."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የንግድ ሥራ አውቶሜሽን ምንድን ነው?"
+      answer: "የአባላት መዝገቦችን ያደራጃል እና ተያያዥ የአስተዳደር ሥራዎችን በራስ-ሰር ያከናውናል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "business-automation-beneficiaries-faq"
+  system_id: "business-automation"
+  question: "Who is Business Automation intended to serve?"
+  answer: "member-based organizations; administrators"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Ofumaan Hojii Daldalaa eenyuuf qophaa'e?"
+      answer: "dhaabbilee miseensota irratti hundaa’an; bulchitoota"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የንግድ ሥራ አውቶሜሽን ለማን የታሰበ ነው?"
+      answer: "በአባልነት ላይ የተመሠረቱ ድርጅቶች; አስተዳዳሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "business-automation-capabilities-faq"
+  system_id: "business-automation"
+  question: "What services does Business Automation support?"
+  answer: "Member record organization: Structured management of organizational member records."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Ofumaan Hojii Daldalaa tajaajiloota kam deeggera?"
+      answer: "Ragaa miseensotaa qindeessuu fi hojiiwwan bulchiinsaa deeggaran ofumaan raawwachuu."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የንግድ ሥራ አውቶሜሽን የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "የአባላት መዝገቦችን ያደራጃል እና ተያያዥ የአስተዳደር ሥራዎችን በራስ-ሰር ያከናውናል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "digital-kebele-government-purpose-faq"
+  system_id: "digital-kebele-government"
+  question: "What is Digital Kebele Government?"
+  answer: "Digitalize kebele-level government service delivery and administration."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Bulchiinsa Keebelee Dijitaalaa jechuun maali?"
+      answer: "Tajaajila mootummaa fi bulchiinsa sadarkaa keebelee dijitaaleessuu."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "ዲጂታል ቀበሌ መንግሥት ምንድን ነው?"
+      answer: "በቀበሌ ደረጃ የመንግሥት አገልግሎት አሰጣጥንና አስተዳደርን ዲጂታል ማድረግ።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "digital-kebele-government-beneficiaries-faq"
+  system_id: "digital-kebele-government"
+  question: "Who is Digital Kebele Government intended to serve?"
+  answer: "residents; kebele staff; public-service administrators"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Bulchiinsa Keebelee Dijitaalaa eenyuuf qophaa'e?"
+      answer: "jiraattota; hojjettoota keebelee; bulchitoota tajaajila uummataa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "ዲጂታል ቀበሌ መንግሥት ለማን የታሰበ ነው?"
+      answer: "ነዋሪዎች; የቀበሌ ሠራተኞች; የሕዝብ አገልግሎት አስተዳዳሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "court-case-management-prosecutor-sims-purpose-faq"
+  system_id: "court-case-management-prosecutor-sims"
+  question: "What is Court Case Management and Prosecutor SIMS?"
+  answer: "Support digital court-case and prosecution information management."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Dhimmoota Mana Murtii fi SIMS Abbaa Alangaa jechuun maali?"
+      answer: "Bulchiinsa dijitaalaa dhimma mana murtii fi odeeffannoo abbaa alangaa deeggaruu."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የፍርድ ቤት ጉዳዮች አስተዳደርና የዐቃቤ ሕግ SIMS ምንድን ነው?"
+      answer: "የፍርድ ቤት ጉዳዮችንና የዐቃቤ ሕግ መረጃን በዲጂታል መልኩ ለማስተዳደር ይረዳል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "court-case-management-prosecutor-sims-beneficiaries-faq"
+  system_id: "court-case-management-prosecutor-sims"
+  question: "Who is Court Case Management and Prosecutor SIMS intended to serve?"
+  answer: "court staff; prosecutors; justice administrators"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Dhimmoota Mana Murtii fi SIMS Abbaa Alangaa eenyuuf qophaa'e?"
+      answer: "hojjettoota mana murtii; abbootii alangaa; bulchitoota haqaa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የፍርድ ቤት ጉዳዮች አስተዳደርና የዐቃቤ ሕግ SIMS ለማን የታሰበ ነው?"
+      answer: "የፍርድ ቤት ሠራተኞች; አቃቤ ሕግ ባለሙያዎች; የፍትሕ አስተዳዳሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "civil-registration-dms-purpose-faq"
+  system_id: "civil-registration-dms"
+  question: "What is Civil Registration Document Management System?"
+  answer: "Convert civil-registration files into managed digital records with searchable metadata."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Sanadoota Galmee Sivilii jechuun maali?"
+      answer: "Faayiloota galmee sivilii gara galmeewwan dijitaalaa metadata barbaadamu qabanitti jijjiiruu."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የሲቪል ምዝገባ ሰነዶች አስተዳደር ስርዓት ምንድን ነው?"
+      answer: "የሲቪል ምዝገባ ፋይሎችን ሊፈለጉ ከሚችሉ ሜታዳታ ጋር ወደ የተደራጁ ዲጂታል መዝገቦች ይቀይራል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "civil-registration-dms-beneficiaries-faq"
+  system_id: "civil-registration-dms"
+  question: "Who is Civil Registration Document Management System intended to serve?"
+  answer: "civil-registration staff; public-service administrators; residents"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Sanadoota Galmee Sivilii eenyuuf qophaa'e?"
+      answer: "hojjettoota galmee sivilii; bulchitoota tajaajila uummataa; jiraattota"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የሲቪል ምዝገባ ሰነዶች አስተዳደር ስርዓት ለማን የታሰበ ነው?"
+      answer: "የሲቪል ምዝገባ ሠራተኞች; የሕዝብ አገልግሎት አስተዳዳሪዎች; ነዋሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "civil-registration-dms-capabilities-faq"
+  system_id: "civil-registration-dms"
+  question: "What services does Civil Registration Document Management System support?"
+  answer: "Civil registration file management: Scanning, upload, metadata capture, and management of civil-registration files."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Sanadoota Galmee Sivilii tajaajiloota kam deeggera?"
+      answer: "Faayiloota galmee sivilii gara galmeewwan dijitaalaa metadata barbaadamu qabanitti jijjiiruu."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የሲቪል ምዝገባ ሰነዶች አስተዳደር ስርዓት የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "የሲቪል ምዝገባ ፋይሎችን ሊፈለጉ ከሚችሉ ሜታዳታ ጋር ወደ የተደራጁ ዲጂታል መዝገቦች ይቀይራል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "woredanet-vpn-purpose-faq"
+  system_id: "woredanet-vpn"
+  question: "What is WoredaNet / VPN Connectivity?"
+  answer: "Connect regional, zonal, city, woreda, and kebele government offices for shared digital access and services."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Walqunnamtii WoredaNet / VPN jechuun maali?"
+      answer: "Waajjiraalee mootummaa naannoo, godinaa, magaalaa, aanaa fi ganda tajaajiloota dijitaalaa waloo fi qaqqabummaa dijitaalaaf walqunnamsiisa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የወረዳኔት / ቪፒኤን ግንኙነት ምንድን ነው?"
+      answer: "የክልል፣ የዞን፣ የከተማ፣ የወረዳ እና የቀበሌ የመንግሥት ጽሕፈት ቤቶችን ለጋራ ዲጂታል ተደራሽነትና አገልግሎቶች ያገናኛል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "woredanet-vpn-beneficiaries-faq"
+  system_id: "woredanet-vpn"
+  question: "Who is WoredaNet / VPN Connectivity intended to serve?"
+  answer: "regional offices; zonal offices; city offices; woreda offices; kebele offices"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Walqunnamtii WoredaNet / VPN eenyuuf qophaa'e?"
+      answer: "waajjiraalee naannoo; waajjiraalee godinaa; waajjiraalee magaalaa; waajjiraalee aanaa; waajjiraalee ganda"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የወረዳኔት / ቪፒኤን ግንኙነት ለማን የታሰበ ነው?"
+      answer: "የክልል ጽሕፈት ቤቶች; የዞን ጽሕፈት ቤቶች; የከተማ ጽሕፈት ቤቶች; የወረዳ ጽሕፈት ቤቶች; የቀበሌ ጽሕፈት ቤቶች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "woredanet-vpn-capabilities-faq"
+  system_id: "woredanet-vpn"
+  question: "What services does WoredaNet / VPN Connectivity support?"
+  answer: "Government internet access: Internet access for connected government offices.; Government video conferencing: Video-conferencing service across connected offices.; Shared digital-services connectivity: Network access for shared government digital services."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Walqunnamtii WoredaNet / VPN tajaajiloota kam deeggera?"
+      answer: "Waajjiraalee mootummaa naannoo, godinaa, magaalaa, aanaa fi ganda tajaajiloota dijitaalaa waloo fi qaqqabummaa dijitaalaaf walqunnamsiisa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የወረዳኔት / ቪፒኤን ግንኙነት የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "የክልል፣ የዞን፣ የከተማ፣ የወረዳ እና የቀበሌ የመንግሥት ጽሕፈት ቤቶችን ለጋራ ዲጂታል ተደራሽነትና አገልግሎቶች ያገናኛል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "broadband-connectivity-purpose-faq"
+  system_id: "broadband-connectivity"
+  question: "What is Broadband Connectivity?"
+  answer: "Expand fiber-backed and mobile broadband access across the region."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Walqunnamtii Baandii Bal'aa jechuun maali?"
+      answer: "Naannicha keessatti qaqqabummaa baandii bal’aa faayibaraa fi moobaayiliin deeggarame babal’isa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የብሮድባንድ ግንኙነት ምንድን ነው?"
+      answer: "በክልሉ ውስጥ በፋይበር እና በሞባይል ኔትወርክ የተደገፈ የብሮድባንድ ተደራሽነትን ያስፋፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "broadband-connectivity-beneficiaries-faq"
+  system_id: "broadband-connectivity"
+  question: "Who is Broadband Connectivity intended to serve?"
+  answer: "residents; public institutions; businesses; digital-service users"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Walqunnamtii Baandii Bal'aa eenyuuf qophaa'e?"
+      answer: "jiraattota; dhaabbilee uummataa; dhaabbilee daldalaa; fayyadamtoota tajaajila dijitaalaa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የብሮድባንድ ግንኙነት ለማን የታሰበ ነው?"
+      answer: "ነዋሪዎች; የሕዝብ ተቋማት; ንግዶች; የዲጂታል አገልግሎት ተጠቃሚዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "broadband-connectivity-capabilities-faq"
+  system_id: "broadband-connectivity"
+  question: "What services does Broadband Connectivity support?"
+  answer: "Broadband access: Public mobile and broadband connectivity supported by fiber and last-mile networks."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Walqunnamtii Baandii Bal'aa tajaajiloota kam deeggera?"
+      answer: "Naannicha keessatti qaqqabummaa baandii bal’aa faayibaraa fi moobaayiliin deeggarame babal’isa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የብሮድባንድ ግንኙነት የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "በክልሉ ውስጥ በፋይበር እና በሞባይል ኔትወርክ የተደገፈ የብሮድባንድ ተደራሽነትን ያስፋፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "oromia-regional-data-center-purpose-faq"
+  system_id: "oromia-regional-data-center"
+  question: "What is Oromia Regional State Data Center?"
+  answer: "Host regional digital-transformation workloads through a tiered hyper-converged data-center facility."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Wiirtuu Deetaa Mootummaa Naannoo Oromiyaa jechuun maali?"
+      answer: "Hojiiwwan jijjiirama dijitaalaa naannoo sanaa wiirtuu deetaa sadarkaa adda addaa fi walitti-qindaa’e irratti keessummeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኦሮሚያ ክልል የመረጃ ማዕከል ምንድን ነው?"
+      answer: "የክልሉን የዲጂታል ለውጥ የሥራ ጫናዎች በደረጃ በተደራጀ ሃይፐር-ኮንቨርጅድ የመረጃ ማዕከል መሠረተ ልማት ላይ ያስተናግዳል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "oromia-regional-data-center-beneficiaries-faq"
+  system_id: "oromia-regional-data-center"
+  question: "Who is Oromia Regional State Data Center intended to serve?"
+  answer: "regional government institutions; digital-service operators; public-service users"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Wiirtuu Deetaa Mootummaa Naannoo Oromiyaa eenyuuf qophaa'e?"
+      answer: "dhaabbilee mootummaa naannoo; raawwachiistota tajaajila dijitaalaa; fayyadamtoota tajaajila uummataa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኦሮሚያ ክልል የመረጃ ማዕከል ለማን የታሰበ ነው?"
+      answer: "የክልሉ የመንግሥት ተቋማት; የዲጂታል አገልግሎት ኦፕሬተሮች; የሕዝብ አገልግሎት ተጠቃሚዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "oromia-regional-data-center-capabilities-faq"
+  system_id: "oromia-regional-data-center"
+  question: "What services does Oromia Regional State Data Center support?"
+  answer: "Regional service hosting: Hosting for regional digital-transformation services.; Data storage: Central and edge storage for hosted workloads.; Virtualization: Virtualized compute and storage infrastructure."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Wiirtuu Deetaa Mootummaa Naannoo Oromiyaa tajaajiloota kam deeggera?"
+      answer: "Hojiiwwan jijjiirama dijitaalaa naannoo sanaa wiirtuu deetaa sadarkaa adda addaa fi walitti-qindaa’e irratti keessummeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኦሮሚያ ክልል የመረጃ ማዕከል የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "የክልሉን የዲጂታል ለውጥ የሥራ ጫናዎች በደረጃ በተደራጀ ሃይፐር-ኮንቨርጅድ የመረጃ ማዕከል መሠረተ ልማት ላይ ያስተናግዳል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "regional-document-digitization-purpose-faq"
+  system_id: "regional-document-digitization"
+  question: "What is Regional Document Digitization and Records Conversion?"
+  answer: "Convert paper archives into searchable digital records through bulk scanning, capture, and indexing."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Dijitaaleessuu Sanadootaa fi Jijjiirraa Galmeewwan Naannoo jechuun maali?"
+      answer: "Kuusaa waraqaalee gara galmeewwan dijitaalaa barbaadamuun barbaadamanitti, iskaaniingii, qabannaa fi indeeksii baay’inaan fayyadamuun jijjiira."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የክልሉ ሰነድ ዲጂታላይዜሽንና የመዝገብ ለውጥ ምንድን ነው?"
+      answer: "በከፍተኛ መጠን በመስካን፣ በመቅረጽ እና በመጠቆሚያ በመጠቀም የወረቀት ማህደሮችን ወደ ሊፈለጉ የሚችሉ ዲጂታል መዝገቦች ይቀይራል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "regional-document-digitization-beneficiaries-faq"
+  system_id: "regional-document-digitization"
+  question: "Who is Regional Document Digitization and Records Conversion intended to serve?"
+  answer: "government institutions; records administrators; public-service users"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Dijitaaleessuu Sanadootaa fi Jijjiirraa Galmeewwan Naannoo eenyuuf qophaa'e?"
+      answer: "dhaabbilee mootummaa; bulchitoota galmeewwanii; fayyadamtoota tajaajila uummataa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የክልሉ ሰነድ ዲጂታላይዜሽንና የመዝገብ ለውጥ ለማን የታሰበ ነው?"
+      answer: "የመንግሥት ተቋማት; የመዝገብ አስተዳዳሪዎች; የሕዝብ አገልግሎት ተጠቃሚዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "regional-document-digitization-capabilities-faq"
+  system_id: "regional-document-digitization"
+  question: "What services does Regional Document Digitization and Records Conversion support?"
+  answer: "Bulk archive scanning: High-volume scanning of paper archives.; Digital document capture: Capture of scanned documents using high-volume scanners.; Searchable records indexing: Indexing documents into a searchable records-management dashboard."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Dijitaaleessuu Sanadootaa fi Jijjiirraa Galmeewwan Naannoo tajaajiloota kam deeggera?"
+      answer: "Kuusaa waraqaalee gara galmeewwan dijitaalaa barbaadamuun barbaadamanitti, iskaaniingii, qabannaa fi indeeksii baay’inaan fayyadamuun jijjiira."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የክልሉ ሰነድ ዲጂታላይዜሽንና የመዝገብ ለውጥ የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "በከፍተኛ መጠን በመስካን፣ በመቅረጽ እና በመጠቆሚያ በመጠቀም የወረቀት ማህደሮችን ወደ ሊፈለጉ የሚችሉ ዲጂታል መዝገቦች ይቀይራል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "wumis-purpose-faq"
+  system_id: "wumis"
+  question: "What is Web-based Urban Management Information System?"
+  answer: "Support web-based urban management and map-based land-information access."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Odeeffannoo Bulchiinsa Magaalaa Weebii irratti Hundaa’e jechuun maali?"
+      answer: "Bulchiinsa magaalaa weebii irratti hundaa’e fi odeeffannoo lafaa kaartaa irratti hundaa’e argamsiisuuf deeggera."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "በድረ-ገጽ ላይ የተመሠረተ የከተማ አስተዳደር የመረጃ ሥርዓት ምንድን ነው?"
+      answer: "በድረ-ገጽ ላይ የተመሠረተ የከተማ አስተዳደርን እና በካርታ ላይ የተመሠረተ የመሬት መረጃ ተደራሽነትን ይደግፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "wumis-beneficiaries-faq"
+  system_id: "wumis"
+  question: "Who is Web-based Urban Management Information System intended to serve?"
+  answer: "urban-planning administrators; land administrators; residents"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Odeeffannoo Bulchiinsa Magaalaa Weebii irratti Hundaa’e eenyuuf qophaa'e?"
+      answer: "bulchitoota karoora magaalaa; bulchitoota lafaa; jiraattota"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "በድረ-ገጽ ላይ የተመሠረተ የከተማ አስተዳደር የመረጃ ሥርዓት ለማን የታሰበ ነው?"
+      answer: "የከተማ ፕላን አስተዳዳሪዎች; የመሬት አስተዳዳሪዎች; ነዋሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "wumis-capabilities-faq"
+  system_id: "wumis"
+  question: "What services does Web-based Urban Management Information System support?"
+  answer: "Urban management information: Web-based access to urban-management information.; GIS map view: Map-based viewing of land information."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Odeeffannoo Bulchiinsa Magaalaa Weebii irratti Hundaa’e tajaajiloota kam deeggera?"
+      answer: "Bulchiinsa magaalaa weebii irratti hundaa’e fi odeeffannoo lafaa kaartaa irratti hundaa’e argamsiisuuf deeggera."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "በድረ-ገጽ ላይ የተመሠረተ የከተማ አስተዳደር የመረጃ ሥርዓት የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "በድረ-ገጽ ላይ የተመሠረተ የከተማ አስተዳደርን እና በካርታ ላይ የተመሠረተ የመሬት መረጃ ተደራሽነትን ይደግፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "rprs-purpose-faq"
+  system_id: "rprs"
+  question: "What is Real Property Registration System?"
+  answer: "Register real property and manage parcel records through digital land-administration workflows."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Galmeessa Qabeenya Dhaabbataa jechuun maali?"
+      answer: "Qabeenya dhaabbataa galmeessuu fi galmeewwan paarselii adeemsa bulchiinsa lafaa dijitaalaa keessatti bulcha."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የሪል እስቴት ምዝገባ ሥርዓት ምንድን ነው?"
+      answer: "የሪል እስቴት ንብረቶችን ይመዘግባል እና የፓርሴል መዝገቦችን በዲጂታል የመሬት አስተዳደር ሂደቶች ያስተዳድራል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "rprs-beneficiaries-faq"
+  system_id: "rprs"
+  question: "Who is Real Property Registration System intended to serve?"
+  answer: "land administrators; property holders; residents"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Galmeessa Qabeenya Dhaabbataa eenyuuf qophaa'e?"
+      answer: "bulchitoota lafaa; abbootii qabeenyaa; jiraattota"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የሪል እስቴት ምዝገባ ሥርዓት ለማን የታሰበ ነው?"
+      answer: "የመሬት አስተዳዳሪዎች; የንብረት ባለቤቶች; ነዋሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "rprs-capabilities-faq"
+  system_id: "rprs"
+  question: "What services does Real Property Registration System support?"
+  answer: "Real property registration: Registration of real property records.; Digital certificate issuance: Issuance of property certificates.; Parcel migration: Migration of parcel records into the system."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Galmeessa Qabeenya Dhaabbataa tajaajiloota kam deeggera?"
+      answer: "Qabeenya dhaabbataa galmeessuu fi galmeewwan paarselii adeemsa bulchiinsa lafaa dijitaalaa keessatti bulcha."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የሪል እስቴት ምዝገባ ሥርዓት የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "የሪል እስቴት ንብረቶችን ይመዘግባል እና የፓርሴል መዝገቦችን በዲጂታል የመሬት አስተዳደር ሂደቶች ያስተዳድራል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-land-services-purpose-faq"
+  system_id: "e-land-services"
+  question: "What is E-Land Services?"
+  answer: "Provide citizen-facing transactional land services through portals and geoportal interfaces."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Lafaa Elektiroonikaa jechuun maali?"
+      answer: "Tajaajiloota lafaa daldalaa lammilee ilaallatan poortaalii fi intarfeysii ji’oo-poritaalii irratti hundaa’een dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኢ-መሬት አገልግሎቶች ምንድን ነው?"
+      answer: "ዜጎችን የሚመለከቱ የመሬት ግብይት አገልግሎቶችን በፖርታሎች እና በጂኦፖርታል በይነገጾች ይሰጣል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-land-services-beneficiaries-faq"
+  system_id: "e-land-services"
+  question: "Who is E-Land Services intended to serve?"
+  answer: "landholders; property applicants; residents; land administrators"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Lafaa Elektiroonikaa eenyuuf qophaa'e?"
+      answer: "abbootii lafaa; iyyattoota qabeenyaa; jiraattota; bulchitoota lafaa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኢ-መሬት አገልግሎቶች ለማን የታሰበ ነው?"
+      answer: "የመሬት ይዞታ ባለቤቶች; የንብረት አመልካቾች; ነዋሪዎች; የመሬት አስተዳዳሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-land-services-capabilities-faq"
+  system_id: "e-land-services"
+  question: "What services does E-Land Services support?"
+  answer: "Leasehold registration: Online leasehold registration.; Old possession registration: Registration of old possession records.; Urban farmland holding registration: Registration of urban farmland holdings.; Landholding without use-right registration: Registration of landholding without a use right.; Condominium-unit registration: Registration of condominium units.; Sublease or subsequent registration: Registration of subleases or subsequent transactions.; Mortgage registration: Registration of mortgages.; Mortgage cancellation: Cancellation of mortgages.; Court injunction registration: Registration of court injunctions.; Court injunction cancellation: Cancellation of court injunctions.; General restriction registration: Registration of general restrictions.; General restriction cancellation: Cancellation of general restrictions."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Lafaa Elektiroonikaa tajaajiloota kam deeggera?"
+      answer: "Tajaajiloota lafaa daldalaa lammilee ilaallatan poortaalii fi intarfeysii ji’oo-poritaalii irratti hundaa’een dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኢ-መሬት አገልግሎቶች የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "ዜጎችን የሚመለከቱ የመሬት ግብይት አገልግሎቶችን በፖርታሎች እና በጂኦፖርታል በይነገጾች ይሰጣል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-health-services-purpose-faq"
+  system_id: "e-health-services"
+  question: "What is E-Health Services?"
+  answer: "Provide digital health information, clinical, appointment, document, and licensing services."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Fayyaa Elektiroonikaa jechuun maali?"
+      answer: "Odeeffannoo fayyaa, tajaajila kilinikaa, beellama, sanadootaa fi hayyama fayyaa dijitaalaan dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኢ-ጤና አገልግሎቶች ምንድን ነው?"
+      answer: "ዲጂታል የጤና መረጃ፣ ክሊኒካዊ፣ የቀጠሮ፣ የሰነድ እና የፈቃድ አገልግሎቶችን ይሰጣል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-health-services-beneficiaries-faq"
+  system_id: "e-health-services"
+  question: "Who is E-Health Services intended to serve?"
+  answer: "patients; health workers; health administrators; health institutions"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Fayyaa Elektiroonikaa eenyuuf qophaa'e?"
+      answer: "dhukkubsattoota; hojjettoota fayyaa; bulchitoota fayyaa; dhaabbilee fayyaa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኢ-ጤና አገልግሎቶች ለማን የታሰበ ነው?"
+      answer: "ታካሚዎች; የጤና ሠራተኞች; የጤና አስተዳዳሪዎች; የጤና ተቋማት"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-health-services-capabilities-faq"
+  system_id: "e-health-services"
+  question: "What services does E-Health Services support?"
+  answer: "Electronic care health service: Digital health-care service.; Electronic appointments: Digital appointment scheduling.; Health document management: Digital management of health documents.; Electronic DHIMS: Digital health-information management service.; Electronic health license: Digital health licensing service."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Fayyaa Elektiroonikaa tajaajiloota kam deeggera?"
+      answer: "Odeeffannoo fayyaa, tajaajila kilinikaa, beellama, sanadootaa fi hayyama fayyaa dijitaalaan dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኢ-ጤና አገልግሎቶች የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "ዲጂታል የጤና መረጃ፣ ክሊኒካዊ፣ የቀጠሮ፣ የሰነድ እና የፈቃድ አገልግሎቶችን ይሰጣል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "smartcare-purpose-faq"
+  system_id: "smartcare"
+  question: "What is SmartCare EHR / Hospital System?"
+  answer: "Support electronic health records and hospital information management in the regional digital-health ecosystem."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna SmartCare EHR / Hospitaalaa jechuun maali?"
+      answer: "Sirna ikoo fayyaa dijitaalaa naannoo keessatti galmee fayyaa elektiroonikaa fi bulchiinsa odeeffannoo hospitaalaa deeggera."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "ስማርትኬር EHR / የሆስፒታል ሥርዓት ምንድን ነው?"
+      answer: "በክልሉ ዲጂታል የጤና ሥነ-ምህዳር ውስጥ ኤሌክትሮኒክ የጤና መዝገቦችን እና የሆስፒታል መረጃ አስተዳደርን ይደግፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "smartcare-beneficiaries-faq"
+  system_id: "smartcare"
+  question: "Who is SmartCare EHR / Hospital System intended to serve?"
+  answer: "patients; clinicians; hospital administrators"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna SmartCare EHR / Hospitaalaa eenyuuf qophaa'e?"
+      answer: "dhukkubsattoota; ogeeyyii fayyaa; bulchitoota hospitaalaa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "ስማርትኬር EHR / የሆስፒታል ሥርዓት ለማን የታሰበ ነው?"
+      answer: "ታካሚዎች; የጤና ባለሙያዎች; የሆስፒታል አስተዳዳሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "echis-purpose-faq"
+  system_id: "echis"
+  question: "What is Electronic Community Health Information System?"
+  answer: "Support electronic community-health information management."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Odeeffannoo Fayyaa Hawaasaa Elektiroonikaa jechuun maali?"
+      answer: "Bulchiinsa odeeffannoo fayyaa hawaasaa elektiroonikaa deeggera."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኤሌክትሮኒክ ማህበረሰብ ጤና መረጃ ሥርዓት ምንድን ነው?"
+      answer: "ኤሌክትሮኒክ የማህበረሰብ ጤና መረጃ አስተዳደርን ይደግፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "echis-beneficiaries-faq"
+  system_id: "echis"
+  question: "Who is Electronic Community Health Information System intended to serve?"
+  answer: "community-health workers; health administrators; residents"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Odeeffannoo Fayyaa Hawaasaa Elektiroonikaa eenyuuf qophaa'e?"
+      answer: "hojjettoota fayyaa hawaasaa; bulchitoota fayyaa; jiraattota"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኤሌክትሮኒክ ማህበረሰብ ጤና መረጃ ሥርዓት ለማን የታሰበ ነው?"
+      answer: "የማኅበረሰብ ጤና ሠራተኞች; የጤና አስተዳዳሪዎች; ነዋሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "dagu-purpose-faq"
+  system_id: "dagu"
+  question: "What is Dagu Health Logistics System?"
+  answer: "Support digital health-logistics information management."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Loojistikii Fayyaa Dagu jechuun maali?"
+      answer: "Bulchiinsa odeeffannoo loojistikii fayyaa dijitaalaa deeggera."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የዳጉ የጤና ሎጂስቲክስ ሥርዓት ምንድን ነው?"
+      answer: "ዲጂታል የጤና ሎጂስቲክስ መረጃ አስተዳደርን ይደግፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "dagu-beneficiaries-faq"
+  system_id: "dagu"
+  question: "Who is Dagu Health Logistics System intended to serve?"
+  answer: "health-logistics administrators; health institutions"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Loojistikii Fayyaa Dagu eenyuuf qophaa'e?"
+      answer: "bulchitoota loojistikii fayyaa; dhaabbilee fayyaa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የዳጉ የጤና ሎጂስቲክስ ሥርዓት ለማን የታሰበ ነው?"
+      answer: "የጤና ሎጂስቲክስ አስተዳዳሪዎች; የጤና ተቋማት"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "mbrana-purpose-faq"
+  system_id: "mbrana"
+  question: "What is mBrana Mobile Health Application?"
+  answer: "Provide a mobile health-information application within the regional digital-health ecosystem."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Appilikeeshinii Fayyaa Moobaayilii mBrana jechuun maali?"
+      answer: "Sirna ikoo fayyaa dijitaalaa naannoo keessatti appilikeeshinii odeeffannoo fayyaa moobaayilii dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "mBrana የሞባይል ጤና መተግበሪያ ምንድን ነው?"
+      answer: "በክልሉ ዲጂታል የጤና ሥነ-ምህዳር ውስጥ የሞባይል የጤና መረጃ መተግበሪያን ይሰጣል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "mbrana-beneficiaries-faq"
+  system_id: "mbrana"
+  question: "Who is mBrana Mobile Health Application intended to serve?"
+  answer: "residents; health workers; health administrators"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Appilikeeshinii Fayyaa Moobaayilii mBrana eenyuuf qophaa'e?"
+      answer: "jiraattota; hojjettoota fayyaa; bulchitoota fayyaa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "mBrana የሞባይል ጤና መተግበሪያ ለማን የታሰበ ነው?"
+      answer: "ነዋሪዎች; የጤና ሠራተኞች; የጤና አስተዳዳሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-education-services-purpose-faq"
+  system_id: "e-education-services"
+  question: "What is E-Education Services?"
+  answer: "Provide digital education services for learning, enrollment, examination scheduling, and educational resources."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Barnootaa Elektiroonikaa jechuun maali?"
+      answer: "Tajaajiloota barnootaa dijitaalaa barnoota, galmee, sagantaa qormaataa fi qabeenya barnootaaf dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኢ-ትምህርት አገልግሎቶች ምንድን ነው?"
+      answer: "ለትምህርት፣ ምዝገባ፣ የፈተና መርሐ-ግብር እና የትምህርት ሀብቶች ዲጂታል የትምህርት አገልግሎቶችን ይሰጣል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-education-services-beneficiaries-faq"
+  system_id: "e-education-services"
+  question: "Who is E-Education Services intended to serve?"
+  answer: "students; teachers; schools; education administrators"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Barnootaa Elektiroonikaa eenyuuf qophaa'e?"
+      answer: "barattoota; barsiisota; manneen barnootaa; bulchitoota barnootaa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኢ-ትምህርት አገልግሎቶች ለማን የታሰበ ነው?"
+      answer: "ተማሪዎች; መምህራን; ትምህርት ቤቶች; የትምህርት አስተዳዳሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-education-services-capabilities-faq"
+  system_id: "e-education-services"
+  question: "What services does E-Education Services support?"
+  answer: "E-learning platforms: Digital learning platforms.; Student enrollment systems: Digital student enrollment.; Online examination scheduling: Digital examination scheduling.; Digital library: Grade-level PDF learning resources."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Barnootaa Elektiroonikaa tajaajiloota kam deeggera?"
+      answer: "Tajaajiloota barnootaa dijitaalaa barnoota, galmee, sagantaa qormaataa fi qabeenya barnootaaf dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኢ-ትምህርት አገልግሎቶች የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "ለትምህርት፣ ምዝገባ፣ የፈተና መርሐ-ግብር እና የትምህርት ሀብቶች ዲጂታል የትምህርት አገልግሎቶችን ይሰጣል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "dtrip-admin-purpose-faq"
+  system_id: "dtrip-admin"
+  question: "What is DTrip Transport Administration System?"
+  answer: "Support public-transport administration, route operations, passenger services, and e-ticketing."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Geejjibaa DTrip jechuun maali?"
+      answer: "Bulchiinsa geejjibaa uummataa, hojii daandiiwwanii, tajaajila imaltootaa fi tikkeeta elektiroonikaa deeggera."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "DTrip የመጓጓዣ አስተዳደር ሥርዓት ምንድን ነው?"
+      answer: "የሕዝብ መጓጓዣ አስተዳደርን፣ የመስመር ሥራዎችን፣ የተሳፋሪ አገልግሎቶችን እና ኤሌክትሮኒክ ትኬትን ይደግፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "dtrip-admin-beneficiaries-faq"
+  system_id: "dtrip-admin"
+  question: "Who is DTrip Transport Administration System intended to serve?"
+  answer: "passengers; transport operators; transport administrators"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Geejjibaa DTrip eenyuuf qophaa'e?"
+      answer: "imaltoota; raawwachiistota geejjibaa; bulchitoota geejjibaa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "DTrip የመጓጓዣ አስተዳደር ሥርዓት ለማን የታሰበ ነው?"
+      answer: "ተሳፋሪዎች; የመጓጓዣ አሠሪዎች; የመጓጓዣ አስተዳዳሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "dtrip-admin-capabilities-faq"
+  system_id: "dtrip-admin"
+  question: "What services does DTrip Transport Administration System support?"
+  answer: "Online vehicle registration: Digital vehicle registration.; Driver's-license application and renewal: Digital driver's-license services.; Vehicle inspection scheduling: Digital inspection scheduling.; E-ticket: Digital passenger ticketing."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Geejjibaa DTrip tajaajiloota kam deeggera?"
+      answer: "Bulchiinsa geejjibaa uummataa, hojii daandiiwwanii, tajaajila imaltootaa fi tikkeeta elektiroonikaa deeggera."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "DTrip የመጓጓዣ አስተዳደር ሥርዓት የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "የሕዝብ መጓጓዣ አስተዳደርን፣ የመስመር ሥራዎችን፣ የተሳፋሪ አገልግሎቶችን እና ኤሌክትሮኒክ ትኬትን ይደግፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-vital-event-registration-purpose-faq"
+  system_id: "e-vital-event-registration"
+  question: "What is E-Vital Event Registration Services?"
+  answer: "Digitize birth, marriage, and death registration and certificate issuance."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Galmeessa Taateewwan Jireenyaa Elektiroonikaa jechuun maali?"
+      answer: "Galmee dhalootaa, gaa’elaa fi du’aa akkasumas kenninsa ragaa dijitaaleessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኢ-ወሳኝ ክስተቶች ምዝገባ አገልግሎቶች ምንድን ነው?"
+      answer: "የልደት፣ የጋብቻ እና የሞት ምዝገባን እና የምስክር ወረቀት አሰጣጥን ዲጂታል ያደርጋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-vital-event-registration-beneficiaries-faq"
+  system_id: "e-vital-event-registration"
+  question: "Who is E-Vital Event Registration Services intended to serve?"
+  answer: "residents; civil-registration staff; public-service administrators"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Galmeessa Taateewwan Jireenyaa Elektiroonikaa eenyuuf qophaa'e?"
+      answer: "jiraattota; hojjettoota galmee sivilii; bulchitoota tajaajila uummataa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኢ-ወሳኝ ክስተቶች ምዝገባ አገልግሎቶች ለማን የታሰበ ነው?"
+      answer: "ነዋሪዎች; የሲቪል ምዝገባ ሠራተኞች; የሕዝብ አገልግሎት አስተዳዳሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-vital-event-registration-capabilities-faq"
+  system_id: "e-vital-event-registration"
+  question: "What services does E-Vital Event Registration Services support?"
+  answer: "Online birth registration: Digital birth registration.; Birth-certificate application and issuance: Digital birth-certificate service.; Parent notification: Digital notification for birth registration.; Online marriage application: Digital marriage application.; Marriage-certificate issuance: Digital marriage-certificate service.; Online divorce application: Digital divorce application.; Online death registration: Digital death registration.; Death-certificate issuance: Digital death-certificate service.; Certificate issuance: Digital civil certificate issuance.; Notifications and appeals: Digital notifications and appeals support."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Galmeessa Taateewwan Jireenyaa Elektiroonikaa tajaajiloota kam deeggera?"
+      answer: "Galmee dhalootaa, gaa’elaa fi du’aa akkasumas kenninsa ragaa dijitaaleessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኢ-ወሳኝ ክስተቶች ምዝገባ አገልግሎቶች የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "የልደት፣ የጋብቻ እና የሞት ምዝገባን እና የምስክር ወረቀት አሰጣጥን ዲጂታል ያደርጋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "trade-e-services-purpose-faq"
+  system_id: "trade-e-services"
+  question: "What is Trade E-Services?"
+  answer: "Provide bilingual digital trade licensing, business registration, import, export, and customs-related services."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Daldalaa Elektiroonikaa jechuun maali?"
+      answer: "Tajaajiloota hayyama daldalaa, galmee daldalaa, galtee, ba’ii fi dhimma gumurukaa dijitaalaa Afaan Oromoo fi Ingiliffaan dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የንግድ ኢ-አገልግሎቶች ምንድን ነው?"
+      answer: "በአፋን ኦሮሞ እና በእንግሊዝኛ ዲጂታል የንግድ ፈቃድ፣ የንግድ ምዝገባ፣ የገቢ፣ የወጪ እና ከጉምሩክ ጋር የተያያዙ አገልግሎቶችን ይሰጣል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "trade-e-services-beneficiaries-faq"
+  system_id: "trade-e-services"
+  question: "Who is Trade E-Services intended to serve?"
+  answer: "traders; businesses; trade administrators; customs users"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Daldalaa Elektiroonikaa eenyuuf qophaa'e?"
+      answer: "daldaltoota; dhaabbilee daldalaa; bulchitoota daldalaa; fayyadamtoota gumurukaa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የንግድ ኢ-አገልግሎቶች ለማን የታሰበ ነው?"
+      answer: "ነጋዴዎች; ንግዶች; የንግድ አስተዳዳሪዎች; የጉምሩክ ተጠቃሚዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "trade-e-services-capabilities-faq"
+  system_id: "trade-e-services"
+  question: "What services does Trade E-Services support?"
+  answer: "Online trade-license application: Digital trade-license application.; Business registration: Digital business registration.; License renewal: Digital license renewal.; Market-price information: Digital market-price information.; Trade regulations and compliance guidelines: Digital regulatory guidance.; Online export documentation: Digital export documentation.; Import-permit applications: Digital import-permit applications.; Customs-clearance tracking: Digital customs-clearance tracking."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Daldalaa Elektiroonikaa tajaajiloota kam deeggera?"
+      answer: "Tajaajiloota hayyama daldalaa, galmee daldalaa, galtee, ba’ii fi dhimma gumurukaa dijitaalaa Afaan Oromoo fi Ingiliffaan dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የንግድ ኢ-አገልግሎቶች የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "በአፋን ኦሮሞ እና በእንግሊዝኛ ዲጂታል የንግድ ፈቃድ፣ የንግድ ምዝገባ፣ የገቢ፣ የወጪ እና ከጉምሩክ ጋር የተያያዙ አገልግሎቶችን ይሰጣል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-investment-services-purpose-faq"
+  system_id: "e-investment-services"
+  question: "What is E-Investment?"
+  answer: "Provide digital investment-project registration, licensing, permitting, and advisory services."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Invastimantii Elektiroonikaa jechuun maali?"
+      answer: "Galmee pirojektii invastimantii, hayyama, eeyyama fi gorsa dijitaalaa dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "ኢ-ኢንቨስትመንት ምንድን ነው?"
+      answer: "ዲጂታል የኢንቨስትመንት ፕሮጀክት ምዝገባ፣ ፈቃድ፣ ፍቃደኝነት እና የምክር አገልግሎቶችን ይሰጣል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-investment-services-beneficiaries-faq"
+  system_id: "e-investment-services"
+  question: "Who is E-Investment intended to serve?"
+  answer: "investors; businesses; investment administrators"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Invastimantii Elektiroonikaa eenyuuf qophaa'e?"
+      answer: "invastaroota; dhaabbilee daldalaa; bulchitoota invastimantii"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "ኢ-ኢንቨስትመንት ለማን የታሰበ ነው?"
+      answer: "ኢንቨስተሮች; ንግዶች; የኢንቨስትመንት አስተዳዳሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "e-investment-services-capabilities-faq"
+  system_id: "e-investment-services"
+  question: "What services does E-Investment support?"
+  answer: "Online investment-project registration: Digital investment-project registration.; Investment-license issuance: Digital investment licensing.; Investment-permit renewal: Digital investment-permit renewal.; Online business advisory: Digital business-advisory services."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Invastimantii Elektiroonikaa tajaajiloota kam deeggera?"
+      answer: "Galmee pirojektii invastimantii, hayyama, eeyyama fi gorsa dijitaalaa dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "ኢ-ኢንቨስትመንት የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "ዲጂታል የኢንቨስትመንት ፕሮጀክት ምዝገባ፣ ፈቃድ፣ ፍቃደኝነት እና የምክር አገልግሎቶችን ይሰጣል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "etrade-electronic-single-window-purpose-faq"
+  system_id: "etrade-electronic-single-window"
+  question: "What is Ethiopian Electronic Single Window for Trader?"
+  answer: "Provide a unified interface for multiple trade-facilitation services and workflow functions."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Foddaa Tokkoo Elektiroonikaa Itoophiyaa Daldalaaf jechuun maali?"
+      answer: "Tajaajiloota mijeessa daldalaa fi adeemsa hojii hedduuuf intarfeysii tokko qofa dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኢትዮጵያ የነጋዴዎች ኤሌክትሮኒክ ነጠላ መስኮት ምንድን ነው?"
+      answer: "ለብዙ የንግድ ማመቻቸት አገልግሎቶችና የሥራ ሂደቶች አንድ የተዋሃደ በይነገጽ ይሰጣል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "etrade-electronic-single-window-beneficiaries-faq"
+  system_id: "etrade-electronic-single-window"
+  question: "Who is Ethiopian Electronic Single Window for Trader intended to serve?"
+  answer: "traders; businesses; trade administrators; inspection authorities"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Foddaa Tokkoo Elektiroonikaa Itoophiyaa Daldalaaf eenyuuf qophaa'e?"
+      answer: "daldaltoota; dhaabbilee daldalaa; bulchitoota daldalaa; qaamolee to’annoo"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኢትዮጵያ የነጋዴዎች ኤሌክትሮኒክ ነጠላ መስኮት ለማን የታሰበ ነው?"
+      answer: "ነጋዴዎች; ንግዶች; የንግድ አስተዳዳሪዎች; የቁጥጥር ባለሥልጣናት"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "etrade-electronic-single-window-capabilities-faq"
+  system_id: "etrade-electronic-single-window"
+  question: "What services does Ethiopian Electronic Single Window for Trader support?"
+  answer: "Business module: Business-related trade-facilitation functions.; Bill payment: Digital bill-payment function.; Application and declaration processing: Application and declaration workflow.; Processing status: Application status tracking.; Coordinated inspection: Coordinated inspection workflow.; Reference information: Reference dates"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Foddaa Tokkoo Elektiroonikaa Itoophiyaa Daldalaaf tajaajiloota kam deeggera?"
+      answer: "Tajaajiloota mijeessa daldalaa fi adeemsa hojii hedduuuf intarfeysii tokko qofa dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኢትዮጵያ የነጋዴዎች ኤሌክትሮኒክ ነጠላ መስኮት የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "ለብዙ የንግድ ማመቻቸት አገልግሎቶችና የሥራ ሂደቶች አንድ የተዋሃደ በይነገጽ ይሰጣል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "g2c-e-services-purpose-faq"
+  system_id: "g2c-e-services"
+  question: "What is Government-to-Citizen Digital Service Layer?"
+  answer: "Aggregate citizen-facing digital services across major government sectors."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sadarkaa Tajaajila Dijitaalaa Mootummaa irraa gara Lammileetti jechuun maali?"
+      answer: "Tajaajiloota dijitaalaa lammilee ilaallatan dameewwan mootummaa gurguddoo keessatti walitti qabee dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የመንግሥት-ወደ-ዜጋ ዲጂታል አገልግሎት ንብርብር ምንድን ነው?"
+      answer: "በዋና ዋና የመንግሥት ዘርፎች የዜጎችን ዲጂታል አገልግሎቶች ያጠቃልላል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "g2c-e-services-beneficiaries-faq"
+  system_id: "g2c-e-services"
+  question: "Who is Government-to-Citizen Digital Service Layer intended to serve?"
+  answer: "residents; businesses; public-service users"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sadarkaa Tajaajila Dijitaalaa Mootummaa irraa gara Lammileetti eenyuuf qophaa'e?"
+      answer: "jiraattota; dhaabbilee daldalaa; fayyadamtoota tajaajila uummataa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የመንግሥት-ወደ-ዜጋ ዲጂታል አገልግሎት ንብርብር ለማን የታሰበ ነው?"
+      answer: "ነዋሪዎች; ንግዶች; የሕዝብ አገልግሎት ተጠቃሚዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "g2c-e-services-capabilities-faq"
+  system_id: "g2c-e-services"
+  question: "What services does Government-to-Citizen Digital Service Layer support?"
+  answer: "Land services: Citizen-facing land services.; Health services: Citizen-facing health services.; Education services: Citizen-facing education services.; Transport services: Citizen-facing transport services.; Vital-event services: Citizen-facing vital-event services.; Trade services: Citizen-facing trade services.; Investment services: Citizen-facing investment services.; Revenue services: Citizen-facing revenue services.; Court services: Citizen-facing court services.; Prosecution services: Citizen-facing prosecution services."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sadarkaa Tajaajila Dijitaalaa Mootummaa irraa gara Lammileetti tajaajiloota kam deeggera?"
+      answer: "Tajaajiloota dijitaalaa lammilee ilaallatan dameewwan mootummaa gurguddoo keessatti walitti qabee dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የመንግሥት-ወደ-ዜጋ ዲጂታል አገልግሎት ንብርብር የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "በዋና ዋና የመንግሥት ዘርፎች የዜጎችን ዲጂታል አገልግሎቶች ያጠቃልላል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "document-management-system-purpose-faq"
+  system_id: "document-management-system"
+  question: "What is Document Management System?"
+  answer: "Support government-to-government document management and records workflows."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Sanadootaa jechuun maali?"
+      answer: "Bulchiinsa sanadootaa mootummaa irraa gara mootummaa fi adeemsa galmeewwanii deeggera."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የሰነድ አስተዳደር ሥርዓት ምንድን ነው?"
+      answer: "የመንግሥት-ለ-መንግሥት የሰነድ አስተዳደርን እና የመዝገብ ሥራ ሂደቶችን ይደግፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "document-management-system-beneficiaries-faq"
+  system_id: "document-management-system"
+  question: "Who is Document Management System intended to serve?"
+  answer: "government institutions; records administrators"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Sanadootaa eenyuuf qophaa'e?"
+      answer: "dhaabbilee mootummaa; bulchitoota galmeewwanii"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የሰነድ አስተዳደር ሥርዓት ለማን የታሰበ ነው?"
+      answer: "የመንግሥት ተቋማት; የመዝገብ አስተዳዳሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "document-management-system-capabilities-faq"
+  system_id: "document-management-system"
+  question: "What services does Document Management System support?"
+  answer: "Government document management: Digital management of government documents."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Sanadootaa tajaajiloota kam deeggera?"
+      answer: "Bulchiinsa sanadootaa mootummaa irraa gara mootummaa fi adeemsa galmeewwanii deeggera."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የሰነድ አስተዳደር ሥርዓት የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "የመንግሥት-ለ-መንግሥት የሰነድ አስተዳደርን እና የመዝገብ ሥራ ሂደቶችን ይደግፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "human-resource-management-purpose-faq"
+  system_id: "human-resource-management"
+  question: "What is Human Resource Management System?"
+  answer: "Support digital human-resource management across government institutions."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Qabeenya Namaa jechuun maali?"
+      answer: "Bulchiinsa qabeenya namaa dijitaalaa dhaabbilee mootummaa keessatti deeggera."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የሰው ኃይል አስተዳደር ሥርዓት ምንድን ነው?"
+      answer: "በመንግሥት ተቋማት ውስጥ ዲጂታል የሰው ኃይል አስተዳደርን ይደግፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "human-resource-management-beneficiaries-faq"
+  system_id: "human-resource-management"
+  question: "Who is Human Resource Management System intended to serve?"
+  answer: "employees; human-resource administrators; government institutions"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Qabeenya Namaa eenyuuf qophaa'e?"
+      answer: "hojjettoota; bulchitoota qabeenya namaa; dhaabbilee mootummaa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የሰው ኃይል አስተዳደር ሥርዓት ለማን የታሰበ ነው?"
+      answer: "ሠራተኞች; የሰው ኃይል አስተዳዳሪዎች; የመንግሥት ተቋማት"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "human-resource-management-capabilities-faq"
+  system_id: "human-resource-management"
+  question: "What services does Human Resource Management System support?"
+  answer: "Government human-resource management: Digital human-resource administration."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Qabeenya Namaa tajaajiloota kam deeggera?"
+      answer: "Bulchiinsa qabeenya namaa dijitaalaa dhaabbilee mootummaa keessatti deeggera."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የሰው ኃይል አስተዳደር ሥርዓት የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "በመንግሥት ተቋማት ውስጥ ዲጂታል የሰው ኃይል አስተዳደርን ይደግፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "integrated-business-exchange-purpose-faq"
+  system_id: "integrated-business-exchange"
+  question: "What is Integrated Business Exchange System?"
+  answer: "Support integrated government budget, expenditure, and business-exchange information workflows."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Waljijjiirraa Hojii Walitti Qindaa’e jechuun maali?"
+      answer: "Adeemsa odeeffannoo baajataa, baasii fi waljijjiirraa hojii mootummaa walitti qindaa’e deeggera."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የተቀናጀ የንግድ ልውውጥ ሥርዓት ምንድን ነው?"
+      answer: "የመንግሥት በጀት፣ ወጪ እና የንግድ ልውውጥ መረጃ የተቀናጁ የሥራ ሂደቶችን ይደግፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "integrated-business-exchange-beneficiaries-faq"
+  system_id: "integrated-business-exchange"
+  question: "Who is Integrated Business Exchange System intended to serve?"
+  answer: "finance administrators; government institutions; budget managers"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Waljijjiirraa Hojii Walitti Qindaa’e eenyuuf qophaa'e?"
+      answer: "bulchitoota faayinaansii; dhaabbilee mootummaa; bulchitoota baajataa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የተቀናጀ የንግድ ልውውጥ ሥርዓት ለማን የታሰበ ነው?"
+      answer: "የፋይናንስ አስተዳዳሪዎች; የመንግሥት ተቋማት; የበጀት አስተዳዳሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "integrated-business-exchange-capabilities-faq"
+  system_id: "integrated-business-exchange"
+  question: "What services does Integrated Business Exchange System support?"
+  answer: "Budget and expenditure management: Integrated budget and expenditure workflow."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Waljijjiirraa Hojii Walitti Qindaa’e tajaajiloota kam deeggera?"
+      answer: "Adeemsa odeeffannoo baajataa, baasii fi waljijjiirraa hojii mootummaa walitti qindaa’e deeggera."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የተቀናጀ የንግድ ልውውጥ ሥርዓት የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "የመንግሥት በጀት፣ ወጪ እና የንግድ ልውውጥ መረጃ የተቀናጁ የሥራ ሂደቶችን ይደግፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "property-management-system-purpose-faq"
+  system_id: "property-management-system"
+  question: "What is Property Management System?"
+  answer: "Support digital management of government property and assets."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Qabeenyaa jechuun maali?"
+      answer: "Bulchiinsa qabeenyaa fi mi’a mootummaa dijitaalaan deeggera."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የንብረት አስተዳደር ሥርዓት ምንድን ነው?"
+      answer: "ዲጂታል የመንግሥት ንብረትና አሴት አስተዳደርን ይደግፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "property-management-system-beneficiaries-faq"
+  system_id: "property-management-system"
+  question: "Who is Property Management System intended to serve?"
+  answer: "property administrators; government institutions; asset managers"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Qabeenyaa eenyuuf qophaa'e?"
+      answer: "bulchitoota qabeenyaa; dhaabbilee mootummaa; bulchitoota mi’aa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የንብረት አስተዳደር ሥርዓት ለማን የታሰበ ነው?"
+      answer: "የንብረት አስተዳዳሪዎች; የመንግሥት ተቋማት; የንብረት አስተዳዳሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "property-management-system-capabilities-faq"
+  system_id: "property-management-system"
+  question: "What services does Property Management System support?"
+  answer: "Government property management: Digital property and asset administration."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Qabeenyaa tajaajiloota kam deeggera?"
+      answer: "Bulchiinsa qabeenyaa fi mi’a mootummaa dijitaalaan deeggera."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የንብረት አስተዳደር ሥርዓት የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "ዲጂታል የመንግሥት ንብረትና አሴት አስተዳደርን ይደግፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "ethio-language-box-purpose-faq"
+  system_id: "ethio-language-box"
+  question: "What is Ethio Language Box Technology?"
+  answer: "Support language technology within the regional government digital ecosystem."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Teknooloojii Ethio Language Box jechuun maali?"
+      answer: "Teknooloojii afaanii sirna ikoo dijitaalaa mootummaa naannoo keessatti deeggera."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኢትዮ ቋንቋ ቦክስ ቴክኖሎጂ ምንድን ነው?"
+      answer: "በክልሉ የመንግሥት ዲጂታል ሥነ-ምህዳር ውስጥ የቋንቋ ቴክኖሎጂን ይደግፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "ethio-language-box-beneficiaries-faq"
+  system_id: "ethio-language-box"
+  question: "Who is Ethio Language Box Technology intended to serve?"
+  answer: "government institutions; multilingual service users"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Teknooloojii Ethio Language Box eenyuuf qophaa'e?"
+      answer: "dhaabbilee mootummaa; fayyadamtoota tajaajila afaanota hedduu"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኢትዮ ቋንቋ ቦክስ ቴክኖሎጂ ለማን የታሰበ ነው?"
+      answer: "የመንግሥት ተቋማት; ባለብዙ ቋንቋ አገልግሎት ተጠቃሚዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "ethio-language-box-capabilities-faq"
+  system_id: "ethio-language-box"
+  question: "What services does Ethio Language Box Technology support?"
+  answer: "Language technology service: Language-technology capability shown among G2G platforms."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Teknooloojii Ethio Language Box tajaajiloota kam deeggera?"
+      answer: "Teknooloojii afaanii sirna ikoo dijitaalaa mootummaa naannoo keessatti deeggera."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኢትዮ ቋንቋ ቦክስ ቴክኖሎጂ የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "በክልሉ የመንግሥት ዲጂታል ሥነ-ምህዳር ውስጥ የቋንቋ ቴክኖሎጂን ይደግፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "sdris-purpose-faq"
+  system_id: "sdris"
+  question: "What is Oromia Investment and Industry Bureau SDRIS?"
+  answer: "Support investment and industry service-delivery reform through a multilingual portal and self-service kiosk."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "SDRIS Biiroo Invastimantii fi Indaastirii Oromiyaa jechuun maali?"
+      answer: "Fooyya’iinsa tajaajila invastimantii fi indaastirii poortaalii afaanota hedduu fi kiyooskii ofiin tajaajilamuun deeggera."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኦሮሚያ ኢንቨስትመንትና ኢንዱስትሪ ቢሮ SDRIS ምንድን ነው?"
+      answer: "በብዙ ቋንቋ ፖርታል እና በራስ-አገልግሎት ኪዮስክ የኢንቨስትመንትና ኢንዱስትሪ አገልግሎት አሰጣጥ ማሻሻያን ይደግፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "sdris-beneficiaries-faq"
+  system_id: "sdris"
+  question: "Who is Oromia Investment and Industry Bureau SDRIS intended to serve?"
+  answer: "investors; businesses; service applicants; investment and industry administrators"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "SDRIS Biiroo Invastimantii fi Indaastirii Oromiyaa eenyuuf qophaa'e?"
+      answer: "invastaroota; dhaabbilee daldalaa; iyyattoota tajaajilaa; bulchitoota invastimantii fi indaastirii"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኦሮሚያ ኢንቨስትመንትና ኢንዱስትሪ ቢሮ SDRIS ለማን የታሰበ ነው?"
+      answer: "ኢንቨስተሮች; ንግዶች; የአገልግሎት አመልካቾች; የኢንቨስትመንትና ኢንዱስትሪ አስተዳዳሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "sdris-capabilities-faq"
+  system_id: "sdris"
+  question: "What services does Oromia Investment and Industry Bureau SDRIS support?"
+  answer: "SDRIS web portal: Multilingual web service-delivery portal.; SDRIS self-service kiosk: Physical self-service kiosk using the portal's language and menu design."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "SDRIS Biiroo Invastimantii fi Indaastirii Oromiyaa tajaajiloota kam deeggera?"
+      answer: "Fooyya’iinsa tajaajila invastimantii fi indaastirii poortaalii afaanota hedduu fi kiyooskii ofiin tajaajilamuun deeggera."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኦሮሚያ ኢንቨስትመንትና ኢንዱስትሪ ቢሮ SDRIS የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "በብዙ ቋንቋ ፖርታል እና በራስ-አገልግሎት ኪዮስክ የኢንቨስትመንትና ኢንዱስትሪ አገልግሎት አሰጣጥ ማሻሻያን ይደግፋል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "queue-management-system-purpose-faq"
+  system_id: "queue-management-system"
+  question: "What is Queue Management System?"
+  answer: "Organize walk-in citizen flow at service counters through electronic ticketing and service displays."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Tarree jechuun maali?"
+      answer: "Dhaabbata tajaajilaa keessatti sochii lammilee dhufanii tajaajila eegu tikkeetii elektiroonikaa fi agarsiisa tajaajilaatiin qindeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የሰልፍ አስተዳደር ሥርዓት ምንድን ነው?"
+      answer: "በአገልግሎት መስጫ ቆጣሪዎች የሚመጡ ዜጎችን ፍሰት በኤሌክትሮኒክ ትኬት እና በአገልግሎት ማሳያዎች ያደራጃል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "queue-management-system-beneficiaries-faq"
+  system_id: "queue-management-system"
+  question: "Who is Queue Management System intended to serve?"
+  answer: "walk-in service users; service-counter staff; public-service administrators"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Tarree eenyuuf qophaa'e?"
+      answer: "fayyadamtoota tajaajila dhufanii argatan; hojjettoota teessoo tajaajilaa; bulchitoota tajaajila uummataa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የሰልፍ አስተዳደር ሥርዓት ለማን የታሰበ ነው?"
+      answer: "በአካል የሚመጡ አገልግሎት ተጠቃሚዎች; የአገልግሎት ቆጣሪ ሠራተኞች; የሕዝብ አገልግሎት አስተዳዳሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "queue-management-system-capabilities-faq"
+  system_id: "queue-management-system"
+  question: "What services does Queue Management System support?"
+  answer: "Electronic queue ticketing: Digital ticket issuance for walk-in service.; Service-category selection: Selection of the requested service category.; Counter-mounted touch terminals: Touch terminals for service counters.; Served-ticket signage: Overhead display of the currently served ticket number."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Tarree tajaajiloota kam deeggera?"
+      answer: "Dhaabbata tajaajilaa keessatti sochii lammilee dhufanii tajaajila eegu tikkeetii elektiroonikaa fi agarsiisa tajaajilaatiin qindeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የሰልፍ አስተዳደር ሥርዓት የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "በአገልግሎት መስጫ ቆጣሪዎች የሚመጡ ዜጎችን ፍሰት በኤሌክትሮኒክ ትኬት እና በአገልግሎት ማሳያዎች ያደራጃል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "sigtax-purpose-faq"
+  system_id: "sigtax"
+  question: "What is Revenue E-Services?"
+  answer: "Provide digital tax registration, filing, payment, audit, dispute, and appeal information services."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Galii Elektiroonikaa jechuun maali?"
+      answer: "Galmee gibiraa, faayilii, kaffaltii, odiitii, falmii fi odeeffannoo iyyannoo gibiraa dijitaalaan dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የገቢ ኢ-አገልግሎቶች ምንድን ነው?"
+      answer: "ዲጂታል የግብር ምዝገባ፣ ማስገባት፣ ክፍያ፣ ኦዲት፣ ክርክር እና የይግባኝ መረጃ አገልግሎቶችን ይሰጣል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "sigtax-beneficiaries-faq"
+  system_id: "sigtax"
+  question: "Who is Revenue E-Services intended to serve?"
+  answer: "taxpayers; businesses; revenue administrators; auditors"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Galii Elektiroonikaa eenyuuf qophaa'e?"
+      answer: "kaffaltoota gibiraa; dhaabbilee daldalaa; bulchitoota galii; odiitoota"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የገቢ ኢ-አገልግሎቶች ለማን የታሰበ ነው?"
+      answer: "ግብር ከፋዮች; ንግዶች; የገቢ አስተዳዳሪዎች; ኦዲተሮች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "sigtax-capabilities-faq"
+  system_id: "sigtax"
+  question: "What services does Revenue E-Services support?"
+  answer: "Online tax registration: Digital taxpayer registration.; Electronic tax filing: Digital filing of tax information.; Tax assessment notices: Digital tax assessment notices.; Online tax and fee payment: Digital tax and fee payment.; Mobile payment: Mobile tax payment.; Tax guidance: Digital tax guidance.; Exemptions and incentives: Digital information on exemptions and incentives.; Audit-document submission: Digital audit-document submission.; Audit results: Digital audit-result access.; Tax disputes: Digital tax-dispute information.; Appeals information: Digital appeals information."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Galii Elektiroonikaa tajaajiloota kam deeggera?"
+      answer: "Galmee gibiraa, faayilii, kaffaltii, odiitii, falmii fi odeeffannoo iyyannoo gibiraa dijitaalaan dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የገቢ ኢ-አገልግሎቶች የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "ዲጂታል የግብር ምዝገባ፣ ማስገባት፣ ክፍያ፣ ኦዲት፣ ክርክር እና የይግባኝ መረጃ አገልግሎቶችን ይሰጣል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "occms-purpose-faq"
+  system_id: "occms"
+  question: "What is Oromia Court Case Management System?"
+  answer: "Provide electronic court processes, case management, hearing, payment, reporting, communication, and security functions."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Dhimmoota Mana Murtii Oromiyaa jechuun maali?"
+      answer: "Adeemsa mana murtii, bulchiinsa dhimmaa, dhagahamaa, kaffaltii, gabaasaa, qunnamtii fi nageenya elektiroonikaa dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኦሮሚያ ፍርድ ቤት ጉዳይ አስተዳደር ሥርዓት ምንድን ነው?"
+      answer: "ኤሌክትሮኒክ የፍርድ ቤት ሂደቶችን፣ የጉዳይ አስተዳደርን፣ ችሎትን፣ ክፍያን፣ ሪፖርትን፣ ግንኙነትን እና ደህንነትን ይሰጣል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "occms-beneficiaries-faq"
+  system_id: "occms"
+  question: "Who is Oromia Court Case Management System intended to serve?"
+  answer: "court users; court staff; judges; justice administrators"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Dhimmoota Mana Murtii Oromiyaa eenyuuf qophaa'e?"
+      answer: "fayyadamtoota mana murtii; hojjettoota mana murtii; abbootii seeraa; bulchitoota haqaa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኦሮሚያ ፍርድ ቤት ጉዳይ አስተዳደር ሥርዓት ለማን የታሰበ ነው?"
+      answer: "የፍርድ ቤት ተጠቃሚዎች; የፍርድ ቤት ሠራተኞች; ዳኞች; የፍትሕ አስተዳዳሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "occms-capabilities-faq"
+  system_id: "occms"
+  question: "What services does Oromia Court Case Management System support?"
+  answer: "Online case filing: Digital filing of court cases.; Case tracking: Digital case tracking.; E-filing: Electronic filing of court documents.; Hearing scheduling: Digital hearing scheduling.; Hearing notifications: Digital hearing notifications.; Rulings and judgments: Access to rulings and judgments.; Legal-resource library: Digital legal-resource access.; Court-fee and fine payment: Online court-fee and fine payment.; Payment history and receipts: Digital payment history and receipts."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Sirna Bulchiinsa Dhimmoota Mana Murtii Oromiyaa tajaajiloota kam deeggera?"
+      answer: "Adeemsa mana murtii, bulchiinsa dhimmaa, dhagahamaa, kaffaltii, gabaasaa, qunnamtii fi nageenya elektiroonikaa dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የኦሮሚያ ፍርድ ቤት ጉዳይ አስተዳደር ሥርዓት የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "ኤሌክትሮኒክ የፍርድ ቤት ሂደቶችን፣ የጉዳይ አስተዳደርን፣ ችሎትን፣ ክፍያን፣ ሪፖርትን፣ ግንኙነትን እና ደህንነትን ይሰጣል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "prosecution-e-services-purpose-faq"
+  system_id: "prosecution-e-services"
+  question: "What is Prosecution E-Services?"
+  answer: "Provide digital prosecution case, legal-information, document, human-resource, complaint, and customer-satisfaction workflows."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Abbaa Alangaa Elektiroonikaa jechuun maali?"
+      answer: "Adeemsa dhimma abbaa alangaa, odeeffannoo seeraa, sanadoota, qabeenya namaa, komii fi quufa maamilaa dijitaalaa dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የአቃቤ ሕግ ኢ-አገልግሎቶች ምንድን ነው?"
+      answer: "ዲጂታል የአቃቤ ሕግ ጉዳይ፣ የሕግ መረጃ፣ የሰነድ፣ የሰው ኃይል፣ የቅሬታ እና የደንበኛ እርካታ የሥራ ሂደቶችን ይሰጣል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "prosecution-e-services-beneficiaries-faq"
+  system_id: "prosecution-e-services"
+  question: "Who is Prosecution E-Services intended to serve?"
+  answer: "prosecutors; advocates; complainants; legal administrators"
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Abbaa Alangaa Elektiroonikaa eenyuuf qophaa'e?"
+      answer: "abbootii alangaa; abukaatoowwan; komattoota; bulchitoota seeraa"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የአቃቤ ሕግ ኢ-አገልግሎቶች ለማን የታሰበ ነው?"
+      answer: "አቃቤ ሕግ ባለሙያዎች; ጠበቆች; ቅሬታ አቅራቢዎች; የሕግ አስተዳዳሪዎች"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "prosecution-e-services-capabilities-faq"
+  system_id: "prosecution-e-services"
+  question: "What services does Prosecution E-Services support?"
+  answer: "Case management: Digital prosecution case management.; Crime-reference management: Digital crime-reference management.; Document registration: Digital document services.; Legal research and drafting: Digital legal research and drafting.; Directive review and registration: Digital directive workflows.; Legal-awareness management: Digital legal-awareness management.; Human-resource management: Internal prosecution HR workflow.; Prosecutor and advocate discipline: Digital discipline workflow.; Complaints and customer satisfaction: Digital complaints and satisfaction workflow."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "Tajaajiloota Abbaa Alangaa Elektiroonikaa tajaajiloota kam deeggera?"
+      answer: "Adeemsa dhimma abbaa alangaa, odeeffannoo seeraa, sanadoota, qabeenya namaa, komii fi quufa maamilaa dijitaalaa dhiyeessa."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+    am:
+      question: "የአቃቤ ሕግ ኢ-አገልግሎቶች የትኞቹን አገልግሎቶች ይደግፋል?"
+      answer: "ዲጂታል የአቃቤ ሕግ ጉዳይ፣ የሕግ መረጃ፣ የሰነድ፣ የሰው ኃይል፣ የቅሬታ እና የደንበኛ እርካታ የሥራ ሂደቶችን ይሰጣል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-05"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-05"
+    updated_at: "2026-09-05"
+    translation_status: "approved"
+    notes: "Afaan Oromo and Amharic translations reviewed and approved by native-language reviewers; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "m-mesob-purpose-faq"
+  system_id: "m-mesob"
+  question: "What is M-MESOB?"
+  answer: "M-MESOB is an integrated One-Stop-Shop platform for delivering public services in one place."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "M-MESOB jechuun maali?"
+      answer: "M-MESOB sirna tajaajila mootummaa bakka tokkotti kennuuf gargaaru, kan tajaajiloota adda addaa walitti fidu dha."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-06"
+    am:
+      question: "M-MESOB ምንድን ነው?"
+      answer: "M-MESOB የተለያዩ አገልግሎቶችን በማጣመር የመንግሥት አገልግሎትን በአንድ ቦታ ለመስጠት የሚያገለግል ሥርዓት ነው።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-06"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-06"
+    updated_at: "2026-09-06"
+    translation_status: "approved"
+    notes: "M-MESOB FAQ reviewed and approved by native-language reviewers and the organization; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "m-mesob-beneficiaries-faq"
+  system_id: "m-mesob"
+  question: "Who does M-MESOB serve?"
+  answer: "M-MESOB serves citizens and businesses."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "M-MESOB eenyuuf tajaajila?"
+      answer: "M-MESOB lammiilee fi dhaabbilee daldalaaf tajaajila."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-06"
+    am:
+      question: "M-MESOB ለማን ያገለግላል?"
+      answer: "M-MESOB ለዜጎችና ለንግድ ድርጅቶች ያገለግላል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-06"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-06"
+    updated_at: "2026-09-06"
+    translation_status: "approved"
+    notes: "M-MESOB FAQ reviewed and approved by native-language reviewers and the organization; published for chatbot release."
+- schema_version: "1.0.0"
+  record_version: 1
+  id: "m-mesob-capabilities-faq"
+  system_id: "m-mesob"
+  question: "What services does M-MESOB bring together?"
+  answer: "M-MESOB brings together civil registration, licensing, land, revenue, and banking services."
+  kpi_observation_refs: []
+  translations:
+    om:
+      question: "M-MESOB tajaajiloota akkamii walitti fida?"
+      answer: "M-MESOB tajaajila galmee siviilii, hayyamaa, lafa, galii fi baankii walitti fida."
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-afaan-oromo-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-06"
+    am:
+      question: "M-MESOB የትኞቹን አገልግሎቶች ያጣምራል?"
+      answer: "M-MESOB የሲቪል ምዝገባ፣ የፈቃድ፣ የመሬት፣ የገቢ እና የባንክ አገልግሎቶችን ያጣምራል።"
+      approval:
+        status: "approved"
+        human_reviewed: true
+        reviewer_role: human-amharic-reviewer
+        approved_source: false
+        generated_by_role: "ai-content-assistant"
+        reviewed_at: "2026-09-06"
+  publication_status: "published"
+  data_classification: "public"
+  contains_personal_data: false
+  public_display_approved: true
+  workflow:
+    state: "approved"
+    prepared_by_role: "content-author"
+    reviewed_by_role: user-requested-publisher
+    created_at: "2026-09-06"
+    updated_at: "2026-09-06"
+    translation_status: "approved"
+    notes: "M-MESOB FAQ reviewed and approved by native-language reviewers and the organization; published for chatbot release."
