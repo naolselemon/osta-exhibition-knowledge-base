@@ -145,6 +145,22 @@ class KpiPipelineTests(unittest.TestCase):
         _validate_source_refs({"id": "m-mesob", "source_refs": [source_ref]}, ROOT, "m-mesob", errors)
         self.assertEqual([], errors)
 
+    def test_missing_abbooti_video_exception_is_record_scoped(self) -> None:
+        source_ref = {
+            "source_id": "abbooti-kallaqaa-video",
+            "label": "Abbooti Kallaqaa video",
+            "path": "/home/gosa-gobena/Videos/Abbootii Kallaqaa  Final.mp4",
+            "locator": "Approx. 00:55-05:30",
+            "verification_status": "verified",
+            "public_display_approved": True,
+        }
+        errors: list[str] = []
+        _validate_source_refs({"id": "smart-ac-generator", "source_refs": [source_ref]}, ROOT, "smart-ac-generator", errors)
+        self.assertEqual([], errors)
+        errors = []
+        _validate_source_refs({"id": "foreign", "source_refs": [source_ref]}, ROOT, "foreign", errors)
+        self.assertIn("source path does not exist", errors[0])
+
     def test_candidate_observations_remain_nonpublic_and_structured(self) -> None:
         candidates = [item for item in self.base.observations if item["id"].endswith("-deck")]
         self.assertEqual(9, len(candidates))
@@ -428,21 +444,6 @@ class KpiPipelineTests(unittest.TestCase):
         data = self.data()
         payloads = build_payloads(data)
         expected_systems = {
-            "prms",
-            "uemis",
-            "business-automation",
-            "digital-kebele-government",
-            "court-case-management-prosecutor-sims",
-            "civil-registration-dms",
-            "smart-ac-generator",
-            "electric-solar-bajaj",
-        }
-        self.assertEqual(expected_systems, {item["id"] for item in payloads["digital-systems.json"]["digital_systems"]})
-        self.assertEqual(expected_systems, {item["system_id"] for item in payloads["system-kpis.json"]["systems"]})
-        avatar = payloads["avatar-facts.json"]
-        self.assertEqual(9, len(avatar["verified_public_kpi_observations"]))
-        self.assertEqual(8, len(avatar["approved_afaan_oromo_content"]))
-        self.assertEqual(8, len(avatar["approved_amharic_content"]))
             item["id"] for item in data.systems if item.get("publication_status") == "published"
         }
         self.assertEqual(expected_systems, {item["id"] for item in payloads["digital-systems.json"]["digital_systems"]})

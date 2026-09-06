@@ -65,11 +65,6 @@
     },
     {
       "content": {
-        "official_name": "Bajaajii Elektirikaa + Soolaaraa",
-        "purpose": "Akkuma gubbaa iskiriinii irratti ibsametti, konkolaata mil-sadii teeknoolojii elektirikaa fi soolaaraa walitti makuun kan dhihaatedha. Viidiyoon kun qaama alaa, naannoo gubbaa/paaneli soolaaraa fi keessoo konkolaatichaa agarsiisa."
-      },
-      "language": "om",
-      "record_id": "electric-solar-bajaj",
         "official_name": "Sirna Bulchiinsa Sanadootaa",
         "purpose": "Bulchiinsa sanadootaa mootummaa irraa gara mootummaa fi adeemsa galmeewwanii deeggera."
       },
@@ -138,6 +133,15 @@
       },
       "language": "om",
       "record_id": "echis",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "Bajaajii Elektirikaa + Soolaaraa",
+        "purpose": "Akkuma gubbaa iskiriinii irratti ibsametti, konkolaata mil-sadii teeknoolojii elektirikaa fi soolaaraa walitti makuun kan dhihaatedha. Viidiyoon kun qaama alaa, naannoo gubbaa/paaneli soolaaraa fi keessoo konkolaatichaa agarsiisa."
+      },
+      "language": "om",
+      "record_id": "electric-solar-bajaj",
       "record_type": "digital-system"
     },
     {
@@ -232,11 +236,6 @@
     },
     {
       "content": {
-        "official_name": "Jenereetara AC Smaartii",
-        "purpose": "Agarsiisa viidiyoo irratti akkuma mul'atetti jenereetara/teeknoolojii elektirikaa fuula to'annoo mul'atu qabuun kan dhiyaatedha. Meeshaan kun naannoo laaboraatoorii/worki shoop meeshaalee elektirikaa, kompiyutaroota fi iskiriinii waliin agarsiifameera."
-      },
-      "language": "om",
-      "record_id": "smart-ac-generator",
         "official_name": "Sirna Bulchiinsa Qabeenyaa",
         "purpose": "Bulchiinsa qabeenyaa fi mi’a mootummaa dijitaalaan deeggera."
       },
@@ -300,6 +299,15 @@
     },
     {
       "content": {
+        "official_name": "Jenereetara AC Smaartii",
+        "purpose": "Agarsiisa viidiyoo irratti akkuma mul'atetti jenereetara/teeknoolojii elektirikaa fuula to'annoo mul'atu qabuun kan dhiyaatedha. Meeshaan kun naannoo laaboraatoorii/worki shoop meeshaalee elektirikaa, kompiyutaroota fi iskiriinii waliin agarsiifameera."
+      },
+      "language": "om",
+      "record_id": "smart-ac-generator",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
         "official_name": "Sirna SmartCare EHR / Hospitaalaa",
         "purpose": "Sirna ikoo fayyaa dijitaalaa naannoo keessatti galmee fayyaa elektiroonikaa fi bulchiinsa odeeffannoo hospitaalaa deeggera."
       },
@@ -342,6 +350,60 @@
       "language": "om",
       "record_id": "wumis",
       "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "answer": "Akkuma iskiriinii irratti ibsametti, Bajaajii Elektirikaa + Soolaaraa konkolaataa mil-sadii teeknoolojii elektirikaa fi soolaaraa walitti makuun kan dhiyaatedha.",
+        "question": "Bajaajii Elektirikaa + Soolaaraa jechuun maali?"
+      },
+      "language": "om",
+      "record_id": "abbooti-electric-solar-bajaj-purpose-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "Raggaan agarsiisaa mirkanaa’e daangaa imalaa yookaan dandeettii baatirii mirkanaa’e hin ibsu.",
+        "question": "Bajaajii Elektirikaa + Soolaaraa daangaa imalaa fi dandeettii baatirii hammamii qaba?"
+      },
+      "language": "om",
+      "record_id": "abbooti-electric-solar-bajaj-specifications-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "Viidiyoon qaama alaa, naannoo gubbaa/paaneli soolaaraa fi keessoo konkolaataa kanaa agarsiisa.",
+        "question": "Viidiyoon Bajaajii Elektirikaa + Soolaaraa keessaa kutaalee kami agarsiisa?"
+      },
+      "language": "om",
+      "record_id": "abbooti-electric-solar-bajaj-visible-areas-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "Raggaan agarsiisaa mirkanaa’e gatii humna jenereetaraan AC Smaartii baasu hin ibsu.",
+        "question": "Jenereetaraan AC Smaartii humna hammamii baasa?"
+      },
+      "language": "om",
+      "record_id": "abbooti-smart-ac-generator-output-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "Jenereetaraan AC Smaartii agarsiisa OSTA irratti kan dhiyaate teeknoolojii jenereetaraa/elektirikaalaa fuula to’annoo mul’atu qabuudha. Viidiyoon kun meeshaa kana naannoo laaboraatoorii/workiishoop keessatti agarsiisa.",
+        "question": "Jenereetara AC Smaartii jechuun maali?"
+      },
+      "language": "om",
+      "record_id": "abbooti-smart-ac-generator-purpose-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "Viidiyoon qorame jenereetaraa AC Smaartii naannoo laaboraatoorii/workiishoop keessatti, meeshaalee elektirikaalaa, kompiyutarootaa fi iskiriinii waliin agarsiisa.",
+        "question": "Jenereetaraan AC Smaartii eessatti agarsiifame?"
+      },
+      "language": "om",
+      "record_id": "abbooti-smart-ac-generator-setting-faq",
+      "record_type": "faq"
     },
     {
       "content": {
@@ -1391,17 +1453,6 @@
     },
     {
       "content": {
-        "official_name": "ኤሌክትሪክ + ሶላር ባጃጅ",
-        "purpose": "በስክሪኑ ላይ በተገለፀው መሠረት የኤሌክትሪክ እና የሶላር ቴክኖሎጂን አዋህዶ የያዘ ባለሶስት እግር ተሽከርካሪ ሆኖ ቀርቧል። ቪዲዮው የተሽከርካሪውን ውጫዊ ክፍል፣ የጣሪያ/ሶላር ክፍል እና የውስጥ አካል ያሳያል።"
-      },
-      "language": "am",
-      "record_id": "electric-solar-bajaj",
-      "record_type": "digital-system"
-    },
-    {
-      "content": {
-        "official_name": "የማረሚያ ቤቶች አስተዳደር ስርዓት",
-        "purpose": "የክልሉን ሁሉንም የማረሚያ ቤቶች መረጃ በአንድ ቦታ ያሰባስባል።"
         "official_name": "የሰነድ አስተዳደር ሥርዓት",
         "purpose": "የመንግሥት-ለ-መንግሥት የሰነድ አስተዳደርን እና የመዝገብ ሥራ ሂደቶችን ይደግፋል።"
       },
@@ -1411,17 +1462,6 @@
     },
     {
       "content": {
-        "official_name": "ስማርት ኤሲ ጄኔሬተር",
-        "purpose": "በኤግዚቢሽን ቪዲዮው ላይ እንደሚታየው የሚታይ የቁጥጥር በይነገጽ ያለው የጄኔሬተር/ኤሌክትሪካል ቴክኖሎጂ ሆኖ ቀርቧል። መሣሪያው በቤተ-ሙከራ/ወርክሾፕ አካባቢ ከኤሌክትሪክ ዕቃዎች፣ ኮምፒውተሮች እና ማሳያ ጋር አብሮ ይታያል።"
-      },
-      "language": "am",
-      "record_id": "smart-ac-generator",
-      "record_type": "digital-system"
-    },
-    {
-      "content": {
-        "official_name": "የከተማ ሥራ ስምሪት አስተዳደር መረጃ ስርዓት",
-        "purpose": "በከተማ የሥራ አገልግሎቶች የሚሳተፉ ወጣቶችን ይመዘግባል።"
         "official_name": "DTrip የመጓጓዣ አስተዳደር ሥርዓት",
         "purpose": "የሕዝብ መጓጓዣ አስተዳደርን፣ የመስመር ሥራዎችን፣ የተሳፋሪ አገልግሎቶችን እና ኤሌክትሮኒክ ትኬትን ይደግፋል።"
       },
@@ -1481,6 +1521,15 @@
       },
       "language": "am",
       "record_id": "echis",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "official_name": "ኤሌክትሪክ + ሶላር ባጃጅ",
+        "purpose": "በስክሪኑ ላይ በተገለፀው መሠረት የኤሌክትሪክ እና የሶላር ቴክኖሎጂን አዋህዶ የያዘ ባለሶስት እግር ተሽከርካሪ ሆኖ ቀርቧል። ቪዲዮው የተሽከርካሪውን ውጫዊ ክፍል፣ የጣሪያ/ሶላር ክፍል እና የውስጥ አካል ያሳያል።"
+      },
+      "language": "am",
+      "record_id": "electric-solar-bajaj",
       "record_type": "digital-system"
     },
     {
@@ -1638,6 +1687,15 @@
     },
     {
       "content": {
+        "official_name": "ስማርት ኤሲ ጄኔሬተር",
+        "purpose": "በኤግዚቢሽን ቪዲዮው ላይ እንደሚታየው የሚታይ የቁጥጥር በይነገጽ ያለው የጄኔሬተር/ኤሌክትሪካል ቴክኖሎጂ ሆኖ ቀርቧል። መሣሪያው በቤተ-ሙከራ/ወርክሾፕ አካባቢ ከኤሌክትሪክ ዕቃዎች፣ ኮምፒውተሮች እና ማሳያ ጋር አብሮ ይታያል።"
+      },
+      "language": "am",
+      "record_id": "smart-ac-generator",
+      "record_type": "digital-system"
+    },
+    {
+      "content": {
         "official_name": "ስማርትኬር EHR / የሆስፒታል ሥርዓት",
         "purpose": "በክልሉ ዲጂታል የጤና ሥነ-ምህዳር ውስጥ ኤሌክትሮኒክ የጤና መዝገቦችን እና የሆስፒታል መረጃ አስተዳደርን ይደግፋል።"
       },
@@ -1680,6 +1738,60 @@
       "language": "am",
       "record_id": "wumis",
       "record_type": "digital-system"
+    },
+    {
+      "content": {
+        "answer": "በስክሪኑ ላይ እንደተገለጸው ኤሌክትሪክ + ሶላር ባጃጅ የኤሌክትሪክና የሶላር ቴክኖሎጂን ያጣመረ ባለሶስት ጎማ ተሽከርካሪ ነው።",
+        "question": "ኤሌክትሪክ + ሶላር ባጃጅ ምንድን ነው?"
+      },
+      "language": "am",
+      "record_id": "abbooti-electric-solar-bajaj-purpose-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "የተፈቀደው የኤግዚቢሽን መረጃ የተረጋገጠ የጉዞ ክልል ወይም የባትሪ አቅም አይገልጽም።",
+        "question": "የኤሌክትሪክ + ሶላር ባጃጅ የጉዞ ክልልና የባትሪ አቅም ምን ያህል ነው?"
+      },
+      "language": "am",
+      "record_id": "abbooti-electric-solar-bajaj-specifications-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "ቪዲዮው የተሽከርካሪውን ውጫዊ ክፍል፣ የላይኛውን ወይም የጣሪያ ክፍል ከሶላር ፓነሉ ጋር እና የውስጥ ክፍሉን ያሳያል።",
+        "question": "ቪዲዮው የኤሌክትሪክ + ሶላር ባጃጁን የትኞቹን ክፍሎች ያሳያል?"
+      },
+      "language": "am",
+      "record_id": "abbooti-electric-solar-bajaj-visible-areas-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "የተፈቀደው የኤግዚቢሽን መረጃ የተረጋገጠ የኃይል ውጤት መጠን አይገልጽም።",
+        "question": "ስማርት ኤሲ ጄኔሬተር ምን ያህል የኃይል ውጤት አለው?"
+      },
+      "language": "am",
+      "record_id": "abbooti-smart-ac-generator-output-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "ስማርት ኤሲ ጄኔሬተር በኦስታ ኤግዚቢሽን የቀረበ የጄኔሬተር/ኤሌክትሪካል ቴክኖሎጂ ማሳያ ነው። ቪዲዮው መሣሪያው የሚታይ የቁጥጥር በይነገጽ እንዳለው በቤተ-ሙከራ/ወርክሾፕ አካባቢ ያሳያል።",
+        "question": "ስማርት ኤሲ ጄኔሬተር ምንድን ነው?"
+      },
+      "language": "am",
+      "record_id": "abbooti-smart-ac-generator-purpose-faq",
+      "record_type": "faq"
+    },
+    {
+      "content": {
+        "answer": "የተገመገመው ቪዲዮ ስማርት ኤሲ ጄኔሬተሩን በቤተ-ሙከራ/ወርክሾፕ አካባቢ ከኤሌክትሪክ ዕቃዎች፣ ኮምፒውተሮች እና ማሳያ ጋር አብሮ ያሳያል።",
+        "question": "ስማርት ኤሲ ጄኔሬተር የት ታይቷል?"
+      },
+      "language": "am",
+      "record_id": "abbooti-smart-ac-generator-setting-faq",
+      "record_type": "faq"
     },
     {
       "content": {
@@ -3154,53 +3266,6 @@
       "transformation_story_refs": []
     },
     {
-      "acronym": null,
-      "beneficiaries": [
-        "exhibition-visitors",
-        "transport-sector-innovators",
-        "clean-energy-advocates"
-      ],
-      "category": "electric-mobility-solar",
-      "faq_refs": [],
-      "geographic_coverage": {
-        "areas": [
-          "Oromia"
-        ],
-        "coverage_notes": "Demonstrated within the regional exhibition framework.",
-        "levels": [
-          "regional"
-        ]
-      },
-      "headline_kpi_refs": [],
-      "id": "electric-solar-bajaj",
-      "integrations": [],
-      "lifecycle_status": "unknown",
-      "media": [],
-      "official_name": "Electric + Solar Bajaj",
-      "organization": {
-        "name": "OSTA Exhibition",
-        "ownership": "exhibitor",
-        "type": "exhibition-demonstration"
-      },
-      "purpose": "Demonstrated as a three-wheeled vehicle combining electric and solar technology, as stated by the on-screen label. The video shows the exterior, upper/roof area, and interior of the vehicle.",
-      "services_digitized": [],
-      "slug": "electric-solar-bajaj",
-      "subcategories": [
-        "electric-vehicle",
-        "solar-technology",
-        "exhibition-demonstration"
-      ],
-      "system_classification": {
-        "delivery_channels": [
-          "exhibition-display"
-        ],
-        "deployment_scope": "exhibition",
-        "primary_type": "technology-demonstration"
-      },
-      "transformation_story_refs": []
-    },
-    {
-      "acronym": "PRMS",
       "acronym": "DMS",
       "beneficiaries": [
         "government institutions",
@@ -3253,53 +3318,6 @@
       "transformation_story_refs": []
     },
     {
-      "acronym": null,
-      "beneficiaries": [
-        "exhibition-visitors",
-        "researchers",
-        "energy-sector-innovators"
-      ],
-      "category": "energy-electrical-technology",
-      "faq_refs": [],
-      "geographic_coverage": {
-        "areas": [
-          "Oromia"
-        ],
-        "coverage_notes": "Demonstrated within the regional exhibition framework.",
-        "levels": [
-          "regional"
-        ]
-      },
-      "headline_kpi_refs": [],
-      "id": "smart-ac-generator",
-      "integrations": [],
-      "lifecycle_status": "unknown",
-      "media": [],
-      "official_name": "Smart AC Generator",
-      "organization": {
-        "name": "OSTA Exhibition",
-        "ownership": "exhibitor",
-        "type": "exhibition-demonstration"
-      },
-      "purpose": "Demonstrated as a generator/electrical technology with a visible control interface in the exhibition video. The device is shown in a laboratory/workshop environment alongside electrical equipment, computers, and a display.",
-      "services_digitized": [],
-      "slug": "smart-ac-generator",
-      "subcategories": [
-        "generator",
-        "electrical-technology",
-        "exhibition-demonstration"
-      ],
-      "system_classification": {
-        "delivery_channels": [
-          "exhibition-display"
-        ],
-        "deployment_scope": "exhibition",
-        "primary_type": "technology-demonstration"
-      },
-      "transformation_story_refs": []
-    },
-    {
-      "acronym": "UEMIS",
       "acronym": "DTrip Admin",
       "beneficiaries": [
         "passengers",
@@ -3863,6 +3881,56 @@
         ],
         "deployment_scope": "regional",
         "primary_type": "mobile-application"
+      },
+      "transformation_story_refs": []
+    },
+    {
+      "acronym": null,
+      "beneficiaries": [
+        "exhibition-visitors",
+        "transport-sector-innovators",
+        "clean-energy-advocates"
+      ],
+      "category": "electric-mobility-solar",
+      "faq_refs": [
+        "abbooti-electric-solar-bajaj-purpose-faq",
+        "abbooti-electric-solar-bajaj-visible-areas-faq",
+        "abbooti-electric-solar-bajaj-specifications-faq"
+      ],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "Demonstrated within the regional exhibition framework.",
+        "levels": [
+          "regional"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "electric-solar-bajaj",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Electric + Solar Bajaj",
+      "organization": {
+        "name": "OSTA Exhibition",
+        "ownership": "exhibitor",
+        "type": "exhibition-demonstration"
+      },
+      "purpose": "Demonstrated as a three-wheeled vehicle combining electric and solar technology, as stated by the on-screen label. The video shows the exterior, upper/roof area, and interior of the vehicle.",
+      "services_digitized": [],
+      "slug": "electric-solar-bajaj",
+      "subcategories": [
+        "electric-vehicle",
+        "solar-technology",
+        "exhibition-demonstration"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "exhibition-display"
+        ],
+        "deployment_scope": "exhibition",
+        "primary_type": "technology-demonstration"
       },
       "transformation_story_refs": []
     },
@@ -5118,6 +5186,56 @@
       "transformation_story_refs": []
     },
     {
+      "acronym": null,
+      "beneficiaries": [
+        "exhibition-visitors",
+        "researchers",
+        "energy-sector-innovators"
+      ],
+      "category": "energy-electrical-technology",
+      "faq_refs": [
+        "abbooti-smart-ac-generator-purpose-faq",
+        "abbooti-smart-ac-generator-setting-faq",
+        "abbooti-smart-ac-generator-output-faq"
+      ],
+      "geographic_coverage": {
+        "areas": [
+          "Oromia"
+        ],
+        "coverage_notes": "Demonstrated within the regional exhibition framework.",
+        "levels": [
+          "regional"
+        ]
+      },
+      "headline_kpi_refs": [],
+      "id": "smart-ac-generator",
+      "integrations": [],
+      "lifecycle_status": "unknown",
+      "media": [],
+      "official_name": "Smart AC Generator",
+      "organization": {
+        "name": "OSTA Exhibition",
+        "ownership": "exhibitor",
+        "type": "exhibition-demonstration"
+      },
+      "purpose": "Demonstrated as a generator/electrical technology with a visible control interface in the exhibition video. The device is shown in a laboratory/workshop environment alongside electrical equipment, computers, and a display.",
+      "services_digitized": [],
+      "slug": "smart-ac-generator",
+      "subcategories": [
+        "generator",
+        "electrical-technology",
+        "exhibition-demonstration"
+      ],
+      "system_classification": {
+        "delivery_channels": [
+          "exhibition-display"
+        ],
+        "deployment_scope": "exhibition",
+        "primary_type": "technology-demonstration"
+      },
+      "transformation_story_refs": []
+    },
+    {
       "acronym": "SmartCare",
       "beneficiaries": [
         "patients",
@@ -5443,6 +5561,48 @@
     }
   ],
   "published_faqs": [
+    {
+      "answer": "It is a three-wheeled vehicle identified on screen as Electric + Solar Bajaj, combining electric and solar technology.",
+      "id": "abbooti-electric-solar-bajaj-purpose-faq",
+      "kpi_observation_refs": [],
+      "question": "What is the Electric + Solar Bajaj?",
+      "system_id": "electric-solar-bajaj"
+    },
+    {
+      "answer": "The approved exhibition material does not state verified range or battery-capacity values.",
+      "id": "abbooti-electric-solar-bajaj-specifications-faq",
+      "kpi_observation_refs": [],
+      "question": "What are the range and battery capacity of the Electric + Solar Bajaj?",
+      "system_id": "electric-solar-bajaj"
+    },
+    {
+      "answer": "The video shows the vehicle's exterior, upper or roof area with the solar panel, and interior.",
+      "id": "abbooti-electric-solar-bajaj-visible-areas-faq",
+      "kpi_observation_refs": [],
+      "question": "Which parts of the Electric + Solar Bajaj are shown?",
+      "system_id": "electric-solar-bajaj"
+    },
+    {
+      "answer": "The approved exhibition material does not state a verified power-output value.",
+      "id": "abbooti-smart-ac-generator-output-faq",
+      "kpi_observation_refs": [],
+      "question": "What power output does the Smart AC Generator have?",
+      "system_id": "smart-ac-generator"
+    },
+    {
+      "answer": "The Smart AC Generator is an electrical-technology demonstration shown at the OSTA exhibition. The video shows the equipment with a visible control interface in a laboratory/workshop setting.",
+      "id": "abbooti-smart-ac-generator-purpose-faq",
+      "kpi_observation_refs": [],
+      "question": "What is the Smart AC Generator?",
+      "system_id": "smart-ac-generator"
+    },
+    {
+      "answer": "The reviewed video shows it in a practical laboratory/workshop environment alongside electrical equipment, computers, and a display.",
+      "id": "abbooti-smart-ac-generator-setting-faq",
+      "kpi_observation_refs": [],
+      "question": "Where is the Smart AC Generator shown?",
+      "system_id": "smart-ac-generator"
+    },
     {
       "answer": "residents; public institutions; businesses; digital-service users",
       "id": "broadband-connectivity-beneficiaries-faq",

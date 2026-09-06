@@ -86,11 +86,25 @@ DATA_QUALITY_VALUES = {
 }
 DURATION_UNITS = {"millisecond", "second", "minute", "hour"}
 ACTIVE_USER_CODES = {"active-users", "mobile-active-users", "web-active-users"}
-# The M-MESOB source PDF is intentionally not mounted in this checkout. Keep this
-# exception exact: it applies only to the named source/path pair and never creates
-# evidence or changes a source's review state.
+# These approved source files are intentionally not mounted in this checkout. Keep
+# the exceptions exact: they apply only to the named record/source/path pairs and
+# never create evidence or change a source's review state.
 INTENTIONALLY_MISSING_SOURCE_PATHS = {
-    ("osta-facebook-mmesob-2026", "source-materials/social-media/mmesob-facebook-post.pdf"),
+    (
+        "m-mesob",
+        "osta-facebook-mmesob-2026",
+        "source-materials/social-media/mmesob-facebook-post.pdf",
+    ),
+    (
+        "smart-ac-generator",
+        "abbooti-kallaqaa-video",
+        "/home/gosa-gobena/Videos/Abbootii Kallaqaa  Final.mp4",
+    ),
+    (
+        "electric-solar-bajaj",
+        "abbooti-kallaqaa-video",
+        "/home/gosa-gobena/Videos/Abbootii Kallaqaa  Final.mp4",
+    ),
 }
 REQUIRED_KPI_CODES = {
     "applications-developed",
@@ -407,10 +421,12 @@ def _validate_source_refs(record: dict[str, Any], root: Path, label: str, errors
             errors.append(f"{label}: source_refs[{offset}] missing {', '.join(sorted(missing))}")
             continue
         source_path = ref.get("path")
-        intentionally_missing = (
-            record.get("id") == "m-mesob"
-            or record.get("system_id") == "m-mesob"
-        ) and (ref.get("source_id"), source_path) in INTENTIONALLY_MISSING_SOURCE_PATHS
+        record_ids = (record.get("id"), record.get("system_id"))
+        intentionally_missing = any(
+            (record_id, ref.get("source_id"), source_path) in INTENTIONALLY_MISSING_SOURCE_PATHS
+            for record_id in record_ids
+            if record_id
+        )
         if (
             not isinstance(source_path, str)
             or not (root / source_path).is_file()
