@@ -13,9 +13,10 @@ Docker packaging, and staging/production deployment configuration.
 - The versioned chatbot export preserves source labels, KPI operators and periods,
   language approval, record references, and checksum/commit provenance. Its public
   official-name/acronym aliases do not create new authoring fields.
-- 102 generated FAQs cover 36 of 37 published systems. Afaan Oromo and Amharic
-  translations were reviewed and approved by native-language reviewers, and the
-  FAQ workflows are approved for chatbot release.
+- 108 generated FAQs cover 38 of 39 published systems, including six Abbooti
+  Kallaqaa FAQs for Smart AC Generator and Electric + Solar Bajaj. Afaan Oromo and
+  Amharic translations were reviewed and approved by native-language reviewers,
+  and the FAQ workflows are approved for chatbot release.
 - A coverage report, export schema, authoring documentation, and manual private-runner
   release workflow are supplied. Administrator configuration remains necessary.
 
@@ -23,9 +24,9 @@ Docker packaging, and staging/production deployment configuration.
 
 | Check | Result |
 | --- | --- |
-| New knowledge-release unit tests | 11 passed |
-| Full knowledge-base unit suite | 39 passed |
-| Knowledge validation | Passed: 37 systems and 94 observations, with the exact M-MESOB source exception |
+| New knowledge-release unit tests | 13 passed |
+| Full knowledge-base unit suite | 41 passed |
+| Knowledge validation | Passed: 39 systems and 94 observations, with exact M-MESOB and Abbooti source exceptions |
 | Public export disclosure check | Passed for rebuilt artifacts |
 | Application API/retrieval/evaluation tests | 15 passed |
 | Frontend type check and production asset build | Passed |
@@ -34,11 +35,11 @@ Docker packaging, and staging/production deployment configuration.
 | Docker image build | Not completed: daemon permission denied; passwordless sudo unavailable |
 | Hosted deployment and venue/language acceptance | Not performed |
 
-Production artifacts were rebuilt after validation; no presentation binary was
-committed, and no factual approval was fabricated. The generated FAQ translation
+Production artifacts were rebuilt after validation; no presentation or video binary
+was committed, and no factual approval was fabricated. The generated FAQ translation
 approvals recorded in this handoff reflect the user's confirmation of native-speaker
-review. The local chatbot release is marked dirty until these reviewed changes are
-committed. New workflows have not been pushed or run remotely.
+review. The external Abbooti video path remains a source-owner environment detail
+and is not emitted in the public chatbot bundle.
 
 ## Remaining release prerequisites
 

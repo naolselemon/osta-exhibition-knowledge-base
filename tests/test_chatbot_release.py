@@ -107,6 +107,37 @@ class ChatbotReleaseTests(unittest.TestCase):
             {item["id"] for item in payload["answers"] if item["system_id"] == "m-mesob"},
         )
 
+    def test_approved_abbooti_systems_and_faqs_are_in_chatbot_bundle(self):
+        root = Path(__file__).resolve().parents[1]
+        data = load_repository(root)
+        public = build_payloads(data)
+        payload = build_chatbot_payload(data, public)
+        expected = {
+            f"system:{system_id}:{language}"
+            for system_id in ("smart-ac-generator", "electric-solar-bajaj")
+            for language in ("om", "am")
+        }
+        expected.update(
+            f"faq:{faq_id}:{language}"
+            for faq_id in (
+                "abbooti-smart-ac-generator-purpose-faq",
+                "abbooti-smart-ac-generator-setting-faq",
+                "abbooti-smart-ac-generator-output-faq",
+                "abbooti-electric-solar-bajaj-purpose-faq",
+                "abbooti-electric-solar-bajaj-visible-areas-faq",
+                "abbooti-electric-solar-bajaj-specifications-faq",
+            )
+            for language in ("om", "am")
+        )
+        self.assertEqual(
+            expected,
+            {
+                item["id"]
+                for item in payload["answers"]
+                if item["system_id"] in {"smart-ac-generator", "electric-solar-bajaj"}
+            },
+        )
+
     def test_translated_literals_and_unlisted_tokens_are_rejected(self):
         faq = {"id": "test-faq", "system_id": "test-system", "kpi_observation_refs": ["test-count"], "question": "Synthetic question", "answer": "{{kpi:test-count}}", "translations": {"om": self.translation}}
         for text, message in [("120 records", "numeric FAQ"), ("{{kpi:unknown|number}}", "unlisted"), ("{{kpi:test-count|invalid}}", "malformed")]:

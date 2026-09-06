@@ -1,0 +1,246 @@
+records:
+  - schema_version: 1.0.0
+    record_version: 1
+    id: abbooti-smart-ac-generator-purpose-faq
+    system_id: smart-ac-generator
+    question: What is the Smart AC Generator?
+    answer: The Smart AC Generator is an electrical-technology demonstration shown at the OSTA exhibition. The video shows the equipment with a visible control interface in a laboratory/workshop setting.
+    kpi_observation_refs: []
+    translations:
+      om:
+        question: Jenereetara AC Smaartii jechuun maali?
+        answer: Jenereetaraan AC Smaartii agarsiisa OSTA irratti kan dhiyaate teeknoolojii jenereetaraa/elektirikaalaa fuula to’annoo mul’atu qabuudha. Viidiyoon kun meeshaa kana naannoo laaboraatoorii/workiishoop keessatti agarsiisa.
+        approval:
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-afaan-oromo-reviewer
+          approved_source: false
+          generated_by_role: ai-content-assistant
+          reviewed_at: '2026-09-06'
+      am:
+        question: ስማርት ኤሲ ጄኔሬተር ምንድን ነው?
+        answer: ስማርት ኤሲ ጄኔሬተር በኦስታ ኤግዚቢሽን የቀረበ የጄኔሬተር/ኤሌክትሪካል ቴክኖሎጂ ማሳያ ነው። ቪዲዮው መሣሪያው የሚታይ የቁጥጥር በይነገጽ እንዳለው በቤተ-ሙከራ/ወርክሾፕ አካባቢ ያሳያል።
+        approval:
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-amharic-reviewer
+          approved_source: false
+          generated_by_role: ai-content-assistant
+          reviewed_at: '2026-09-06'
+    publication_status: published
+    data_classification: public
+    contains_personal_data: false
+    public_display_approved: true
+    workflow:
+      state: approved
+      prepared_by_role: content-author
+      reviewed_by_role: user-requested-publisher
+      created_at: '2026-09-06'
+      updated_at: '2026-09-06'
+      translation_status: approved
+      notes: Afaan Oromo and Amharic translations were reviewed and approved by native-language reviewers; wording is limited to the approved Abbooti Kallaqaa video description.
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: abbooti-smart-ac-generator-setting-faq
+    system_id: smart-ac-generator
+    question: Where is the Smart AC Generator shown?
+    answer: The reviewed video shows it in a practical laboratory/workshop environment alongside electrical equipment, computers, and a display.
+    kpi_observation_refs: []
+    translations:
+      om:
+        question: Jenereetaraan AC Smaartii eessatti agarsiifame?
+        answer: Viidiyoon qorame jenereetaraa AC Smaartii naannoo laaboraatoorii/workiishoop keessatti, meeshaalee elektirikaalaa, kompiyutarootaa fi iskiriinii waliin agarsiisa.
+        approval:
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-afaan-oromo-reviewer
+          approved_source: false
+          generated_by_role: ai-content-assistant
+          reviewed_at: '2026-09-06'
+      am:
+        question: ስማርት ኤሲ ጄኔሬተር የት ታይቷል?
+        answer: የተገመገመው ቪዲዮ ስማርት ኤሲ ጄኔሬተሩን በቤተ-ሙከራ/ወርክሾፕ አካባቢ ከኤሌክትሪክ ዕቃዎች፣ ኮምፒውተሮች እና ማሳያ ጋር አብሮ ያሳያል።
+        approval:
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-amharic-reviewer
+          approved_source: false
+          generated_by_role: ai-content-assistant
+          reviewed_at: '2026-09-06'
+    publication_status: published
+    data_classification: public
+    contains_personal_data: false
+    public_display_approved: true
+    workflow:
+      state: approved
+      prepared_by_role: content-author
+      reviewed_by_role: user-requested-publisher
+      created_at: '2026-09-06'
+      updated_at: '2026-09-06'
+      translation_status: approved
+      notes: Afaan Oromo and Amharic translations were reviewed and approved by native-language reviewers; wording is limited to the approved Abbooti Kallaqaa video description.
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: abbooti-smart-ac-generator-output-faq
+    system_id: smart-ac-generator
+    question: What power output does the Smart AC Generator have?
+    answer: The approved exhibition material does not state a verified power-output value.
+    kpi_observation_refs: []
+    translations:
+      om:
+        question: Jenereetaraan AC Smaartii humna hammamii baasa?
+        answer: Raggaan agarsiisaa mirkanaa’e gatii humna jenereetaraan AC Smaartii baasu hin ibsu.
+        approval:
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-afaan-oromo-reviewer
+          approved_source: false
+          generated_by_role: ai-content-assistant
+          reviewed_at: '2026-09-06'
+      am:
+        question: ስማርት ኤሲ ጄኔሬተር ምን ያህል የኃይል ውጤት አለው?
+        answer: የተፈቀደው የኤግዚቢሽን መረጃ የተረጋገጠ የኃይል ውጤት መጠን አይገልጽም።
+        approval:
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-amharic-reviewer
+          approved_source: false
+          generated_by_role: ai-content-assistant
+          reviewed_at: '2026-09-06'
+    publication_status: published
+    data_classification: public
+    contains_personal_data: false
+    public_display_approved: true
+    workflow:
+      state: approved
+      prepared_by_role: content-author
+      reviewed_by_role: user-requested-publisher
+      created_at: '2026-09-06'
+      updated_at: '2026-09-06'
+      translation_status: approved
+      notes: Afaan Oromo and Amharic translations were reviewed and approved by native-language reviewers; the answer intentionally reports that no verified output value is stated.
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: abbooti-electric-solar-bajaj-purpose-faq
+    system_id: electric-solar-bajaj
+    question: What is the Electric + Solar Bajaj?
+    answer: It is a three-wheeled vehicle identified on screen as Electric + Solar Bajaj, combining electric and solar technology.
+    kpi_observation_refs: []
+    translations:
+      om:
+        question: Bajaajii Elektirikaa + Soolaaraa jechuun maali?
+        answer: Akkuma iskiriinii irratti ibsametti, Bajaajii Elektirikaa + Soolaaraa konkolaataa mil-sadii teeknoolojii elektirikaa fi soolaaraa walitti makuun kan dhiyaatedha.
+        approval:
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-afaan-oromo-reviewer
+          approved_source: false
+          generated_by_role: ai-content-assistant
+          reviewed_at: '2026-09-06'
+      am:
+        question: ኤሌክትሪክ + ሶላር ባጃጅ ምንድን ነው?
+        answer: በስክሪኑ ላይ እንደተገለጸው ኤሌክትሪክ + ሶላር ባጃጅ የኤሌክትሪክና የሶላር ቴክኖሎጂን ያጣመረ ባለሶስት ጎማ ተሽከርካሪ ነው።
+        approval:
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-amharic-reviewer
+          approved_source: false
+          generated_by_role: ai-content-assistant
+          reviewed_at: '2026-09-06'
+    publication_status: published
+    data_classification: public
+    contains_personal_data: false
+    public_display_approved: true
+    workflow:
+      state: approved
+      prepared_by_role: content-author
+      reviewed_by_role: user-requested-publisher
+      created_at: '2026-09-06'
+      updated_at: '2026-09-06'
+      translation_status: approved
+      notes: Afaan Oromo and Amharic translations were reviewed and approved by native-language reviewers; wording is limited to the approved Abbooti Kallaqaa video description.
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: abbooti-electric-solar-bajaj-visible-areas-faq
+    system_id: electric-solar-bajaj
+    question: Which parts of the Electric + Solar Bajaj are shown?
+    answer: The video shows the vehicle's exterior, upper or roof area with the solar panel, and interior.
+    kpi_observation_refs: []
+    translations:
+      om:
+        question: Viidiyoon Bajaajii Elektirikaa + Soolaaraa keessaa kutaalee kami agarsiisa?
+        answer: Viidiyoon qaama alaa, naannoo gubbaa/paaneli soolaaraa fi keessoo konkolaataa kanaa agarsiisa.
+        approval:
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-afaan-oromo-reviewer
+          approved_source: false
+          generated_by_role: ai-content-assistant
+          reviewed_at: '2026-09-06'
+      am:
+        question: ቪዲዮው የኤሌክትሪክ + ሶላር ባጃጁን የትኞቹን ክፍሎች ያሳያል?
+        answer: ቪዲዮው የተሽከርካሪውን ውጫዊ ክፍል፣ የላይኛውን ወይም የጣሪያ ክፍል ከሶላር ፓነሉ ጋር እና የውስጥ ክፍሉን ያሳያል።
+        approval:
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-amharic-reviewer
+          approved_source: false
+          generated_by_role: ai-content-assistant
+          reviewed_at: '2026-09-06'
+    publication_status: published
+    data_classification: public
+    contains_personal_data: false
+    public_display_approved: true
+    workflow:
+      state: approved
+      prepared_by_role: content-author
+      reviewed_by_role: user-requested-publisher
+      created_at: '2026-09-06'
+      updated_at: '2026-09-06'
+      translation_status: approved
+      notes: Afaan Oromo and Amharic translations were reviewed and approved by native-language reviewers; wording is limited to the approved Abbooti Kallaqaa video description.
+
+  - schema_version: 1.0.0
+    record_version: 1
+    id: abbooti-electric-solar-bajaj-specifications-faq
+    system_id: electric-solar-bajaj
+    question: What are the range and battery capacity of the Electric + Solar Bajaj?
+    answer: The approved exhibition material does not state verified range or battery-capacity values.
+    kpi_observation_refs: []
+    translations:
+      om:
+        question: Bajaajii Elektirikaa + Soolaaraa daangaa imalaa fi dandeettii baatirii hammamii qaba?
+        answer: Raggaan agarsiisaa mirkanaa’e daangaa imalaa yookaan dandeettii baatirii mirkanaa’e hin ibsu.
+        approval:
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-afaan-oromo-reviewer
+          approved_source: false
+          generated_by_role: ai-content-assistant
+          reviewed_at: '2026-09-06'
+      am:
+        question: የኤሌክትሪክ + ሶላር ባጃጅ የጉዞ ክልልና የባትሪ አቅም ምን ያህል ነው?
+        answer: የተፈቀደው የኤግዚቢሽን መረጃ የተረጋገጠ የጉዞ ክልል ወይም የባትሪ አቅም አይገልጽም።
+        approval:
+          status: approved
+          human_reviewed: true
+          reviewer_role: human-amharic-reviewer
+          approved_source: false
+          generated_by_role: ai-content-assistant
+          reviewed_at: '2026-09-06'
+    publication_status: published
+    data_classification: public
+    contains_personal_data: false
+    public_display_approved: true
+    workflow:
+      state: approved
+      prepared_by_role: content-author
+      reviewed_by_role: user-requested-publisher
+      created_at: '2026-09-06'
+      updated_at: '2026-09-06'
+      translation_status: approved
+      notes: Afaan Oromo and Amharic translations were reviewed and approved by native-language reviewers; the answer intentionally reports that no verified specification values are stated.

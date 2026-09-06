@@ -420,7 +420,10 @@ records:
       coverage_notes: Demonstrated within the regional exhibition framework.
     headline_kpi_refs: []
     transformation_story_refs: []
-    faq_refs: []
+    faq_refs:
+      - abbooti-smart-ac-generator-purpose-faq
+      - abbooti-smart-ac-generator-setting-faq
+      - abbooti-smart-ac-generator-output-faq
     media: []
     translations:
       om:
@@ -486,7 +489,10 @@ records:
       coverage_notes: Demonstrated within the regional exhibition framework.
     headline_kpi_refs: []
     transformation_story_refs: []
-    faq_refs: []
+    faq_refs:
+      - abbooti-electric-solar-bajaj-purpose-faq
+      - abbooti-electric-solar-bajaj-visible-areas-faq
+      - abbooti-electric-solar-bajaj-specifications-faq
     media: []
     translations:
       om:

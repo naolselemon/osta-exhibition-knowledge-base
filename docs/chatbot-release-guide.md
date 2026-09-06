@@ -20,9 +20,10 @@ transformation questions need fact and language review; missing evidence must re
 explicit.
 
 `content/faqs/visitor-question-drafts.yml` contains 102 generated FAQ records across
-36 of the 37 currently published systems, assembled from existing purposes,
-beneficiary lists, and service descriptions. Each record has Afaan Oromo and
-Amharic text reviewed and approved by native-language reviewers. The records have
+36 of the 37 systems in the original generated set. The six approved Abbooti
+Kallaqaa FAQs in `content/faqs/abbooti-kallaqaa-faqs.yml` cover the two additional
+published demonstration systems. Together, the 108 generated FAQ records have
+Afaan Oromo and Amharic text reviewed and approved by native-language reviewers. The records have
 `publication_status: published`, `workflow.state: approved`, and the exact
 language-specific reviewer roles required by the release contract, so they are
 eligible for the public and chatbot bundles.
@@ -90,8 +91,9 @@ jobs must not receive evidence or publication credentials. The manual workflow
 requires a reviewed commit and a protected publisher environment. It verifies
 read-only copies of source files, then publishes only the sanitized release artifact.
 
-The local M-Mesob PDF is intentionally absent in this checkout. The validator has
-an exact source-ID/path exception for this approved M-MESOB case, and the public
-build suppresses source labels for the affected observations; no substitute
-evidence is created. Do not broaden the exception, rewrite accepted observation
-history, or add a placeholder PDF.
+The local M-Mesob PDF is intentionally absent in this checkout, and the approved
+Abbooti Kallaqaa video remains an external source at the path recorded in the two
+demonstration-system records. The validator has exact record/source/path exceptions
+for these approved cases; it does not create evidence or change review state. The
+public build never exposes source paths. Do not broaden the exceptions, rewrite
+accepted observation history, or add placeholder source files.
